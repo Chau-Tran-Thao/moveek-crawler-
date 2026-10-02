@@ -3,484 +3,2287 @@ const fs = require("fs");
 const path = require("path");
 const crypto = require("crypto");
 
-const MOVIE_URLS = [
-  "https://moveek.com/phim/vung-dat-quy-du-2026/",
-  "https://moveek.com/phim/diem-mu/",
-  "https://moveek.com/phim/tu-ho-dai-nao/"
-];
+// ============================================================
+// CONFIG
+// ============================================================
 
-const SHOWTIME_URL = "https://moveek.com/lich-chieu/";
+const BASE_URL = "https://moveek.com";
+const TARGET_YEAR = 2026;
+
+const CONFIG = {
+  maxPages: 3000,
+  delayMs: 700,
+  retries: 3,
+  navigationTimeout: 45000,
+
+  allowedHost: "moveek.com",
+
+  saveRawHtml: true,
+  maxRawHtmlLength: 2_000_000,
+};
 
 const OUTPUT_DIR = path.join(__dirname, "output");
+const RAW_DIR = path.join(OUTPUT_DIR, "raw");
 
-if (!fs.existsSync(OUTPUT_DIR)) {
-  fs.mkdirSync(OUTPUT_DIR);
+// ============================================================
+// OUTPUT SETUP
+// ============================================================
+
+if (fs.existsSync(OUTPUT_DIR)) {
+  fs.rmSync(OUTPUT_DIR, {
+    recursive: true,
+    force: true,
+  });
+}
+
+fs.mkdirSync(OUTPUT_DIR, { recursive: true });
+fs.mkdirSync(RAW_DIR, { recursive: true });
+
+// ============================================================
+// UTILS
+// ============================================================
+
+function sleep(ms) {
+  return new Promise((resolve) => setTimeout(resolve, ms));
 }
 
 function cleanText(value) {
-  if (!value) return null;
+  if (value === null || value === undefined) return "";
 
-  return value
+  return String(value)
+    .replace(/\u00a0/g, " ")
     .replace(/\s+/g, " ")
-    .replace(/\n+/g, " ")
     .trim();
+}
+
+function unique(arr) {
+  return [...new Set(arr.filter(Boolean))];
+}
+
+function absoluteUrl(url) {
+  try {
+    return new URL(url, BASE_URL).href;
+  } catch {
+    return null;
+  }
 }
 
 function sha1(value) {
   return crypto
     .createHash("sha1")
-    .update(value)
+    .update(String(value))
     .digest("hex");
 }
 
-function parseDuration(text) {
-  if (!text) return null;
+function writeJSON(filename, data) {
+  const filePath = path.join(OUTPUT_DIR, filename);
 
-  const match = text.match(/(\d+)\s*phút/i);
+  fs.writeFileSync(
+    filePath,
+    JSON.stringify(data, null, 2),
+    "utf8"
+  );
+
+  console.log(
+    `💾 ${filename}: ${
+      Array.isArray(data) ? data.length : "object"
+    } records`
+  );
+}
+
+function normalizeDate(value) {
+  if (!value) return null;
+
+  const text = cleanText(value);
+
+  let match = text.match(
+    /\b(20\d{2})[-/](\d{1,2})[-/](\d{1,2})\b/
+  );
+
+  if (match) {
+    return `${match[1]}-${String(match[2]).padStart(
+      2,
+      "0"
+    )}-${String(match[3]).padStart(2, "0")}`;
+  }
+
+  match = text.match(
+    /\b(\d{1,2})[-/](\d{1,2})[-/](20\d{2})\b/
+  );
+
+  if (match) {
+    return `${match[3]}-${String(match[2]).padStart(
+      2,
+      "0"
+    )}-${String(match[1]).padStart(2, "0")}`;
+  }
+
+  match = text.match(
+    /\b(\d{1,2})\s*(?:tháng)\s*(\d{1,2})\s*(?:năm)?\s*(20\d{2})\b/i
+  );
+
+  if (match) {
+    return `${match[3]}-${String(match[2]).padStart(
+      2,
+      "0"
+    )}-${String(match[1]).padStart(2, "0")}`;
+  }
+
+  return null;
+}
+
+function isTargetYear(value) {
+  if (!value) return false;
+
+  return String(value).includes(String(TARGET_YEAR));
+}
+
+function normalizeDuration(value) {
+  if (!value) return null;
+
+  const text = cleanText(value);
+
+  const match = text.match(
+    /(\d+)\s*(?:phút|minutes?|mins?)/i
+  );
 
   return match ? Number(match[1]) : null;
 }
 
-function parseDate(text) {
-  if (!text) return null;
+function detectAgeRating(text) {
+  const value = cleanText(text);
 
-  const match = text.match(/(\d{1,2})\/(\d{1,2})\/(\d{4})/);
+  const match = value.match(/\bT(?:13|16|18)\b/i);
+
+  if (match) return match[0].toUpperCase();
+
+  if (/\bP\b/.test(value)) return "P";
+  if (/\bK\b/.test(value)) return "K";
+
+  return null;
+}
+
+function detectFormat(text) {
+  const value = cleanText(text);
+
+  if (/\bIMAX\b/i.test(value)) return "IMAX";
+  if (/\b4DX\b/i.test(value)) return "4DX";
+  if (/\b3D\b/i.test(value)) return "3D";
+  if (/\b2D\b/i.test(value)) return "2D";
+
+  return null;
+}
+
+function detectLanguage(text) {
+  const value = cleanText(text);
+
+  if (/phụ\s*đề/i.test(value)) {
+    return "Phụ Đề Việt";
+  }
+
+  if (/lồng\s*tiếng/i.test(value)) {
+    return "Lồng Tiếng";
+  }
+
+  if (/tiếng\s*việt/i.test(value)) {
+    return "Tiếng Việt";
+  }
+
+  return null;
+}
+
+// ============================================================
+// PRICE PARSER
+// ============================================================
+
+function parsePrice(value) {
+  if (
+    value === null ||
+    value === undefined ||
+    value === ""
+  ) {
+    return null;
+  }
+
+  const text = String(value)
+    .replace(/\./g, "")
+    .replace(/,/g, "")
+    .trim();
+
+  const match = text.match(/\b(\d{4,7})\b/);
 
   if (!match) return null;
 
-  const [, day, month, year] = match;
+  const price = Number(match[1]);
 
-  return `${year}-${month.padStart(2, "0")}-${day.padStart(2, "0")}`;
+  if (price < 1000 || price > 2_000_000) {
+    return null;
+  }
+
+  return price;
 }
 
-function createExternalId(url) {
-  return url
-    .replace("https://moveek.com/phim/", "")
-    .replace("/", "");
+// ============================================================
+// URL CLASSIFICATION
+// ============================================================
+
+function classifyUrl(url) {
+  try {
+    const u = new URL(url);
+    const pathname = u.pathname.toLowerCase();
+
+    if (pathname === "/" || pathname === "") {
+      return "home";
+    }
+
+    if (pathname.startsWith("/tag/")) {
+      return "tag";
+    }
+
+    if (pathname.startsWith("/phim/")) {
+      return "movie";
+    }
+
+    if (pathname.startsWith("/rap/")) {
+      return "cinema";
+    }
+
+    if (pathname.startsWith("/lich-chieu")) {
+      return "showtime";
+    }
+
+    if (pathname.startsWith("/dang-chieu")) {
+      return "movie-list";
+    }
+
+    if (pathname.startsWith("/chieu-som")) {
+      return "movie-list";
+    }
+
+    if (pathname.startsWith("/tin-tuc/")) {
+      return "article";
+    }
+
+    if (pathname === "/tin-tuc") {
+      return "news-index";
+    }
+
+    if (pathname.startsWith("/mua-ve")) {
+      return "booking";
+    }
+
+    if (pathname.startsWith("/tim-kiem")) {
+      return "search";
+    }
+
+    if (pathname.startsWith("/search")) {
+      return "search";
+    }
+
+    if (
+      pathname.startsWith("/dang-nhap") ||
+      pathname.startsWith("/dang-ky") ||
+      pathname.startsWith("/tai-khoan")
+    ) {
+      return "account";
+    }
+
+    return "other";
+  } catch {
+    return "other";
+  }
 }
 
-async function crawlMovie(page, url) {
-  console.log(`\n🎬 Crawling movie: ${url}`);
+// ============================================================
+// URL FILTER
+// ============================================================
 
-  await page.goto(url, {
-    waitUntil: "networkidle2",
-    timeout: 60000
-  });
+function shouldSkipUrl(url) {
+  try {
+    const u = new URL(url);
 
-  await new Promise(resolve => setTimeout(resolve, 1500));
+    if (u.hostname !== CONFIG.allowedHost) {
+      return true;
+    }
 
-  const raw = await page.evaluate(() => {
-    const bodyText = document.body.innerText;
+    const pathname = u.pathname.toLowerCase();
 
-    const getMeta = (property) => {
+    const blocked = [
+      "/tag/",
+      "/tim-kiem",
+      "/search",
+      "/dang-nhap",
+      "/dang-ky",
+      "/tai-khoan",
+    ];
+
+    return blocked.some((item) =>
+      pathname.startsWith(item)
+    );
+  } catch {
+    return true;
+  }
+}
+
+// ============================================================
+// COMMON PAGE DATA
+// ============================================================
+
+async function extractCommonPageData(page) {
+  return await page.evaluate(() => {
+    const getMeta = (name) => {
       const el =
-        document.querySelector(`meta[property="${property}"]`) ||
-        document.querySelector(`meta[name="${property}"]`);
+        document.querySelector(`meta[name="${name}"]`) ||
+        document.querySelector(`meta[property="${name}"]`);
 
-      return el ? el.content : null;
+      return el
+        ? el.getAttribute("content")
+        : null;
     };
 
-    const images = [...document.querySelectorAll("img")]
-      .map(img => ({
-        src: img.src,
-        alt: img.alt
+    const links = Array.from(
+      document.querySelectorAll("a")
+    )
+      .map((a) => ({
+        text: a.innerText?.trim() || "",
+        href: a.href || "",
       }))
-      .filter(x => x.src);
+      .filter((x) => x.href);
 
-    const links = [...document.querySelectorAll("a")]
-      .map(a => ({
-        text: a.innerText.trim(),
-        href: a.href
-      }))
-      .filter(x => x.href);
+    const images = Array.from(document.images)
+      .map(
+        (img) =>
+          img.src ||
+          img.getAttribute("data-src")
+      )
+      .filter(Boolean);
 
     return {
-      title: document.querySelector("h1")?.innerText || null,
+      title: document.title || "",
 
-      description:
-        getMeta("description") ||
-        getMeta("og:description") ||
-        null,
+      metaDescription:
+        getMeta("description") || "",
 
-      posterUrl:
-        getMeta("og:image") ||
-        images[0]?.src ||
-        null,
+      ogTitle:
+        getMeta("og:title") || "",
 
-      images,
+      ogDescription:
+        getMeta("og:description") || "",
+
+      ogImage:
+        getMeta("og:image") || "",
+
+      canonical:
+        document.querySelector(
+          'link[rel="canonical"]'
+        )?.href || "",
+
+      h1:
+        document.querySelector("h1")
+          ?.innerText?.trim() || "",
+
+      bodyText:
+        document.body?.innerText || "",
 
       links,
+      images,
 
-      bodyText
+      html:
+        document.documentElement
+          ?.outerHTML || "",
     };
   });
+}
+
+// ============================================================
+// MOVIE
+// ============================================================
+
+async function crawlMovie(page, url) {
+  const common =
+    await extractCommonPageData(page);
+
+  const body = common.bodyText;
+
+  const title =
+    cleanText(common.h1) ||
+    cleanText(common.ogTitle) ||
+    cleanText(common.title);
+
+  const originalTitle =
+    body.match(
+      /(?:Tên gốc|Original Title)\s*:?\s*([^\n]+)/i
+    )?.[1] || null;
+
+  const synopsis =
+    body.match(
+      /(?:Nội dung|Nội dung phim|Synopsis)\s*:?\s*([\s\S]{0,1500})/i
+    )?.[1] ||
+    common.ogDescription ||
+    "";
+
+  const releaseCandidates = [
+    body.match(
+      /(?:Khởi chiếu|Ngày khởi chiếu|Release Date)\s*:?\s*([^\n]+)/i
+    )?.[1],
+
+    body.match(
+      /\b\d{1,2}[/-]\d{1,2}[/-]20\d{2}\b/
+    )?.[0],
+  ];
+
+  let releaseDate = null;
+
+  for (const candidate of releaseCandidates) {
+    const date = normalizeDate(candidate);
+
+    if (date) {
+      releaseDate = date;
+      break;
+    }
+  }
+
+  const durationMin =
+    body.match(
+      /(\d{2,3})\s*(?:phút|minutes?|mins?)/i
+    )?.[1]
+      ? Number(
+          body.match(
+            /(\d{2,3})\s*(?:phút|minutes?|mins?)/i
+          )[1]
+        )
+      : normalizeDuration(body);
+
+  const ageRating =
+    detectAgeRating(body);
+
+  const status =
+    /đang chiếu/i.test(body)
+      ? "NOW_SHOWING"
+      : /sắp chiếu|chưa chiếu/i.test(body)
+      ? "COMING_SOON"
+      : null;
+
+  const posterUrl =
+    common.ogImage ||
+    common.images.find((img) =>
+      /poster|phim|movie/i.test(img)
+    ) ||
+    common.images[0] ||
+    null;
+
+  const backdropUrl =
+    common.images.find((img) =>
+      /backdrop|cover|banner/i.test(img)
+    ) || null;
+
+  const trailerUrl =
+    common.links.find((item) =>
+      /youtube|youtu\.be/i.test(
+        item.href
+      )
+    )?.href || null;
+
+  const director =
+    body.match(
+      /(?:Đạo diễn|Director)\s*:?\s*([^\n]+)/i
+    )?.[1]
+      ? unique(
+          body
+            .match(
+              /(?:Đạo diễn|Director)\s*:?\s*([^\n]+)/i
+            )[1]
+            .split(/,|\/|;/)
+            .map(cleanText)
+        )
+      : [];
+
+  const producer =
+    body.match(
+      /(?:Nhà sản xuất|Producer)\s*:?\s*([^\n]+)/i
+    )?.[1]
+      ? unique(
+          body
+            .match(
+              /(?:Nhà sản xuất|Producer)\s*:?\s*([^\n]+)/i
+            )[1]
+            .split(/,|\/|;/)
+            .map(cleanText)
+        )
+      : [];
+
+  const cast =
+    body.match(
+      /(?:Diễn viên|Cast|Actors?)\s*:?\s*([^\n]+)/i
+    )?.[1]
+      ? unique(
+          body
+            .match(
+              /(?:Diễn viên|Cast|Actors?)\s*:?\s*([^\n]+)/i
+            )[1]
+            .split(/,|\/|;/)
+            .map(cleanText)
+        )
+      : [];
+
+  const ratingAvg =
+    body.match(
+      /(?:điểm|rating|đánh giá)\s*:?\s*(\d+(?:[.,]\d+)?)/i
+    )?.[1]
+      ? Number(
+          body
+            .match(
+              /(?:điểm|rating|đánh giá)\s*:?\s*(\d+(?:[.,]\d+)?)/i
+            )[1]
+            .replace(",", ".")
+        )
+      : null;
+
+  const ratingCount =
+    body.match(
+      /(\d[\d.,]*)\s*(?:đánh giá|reviews?|ratings?)/i
+    )?.[1]
+      ? Number(
+          body
+            .match(
+              /(\d[\d.,]*)\s*(?:đánh giá|reviews?|ratings?)/i
+            )[1]
+            .replace(/[.,]/g, "")
+        )
+      : null;
+
+  const movie = {
+    externalId: sha1(url),
+
+    slug: (() => {
+      try {
+        return new URL(url)
+          .pathname
+          .replace(/^\/phim\//, "")
+          .replace(/\/$/, "");
+      } catch {
+        return null;
+      }
+    })(),
+
+    title,
+    originalTitle,
+    synopsis: cleanText(synopsis),
+
+    durationMin,
+    releaseDate,
+    ageRating,
+    status,
+
+    posterUrl,
+    backdropUrl,
+    trailerUrl,
+
+    language:
+      detectLanguage(body),
+
+    country: null,
+
+    ratingAvg,
+    ratingCount,
+
+    genres: [],
+    director,
+    producer,
+    cast,
+
+    sourceUrl: url,
+  };
+
+  if (!isTargetYear(movie.releaseDate)) {
+    console.log(
+      `⏭️ SKIP MOVIE NOT 2026: ${title}`
+    );
+
+    return null;
+  }
+
+  return movie;
+}
+
+// ============================================================
+// CINEMA
+// ============================================================
+
+async function crawlCinema(page, url) {
+  const common =
+    await extractCommonPageData(page);
+
+  const body = common.bodyText;
+
+  const name =
+    cleanText(common.h1) ||
+    cleanText(common.ogTitle) ||
+    cleanText(common.title);
+
+  const address =
+    body.match(
+      /(?:Địa chỉ|Address)\s*:?\s*([^\n]+)/i
+    )?.[1] || null;
+
+  const phone =
+    body.match(
+      /(?:Hotline|Điện thoại|Phone)\s*:?\s*([^\n]+)/i
+    )?.[1] || null;
+
+  const knownChains = [
+    "CGV",
+    "Galaxy Cinema",
+    "Lotte Cinema",
+    "Beta Cinemas",
+    "BHD Star",
+    "Cinestar",
+    "Mega GS",
+    "DCINE",
+  ];
+
+  const chain =
+    knownChains.find((x) =>
+      new RegExp(x, "i").test(name)
+    ) || null;
 
   return {
-    externalId: createExternalId(url),
-    source: "Moveek",
+    externalId: sha1(url),
+
+    name,
+    chain,
+
+    address: cleanText(address),
+    phone: cleanText(phone),
+
+    province: null,
+    district: null,
+
+    latitude: null,
+    longitude: null,
+
     sourceUrl: url,
-    fetchedAt: new Date().toISOString(),
-    contentHash: sha1(JSON.stringify(raw)),
-    raw
   };
 }
 
-async function crawlShowtimes(page) {
-  console.log(`\n🍿 Crawling showtimes: ${SHOWTIME_URL}`);
+// ============================================================
+// SHOWTIMES + PRICE
+// ============================================================
 
-  await page.goto(SHOWTIME_URL, {
-    waitUntil: "networkidle2",
-    timeout: 60000
-  });
+async function crawlShowtimes(page, url) {
+  const data =
+    await page.evaluate(() => {
+      const bodyText =
+        document.body?.innerText || "";
 
-  await new Promise(resolve => setTimeout(resolve, 2000));
+      const priceTexts =
+        Array.from(
+          document.querySelectorAll(
+            [
+              "[data-price]",
+              "[data-ticket-price]",
+              "[data-amount]",
+              ".price",
+              ".ticket-price",
+              ".showtime-price",
+              ".ticketPrice",
+            ].join(",")
+          )
+        ).map((el) => ({
+          text:
+            el.innerText ||
+            el.textContent ||
+            "",
 
-  const cinemas = await page.evaluate(() => {
+          price:
+            el.getAttribute(
+              "data-price"
+            ) ||
+            el.getAttribute(
+              "data-ticket-price"
+            ) ||
+            el.getAttribute(
+              "data-amount"
+            ) ||
+            null,
 
-    const result = [];
+          movie:
+            el.getAttribute(
+              "data-movie"
+            ) || null,
 
-    /*
-     * Moveek renders the schedule grouped by cinema.
-     * We first collect visible text blocks and links.
-     */
+          cinema:
+            el.getAttribute(
+              "data-cinema"
+            ) || null,
 
-    const headings = [...document.querySelectorAll("h1,h2,h3,h4")];
+          showtime:
+            el.getAttribute(
+              "data-showtime"
+            ) || null,
 
-    headings.forEach(heading => {
+          seatType:
+            el.getAttribute(
+              "data-seat-type"
+            ) || null,
+        }));
 
-      const text = heading.innerText.trim();
+      // Search JSON/script data for price-related
+      // information without inventing values.
+      const scripts =
+        Array.from(
+          document.querySelectorAll(
+            "script"
+          )
+        ).map(
+          (s) => s.textContent || ""
+        );
 
-      if (!text) return;
-
-      const parent = heading.parentElement;
-
-      if (!parent) return;
-
-      result.push({
-        heading: text,
-        text: parent.innerText
-      });
+      return {
+        bodyText,
+        priceTexts,
+        scripts,
+      };
     });
 
-    return result;
-  });
+  const body = data.bodyText;
 
-  return {
-    source: "Moveek",
-    sourceUrl: SHOWTIME_URL,
-    fetchedAt: new Date().toISOString(),
-    raw: cinemas
-  };
-}
-
-function normalizeMovie(rawMovie) {
-
-  const text = rawMovie.raw.bodyText || "";
-
-  const title = cleanText(rawMovie.raw.title);
-
-  /*
-   * Moveek movie pages expose:
-   * title
-   * original title
-   * genres
-   * release date
-   * duration
-   * age rating
-   * cast
-   * director
-   */
-
-  const lines = text
+  const lines = body
     .split("\n")
     .map(cleanText)
     .filter(Boolean);
 
-  let originalTitle = null;
-  let genres = [];
-  let releaseDate = null;
-  let durationMin = null;
-  let ageRating = null;
-  let director = null;
-  let cast = [];
+  const results = [];
+  const prices = [];
 
-  const titleIndex = lines.findIndex(
-    x => x === title
-  );
+  let currentDate = null;
+  let currentCinema = null;
+  let currentMovie = null;
+  let currentFormat = null;
+  let currentLanguage = null;
 
-  if (titleIndex >= 0 && lines[titleIndex + 1]) {
+  // ----------------------------------------------------------
+  // SHOWTIME PARSING
+  // ----------------------------------------------------------
 
-    const secondLine = lines[titleIndex + 1];
+  for (const line of lines) {
+    const date = normalizeDate(line);
 
-    /*
-     * Example:
-     * Resident Evil 2026 - Horror, Science Fiction
-     */
+    if (date) {
+      currentDate = date;
+      continue;
+    }
 
-    const parts = secondLine.split(" - ");
+    if (
+      /CGV|Galaxy|Lotte|Beta|BHD|Cinestar|Mega GS|DCINE|Cinema|Cineplex/i.test(
+        line
+      )
+    ) {
+      currentCinema = line;
+    }
 
-    if (parts.length >= 2) {
-      originalTitle = cleanText(parts[0]);
+    const format =
+      detectFormat(line);
 
-      genres = parts[1]
-        .split(",")
-        .map(cleanText)
-        .filter(Boolean);
+    if (format) {
+      currentFormat = format;
+    }
+
+    const language =
+      detectLanguage(line);
+
+    if (language) {
+      currentLanguage = language;
+    }
+
+    if (
+      line.length > 2 &&
+      line.length < 150 &&
+      !/^\d{1,2}:\d{2}$/.test(line) &&
+      !/^\d{1,2}h\d{2}$/i.test(line) &&
+      !/^(2D|3D|4DX|IMAX)$/i.test(line) &&
+      !/địa chỉ|hotline|thời lượng|khởi chiếu|đạo diễn|diễn viên|nội dung/i.test(
+        line
+      )
+    ) {
+      currentMovie =
+        currentMovie || line;
+    }
+
+    const timeMatches =
+      line.match(
+        /\b\d{1,2}(?::|h)\d{2}\b/g
+      );
+
+    if (!timeMatches) continue;
+
+    if (!currentDate) continue;
+
+    if (!isTargetYear(currentDate)) {
+      continue;
+    }
+
+    for (const time of timeMatches) {
+      const normalizedTime =
+        time
+          .replace("h", ":")
+          .replace("H", ":");
+
+      const showtime = {
+        externalId: sha1(
+          `${url}|${currentDate}|${currentCinema}|${currentMovie}|${normalizedTime}`
+        ),
+
+        movie: currentMovie,
+        cinema: currentCinema,
+
+        date: currentDate,
+
+        startTime:
+          normalizedTime,
+
+        endTime: null,
+
+        format:
+          currentFormat,
+
+        language:
+          currentLanguage,
+
+        status:
+          "AVAILABLE",
+
+        source:
+          "Moveek",
+
+        sourceUrl:
+          url,
+      };
+
+      results.push(showtime);
     }
   }
 
-  const releaseMatch = text.match(
-    /\b(\d{1,2}\/\d{1,2}\/\d{4})\b/
-  );
+  // ----------------------------------------------------------
+  // PRICE PARSING FROM DOM
+  // ----------------------------------------------------------
 
-  if (releaseMatch) {
-    releaseDate = parseDate(releaseMatch[1]);
+  for (const item of data.priceTexts) {
+    const candidates = [
+      item.price,
+      item.text,
+    ];
+
+    let price = null;
+
+    for (const candidate of candidates) {
+      price = parsePrice(candidate);
+
+      if (price) break;
+    }
+
+    if (!price) continue;
+
+    prices.push({
+      externalId: sha1(
+        `${url}|${item.movie}|${item.cinema}|${item.showtime}|${item.seatType}|${price}`
+      ),
+
+      movie:
+        item.movie ||
+        null,
+
+      cinema:
+        item.cinema ||
+        null,
+
+      showtime:
+        item.showtime ||
+        null,
+
+      seatType:
+        item.seatType ||
+        null,
+
+      price,
+
+      currency:
+        "VND",
+
+      source:
+        "Moveek",
+
+      sourceUrl:
+        url,
+    });
   }
 
-  durationMin = parseDuration(text);
+  // ----------------------------------------------------------
+  // DEDUP SHOWTIMES
+  // ----------------------------------------------------------
 
-  const ratingMatch = text.match(
-    /\b(T18|T16|T13|K|P)\b/
-  );
+  const showtimeMap =
+    new Map();
 
-  if (ratingMatch) {
-    ageRating = ratingMatch[1];
+  for (const item of results) {
+    const key = [
+      item.movie,
+      item.cinema,
+      item.date,
+      item.startTime,
+      item.format,
+      item.language,
+    ].join("|");
+
+    if (!showtimeMap.has(key)) {
+      showtimeMap.set(
+        key,
+        item
+      );
+    }
   }
 
-  const directorIndex = lines.findIndex(
-    x => x.toLowerCase() === "đạo diễn"
-  );
+  // ----------------------------------------------------------
+  // DEDUP PRICES
+  // ----------------------------------------------------------
 
-  if (
-    directorIndex >= 0 &&
-    lines[directorIndex + 1]
-  ) {
-    director = lines[directorIndex + 1];
-  }
+  const priceMap =
+    new Map();
 
-  const castIndex = lines.findIndex(
-    x => x.toLowerCase() === "diễn viên"
-  );
+  for (const item of prices) {
+    const key = [
+      item.movie,
+      item.cinema,
+      item.showtime,
+      item.seatType,
+      item.price,
+    ].join("|");
 
-  if (castIndex >= 0) {
-
-    const castText = lines[castIndex + 1];
-
-    if (castText) {
-      cast = castText
-        .split(/\s{2,}/)
-        .map(cleanText)
-        .filter(Boolean);
+    if (!priceMap.has(key)) {
+      priceMap.set(
+        key,
+        item
+      );
     }
   }
 
   return {
-    movieId: `MOV-${rawMovie.externalId}`,
+    showtimes:
+      [...showtimeMap.values()],
 
-    externalId: rawMovie.externalId,
-
-    slug: rawMovie.externalId,
-
-    title,
-
-    originalTitle,
-
-    synopsis: cleanText(rawMovie.raw.description),
-
-    durationMin,
-
-    releaseDate,
-
-    ageRating,
-
-    status: "NOW_SHOWING",
-
-    posterUrl: rawMovie.raw.posterUrl,
-
-    backdropUrl: null,
-
-    trailerUrl:
-      rawMovie.raw.links.find(link =>
-        /trailer/i.test(link.text)
-      )?.href || null,
-
-    language: null,
-
-    country: null,
-
-    ratingAvg: null,
-
-    ratingCount: null,
-
-    genres,
-
-    credits: {
-      director,
-      cast
-    },
-
-    source: {
-      chain: "MOVEek",
-      externalId: rawMovie.externalId,
-      url: rawMovie.sourceUrl
-    },
-
-    crawledAt: rawMovie.fetchedAt
+    prices:
+      [...priceMap.values()],
   };
 }
 
-async function main() {
+// ============================================================
+// REVIEW CRAWLER
+// ============================================================
 
-  console.log("====================================");
-  console.log(" CineHub - Moveek Crawler");
-  console.log("====================================");
+async function crawlReviews(page, url) {
+  const data =
+    await page.evaluate(() => {
+      const selectors = [
+        ".review",
+        ".reviews",
+        ".review-item",
+        ".review-content",
+        ".comment",
+        ".comment-item",
+        ".comment-content",
+        "[class*='review']",
+        "[class*='comment']",
+      ];
 
-  const browser = await puppeteer.launch({
-    headless: true
-  });
+      const elements =
+        Array.from(
+          document.querySelectorAll(
+            selectors.join(",")
+          )
+        );
 
-  const page = await browser.newPage();
+      const reviews =
+        elements.map((el) => {
+          const text =
+            el.innerText ||
+            el.textContent ||
+            "";
 
-  await page.setViewport({
-    width: 1440,
-    height: 900
-  });
+          const authorEl =
+            el.querySelector(
+              [
+                ".author",
+                ".username",
+                ".user-name",
+                "[class*='author']",
+                "[class*='user']",
+              ].join(",")
+            );
 
-  const rawMovies = [];
+          const ratingEl =
+            el.querySelector(
+              [
+                "[data-rating]",
+                ".rating",
+                "[class*='rating']",
+              ].join(",")
+            );
 
-  for (const url of MOVIE_URLS) {
+          const dateEl =
+            el.querySelector(
+              [
+                "time",
+                ".date",
+                ".created-at",
+                "[class*='date']",
+              ].join(",")
+            );
 
-    try {
+          return {
+            text: text.trim(),
 
-      const movie = await crawlMovie(page, url);
+            author:
+              authorEl
+                ?.innerText
+                ?.trim() ||
+              null,
 
-      rawMovies.push(movie);
+            rating:
+              ratingEl?.getAttribute(
+                "data-rating"
+              ) ||
+              ratingEl
+                ?.innerText
+                ?.trim() ||
+              null,
 
-      console.log(
-        `✅ ${movie.raw.title || movie.externalId}`
+            date:
+              dateEl
+                ?.getAttribute(
+                  "datetime"
+                ) ||
+              dateEl
+                ?.innerText
+                ?.trim() ||
+              null,
+          };
+        });
+
+      // Also inspect JSON-LD / script data.
+      const scripts =
+        Array.from(
+          document.querySelectorAll(
+            "script"
+          )
+        ).map(
+          (s) => s.textContent || ""
+        );
+
+      return {
+        reviews,
+        scripts,
+      };
+    });
+
+  const reviews = [];
+
+  // ----------------------------------------------------------
+  // DOM REVIEWS
+  // ----------------------------------------------------------
+
+  for (const item of data.reviews) {
+    const text =
+      cleanText(item.text);
+
+    if (!text) continue;
+
+    // Ignore containers that are clearly
+    // navigation/layout rather than reviews.
+    if (text.length < 3) continue;
+
+    const date =
+      normalizeDate(item.date);
+
+    // If a review has a date and it is not 2026,
+    // exclude it.
+    if (
+      item.date &&
+      date &&
+      !isTargetYear(date)
+    ) {
+      continue;
+    }
+
+    let rating = null;
+
+    if (item.rating) {
+      const match =
+        String(
+          item.rating
+        ).match(
+          /\d+(?:[.,]\d+)?/
+        );
+
+      if (match) {
+        rating = Number(
+          match[0].replace(
+            ",",
+            "."
+          )
+        );
+      }
+    }
+
+    reviews.push({
+      externalId: sha1(
+        `${url}|${item.author}|${date}|${text}`
+      ),
+
+      movieUrl:
+        url,
+
+      author:
+        cleanText(
+          item.author
+        ) || null,
+
+      rating,
+
+      content:
+        text,
+
+      createdAt:
+        date,
+
+      source:
+        "Moveek",
+
+      sourceUrl:
+        url,
+    });
+  }
+
+  // ----------------------------------------------------------
+  // DEDUP
+  // ----------------------------------------------------------
+
+  const map =
+    new Map();
+
+  for (const review of reviews) {
+    if (
+      !map.has(
+        review.externalId
+      )
+    ) {
+      map.set(
+        review.externalId,
+        review
       );
-
-    } catch (error) {
-
-      console.error(
-        `❌ Failed: ${url}`
-      );
-
-      console.error(error.message);
     }
   }
 
-  let showtimes = null;
+  return [
+    ...map.values(),
+  ];
+}
 
-  try {
+// ============================================================
+// ARTICLE / NEWS
+// ============================================================
 
-    showtimes = await crawlShowtimes(page);
-
-    console.log("✅ Showtime page crawled");
-
-  } catch (error) {
-
-    console.error(
-      "❌ Showtime crawl failed:",
-      error.message
+async function crawlArticle(
+  page,
+  url
+) {
+  const common =
+    await extractCommonPageData(
+      page
     );
+
+  const body =
+    common.bodyText;
+
+  const title =
+    cleanText(common.h1) ||
+    cleanText(common.ogTitle) ||
+    cleanText(common.title);
+
+  const publishedCandidates = [
+    body.match(
+      /(?:Ngày đăng|Đăng lúc|Published|Published at)\s*:?\s*([^\n]+)/i
+    )?.[1],
+
+    body.match(
+      /\b\d{1,2}[/-]\d{1,2}[/-]20\d{2}\b/
+    )?.[0],
+  ];
+
+  let publishedAt = null;
+
+  for (const candidate of publishedCandidates) {
+    const date =
+      normalizeDate(candidate);
+
+    if (date) {
+      publishedAt = date;
+      break;
+    }
   }
 
-  const normalizedMovies = rawMovies.map(
-    normalizeMovie
-  );
+  if (
+    !isTargetYear(
+      publishedAt
+    )
+  ) {
+    console.log(
+      `⏭️ SKIP NEWS NOT 2026: ${title}`
+    );
 
-  const normalizedData = {
+    return null;
+  }
 
-    meta: {
-      project: "CineHub",
+  const author =
+    body.match(
+      /(?:Tác giả|Author)\s*:?\s*([^\n]+)/i
+    )?.[1] || null;
 
-      source: "Moveek",
+  return {
+    externalId:
+      sha1(url),
 
-      sourceType: "CRAWLED",
+    title,
 
-      crawler: "Puppeteer",
+    category:
+      null,
 
-      crawledAt: new Date().toISOString(),
+    author:
+      cleanText(author),
 
-      totalMovies:
-        normalizedMovies.length
-    },
+    publishedAt,
 
-    movies: normalizedMovies,
+    thumbnail:
+      common.ogImage ||
+      common.images[0] ||
+      null,
 
-    showtimes: showtimes
-      ? []
-      : []
+    summary:
+      common.metaDescription ||
+      common.ogDescription,
+
+    content:
+      body,
+
+    sourceUrl:
+      url,
+  };
+}
+
+// ============================================================
+// RAW PAGE
+// ============================================================
+
+async function saveRawPage(
+  page,
+  url,
+  type
+) {
+  const common =
+    await extractCommonPageData(
+      page
+    );
+
+  const contentHash =
+    sha1(common.html);
+
+  const record = {
+    id:
+      sha1(url),
+
+    url,
+    type,
+
+    contentHash,
+
+    crawledAt:
+      new Date().toISOString(),
+
+    title:
+      common.title,
+
+    h1:
+      common.h1,
+
+    html:
+      CONFIG.saveRawHtml
+        ? common.html.slice(
+            0,
+            CONFIG.maxRawHtmlLength
+          )
+        : null,
   };
 
-  fs.writeFileSync(
+  if (
+    CONFIG.saveRawHtml
+  ) {
+    const htmlFile =
+      `${contentHash}.html`;
 
-    path.join(
-      OUTPUT_DIR,
-      "crawl-raw.json"
-    ),
+    fs.writeFileSync(
+      path.join(
+        RAW_DIR,
+        htmlFile
+      ),
+      common.html.slice(
+        0,
+        CONFIG.maxRawHtmlLength
+      ),
+      "utf8"
+    );
 
-    JSON.stringify(
-      {
-        source: "Moveek",
-        crawledAt:
-          new Date().toISOString(),
-        movies: rawMovies,
-        showtimes
-      },
-      null,
-      2
-    )
+    record.rawHtmlFile =
+      `raw/${htmlFile}`;
+  }
+
+  return record;
+}
+
+// ============================================================
+// SAFE GOTO
+// ============================================================
+
+async function safeGoto(
+  page,
+  url
+) {
+  for (
+    let attempt = 1;
+    attempt <= CONFIG.retries;
+    attempt++
+  ) {
+    try {
+      await page.goto(
+        url,
+        {
+          waitUntil:
+            "domcontentloaded",
+
+          timeout:
+            CONFIG.navigationTimeout,
+        }
+      );
+
+      await sleep(
+        CONFIG.delayMs
+      );
+
+      return true;
+    } catch (error) {
+      console.log(
+        `⚠️ Navigation failed ${attempt}/${CONFIG.retries}: ${url}`
+      );
+
+      console.log(
+        `   ${error.message}`
+      );
+
+      if (
+        attempt <
+        CONFIG.retries
+      ) {
+        await sleep(
+          1500 * attempt
+        );
+      }
+    }
+  }
+
+  return false;
+}
+
+// ============================================================
+// DISCOVER LINKS
+// ============================================================
+
+async function discoverLinks(
+  page
+) {
+  try {
+    return await page.evaluate(
+      () =>
+        Array.from(
+          document.querySelectorAll(
+            "a"
+          )
+        )
+          .map(
+            (a) => a.href
+          )
+          .filter(Boolean)
+    );
+  } catch (error) {
+    console.log(
+      `⚠️ Link discovery failed: ${error.message}`
+    );
+
+    return [];
+  }
+}
+
+// ============================================================
+// NORMALIZED DATA
+// ============================================================
+
+function buildNormalizedData(
+  movies,
+  cinemas,
+  showtimes,
+  prices,
+  reviews
+) {
+  return {
+    source:
+      "Moveek",
+
+    targetYear:
+      TARGET_YEAR,
+
+    crawledAt:
+      new Date().toISOString(),
+
+    movies,
+
+    cinemas,
+
+    showtimes,
+
+    prices,
+
+    reviews,
+  };
+}
+
+// ============================================================
+// MAIN
+// ============================================================
+
+(async () => {
+  const startedAt =
+    new Date();
+
+  console.log(
+    "=============================================="
   );
 
-  fs.writeFileSync(
-
-    path.join(
-      OUTPUT_DIR,
-      "movie-metadata.json"
-    ),
-
-    JSON.stringify(
-      normalizedMovies,
-      null,
-      2
-    )
+  console.log(
+    "🎬 CINEHUB MOVEek CRAWLER"
   );
 
-  fs.writeFileSync(
+  console.log(
+    "=============================================="
+  );
 
-    path.join(
-      OUTPUT_DIR,
-      "cinehub-normalized.json"
-    ),
+  console.log(
+    `📅 Target year: ${TARGET_YEAR}`
+  );
 
-    JSON.stringify(
-      normalizedData,
-      null,
-      2
-    )
+  console.log(
+    `🌐 Base URL: ${BASE_URL}`
+  );
+
+  console.log(
+    "=============================================="
+  );
+
+  const browser =
+    await puppeteer.launch({
+      headless: true,
+
+      args: [
+        "--no-sandbox",
+        "--disable-setuid-sandbox",
+        "--disable-dev-shm-usage",
+        "--disable-gpu",
+      ],
+    });
+
+  const page =
+    await browser.newPage();
+
+  await page.setViewport({
+    width: 1440,
+    height: 900,
+  });
+
+  await page.setUserAgent(
+    "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) " +
+      "AppleWebKit/537.36 (KHTML, like Gecko) " +
+      "Chrome/154.0.0.0 Safari/537.36"
+  );
+
+  await page.setRequestInterception(
+    true
+  );
+
+  page.on(
+    "request",
+    (request) => {
+      const resourceType =
+        request.resourceType();
+
+      if (
+        [
+          "font",
+          "media",
+        ].includes(
+          resourceType
+        )
+      ) {
+        request.abort();
+      } else {
+        request.continue();
+      }
+    }
+  );
+
+  page.on(
+    "pageerror",
+    (error) => {
+      console.log(
+        `⚠️ PAGE ERROR: ${error.message}`
+      );
+    }
+  );
+
+  page.on(
+    "error",
+    (error) => {
+      console.log(
+        `⚠️ PAGE CRASH: ${error.message}`
+      );
+    }
+  );
+
+  // ==========================================================
+  // SEEDS
+  // ==========================================================
+
+  const seeds = [
+    `${BASE_URL}/`,
+    `${BASE_URL}/dang-chieu/`,
+    `${BASE_URL}/chieu-som/`,
+    `${BASE_URL}/lich-chieu/`,
+    `${BASE_URL}/rap/`,
+    `${BASE_URL}/tin-tuc/`,
+    `${BASE_URL}/mua-ve/`,
+  ];
+
+  const queue = [
+    ...seeds,
+  ];
+
+  const visited =
+    new Set();
+
+  const rawRecords = [];
+
+  const moviesMap =
+    new Map();
+
+  const cinemasMap =
+    new Map();
+
+  const showtimesMap =
+    new Map();
+
+  const pricesMap =
+    new Map();
+
+  const newsMap =
+    new Map();
+
+  const reviewsMap =
+    new Map();
+
+  // ==========================================================
+  // CRAWL LOOP
+  // ==========================================================
+
+  while (
+    queue.length > 0 &&
+    visited.size <
+      CONFIG.maxPages
+  ) {
+    const url =
+      queue.shift();
+
+    if (!url) continue;
+
+    if (
+      visited.has(url)
+    ) {
+      continue;
+    }
+
+    visited.add(url);
+
+    if (
+      shouldSkipUrl(url)
+    ) {
+      console.log(
+        `⏭️ SKIP: ${url}`
+      );
+
+      continue;
+    }
+
+    const type =
+      classifyUrl(url);
+
+    if (
+      [
+        "tag",
+        "search",
+        "account",
+        "other",
+      ].includes(type)
+    ) {
+      console.log(
+        `⏭️ SKIP ${type.toUpperCase()}: ${url}`
+      );
+
+      continue;
+    }
+
+    console.log(
+      `\n[${visited.size}/${CONFIG.maxPages}] ${type.toUpperCase()}`
+    );
+
+    console.log(url);
+
+    // --------------------------------------------------------
+    // NAVIGATION
+    // --------------------------------------------------------
+
+    const success =
+      await safeGoto(
+        page,
+        url
+      );
+
+    if (!success) {
+      console.log(
+        `❌ FAILED NAVIGATION: ${url}`
+      );
+
+      continue;
+    }
+
+    // --------------------------------------------------------
+    // RAW
+    // --------------------------------------------------------
+
+    try {
+      const raw =
+        await saveRawPage(
+          page,
+          url,
+          type
+        );
+
+      rawRecords.push(
+        raw
+      );
+    } catch (error) {
+      console.log(
+        `⚠️ RAW ERROR: ${url}`
+      );
+
+      console.log(
+        `   ${error.message}`
+      );
+    }
+
+    // --------------------------------------------------------
+    // EXTRACT
+    // --------------------------------------------------------
+
+    try {
+      if (
+        type === "movie"
+      ) {
+        const movie =
+          await crawlMovie(
+            page,
+            url
+          );
+
+        if (movie) {
+          moviesMap.set(
+            movie.externalId,
+            movie
+          );
+
+          console.log(
+            `🎬 MOVIE 2026: ${movie.title}`
+          );
+
+          // Crawl reviews from movie page
+          try {
+            const reviews =
+              await crawlReviews(
+                page,
+                url
+              );
+
+            for (
+              const review of reviews
+            ) {
+              reviewsMap.set(
+                review.externalId,
+                review
+              );
+            }
+
+            console.log(
+              `💬 REVIEWS: ${reviews.length}`
+            );
+          } catch (
+            reviewError
+          ) {
+            console.log(
+              `⚠️ REVIEW ERROR: ${reviewError.message}`
+            );
+          }
+        }
+      }
+
+      else if (
+        type === "cinema"
+      ) {
+        const cinema =
+          await crawlCinema(
+            page,
+            url
+          );
+
+        if (cinema) {
+          cinemasMap.set(
+            cinema.externalId,
+            cinema
+          );
+
+          console.log(
+            `🏢 CINEMA: ${cinema.name}`
+          );
+        }
+
+        // Cinema pages can also contain
+        // showtimes and prices.
+        try {
+          const result =
+            await crawlShowtimes(
+              page,
+              url
+            );
+
+          for (
+            const showtime
+            of result.showtimes
+          ) {
+            showtimesMap.set(
+              showtime.externalId,
+              showtime
+            );
+          }
+
+          for (
+            const price
+            of result.prices
+          ) {
+            pricesMap.set(
+              price.externalId,
+              price
+            );
+          }
+
+          console.log(
+            `🕐 SHOWTIMES: ${result.showtimes.length}`
+          );
+
+          console.log(
+            `💰 PRICES: ${result.prices.length}`
+          );
+        } catch (
+          showtimeError
+        ) {
+          console.log(
+            `⚠️ CINEMA SHOWTIME/PRICE ERROR: ${showtimeError.message}`
+          );
+        }
+      }
+
+      else if (
+        type === "showtime"
+      ) {
+        const result =
+          await crawlShowtimes(
+            page,
+            url
+          );
+
+        for (
+          const showtime
+          of result.showtimes
+        ) {
+          showtimesMap.set(
+            showtime.externalId,
+            showtime
+          );
+        }
+
+        for (
+          const price
+          of result.prices
+        ) {
+          pricesMap.set(
+            price.externalId,
+            price
+          );
+        }
+
+        console.log(
+          `🕐 SHOWTIMES 2026: ${result.showtimes.length}`
+        );
+
+        console.log(
+          `💰 PRICES: ${result.prices.length}`
+        );
+      }
+
+      else if (
+        type === "article"
+      ) {
+        const article =
+          await crawlArticle(
+            page,
+            url
+          );
+
+        if (article) {
+          newsMap.set(
+            article.externalId,
+            article
+          );
+
+          console.log(
+            `📰 NEWS 2026: ${article.title}`
+          );
+        }
+      }
+    } catch (error) {
+      // Detached Frame or another page-level error
+      // will only skip this URL.
+      console.log(
+        `❌ ERROR: ${url}`
+      );
+
+      console.log(
+        `   ${error.message}`
+      );
+    }
+
+    // --------------------------------------------------------
+    // DISCOVER
+    // --------------------------------------------------------
+
+    try {
+      const links =
+        await discoverLinks(
+          page
+        );
+
+      for (
+        const link of links
+      ) {
+        if (!link) continue;
+
+        let normalized;
+
+        try {
+          const parsed =
+            new URL(
+              link,
+              BASE_URL
+            );
+
+          parsed.hash = "";
+
+          normalized =
+            parsed.href;
+        } catch {
+          continue;
+        }
+
+        if (
+          !normalized.startsWith(
+            BASE_URL
+          )
+        ) {
+          continue;
+        }
+
+        if (
+          shouldSkipUrl(
+            normalized
+          )
+        ) {
+          continue;
+        }
+
+        if (
+          !visited.has(
+            normalized
+          ) &&
+          !queue.includes(
+            normalized
+          )
+        ) {
+          queue.push(
+            normalized
+          );
+        }
+      }
+    } catch (error) {
+      console.log(
+        `⚠️ DISCOVERY ERROR: ${error.message}`
+      );
+    }
+  }
+
+  // ==========================================================
+  // FINAL ARRAYS
+  // ==========================================================
+
+  let movies =
+    [...moviesMap.values()];
+
+  let cinemas =
+    [...cinemasMap.values()];
+
+  let showtimes =
+    [...showtimesMap.values()];
+
+  let prices =
+    [...pricesMap.values()];
+
+  let news =
+    [...newsMap.values()];
+
+  let reviews =
+    [...reviewsMap.values()];
+
+  // ==========================================================
+  // FINAL 2026 FILTER
+  // ==========================================================
+
+  movies =
+    movies.filter(
+      (movie) =>
+        isTargetYear(
+          movie.releaseDate
+        )
+    );
+
+  showtimes =
+    showtimes.filter(
+      (showtime) =>
+        isTargetYear(
+          showtime.date ||
+            showtime.startTime
+        )
+    );
+
+  news =
+    news.filter(
+      (article) =>
+        isTargetYear(
+          article.publishedAt
+        )
+    );
+
+  reviews =
+    reviews.filter(
+      (review) => {
+        if (
+          !review.createdAt
+        ) {
+          // Keep undated reviews because
+          // there is no evidence they belong
+          // to another year.
+          return true;
+        }
+
+        return isTargetYear(
+          review.createdAt
+        );
+      }
+    );
+
+  prices =
+    prices.filter(
+      (price) => {
+        if (
+          price.showtime
+        ) {
+          return true;
+        }
+
+        return true;
+      }
+    );
+
+  // ==========================================================
+  // SORT
+  // ==========================================================
+
+  movies.sort(
+    (a, b) =>
+      String(
+        a.releaseDate || ""
+      ).localeCompare(
+        String(
+          b.releaseDate || ""
+        )
+      )
+  );
+
+  cinemas.sort(
+    (a, b) =>
+      String(
+        a.name || ""
+      ).localeCompare(
+        String(
+          b.name || ""
+        )
+      )
+  );
+
+  showtimes.sort(
+    (a, b) =>
+      String(
+        `${a.date || ""} ${
+          a.startTime || ""
+        }`
+      ).localeCompare(
+        `${b.date || ""} ${
+          b.startTime || ""
+        }`
+      )
+  );
+
+  news.sort(
+    (a, b) =>
+      String(
+        a.publishedAt || ""
+      ).localeCompare(
+        String(
+          b.publishedAt || ""
+        )
+      )
+  );
+
+  // ==========================================================
+  // NORMALIZED
+  // ==========================================================
+
+  const normalized =
+    buildNormalizedData(
+      movies,
+      cinemas,
+      showtimes,
+      prices,
+      reviews
+    );
+
+  // ==========================================================
+  // CRAWL RUN
+  // ==========================================================
+
+  const finishedAt =
+    new Date();
+
+  const crawlRun = {
+    source:
+      "Moveek",
+
+    targetYear:
+      TARGET_YEAR,
+
+    startedAt:
+      startedAt.toISOString(),
+
+    finishedAt:
+      finishedAt.toISOString(),
+
+    durationMs:
+      finishedAt.getTime() -
+      startedAt.getTime(),
+
+    maxPages:
+      CONFIG.maxPages,
+
+    pagesVisited:
+      visited.size,
+
+    queueRemaining:
+      queue.length,
+
+    counts: {
+      movies:
+        movies.length,
+
+      cinemas:
+        cinemas.length,
+
+      showtimes:
+        showtimes.length,
+
+      prices:
+        prices.length,
+
+      news:
+        news.length,
+
+      reviews:
+        reviews.length,
+
+      rawPages:
+        rawRecords.length,
+    },
+  };
+
+  // ==========================================================
+  // WRITE JSON
+  // ==========================================================
+
+  writeJSON(
+    "crawl-runs.json",
+    [crawlRun]
+  );
+
+  writeJSON(
+    "crawl-raw.json",
+    rawRecords
+  );
+
+  writeJSON(
+    "movies.json",
+    movies
+  );
+
+  writeJSON(
+    "cinemas.json",
+    cinemas
+  );
+
+  writeJSON(
+    "showtimes.json",
+    showtimes
+  );
+
+  writeJSON(
+    "prices.json",
+    prices
+  );
+
+  writeJSON(
+    "news.json",
+    news
+  );
+
+  writeJSON(
+    "reviews.json",
+    reviews
+  );
+
+  writeJSON(
+    "cinehub-normalized.json",
+    [normalized]
+  );
+
+  // ==========================================================
+  // SUMMARY
+  // ==========================================================
+
+  console.log(
+    "\n=============================================="
+  );
+
+  console.log(
+    "✅ CRAWL FINISHED"
+  );
+
+  console.log(
+    "=============================================="
+  );
+
+  console.log(
+    `📅 TARGET YEAR : ${TARGET_YEAR}`
+  );
+
+  console.log(
+    `🌐 PAGES       : ${visited.size}`
+  );
+
+  console.log(
+    `🎬 MOVIES      : ${movies.length}`
+  );
+
+  console.log(
+    `🏢 CINEMAS     : ${cinemas.length}`
+  );
+
+  console.log(
+    `🕐 SHOWTIMES   : ${showtimes.length}`
+  );
+
+  console.log(
+    `💰 PRICES      : ${prices.length}`
+  );
+
+  console.log(
+    `📰 NEWS        : ${news.length}`
+  );
+
+  console.log(
+    `💬 REVIEWS     : ${reviews.length}`
+  );
+
+  console.log(
+    `📦 RAW         : ${rawRecords.length}`
+  );
+
+  console.log(
+    "=============================================="
+  );
+
+  console.log(
+    `📁 Output: ${OUTPUT_DIR}`
   );
 
   await browser.close();
 
-  console.log("\n====================================");
-  console.log(" CRAWL COMPLETED");
-  console.log("====================================");
+})().catch(
+  (error) => {
+    console.error(
+      "\n❌ FATAL CRAWLER ERROR:"
+    );
 
-  console.log(
-    `Movies: ${normalizedMovies.length}`
-  );
+    console.error(
+      error
+    );
 
-  console.log(
-    "Output: ./output/"
-  );
-}
-
-main().catch(error => {
-
-  console.error(error);
-
-  process.exit(1);
-
-});
+    process.exit(1);
+  }
+);

@@ -1,0 +1,21 @@
+[
+  {
+    "source": "Moveek",
+    "targetYear": 2026,
+    "startedAt": "2026-10-02T16:23:19.629Z",
+    "finishedAt": "2026-10-02T16:26:35.557Z",
+    "durationMs": 195928,
+    "maxPages": 3000,
+    "pagesVisited": 2361,
+    "queueRemaining": 0,
+    "counts": {
+      "movies": 28,
+      "cinemas": 61,
+      "showtimes": 37,
+      "prices": 0,
+      "news": 29,
+      "reviews": 46,
+      "rawPages": 132
+    }
+  }
+]
