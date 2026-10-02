@@ -1,0 +1,4796 @@
+{
+  "source": "Moveek",
+  "crawledAt": "2026-10-02T13:43:44.122Z",
+  "movies": [
+    {
+      "externalId": "vung-dat-quy-du-2026",
+      "source": "Moveek",
+      "sourceUrl": "https://moveek.com/phim/vung-dat-quy-du-2026/",
+      "fetchedAt": "2026-10-02T13:43:34.362Z",
+      "contentHash": "09e76ceb0d39ed5f010ef772fac6966660e44bb5",
+      "raw": {
+        "title": "Vùng Đất Quỷ Dữ 2026",
+        "description": "Lịch chiếu Vùng Đất Quỷ Dữ 2026 và review phim Vùng Đất Quỷ Dữ 2026. Đặt vé ngay tại Moveek",
+        "posterUrl": "https://cdn.moveek.com/storage/media/cache/large/6a98ed3d527ec952441120.webp",
+        "images": [
+          {
+            "src": "https://cdn.moveek.com/img/logo.png",
+            "alt": "Moveek"
+          },
+          {
+            "src": "https://cdn.moveek.com/storage/media/cache/card/6a98ed8bf12b6567604371.webp",
+            "alt": "Vùng Đất Quỷ Dữ 2026"
+          },
+          {
+            "src": "https://cdn.moveek.com/storage/media/cache/square/5fffb2fcaf3c1018282624.webp",
+            "alt": "Beta Cinemas"
+          },
+          {
+            "src": "https://cdn.moveek.com/storage/media/cache/square/a1cd7de61579e7bca68c7bee4d76c4c7388478cb.webp",
+            "alt": "Dcine"
+          },
+          {
+            "src": "https://cdn.moveek.com/storage/media/cache/square/4e2f8af9e4d780495cbc387e5868c2a48c7f82c2.webp",
+            "alt": "Mega GS Cinemas"
+          },
+          {
+            "src": "https://cdn.moveek.com/storage/media/cache/square/dcc08eb55eca8002f729ae0dff98a2ae6c031db0.webp",
+            "alt": "BHD Star Cineplex"
+          },
+          {
+            "src": "https://cdn.moveek.com/storage/media/cache/square/524ba157cd271c9c24d15f367a57c13abc26af06.webp",
+            "alt": "CGV Cinemas"
+          },
+          {
+            "src": "https://cdn.moveek.com/storage/media/cache/square/5fffb30b3194c340097683.webp",
+            "alt": "Galaxy Cinema"
+          },
+          {
+            "src": "https://cdn.moveek.com/storage/media/cache/medium/6aae978f789bc379894027.webp",
+            "alt": "Review Vùng Đất Quỷ Dữ 2026 – Phim kinh dị 18+ gây bất ngờ lớn"
+          },
+          {
+            "src": "https://cdn.moveek.com/img/no-avatar.png",
+            "alt": "Ngan152945"
+          },
+          {
+            "src": "https://cdn.moveek.com/img/no-avatar.png",
+            "alt": "Lê Sỹ Khiêm"
+          },
+          {
+            "src": "https://cdn.moveek.com/img/no-avatar.png",
+            "alt": "npu.phun"
+          },
+          {
+            "src": "https://cdn.moveek.com/img/no-avatar.png",
+            "alt": "Nguyễn Hữu Toàn"
+          },
+          {
+            "src": "https://cdn.moveek.com/img/no-avatar.png",
+            "alt": "Leev102"
+          },
+          {
+            "src": "https://cdn.moveek.com/img/favicon-large.png",
+            "alt": "Moveek"
+          },
+          {
+            "src": "https://cdn.moveek.com/img/no-thumbnail.webp",
+            "alt": "Beta Cinemas"
+          },
+          {
+            "src": "https://cdn.moveek.com/img/no-thumbnail.webp",
+            "alt": "Mega GS Cinemas"
+          },
+          {
+            "src": "https://cdn.moveek.com/img/no-thumbnail.webp",
+            "alt": "Cinestar"
+          },
+          {
+            "src": "https://cdn.moveek.com/img/no-thumbnail.webp",
+            "alt": "Dcine"
+          },
+          {
+            "src": "https://cdn.moveek.com/img/no-thumbnail.webp",
+            "alt": "Cinemax"
+          },
+          {
+            "src": "https://cdn.moveek.com/img/no-thumbnail.webp",
+            "alt": "Starlight"
+          },
+          {
+            "src": "https://cdn.moveek.com/img/no-thumbnail.webp",
+            "alt": "Rio Cinemas"
+          },
+          {
+            "src": "https://cdn.moveek.com/img/no-thumbnail.webp",
+            "alt": "DDCinema"
+          },
+          {
+            "src": "https://cdn.moveek.com/img/no-thumbnail.webp",
+            "alt": "Touch Cinema"
+          },
+          {
+            "src": "https://cdn.moveek.com/img/no-thumbnail.webp",
+            "alt": "Bà Rịa Cinema"
+          },
+          {
+            "src": "https://cdn.moveek.com/img/no-thumbnail.webp",
+            "alt": "AEON BETA Cinema"
+          },
+          {
+            "src": "https://cdn.moveek.com/img/no-thumbnail.webp",
+            "alt": "Trung tâm Chiếu phim Quốc gia"
+          },
+          {
+            "src": "https://cdn.moveek.com/img/no-thumbnail.webp",
+            "alt": "Payoo"
+          },
+          {
+            "src": "https://cdn.moveek.com/img/no-thumbnail.webp",
+            "alt": "Ví Điện Tử Momo"
+          },
+          {
+            "src": "https://cdn.moveek.com/img/no-thumbnail.webp",
+            "alt": "Ví Điện Tử ZaloPay"
+          },
+          {
+            "src": "https://cdn.moveek.com/img/no-thumbnail.webp",
+            "alt": "Đã thông báo với Bộ Công Thương"
+          },
+          {
+            "src": "https://cdn.moveek.com/storage/media/cache/square/6a0579c0b25ec577708799.webp",
+            "alt": "AEON BETA Central Premium"
+          },
+          {
+            "src": "https://cdn.moveek.com/storage/media/cache/square/5fffb2fcaf3c1018282624.webp",
+            "alt": "Beta Nowzone"
+          },
+          {
+            "src": "https://cdn.moveek.com/storage/media/cache/square/5fffb2fcaf3c1018282624.webp",
+            "alt": "Beta Quang Trung"
+          },
+          {
+            "src": "https://cdn.moveek.com/storage/media/cache/square/5fffb2fcaf3c1018282624.webp",
+            "alt": "Beta Trần Quang Khải"
+          },
+          {
+            "src": "https://cdn.moveek.com/storage/media/cache/square/5fffb2fcaf3c1018282624.webp",
+            "alt": "Beta Ung Văn Khiêm"
+          },
+          {
+            "src": "https://cdn.moveek.com/storage/media/cache/square/59a2a1753d6416c84b4e05146280584a33448c14.webp",
+            "alt": "Cinestar Hiệp Phú"
+          },
+          {
+            "src": "https://cdn.moveek.com/storage/media/cache/square/59a2a1753d6416c84b4e05146280584a33448c14.webp",
+            "alt": "Cinestar Quốc Thanh"
+          },
+          {
+            "src": "https://cdn.moveek.com/storage/media/cache/square/59a2a1753d6416c84b4e05146280584a33448c14.webp",
+            "alt": "Cinestar Satra Quận 6"
+          },
+          {
+            "src": "https://cdn.moveek.com/storage/media/cache/square/a1cd7de61579e7bca68c7bee4d76c4c7388478cb.webp",
+            "alt": "DCINE Bến Thành"
+          },
+          {
+            "src": "https://cdn.moveek.com/storage/media/cache/square/6397446bee6da982816422.webp",
+            "alt": "Đống Đa"
+          },
+          {
+            "src": "https://cdn.moveek.com/storage/media/cache/square/4e2f8af9e4d780495cbc387e5868c2a48c7f82c2.webp",
+            "alt": "Mega GS Cao Thắng"
+          },
+          {
+            "src": "https://cdn.moveek.com/storage/media/cache/square/4e2f8af9e4d780495cbc387e5868c2a48c7f82c2.webp",
+            "alt": "Mega GS Lý Chính Thắng"
+          },
+          {
+            "src": "https://cdn.moveek.com/storage/media/cache/square/dcc08eb55eca8002f729ae0dff98a2ae6c031db0.webp",
+            "alt": "BHD Star 3/2"
+          },
+          {
+            "src": "https://cdn.moveek.com/storage/media/cache/square/dcc08eb55eca8002f729ae0dff98a2ae6c031db0.webp",
+            "alt": "BHD Star Lê Văn Việt"
+          },
+          {
+            "src": "https://cdn.moveek.com/storage/media/cache/square/dcc08eb55eca8002f729ae0dff98a2ae6c031db0.webp",
+            "alt": "BHD Star Phạm Hùng"
+          },
+          {
+            "src": "https://cdn.moveek.com/storage/media/cache/square/dcc08eb55eca8002f729ae0dff98a2ae6c031db0.webp",
+            "alt": "BHD Star Quang Trung"
+          },
+          {
+            "src": "https://cdn.moveek.com/storage/media/cache/square/dcc08eb55eca8002f729ae0dff98a2ae6c031db0.webp",
+            "alt": "BHD Star Thảo Điền"
+          },
+          {
+            "src": "https://cdn.moveek.com/storage/media/cache/square/524ba157cd271c9c24d15f367a57c13abc26af06.webp",
+            "alt": "CGV Aeon Bình Tân"
+          },
+          {
+            "src": "https://cdn.moveek.com/storage/media/cache/square/524ba157cd271c9c24d15f367a57c13abc26af06.webp",
+            "alt": "CGV Aeon Tân Phú"
+          },
+          {
+            "src": "https://cdn.moveek.com/storage/media/cache/square/524ba157cd271c9c24d15f367a57c13abc26af06.webp",
+            "alt": "CGV Crescent Mall"
+          },
+          {
+            "src": "https://cdn.moveek.com/storage/media/cache/square/524ba157cd271c9c24d15f367a57c13abc26af06.webp",
+            "alt": "CGV Giga Mall Thủ Đức"
+          },
+          {
+            "src": "https://cdn.moveek.com/storage/media/cache/square/524ba157cd271c9c24d15f367a57c13abc26af06.webp",
+            "alt": "CGV Hoàng Văn Thụ"
+          },
+          {
+            "src": "https://cdn.moveek.com/storage/media/cache/square/524ba157cd271c9c24d15f367a57c13abc26af06.webp",
+            "alt": "CGV Hùng Vương Plaza"
+          },
+          {
+            "src": "https://cdn.moveek.com/storage/media/cache/square/524ba157cd271c9c24d15f367a57c13abc26af06.webp",
+            "alt": "CGV Liberty Citypoint"
+          },
+          {
+            "src": "https://cdn.moveek.com/storage/media/cache/square/524ba157cd271c9c24d15f367a57c13abc26af06.webp",
+            "alt": "CGV Lý Chính Thắng"
+          },
+          {
+            "src": "https://cdn.moveek.com/storage/media/cache/square/524ba157cd271c9c24d15f367a57c13abc26af06.webp",
+            "alt": "CGV Menas Mall (CGV CT Plaza)"
+          },
+          {
+            "src": "https://cdn.moveek.com/storage/media/cache/square/524ba157cd271c9c24d15f367a57c13abc26af06.webp",
+            "alt": "CGV Pandora City"
+          },
+          {
+            "src": "https://cdn.moveek.com/storage/media/cache/square/524ba157cd271c9c24d15f367a57c13abc26af06.webp",
+            "alt": "CGV Pearl Plaza"
+          },
+          {
+            "src": "https://cdn.moveek.com/storage/media/cache/square/524ba157cd271c9c24d15f367a57c13abc26af06.webp",
+            "alt": "CGV Saigonres Nguyễn Xí"
+          },
+          {
+            "src": "https://cdn.moveek.com/storage/media/cache/square/524ba157cd271c9c24d15f367a57c13abc26af06.webp",
+            "alt": "CGV Satra Củ Chi"
+          },
+          {
+            "src": "https://cdn.moveek.com/storage/media/cache/square/524ba157cd271c9c24d15f367a57c13abc26af06.webp",
+            "alt": "CGV Sư Vạn Hạnh"
+          },
+          {
+            "src": "https://cdn.moveek.com/storage/media/cache/square/524ba157cd271c9c24d15f367a57c13abc26af06.webp",
+            "alt": "CGV Thảo Điền Pearl"
+          },
+          {
+            "src": "https://cdn.moveek.com/storage/media/cache/square/524ba157cd271c9c24d15f367a57c13abc26af06.webp",
+            "alt": "CGV Vincom Đồng Khởi"
+          },
+          {
+            "src": "https://cdn.moveek.com/storage/media/cache/square/524ba157cd271c9c24d15f367a57c13abc26af06.webp",
+            "alt": "CGV Vincom Gò Vấp"
+          },
+          {
+            "src": "https://cdn.moveek.com/storage/media/cache/square/524ba157cd271c9c24d15f367a57c13abc26af06.webp",
+            "alt": "CGV Vincom Landmark 81"
+          },
+          {
+            "src": "https://cdn.moveek.com/storage/media/cache/square/524ba157cd271c9c24d15f367a57c13abc26af06.webp",
+            "alt": "CGV Vincom Mega Mall Grand Park"
+          },
+          {
+            "src": "https://cdn.moveek.com/storage/media/cache/square/524ba157cd271c9c24d15f367a57c13abc26af06.webp",
+            "alt": "CGV Vincom Thủ Đức"
+          },
+          {
+            "src": "https://cdn.moveek.com/storage/media/cache/square/524ba157cd271c9c24d15f367a57c13abc26af06.webp",
+            "alt": "CGV Vivo City"
+          },
+          {
+            "src": "https://cdn.moveek.com/storage/media/cache/square/5fffb30b3194c340097683.webp",
+            "alt": "Galaxy Cine+ Thiso Phan Huy Ích"
+          },
+          {
+            "src": "https://cdn.moveek.com/storage/media/cache/square/5fffb30b3194c340097683.webp",
+            "alt": "Galaxy CineO GO! An Lạc"
+          },
+          {
+            "src": "https://cdn.moveek.com/storage/media/cache/square/5fffb30b3194c340097683.webp",
+            "alt": "Galaxy Huỳnh Tấn Phát"
+          },
+          {
+            "src": "https://cdn.moveek.com/storage/media/cache/square/5fffb30b3194c340097683.webp",
+            "alt": "Galaxy Kinh Dương Vương"
+          },
+          {
+            "src": "https://cdn.moveek.com/storage/media/cache/square/5fffb30b3194c340097683.webp",
+            "alt": "Galaxy Linh Trung Thủ Đức"
+          },
+          {
+            "src": "https://cdn.moveek.com/storage/media/cache/square/5fffb30b3194c340097683.webp",
+            "alt": "Galaxy Nguyễn Du"
+          },
+          {
+            "src": "https://cdn.moveek.com/storage/media/cache/square/5fffb30b3194c340097683.webp",
+            "alt": "Galaxy Nguyễn Văn Quá"
+          },
+          {
+            "src": "https://cdn.moveek.com/storage/media/cache/square/5fffb30b3194c340097683.webp",
+            "alt": "Galaxy Parc Mall Q8"
+          },
+          {
+            "src": "https://cdn.moveek.com/storage/media/cache/square/5fffb30b3194c340097683.webp",
+            "alt": "Galaxy Quang Trung"
+          },
+          {
+            "src": "https://cdn.moveek.com/storage/media/cache/square/5fffb30b3194c340097683.webp",
+            "alt": "Galaxy Sala"
+          },
+          {
+            "src": "https://cdn.moveek.com/storage/media/cache/square/5fffb30b3194c340097683.webp",
+            "alt": "Galaxy Tân Bình"
+          },
+          {
+            "src": "https://cdn.moveek.com/storage/media/cache/square/5fffb30b3194c340097683.webp",
+            "alt": "Galaxy Trung Chánh"
+          },
+          {
+            "src": "https://cdn.moveek.com/storage/media/cache/square/5fffb30b3194c340097683.webp",
+            "alt": "Galaxy Trường Chinh"
+          },
+          {
+            "src": "https://cdn.moveek.com/storage/media/cache/square/38fee9d0c0a533a3d4fb4779d4efa8842a6d5bae.webp",
+            "alt": "Lotte Cantavil"
+          },
+          {
+            "src": "https://cdn.moveek.com/storage/media/cache/square/38fee9d0c0a533a3d4fb4779d4efa8842a6d5bae.webp",
+            "alt": "Lotte Cộng Hoà"
+          },
+          {
+            "src": "https://cdn.moveek.com/storage/media/cache/square/38fee9d0c0a533a3d4fb4779d4efa8842a6d5bae.webp",
+            "alt": "Lotte Gò Vấp"
+          },
+          {
+            "src": "https://cdn.moveek.com/storage/media/cache/square/38fee9d0c0a533a3d4fb4779d4efa8842a6d5bae.webp",
+            "alt": "Lotte Gold View"
+          },
+          {
+            "src": "https://cdn.moveek.com/storage/media/cache/square/38fee9d0c0a533a3d4fb4779d4efa8842a6d5bae.webp",
+            "alt": "Lotte Moonlight Thủ Đức"
+          },
+          {
+            "src": "https://cdn.moveek.com/storage/media/cache/square/38fee9d0c0a533a3d4fb4779d4efa8842a6d5bae.webp",
+            "alt": "Lotte Nam Sài Gòn"
+          },
+          {
+            "src": "https://cdn.moveek.com/storage/media/cache/square/38fee9d0c0a533a3d4fb4779d4efa8842a6d5bae.webp",
+            "alt": "Lotte Phú Thọ"
+          },
+          {
+            "src": "https://cdn.moveek.com/storage/media/cache/square/38fee9d0c0a533a3d4fb4779d4efa8842a6d5bae.webp",
+            "alt": "Lotte Thủ Đức"
+          },
+          {
+            "src": "https://cdn.moveek.com/img/no-thumbnail.webp",
+            "alt": "Viện Trao đổi Văn Hóa Pháp - IDECAF"
+          },
+          {
+            "src": "https://cdn.moveek.com/img/mascot-sorry.webp",
+            "alt": ""
+          },
+          {
+            "src": "https://cdn.moveek.com/partners/lotte-cinema-icon.webp",
+            "alt": ""
+          }
+        ],
+        "links": [
+          {
+            "text": "",
+            "href": "https://moveek.com/"
+          },
+          {
+            "text": "",
+            "href": "https://moveek.com/phim/vung-dat-quy-du-2026/#"
+          },
+          {
+            "text": "Hỗ trợ",
+            "href": "https://moveek.com/support"
+          },
+          {
+            "text": "",
+            "href": "https://moveek.com/phim/vung-dat-quy-du-2026/#"
+          },
+          {
+            "text": "Đặt vé phim chiếu rạp",
+            "href": "https://moveek.com/mua-ve/"
+          },
+          {
+            "text": "Lịch chiếu",
+            "href": "https://moveek.com/lich-chieu/"
+          },
+          {
+            "text": "Phim",
+            "href": "https://moveek.com/phim/vung-dat-quy-du-2026/#"
+          },
+          {
+            "text": "Đang chiếu",
+            "href": "https://moveek.com/dang-chieu/"
+          },
+          {
+            "text": "Sắp chiếu",
+            "href": "https://moveek.com/sap-chieu/"
+          },
+          {
+            "text": "Chiếu sớm",
+            "href": "https://moveek.com/chieu-som/"
+          },
+          {
+            "text": "Phim tháng 10/2026",
+            "href": "https://moveek.com/phim-thang-10-2026/"
+          },
+          {
+            "text": "Phim Việt Nam",
+            "href": "https://moveek.com/phim-viet-nam/"
+          },
+          {
+            "text": "Rạp",
+            "href": "https://moveek.com/rap/"
+          },
+          {
+            "text": "Tin tức",
+            "href": "https://moveek.com/phim/vung-dat-quy-du-2026/#"
+          },
+          {
+            "text": "Tin điện ảnh",
+            "href": "https://moveek.com/tin-tuc/"
+          },
+          {
+            "text": "Đánh giá phim",
+            "href": "https://moveek.com/danh-gia-phim/"
+          },
+          {
+            "text": "Video",
+            "href": "https://moveek.com/video/"
+          },
+          {
+            "text": "Chuyên đề",
+            "href": "https://moveek.com/phim/vung-dat-quy-du-2026/#"
+          },
+          {
+            "text": "Siêu Anh Hùng",
+            "href": "https://moveek.com/superheroes/"
+          },
+          {
+            "text": "Kinh Dị",
+            "href": "https://moveek.com/horror-thriller/"
+          },
+          {
+            "text": "Góc Nghệ Thuật",
+            "href": "https://moveek.com/art-house/"
+          },
+          {
+            "text": "Vũ trụ điện ảnh",
+            "href": "https://moveek.com/phim/vung-dat-quy-du-2026/#"
+          },
+          {
+            "text": "Marvel Cinematic Universe",
+            "href": "https://moveek.com/marvel-cinematic-universe/"
+          },
+          {
+            "text": "Worlds of DC",
+            "href": "https://moveek.com/worlds-of-dc/"
+          },
+          {
+            "text": "MonsterVerse",
+            "href": "https://moveek.com/monsterverse/"
+          },
+          {
+            "text": "Star Wars Cinematic Universe",
+            "href": "https://moveek.com/star-wars-cinematic-universe/"
+          },
+          {
+            "text": "The Conjuring Universe",
+            "href": "https://moveek.com/the-conjuring-universe/"
+          },
+          {
+            "text": "Tv Series",
+            "href": "https://moveek.com/tv/"
+          },
+          {
+            "text": "Cộng đồng",
+            "href": "https://moveek.com/community"
+          },
+          {
+            "text": "",
+            "href": "https://moveek.com/phim/vung-dat-quy-du-2026/"
+          },
+          {
+            "text": "Vùng Đất Quỷ Dữ 2026",
+            "href": "https://moveek.com/phim/vung-dat-quy-du-2026/"
+          },
+          {
+            "text": "Thích",
+            "href": "https://moveek.com/phim/vung-dat-quy-du-2026/#"
+          },
+          {
+            "text": "Đánh giá",
+            "href": "https://moveek.com/movie/rate/17660"
+          },
+          {
+            "text": "Trailer",
+            "href": "https://moveek.com/video/19043/"
+          },
+          {
+            "text": "57%",
+            "href": "https://moveek.com/review/vung-dat-quy-du-2026/"
+          },
+          {
+            "text": "Austin Abrams",
+            "href": "https://moveek.com/nghe-sy/austin-abrams/"
+          },
+          {
+            "text": "Zach Cherry",
+            "href": "https://moveek.com/nghe-sy/zach-cherry/"
+          },
+          {
+            "text": "Kali Reis",
+            "href": "https://moveek.com/nghe-sy/kali-reis/"
+          },
+          {
+            "text": "Paul Walter Hauser",
+            "href": "https://moveek.com/nghe-sy/paul-walter-hauser/"
+          },
+          {
+            "text": "Johnno Wilson",
+            "href": "https://moveek.com/nghe-sy/johnno-wilson/"
+          },
+          {
+            "text": "Zach Cregger",
+            "href": "https://moveek.com/nghe-sy/zach-cregger/"
+          },
+          {
+            "text": "Robert Kulzer",
+            "href": "https://moveek.com/nghe-sy/robert-kulzer/"
+          },
+          {
+            "text": "Roy Lee",
+            "href": "https://moveek.com/nghe-sy/roy-lee/"
+          },
+          {
+            "text": "Miri Yoon",
+            "href": "https://moveek.com/nghe-sy/miri-yoon/"
+          },
+          {
+            "text": "Thông tin phim",
+            "href": "https://moveek.com/phim/vung-dat-quy-du-2026/"
+          },
+          {
+            "text": "Đánh giá",
+            "href": "https://moveek.com/review/vung-dat-quy-du-2026/"
+          },
+          {
+            "text": "Tin tức",
+            "href": "https://moveek.com/tin-tuc/vung-dat-quy-du-2026/1f1a749d-74b2-60ec-88f3-0242ac110003"
+          },
+          {
+            "text": "Beta Cinemas\n\n1 rạp",
+            "href": "https://moveek.com/phim/vung-dat-quy-du-2026/#"
+          },
+          {
+            "text": "Thông tin rạp",
+            "href": "https://moveek.com/rap/beta-ung-van-khiem"
+          },
+          {
+            "text": "Bản đồ",
+            "href": "https://maps.google.com/?q=Beta%20Ung%20V%C4%83n%20Khi%C3%AAm"
+          },
+          {
+            "text": "Dcine\n\n1 rạp",
+            "href": "https://moveek.com/phim/vung-dat-quy-du-2026/#"
+          },
+          {
+            "text": "Thông tin rạp",
+            "href": "https://moveek.com/rap/dcine-ben-thanh"
+          },
+          {
+            "text": "Bản đồ",
+            "href": "https://maps.google.com/?q=DCINE%20B%E1%BA%BFn%20Th%C3%A0nh"
+          },
+          {
+            "text": "Mega GS Cinemas\n\n2 rạp",
+            "href": "https://moveek.com/phim/vung-dat-quy-du-2026/#"
+          },
+          {
+            "text": "Thông tin rạp",
+            "href": "https://moveek.com/rap/mega-gs-cao-thang"
+          },
+          {
+            "text": "Bản đồ",
+            "href": "https://maps.google.com/?q=Mega%20GS%20Cao%20Th%E1%BA%AFng"
+          },
+          {
+            "text": "Thông tin rạp",
+            "href": "https://moveek.com/rap/mega-gs-ly-chinh-thang"
+          },
+          {
+            "text": "Bản đồ",
+            "href": "https://maps.google.com/?q=Mega%20GS%20L%C3%BD%20Ch%C3%ADnh%20Th%E1%BA%AFng"
+          },
+          {
+            "text": "BHD Star Cineplex\n\n2 rạp",
+            "href": "https://moveek.com/phim/vung-dat-quy-du-2026/#"
+          },
+          {
+            "text": "Thông tin rạp",
+            "href": "https://moveek.com/rap/bhd-star-mega-mall"
+          },
+          {
+            "text": "Bản đồ",
+            "href": "https://maps.google.com/?q=BHD%20Star%20Th%E1%BA%A3o%20%C4%90i%E1%BB%81n"
+          },
+          {
+            "text": "Thông tin rạp",
+            "href": "https://moveek.com/rap/bhd-star-quang-trung"
+          },
+          {
+            "text": "Bản đồ",
+            "href": "https://maps.google.com/?q=BHD%20Star%20Quang%20Trung"
+          },
+          {
+            "text": "CGV Cinemas\n\n18 rạp\n\nGiảm 30% với mã ZLPMOVEEK. Chọn suất chiếu để sang ZaloPay chọn ghế & thanh toán. Hỗ trợ: 1900 545436",
+            "href": "https://moveek.com/phim/vung-dat-quy-du-2026/#"
+          },
+          {
+            "text": "Thông tin rạp",
+            "href": "https://moveek.com/rap/cgv_ly_chinh_thang"
+          },
+          {
+            "text": "Bản đồ",
+            "href": "https://maps.google.com/?q=CGV%20L%C3%BD%20Ch%C3%ADnh%20Th%E1%BA%AFng"
+          },
+          {
+            "text": "Thông tin rạp",
+            "href": "https://moveek.com/rap/cgv-aeon-mall-binh-tan"
+          },
+          {
+            "text": "Bản đồ",
+            "href": "https://maps.google.com/?q=CGV%20Aeon%20B%C3%ACnh%20T%C3%A2n"
+          },
+          {
+            "text": "Thông tin rạp",
+            "href": "https://moveek.com/rap/cgv-celadon"
+          },
+          {
+            "text": "Bản đồ",
+            "href": "https://maps.google.com/?q=CGV%20Aeon%20T%C3%A2n%20Ph%C3%BA"
+          },
+          {
+            "text": "Thông tin rạp",
+            "href": "https://moveek.com/rap/cgv-crescent-mall"
+          },
+          {
+            "text": "Bản đồ",
+            "href": "https://maps.google.com/?q=CGV%20Crescent%20Mall"
+          },
+          {
+            "text": "Thông tin rạp",
+            "href": "https://moveek.com/rap/cgv-ct-plaza"
+          },
+          {
+            "text": "Bản đồ",
+            "href": "https://maps.google.com/?q=CGV%20Menas%20Mall%20(CGV%20CT%20Plaza)"
+          },
+          {
+            "text": "Thông tin rạp",
+            "href": "https://moveek.com/rap/cgv-giga-mall"
+          },
+          {
+            "text": "Bản đồ",
+            "href": "https://maps.google.com/?q=CGV%20Giga%20Mall%20Th%E1%BB%A7%20%C4%90%E1%BB%A9c"
+          },
+          {
+            "text": "Thông tin rạp",
+            "href": "https://moveek.com/rap/cgv-go-vap"
+          },
+          {
+            "text": "Bản đồ",
+            "href": "https://maps.google.com/?q=CGV%20Vincom%20G%C3%B2%20V%E1%BA%A5p"
+          },
+          {
+            "text": "Thông tin rạp",
+            "href": "https://moveek.com/rap/cgv-grand-park"
+          },
+          {
+            "text": "Bản đồ",
+            "href": "https://maps.google.com/?q=CGV%20Vincom%20Mega%20Mall%20Grand%20Park"
+          },
+          {
+            "text": "Thông tin rạp",
+            "href": "https://moveek.com/rap/cgv-hung-vuong"
+          },
+          {
+            "text": "Bản đồ",
+            "href": "https://maps.google.com/?q=CGV%20H%C3%B9ng%20V%C6%B0%C6%A1ng%20Plaza"
+          },
+          {
+            "text": "Thông tin rạp",
+            "href": "https://moveek.com/rap/cgv-liberty-citypoint"
+          },
+          {
+            "text": "Bản đồ",
+            "href": "https://maps.google.com/?q=CGV%20Liberty%20Citypoint"
+          },
+          {
+            "text": "Thông tin rạp",
+            "href": "https://moveek.com/rap/cgv-liberty-hoang-van-thu"
+          },
+          {
+            "text": "Bản đồ",
+            "href": "https://maps.google.com/?q=CGV%20Ho%C3%A0ng%20V%C4%83n%20Th%E1%BB%A5"
+          },
+          {
+            "text": "Thông tin rạp",
+            "href": "https://moveek.com/rap/cgv-pandora-city"
+          },
+          {
+            "text": "Bản đồ",
+            "href": "https://maps.google.com/?q=CGV%20Pandora%20City"
+          },
+          {
+            "text": "Thông tin rạp",
+            "href": "https://moveek.com/rap/cgv-thao-dien-pearl"
+          },
+          {
+            "text": "Bản đồ",
+            "href": "https://maps.google.com/?q=CGV%20Th%E1%BA%A3o%20%C4%90i%E1%BB%81n%20Pearl"
+          },
+          {
+            "text": "Thông tin rạp",
+            "href": "https://moveek.com/rap/cgv-thu-duc"
+          },
+          {
+            "text": "Bản đồ",
+            "href": "https://maps.google.com/?q=CGV%20Vincom%20Th%E1%BB%A7%20%C4%90%E1%BB%A9c"
+          },
+          {
+            "text": "Thông tin rạp",
+            "href": "https://moveek.com/rap/cgv-van-thanh"
+          },
+          {
+            "text": "Bản đồ",
+            "href": "https://maps.google.com/?q=CGV%20Pearl%20Plaza"
+          },
+          {
+            "text": "Thông tin rạp",
+            "href": "https://moveek.com/rap/cgv-vincom-dong-khoi"
+          },
+          {
+            "text": "Bản đồ",
+            "href": "https://maps.google.com/?q=CGV%20Vincom%20%C4%90%E1%BB%93ng%20Kh%E1%BB%9Fi"
+          },
+          {
+            "text": "Thông tin rạp",
+            "href": "https://moveek.com/rap/cgv-vincom-landmark-81"
+          },
+          {
+            "text": "Bản đồ",
+            "href": "https://maps.google.com/?q=CGV%20Vincom%20Landmark%2081"
+          },
+          {
+            "text": "Thông tin rạp",
+            "href": "https://moveek.com/rap/cgv-vivocity"
+          },
+          {
+            "text": "Bản đồ",
+            "href": "https://maps.google.com/?q=CGV%20Vivo%20City"
+          },
+          {
+            "text": "Galaxy Cinema\n\n3 rạp\n\nGiảm 30% với mã ZLPMOVEEK. Chọn suất chiếu để sang ZaloPay chọn ghế & thanh toán. Hỗ trợ: 1900 545436",
+            "href": "https://moveek.com/phim/vung-dat-quy-du-2026/#"
+          },
+          {
+            "text": "Thông tin rạp",
+            "href": "https://moveek.com/rap/galaxy-cine-thiso-phan-huy-ich"
+          },
+          {
+            "text": "Bản đồ",
+            "href": "https://maps.google.com/?q=Galaxy%20Cine+%20Thiso%20Phan%20Huy%20%C3%8Dch"
+          },
+          {
+            "text": "Thông tin rạp",
+            "href": "https://moveek.com/rap/galaxy-kinh-duong-vuong"
+          },
+          {
+            "text": "Bản đồ",
+            "href": "https://maps.google.com/?q=Galaxy%20Kinh%20D%C6%B0%C6%A1ng%20V%C6%B0%C6%A1ng"
+          },
+          {
+            "text": "Thông tin rạp",
+            "href": "https://moveek.com/rap/galaxy-sala"
+          },
+          {
+            "text": "Bản đồ",
+            "href": "https://maps.google.com/?q=Galaxy%20Sala"
+          },
+          {
+            "text": "",
+            "href": "https://moveek.com/bai-viet/review-vung-dat-quy-du-2026-phim-kinh-di-18-gay-bat-ngo-lon/34512"
+          },
+          {
+            "text": "Review Vùng Đất Quỷ Dữ 2026 – Phim kinh dị 18+ gây bất ngờ lớn",
+            "href": "https://moveek.com/bai-viet/review-vung-dat-quy-du-2026-phim-kinh-di-18-gay-bat-ngo-lon/34512"
+          },
+          {
+            "text": "",
+            "href": "https://moveek.com/u/ngan152945"
+          },
+          {
+            "text": "Ngan152945",
+            "href": "https://moveek.com/u/ngan152945"
+          },
+          {
+            "text": "",
+            "href": "https://moveek.com/phim/vung-dat-quy-du-2026/#"
+          },
+          {
+            "text": "Lê Sỹ Khiêm",
+            "href": "https://moveek.com/phim/vung-dat-quy-du-2026/#"
+          },
+          {
+            "text": "",
+            "href": "https://moveek.com/phim/vung-dat-quy-du-2026/#"
+          },
+          {
+            "text": "npu.phun",
+            "href": "https://moveek.com/phim/vung-dat-quy-du-2026/#"
+          },
+          {
+            "text": "",
+            "href": "https://moveek.com/phim/vung-dat-quy-du-2026/#"
+          },
+          {
+            "text": "Nguyễn Hữu Toàn",
+            "href": "https://moveek.com/phim/vung-dat-quy-du-2026/#"
+          },
+          {
+            "text": "",
+            "href": "https://moveek.com/phim/vung-dat-quy-du-2026/#"
+          },
+          {
+            "text": "Leev102",
+            "href": "https://moveek.com/phim/vung-dat-quy-du-2026/#"
+          },
+          {
+            "text": "Án Mạng Xém Hoàn Hảo",
+            "href": "https://moveek.com/phim/an-mang-xem-hoan-hao/"
+          },
+          {
+            "text": "Chị Chị Em Em 3",
+            "href": "https://moveek.com/phim/chi-chi-em-em-3/"
+          },
+          {
+            "text": "Mẹ Mìn",
+            "href": "https://moveek.com/phim/me-min/"
+          },
+          {
+            "text": "Huyết Thống",
+            "href": "https://moveek.com/phim/huyet-thong/"
+          },
+          {
+            "text": "Án Mạng Karaoke",
+            "href": "https://moveek.com/phim/an-mang-karaoke-1/"
+          },
+          {
+            "text": "Bò Sữa Bay",
+            "href": "https://moveek.com/phim/bo-sua-bay/"
+          },
+          {
+            "text": "Chuyến Đi Nhớ Đời",
+            "href": "https://moveek.com/phim/chuyen-di-nho-doi/"
+          },
+          {
+            "text": "Người Được Chọn",
+            "href": "https://moveek.com/phim/nguoi-duoc-chon/"
+          },
+          {
+            "text": "Ngày Con Còn Mẹ",
+            "href": "https://moveek.com/phim/ngay-con-con-me/"
+          },
+          {
+            "text": "Về chúng tôi",
+            "href": "https://moveek.com/about-us"
+          },
+          {
+            "text": "Chính sách bảo mật",
+            "href": "https://moveek.com/privacy"
+          },
+          {
+            "text": "Hỗ trợ",
+            "href": "https://moveek.com/support"
+          },
+          {
+            "text": "Liên hệ",
+            "href": "mailto:thailuu@moveek.vn"
+          },
+          {
+            "text": "",
+            "href": "http://online.gov.vn/Home/WebDetails/52309"
+          },
+          {
+            "text": "Quên mật khẩu?",
+            "href": "https://moveek.com/recover-password/request"
+          },
+          {
+            "text": "Đăng ký ngay",
+            "href": "https://moveek.com/register/"
+          },
+          {
+            "text": "Tp. Hồ Chí Minh 72 rạp",
+            "href": "https://moveek.com/rap-khu-vuc/ho-chi-minh/"
+          },
+          {
+            "text": "Hà Nội 56 rạp",
+            "href": "https://moveek.com/rap-khu-vuc/ha-noi/"
+          },
+          {
+            "text": "Đà Nẵng 11 rạp",
+            "href": "https://moveek.com/rap-khu-vuc/da-nang/"
+          },
+          {
+            "text": "Đồng Nai 9 rạp",
+            "href": "https://moveek.com/rap-khu-vuc/dong-nai/"
+          },
+          {
+            "text": "Cần Thơ 5 rạp",
+            "href": "https://moveek.com/rap-khu-vuc/can-tho/"
+          },
+          {
+            "text": "Bình Dương 10 rạp",
+            "href": "https://moveek.com/rap-khu-vuc/binh-duong/"
+          },
+          {
+            "text": "Bình Phước 3 rạp",
+            "href": "https://moveek.com/rap-khu-vuc/binh-phuoc/"
+          },
+          {
+            "text": "Bình Thuận 1 rạp",
+            "href": "https://moveek.com/rap-khu-vuc/binh-thuan/"
+          },
+          {
+            "text": "Bà Rịa - Vũng Tàu 7 rạp",
+            "href": "https://moveek.com/rap-khu-vuc/vung-tau/"
+          },
+          {
+            "text": "An Giang 3 rạp",
+            "href": "https://moveek.com/rap-khu-vuc/an-giang/"
+          },
+          {
+            "text": "Bến Tre 2 rạp",
+            "href": "https://moveek.com/rap-khu-vuc/ben-tre/"
+          },
+          {
+            "text": "Hải Phòng 6 rạp",
+            "href": "https://moveek.com/rap-khu-vuc/hai-phong/"
+          },
+          {
+            "text": "Kiên Giang 4 rạp",
+            "href": "https://moveek.com/rap-khu-vuc/kien-giang/"
+          },
+          {
+            "text": "Hải Dương 4 rạp",
+            "href": "https://moveek.com/rap-khu-vuc/hai-duong/"
+          },
+          {
+            "text": "Trà Vinh 1 rạp",
+            "href": "https://moveek.com/rap-khu-vuc/tra-vinh/"
+          },
+          {
+            "text": "Quảng Ninh 5 rạp",
+            "href": "https://moveek.com/rap-khu-vuc/quang-ninh/"
+          },
+          {
+            "text": "Vĩnh Long 1 rạp",
+            "href": "https://moveek.com/rap-khu-vuc/vinh-long/"
+          },
+          {
+            "text": "Bắc Giang 2 rạp",
+            "href": "https://moveek.com/rap-khu-vuc/bac-giang/"
+          },
+          {
+            "text": "Ninh Bình 1 rạp",
+            "href": "https://moveek.com/rap-khu-vuc/ninh-binh/"
+          },
+          {
+            "text": "Cà Mau 2 rạp",
+            "href": "https://moveek.com/rap-khu-vuc/ca-mau/"
+          },
+          {
+            "text": "Lào Cai 1 rạp",
+            "href": "https://moveek.com/rap-khu-vuc/lao-cai/"
+          },
+          {
+            "text": "Phú Thọ 3 rạp",
+            "href": "https://moveek.com/rap-khu-vuc/phu-tho/"
+          },
+          {
+            "text": "Hậu Giang 1 rạp",
+            "href": "https://moveek.com/rap-khu-vuc/hau-giang/"
+          },
+          {
+            "text": "Thái Bình 1 rạp",
+            "href": "https://moveek.com/rap-khu-vuc/thai-binh/"
+          },
+          {
+            "text": "Tây Ninh 2 rạp",
+            "href": "https://moveek.com/rap-khu-vuc/tay-ninh/"
+          },
+          {
+            "text": "Khánh Hòa 7 rạp",
+            "href": "https://moveek.com/rap-khu-vuc/khanh-hoa/"
+          },
+          {
+            "text": "Thừa Thiên - Huế 6 rạp",
+            "href": "https://moveek.com/rap-khu-vuc/hue/"
+          },
+          {
+            "text": "Đồng Tháp 2 rạp",
+            "href": "https://moveek.com/rap-khu-vuc/dong-thap/"
+          },
+          {
+            "text": "Thái Nguyên 2 rạp",
+            "href": "https://moveek.com/rap-khu-vuc/thai-nguyen/"
+          },
+          {
+            "text": "Bạc Liêu 3 rạp",
+            "href": "https://moveek.com/rap-khu-vuc/bac-lieu/"
+          },
+          {
+            "text": "Thanh Hóa 2 rạp",
+            "href": "https://moveek.com/rap-khu-vuc/thanh-hoa/"
+          },
+          {
+            "text": "Bình Định 4 rạp",
+            "href": "https://moveek.com/rap-khu-vuc/binh-dinh/"
+          },
+          {
+            "text": "Hưng Yên 2 rạp",
+            "href": "https://moveek.com/rap-khu-vuc/hung-yen/"
+          },
+          {
+            "text": "Sóc Trăng 2 rạp",
+            "href": "https://moveek.com/rap-khu-vuc/soc-trang/"
+          },
+          {
+            "text": "Hà Tĩnh 1 rạp",
+            "href": "https://moveek.com/rap-khu-vuc/ha-tinh/"
+          },
+          {
+            "text": "Yên Bái 1 rạp",
+            "href": "https://moveek.com/rap-khu-vuc/yen-bai/"
+          },
+          {
+            "text": "Đắk Lắk 3 rạp",
+            "href": "https://moveek.com/rap-khu-vuc/dak-lak/"
+          },
+          {
+            "text": "Long An 3 rạp",
+            "href": "https://moveek.com/rap-khu-vuc/long-an/"
+          },
+          {
+            "text": "Nghệ An 4 rạp",
+            "href": "https://moveek.com/rap-khu-vuc/nghe-an/"
+          },
+          {
+            "text": "Tiền Giang 3 rạp",
+            "href": "https://moveek.com/rap-khu-vuc/tien-giang/"
+          },
+          {
+            "text": "Bắc Ninh 4 rạp",
+            "href": "https://moveek.com/rap-khu-vuc/bac-ninh/"
+          },
+          {
+            "text": "Hòa Bình 1 rạp",
+            "href": "https://moveek.com/rap-khu-vuc/hoa-binh/"
+          },
+          {
+            "text": "Tuyên Quang 1 rạp",
+            "href": "https://moveek.com/rap-khu-vuc/tuyen-quang/"
+          },
+          {
+            "text": "Lâm Đồng 5 rạp",
+            "href": "https://moveek.com/rap-khu-vuc/lam-dong/"
+          },
+          {
+            "text": "Nam Định 1 rạp",
+            "href": "https://moveek.com/rap-khu-vuc/nam-dinh/"
+          },
+          {
+            "text": "Quảng Bình 3 rạp",
+            "href": "https://moveek.com/rap-khu-vuc/quang-binh/"
+          },
+          {
+            "text": "Sơn La 1 rạp",
+            "href": "https://moveek.com/rap-khu-vuc/son-la/"
+          },
+          {
+            "text": "Phú Yên 1 rạp",
+            "href": "https://moveek.com/rap-khu-vuc/phu-yen/"
+          },
+          {
+            "text": "Quảng Trị 2 rạp",
+            "href": "https://moveek.com/rap-khu-vuc/quang-tri/"
+          },
+          {
+            "text": "Quảng Nam 2 rạp",
+            "href": "https://moveek.com/rap-khu-vuc/quang-nam/"
+          },
+          {
+            "text": "Lạng Sơn 2 rạp",
+            "href": "https://moveek.com/rap-khu-vuc/lang-son/"
+          },
+          {
+            "text": "Quảng Ngãi 1 rạp",
+            "href": "https://moveek.com/rap-khu-vuc/quang-ngai/"
+          },
+          {
+            "text": "Hà Nam 1 rạp",
+            "href": "https://moveek.com/rap-khu-vuc/ha-nam/"
+          },
+          {
+            "text": "Ninh Thuận 1 rạp",
+            "href": "https://moveek.com/rap-khu-vuc/ninh-thuan/"
+          },
+          {
+            "text": "Vĩnh Phúc 1 rạp",
+            "href": "https://moveek.com/rap-khu-vuc/vinh-phuc/"
+          },
+          {
+            "text": "Gia Lai 2 rạp",
+            "href": "https://moveek.com/rap-khu-vuc/gia-lai/"
+          },
+          {
+            "text": "Kon Tum 2 rạp",
+            "href": "https://moveek.com/rap-khu-vuc/kon-tum/"
+          },
+          {
+            "text": "",
+            "href": "https://moveek.com/rap/aeon-beta-central-premium"
+          },
+          {
+            "text": "AEON BETA Central Premium",
+            "href": "https://moveek.com/rap/aeon-beta-central-premium"
+          },
+          {
+            "text": "",
+            "href": "https://moveek.com/rap/beta-nowzone"
+          },
+          {
+            "text": "Beta Nowzone",
+            "href": "https://moveek.com/rap/beta-nowzone"
+          },
+          {
+            "text": "",
+            "href": "https://moveek.com/rap/beta-quang-trung"
+          },
+          {
+            "text": "Beta Quang Trung",
+            "href": "https://moveek.com/rap/beta-quang-trung"
+          },
+          {
+            "text": "",
+            "href": "https://moveek.com/rap/beta-cineplex-tran-quang-khai"
+          },
+          {
+            "text": "Beta Trần Quang Khải",
+            "href": "https://moveek.com/rap/beta-cineplex-tran-quang-khai"
+          },
+          {
+            "text": "",
+            "href": "https://moveek.com/rap/beta-ung-van-khiem"
+          },
+          {
+            "text": "Beta Ung Văn Khiêm",
+            "href": "https://moveek.com/rap/beta-ung-van-khiem"
+          },
+          {
+            "text": "",
+            "href": "https://moveek.com/rap/cinestar-hiep-phu"
+          },
+          {
+            "text": "Cinestar Hiệp Phú",
+            "href": "https://moveek.com/rap/cinestar-hiep-phu"
+          },
+          {
+            "text": "",
+            "href": "https://moveek.com/rap/cinestar-quoc-thanh"
+          },
+          {
+            "text": "Cinestar Quốc Thanh",
+            "href": "https://moveek.com/rap/cinestar-quoc-thanh"
+          },
+          {
+            "text": "",
+            "href": "https://moveek.com/rap/cinestar-satra-quan-6"
+          },
+          {
+            "text": "Cinestar Satra Quận 6",
+            "href": "https://moveek.com/rap/cinestar-satra-quan-6"
+          },
+          {
+            "text": "",
+            "href": "https://moveek.com/rap/dcine-ben-thanh"
+          },
+          {
+            "text": "DCINE Bến Thành",
+            "href": "https://moveek.com/rap/dcine-ben-thanh"
+          },
+          {
+            "text": "",
+            "href": "https://moveek.com/rap/dong-da"
+          },
+          {
+            "text": "Đống Đa",
+            "href": "https://moveek.com/rap/dong-da"
+          },
+          {
+            "text": "",
+            "href": "https://moveek.com/rap/mega-gs-cao-thang"
+          },
+          {
+            "text": "Mega GS Cao Thắng",
+            "href": "https://moveek.com/rap/mega-gs-cao-thang"
+          },
+          {
+            "text": "",
+            "href": "https://moveek.com/rap/mega-gs-ly-chinh-thang"
+          },
+          {
+            "text": "Mega GS Lý Chính Thắng",
+            "href": "https://moveek.com/rap/mega-gs-ly-chinh-thang"
+          },
+          {
+            "text": "",
+            "href": "https://moveek.com/rap/bhd-star-cinema"
+          },
+          {
+            "text": "BHD Star 3/2",
+            "href": "https://moveek.com/rap/bhd-star-cinema"
+          },
+          {
+            "text": "",
+            "href": "https://moveek.com/rap/bhd-star-vincom-le-van-viet"
+          },
+          {
+            "text": "BHD Star Lê Văn Việt",
+            "href": "https://moveek.com/rap/bhd-star-vincom-le-van-viet"
+          },
+          {
+            "text": "",
+            "href": "https://moveek.com/rap/bhd-star-pham-hung"
+          },
+          {
+            "text": "BHD Star Phạm Hùng",
+            "href": "https://moveek.com/rap/bhd-star-pham-hung"
+          },
+          {
+            "text": "",
+            "href": "https://moveek.com/rap/bhd-star-quang-trung"
+          },
+          {
+            "text": "BHD Star Quang Trung",
+            "href": "https://moveek.com/rap/bhd-star-quang-trung"
+          },
+          {
+            "text": "",
+            "href": "https://moveek.com/rap/bhd-star-mega-mall"
+          },
+          {
+            "text": "BHD Star Thảo Điền",
+            "href": "https://moveek.com/rap/bhd-star-mega-mall"
+          },
+          {
+            "text": "",
+            "href": "https://moveek.com/rap/cgv-aeon-mall-binh-tan"
+          },
+          {
+            "text": "CGV Aeon Bình Tân",
+            "href": "https://moveek.com/rap/cgv-aeon-mall-binh-tan"
+          },
+          {
+            "text": "",
+            "href": "https://moveek.com/rap/cgv-celadon"
+          },
+          {
+            "text": "CGV Aeon Tân Phú",
+            "href": "https://moveek.com/rap/cgv-celadon"
+          },
+          {
+            "text": "",
+            "href": "https://moveek.com/rap/cgv-crescent-mall"
+          },
+          {
+            "text": "CGV Crescent Mall",
+            "href": "https://moveek.com/rap/cgv-crescent-mall"
+          },
+          {
+            "text": "",
+            "href": "https://moveek.com/rap/cgv-giga-mall"
+          },
+          {
+            "text": "CGV Giga Mall Thủ Đức",
+            "href": "https://moveek.com/rap/cgv-giga-mall"
+          },
+          {
+            "text": "",
+            "href": "https://moveek.com/rap/cgv-liberty-hoang-van-thu"
+          },
+          {
+            "text": "CGV Hoàng Văn Thụ",
+            "href": "https://moveek.com/rap/cgv-liberty-hoang-van-thu"
+          },
+          {
+            "text": "",
+            "href": "https://moveek.com/rap/cgv-hung-vuong"
+          },
+          {
+            "text": "CGV Hùng Vương Plaza",
+            "href": "https://moveek.com/rap/cgv-hung-vuong"
+          },
+          {
+            "text": "",
+            "href": "https://moveek.com/rap/cgv-liberty-citypoint"
+          },
+          {
+            "text": "CGV Liberty Citypoint",
+            "href": "https://moveek.com/rap/cgv-liberty-citypoint"
+          },
+          {
+            "text": "",
+            "href": "https://moveek.com/rap/cgv_ly_chinh_thang"
+          },
+          {
+            "text": "CGV Lý Chính Thắng",
+            "href": "https://moveek.com/rap/cgv_ly_chinh_thang"
+          },
+          {
+            "text": "",
+            "href": "https://moveek.com/rap/cgv-ct-plaza"
+          },
+          {
+            "text": "CGV Menas Mall (CGV CT Plaza)",
+            "href": "https://moveek.com/rap/cgv-ct-plaza"
+          },
+          {
+            "text": "",
+            "href": "https://moveek.com/rap/cgv-pandora-city"
+          },
+          {
+            "text": "CGV Pandora City",
+            "href": "https://moveek.com/rap/cgv-pandora-city"
+          },
+          {
+            "text": "",
+            "href": "https://moveek.com/rap/cgv-van-thanh"
+          },
+          {
+            "text": "CGV Pearl Plaza",
+            "href": "https://moveek.com/rap/cgv-van-thanh"
+          },
+          {
+            "text": "",
+            "href": "https://moveek.com/rap/cgv-saigonres"
+          },
+          {
+            "text": "CGV Saigonres Nguyễn Xí",
+            "href": "https://moveek.com/rap/cgv-saigonres"
+          },
+          {
+            "text": "",
+            "href": "https://moveek.com/rap/cgv-satra-cu-chi"
+          },
+          {
+            "text": "CGV Satra Củ Chi",
+            "href": "https://moveek.com/rap/cgv-satra-cu-chi"
+          },
+          {
+            "text": "",
+            "href": "https://moveek.com/rap/cgv-su-van-hanh"
+          },
+          {
+            "text": "CGV Sư Vạn Hạnh",
+            "href": "https://moveek.com/rap/cgv-su-van-hanh"
+          },
+          {
+            "text": "",
+            "href": "https://moveek.com/rap/cgv-thao-dien-pearl"
+          },
+          {
+            "text": "CGV Thảo Điền Pearl",
+            "href": "https://moveek.com/rap/cgv-thao-dien-pearl"
+          },
+          {
+            "text": "",
+            "href": "https://moveek.com/rap/cgv-vincom-dong-khoi"
+          },
+          {
+            "text": "CGV Vincom Đồng Khởi",
+            "href": "https://moveek.com/rap/cgv-vincom-dong-khoi"
+          },
+          {
+            "text": "",
+            "href": "https://moveek.com/rap/cgv-go-vap"
+          },
+          {
+            "text": "CGV Vincom Gò Vấp",
+            "href": "https://moveek.com/rap/cgv-go-vap"
+          },
+          {
+            "text": "",
+            "href": "https://moveek.com/rap/cgv-vincom-landmark-81"
+          },
+          {
+            "text": "CGV Vincom Landmark 81",
+            "href": "https://moveek.com/rap/cgv-vincom-landmark-81"
+          },
+          {
+            "text": "",
+            "href": "https://moveek.com/rap/cgv-grand-park"
+          },
+          {
+            "text": "CGV Vincom Mega Mall Grand Park",
+            "href": "https://moveek.com/rap/cgv-grand-park"
+          },
+          {
+            "text": "",
+            "href": "https://moveek.com/rap/cgv-thu-duc"
+          },
+          {
+            "text": "CGV Vincom Thủ Đức",
+            "href": "https://moveek.com/rap/cgv-thu-duc"
+          },
+          {
+            "text": "",
+            "href": "https://moveek.com/rap/cgv-vivocity"
+          },
+          {
+            "text": "CGV Vivo City",
+            "href": "https://moveek.com/rap/cgv-vivocity"
+          },
+          {
+            "text": "",
+            "href": "https://moveek.com/rap/galaxy-cine-thiso-phan-huy-ich"
+          },
+          {
+            "text": "Galaxy Cine+ Thiso Phan Huy Ích",
+            "href": "https://moveek.com/rap/galaxy-cine-thiso-phan-huy-ich"
+          },
+          {
+            "text": "",
+            "href": "https://moveek.com/rap/galaxy-cineo-go-an-lac"
+          },
+          {
+            "text": "Galaxy CineO GO! An Lạc",
+            "href": "https://moveek.com/rap/galaxy-cineo-go-an-lac"
+          },
+          {
+            "text": "",
+            "href": "https://moveek.com/rap/galaxy-huynh-tan-phat"
+          },
+          {
+            "text": "Galaxy Huỳnh Tấn Phát",
+            "href": "https://moveek.com/rap/galaxy-huynh-tan-phat"
+          },
+          {
+            "text": "",
+            "href": "https://moveek.com/rap/galaxy-kinh-duong-vuong"
+          },
+          {
+            "text": "Galaxy Kinh Dương Vương",
+            "href": "https://moveek.com/rap/galaxy-kinh-duong-vuong"
+          },
+          {
+            "text": "",
+            "href": "https://moveek.com/rap/galaxy-thu-duc"
+          },
+          {
+            "text": "Galaxy Linh Trung Thủ Đức",
+            "href": "https://moveek.com/rap/galaxy-thu-duc"
+          },
+          {
+            "text": "",
+            "href": "https://moveek.com/rap/galaxy-nguyen-du"
+          },
+          {
+            "text": "Galaxy Nguyễn Du",
+            "href": "https://moveek.com/rap/galaxy-nguyen-du"
+          },
+          {
+            "text": "",
+            "href": "https://moveek.com/rap/galaxy-nguyen-van-qua"
+          },
+          {
+            "text": "Galaxy Nguyễn Văn Quá",
+            "href": "https://moveek.com/rap/galaxy-nguyen-van-qua"
+          },
+          {
+            "text": "",
+            "href": "https://moveek.com/rap/Galaxy-Parc-Mall-Q8"
+          },
+          {
+            "text": "Galaxy Parc Mall Q8",
+            "href": "https://moveek.com/rap/Galaxy-Parc-Mall-Q8"
+          },
+          {
+            "text": "",
+            "href": "https://moveek.com/rap/galaxy-quang-trung"
+          },
+          {
+            "text": "Galaxy Quang Trung",
+            "href": "https://moveek.com/rap/galaxy-quang-trung"
+          },
+          {
+            "text": "",
+            "href": "https://moveek.com/rap/galaxy-sala"
+          },
+          {
+            "text": "Galaxy Sala",
+            "href": "https://moveek.com/rap/galaxy-sala"
+          },
+          {
+            "text": "",
+            "href": "https://moveek.com/rap/galaxy-tan-binh"
+          },
+          {
+            "text": "Galaxy Tân Bình",
+            "href": "https://moveek.com/rap/galaxy-tan-binh"
+          },
+          {
+            "text": "",
+            "href": "https://moveek.com/rap/galaxy-trung-chanh"
+          },
+          {
+            "text": "Galaxy Trung Chánh",
+            "href": "https://moveek.com/rap/galaxy-trung-chanh"
+          },
+          {
+            "text": "",
+            "href": "https://moveek.com/rap/galaxy-truong-chinh"
+          },
+          {
+            "text": "Galaxy Trường Chinh",
+            "href": "https://moveek.com/rap/galaxy-truong-chinh"
+          },
+          {
+            "text": "",
+            "href": "https://moveek.com/rap/lotte-cinema-cantavil"
+          },
+          {
+            "text": "Lotte Cantavil",
+            "href": "https://moveek.com/rap/lotte-cinema-cantavil"
+          },
+          {
+            "text": "",
+            "href": "https://moveek.com/rap/lotte-cinema-cong-hoa"
+          },
+          {
+            "text": "Lotte Cộng Hoà",
+            "href": "https://moveek.com/rap/lotte-cinema-cong-hoa"
+          },
+          {
+            "text": "",
+            "href": "https://moveek.com/rap/lotte-go-vap"
+          },
+          {
+            "text": "Lotte Gò Vấp",
+            "href": "https://moveek.com/rap/lotte-go-vap"
+          },
+          {
+            "text": "",
+            "href": "https://moveek.com/rap/lotte-gold-view"
+          },
+          {
+            "text": "Lotte Gold View",
+            "href": "https://moveek.com/rap/lotte-gold-view"
+          },
+          {
+            "text": "",
+            "href": "https://moveek.com/rap/lotte-moonlight-thu-duc"
+          },
+          {
+            "text": "Lotte Moonlight Thủ Đức",
+            "href": "https://moveek.com/rap/lotte-moonlight-thu-duc"
+          },
+          {
+            "text": "",
+            "href": "https://moveek.com/rap/lotte-q7"
+          },
+          {
+            "text": "Lotte Nam Sài Gòn",
+            "href": "https://moveek.com/rap/lotte-q7"
+          },
+          {
+            "text": "",
+            "href": "https://moveek.com/rap/lotte-phu-tho"
+          },
+          {
+            "text": "Lotte Phú Thọ",
+            "href": "https://moveek.com/rap/lotte-phu-tho"
+          },
+          {
+            "text": "",
+            "href": "https://moveek.com/rap/lotte-thu-duc"
+          },
+          {
+            "text": "Lotte Thủ Đức",
+            "href": "https://moveek.com/rap/lotte-thu-duc"
+          },
+          {
+            "text": "",
+            "href": "https://moveek.com/rap/vien-trao-doi-van-hoa-phap-idecaf"
+          },
+          {
+            "text": "Viện Trao đổi Văn Hóa Pháp - IDECAF",
+            "href": "https://moveek.com/rap/vien-trao-doi-van-hoa-phap-idecaf"
+          },
+          {
+            "text": "Đóng",
+            "href": "https://moveek.com/phim/vung-dat-quy-du-2026/#"
+          },
+          {
+            "text": "tại đây",
+            "href": "https://moveek.com/phim/vung-dat-quy-du-2026/#"
+          },
+          {
+            "text": "Đóng",
+            "href": "https://moveek.com/phim/vung-dat-quy-du-2026/#"
+          },
+          {
+            "text": "lottecinemavn.com",
+            "href": "https://www.lottecinemavn.com/"
+          },
+          {
+            "text": "Tôi đã hiểu",
+            "href": "https://moveek.com/phim/vung-dat-quy-du-2026/#"
+          }
+        ],
+        "bodyText": "Hỗ trợ\nĐặt vé phim chiếu rạp\nLịch chiếu\nPhim \nRạp \nTin tức \nCộng đồng\nVùng Đất Quỷ Dữ 2026\n\nResident Evil 2026 - Horror, Science Fiction\n\n Thích Đánh giáTrailer\n\nMột phiên bản Resident Evil mới trở lại đầy kịch tính và kinh hoàng từ bộ óc quái kiệt của đạo diễn Zach Cregger đứng sau “Weapons” & “Barbarian”. Với cốt truyện hoàn toàn mới, phim xoay quanh Bryan (Austin Abrams), một nhân viên vận chuyển vật tư y tế vô tình bị cuốn vào cuộc chạy đua sinh tồn nghẹt thở và dồn dập trong một đêm định mệnh. Liên tiếp chuyện kinh hoàng bất ngờ đẩy anh vào giữa vòng xoáy hỗn loạn.\n\nHài lòng\n57%\nKhởi chiếu\n18/09/2026\nThời lượng\n94 phút\nGiới hạn tuổi\nT18\n\nDiễn viên\nAustin AbramsZach CherryKali ReisPaul Walter HauserJohnno Wilson\n\nĐạo diễn\nZach Cregger\n\nNhà sản xuất\nRobert Kulzer, Roy Lee, Miri Yoon\n\nThông tin phim\nĐánh giá\nTin tức\nLịch chiếu\nTp. Hồ Chí Minh\nHà Nội\nĐà Nẵng\nĐồng Nai\nCần Thơ\nBình Dương\nBình Phước\nBình Thuận\nBà Rịa - Vũng Tàu\nAn Giang\nBến Tre\nHải Phòng\nKiên Giang\nHải Dương\nTrà Vinh\nQuảng Ninh\nVĩnh Long\nBắc Giang\nNinh Bình\nCà Mau\nLào Cai\nPhú Thọ\nHậu Giang\nThái Bình\nTây Ninh\nKhánh Hòa\nThừa Thiên - Huế\nĐồng Tháp\nThái Nguyên\nBạc Liêu\nThanh Hóa\nBình Định\nHưng Yên\nSóc Trăng\nHà Tĩnh\nYên Bái\nĐắk Lắk\nLong An\nNghệ An\nTiền Giang\nBắc Ninh\nHòa Bình\nTuyên Quang\nLâm Đồng\nNam Định\nQuảng Bình\nSơn La\nPhú Yên\nQuảng Trị\nQuảng Nam\nLạng Sơn\nQuảng Ngãi\nHà Nam\nNinh Thuận\nVĩnh Phúc\nGia Lai\nKon Tum\nĐịnh dạng\n2D\n3D\n2/10\nThứ 6\n3/10\nThứ 7\n4/10\nCN\n5/10\nThứ 2\n6/10\nThứ 3\n7/10\nThứ 4\nBeta Cinemas\n\n1 rạp\n\nBeta Ung Văn Khiêm\nDcine\n\n1 rạp\n\nDCINE Bến Thành\nMega GS Cinemas\n\n2 rạp\n\nMega GS Cao Thắng\nMega GS Lý Chính Thắng\nBHD Star Cineplex\n\n2 rạp\n\nCGV Cinemas\n\n18 rạp\n\nGiảm 30% với mã ZLPMOVEEK. Chọn suất chiếu để sang ZaloPay chọn ghế & thanh toán. Hỗ trợ: 1900 545436\nGalaxy Cinema\n\n3 rạp\n\nGiảm 30% với mã ZLPMOVEEK. Chọn suất chiếu để sang ZaloPay chọn ghế & thanh toán. Hỗ trợ: 1900 545436\nTin liên quan\nReview Vùng Đất Quỷ Dữ 2026 – Phim kinh dị 18+ gây bất ngờ lớn\n\nlinhhuynh0257 · 21:30 19/09\n\nCộng đồng\nNgan152945 9\n\n16:22 18/09\n\nPhim hay, giải trí, tạo hình quái vật đẹp, máu me. Phim không có plot twist, âm mưu hay hành động cao siêu gì đâu nên sẽ không hợp với mấy khán giả thích phim diệt zombie hoành tráng như game. Đơn thuần là phim giải trí, vừa kinh dị vừa hài, kể về hành trình vừa giao hàng vừa bị zombie rượt của 1 a shipper chưa bao giờ dùng súng.\nLê Sỹ Khiêm 9\n\n08:02 29/09\n\nKết gây ức chế\nnpu.phun 7\n\n23:06 24/09\n\nphim ổn mà, chê cái gì vậy\nNguyễn Hữu Toàn 2\n\n12:34 22/09\n\nDở tệ, nhảm. Cực kì thất vọng. Làm mất danh tiếng của các phần trước\nLeev102 6\n\n17:49 21/09\n\nChưa đủ wow 🙄\nPHIM VIỆT SẮP CHIẾU\nÁn Mạng Xém Hoàn Hảo\nChị Chị Em Em 3\nMẹ Mìn\nHuyết Thống\nÁn Mạng Karaoke\nBò Sữa Bay\nChuyến Đi Nhớ Đời\nNgười Được Chọn\nNgày Con Còn Mẹ\nCÔNG TY TNHH MONET\nSố ĐKKD: 0315367026 · Nơi cấp: Sở kế hoạch và đầu tư Tp. Hồ Chí Minh · Đăng ký lần đầu ngày 01/11/2018\nĐịa chỉ: 33 Nguyễn Trung Trực, P.5, Q. Bình Thạnh, Tp. Hồ Chí Minh\nVề chúng tôi · Chính sách bảo mật · Hỗ trợ · Liên hệ · v8.1\n\nĐỐI TÁC"
+      }
+    },
+    {
+      "externalId": "diem-mu",
+      "source": "Moveek",
+      "sourceUrl": "https://moveek.com/phim/diem-mu/",
+      "fetchedAt": "2026-10-02T13:43:37.600Z",
+      "contentHash": "db13e097dd3d0e70348934eca8442c63a9de9aa9",
+      "raw": {
+        "title": "Điểm Mù",
+        "description": "Lịch chiếu Điểm Mù và review phim Điểm Mù. Đặt vé ngay tại Moveek",
+        "posterUrl": "https://cdn.moveek.com/storage/media/cache/large/6a7442639cf87089399902.webp",
+        "images": [
+          {
+            "src": "https://cdn.moveek.com/img/logo.png",
+            "alt": "Moveek"
+          },
+          {
+            "src": "https://cdn.moveek.com/storage/media/cache/card/6a7442b793624492203017.webp",
+            "alt": "Điểm Mù"
+          },
+          {
+            "src": "https://cdn.moveek.com/img/favicon-large.png",
+            "alt": "Moveek"
+          },
+          {
+            "src": "https://cdn.moveek.com/partners/beta-cineplex-v2.webp",
+            "alt": "Beta Cinemas"
+          },
+          {
+            "src": "https://cdn.moveek.com/partners/mega-gs-cinemas.webp",
+            "alt": "Mega GS Cinemas"
+          },
+          {
+            "src": "https://cdn.moveek.com/partners/cinestar.webp",
+            "alt": "Cinestar"
+          },
+          {
+            "src": "https://cdn.moveek.com/partners/dcine.webp",
+            "alt": "Dcine"
+          },
+          {
+            "src": "https://cdn.moveek.com/partners/cinemax.webp",
+            "alt": "Cinemax"
+          },
+          {
+            "src": "https://cdn.moveek.com/partners/starlight.webp",
+            "alt": "Starlight"
+          },
+          {
+            "src": "https://cdn.moveek.com/partners/rio.webp",
+            "alt": "Rio Cinemas"
+          },
+          {
+            "src": "https://cdn.moveek.com/partners/dong-da-cinemas.webp",
+            "alt": "DDCinema"
+          },
+          {
+            "src": "https://cdn.moveek.com/partners/touch-cinemas.webp",
+            "alt": "Touch Cinema"
+          },
+          {
+            "src": "https://cdn.moveek.com/partners/baria.webp",
+            "alt": "Bà Rịa Cinema"
+          },
+          {
+            "src": "https://cdn.moveek.com/partners/aeon-beta.webp",
+            "alt": "AEON BETA Cinema"
+          },
+          {
+            "src": "https://cdn.moveek.com/partners/chieu-phim-quoc-gia.webp",
+            "alt": "Trung tâm Chiếu phim Quốc gia"
+          },
+          {
+            "src": "https://cdn.moveek.com/partners/payoo.webp",
+            "alt": "Payoo"
+          },
+          {
+            "src": "https://cdn.moveek.com/partners/momo.webp",
+            "alt": "Ví Điện Tử Momo"
+          },
+          {
+            "src": "https://cdn.moveek.com/partners/zalopay-icon.webp",
+            "alt": "Ví Điện Tử ZaloPay"
+          },
+          {
+            "src": "https://cdn.moveek.com/img/20150827110756-dathongbao.webp",
+            "alt": "Đã thông báo với Bộ Công Thương"
+          },
+          {
+            "src": "https://cdn.moveek.com/storage/media/cache/square/6a0579c0b25ec577708799.webp",
+            "alt": "AEON BETA Central Premium"
+          },
+          {
+            "src": "https://cdn.moveek.com/storage/media/cache/square/5fffb2fcaf3c1018282624.webp",
+            "alt": "Beta Nowzone"
+          },
+          {
+            "src": "https://cdn.moveek.com/storage/media/cache/square/5fffb2fcaf3c1018282624.webp",
+            "alt": "Beta Quang Trung"
+          },
+          {
+            "src": "https://cdn.moveek.com/storage/media/cache/square/5fffb2fcaf3c1018282624.webp",
+            "alt": "Beta Trần Quang Khải"
+          },
+          {
+            "src": "https://cdn.moveek.com/storage/media/cache/square/5fffb2fcaf3c1018282624.webp",
+            "alt": "Beta Ung Văn Khiêm"
+          },
+          {
+            "src": "https://cdn.moveek.com/storage/media/cache/square/59a2a1753d6416c84b4e05146280584a33448c14.webp",
+            "alt": "Cinestar Hiệp Phú"
+          },
+          {
+            "src": "https://cdn.moveek.com/storage/media/cache/square/59a2a1753d6416c84b4e05146280584a33448c14.webp",
+            "alt": "Cinestar Quốc Thanh"
+          },
+          {
+            "src": "https://cdn.moveek.com/storage/media/cache/square/59a2a1753d6416c84b4e05146280584a33448c14.webp",
+            "alt": "Cinestar Satra Quận 6"
+          },
+          {
+            "src": "https://cdn.moveek.com/storage/media/cache/square/a1cd7de61579e7bca68c7bee4d76c4c7388478cb.webp",
+            "alt": "DCINE Bến Thành"
+          },
+          {
+            "src": "https://cdn.moveek.com/storage/media/cache/square/6397446bee6da982816422.webp",
+            "alt": "Đống Đa"
+          },
+          {
+            "src": "https://cdn.moveek.com/storage/media/cache/square/4e2f8af9e4d780495cbc387e5868c2a48c7f82c2.webp",
+            "alt": "Mega GS Cao Thắng"
+          },
+          {
+            "src": "https://cdn.moveek.com/storage/media/cache/square/4e2f8af9e4d780495cbc387e5868c2a48c7f82c2.webp",
+            "alt": "Mega GS Lý Chính Thắng"
+          },
+          {
+            "src": "https://cdn.moveek.com/storage/media/cache/square/dcc08eb55eca8002f729ae0dff98a2ae6c031db0.webp",
+            "alt": "BHD Star 3/2"
+          },
+          {
+            "src": "https://cdn.moveek.com/storage/media/cache/square/dcc08eb55eca8002f729ae0dff98a2ae6c031db0.webp",
+            "alt": "BHD Star Lê Văn Việt"
+          },
+          {
+            "src": "https://cdn.moveek.com/storage/media/cache/square/dcc08eb55eca8002f729ae0dff98a2ae6c031db0.webp",
+            "alt": "BHD Star Phạm Hùng"
+          },
+          {
+            "src": "https://cdn.moveek.com/storage/media/cache/square/dcc08eb55eca8002f729ae0dff98a2ae6c031db0.webp",
+            "alt": "BHD Star Quang Trung"
+          },
+          {
+            "src": "https://cdn.moveek.com/storage/media/cache/square/dcc08eb55eca8002f729ae0dff98a2ae6c031db0.webp",
+            "alt": "BHD Star Thảo Điền"
+          },
+          {
+            "src": "https://cdn.moveek.com/storage/media/cache/square/524ba157cd271c9c24d15f367a57c13abc26af06.webp",
+            "alt": "CGV Aeon Bình Tân"
+          },
+          {
+            "src": "https://cdn.moveek.com/storage/media/cache/square/524ba157cd271c9c24d15f367a57c13abc26af06.webp",
+            "alt": "CGV Aeon Tân Phú"
+          },
+          {
+            "src": "https://cdn.moveek.com/storage/media/cache/square/524ba157cd271c9c24d15f367a57c13abc26af06.webp",
+            "alt": "CGV Crescent Mall"
+          },
+          {
+            "src": "https://cdn.moveek.com/storage/media/cache/square/524ba157cd271c9c24d15f367a57c13abc26af06.webp",
+            "alt": "CGV Giga Mall Thủ Đức"
+          },
+          {
+            "src": "https://cdn.moveek.com/storage/media/cache/square/524ba157cd271c9c24d15f367a57c13abc26af06.webp",
+            "alt": "CGV Hoàng Văn Thụ"
+          },
+          {
+            "src": "https://cdn.moveek.com/storage/media/cache/square/524ba157cd271c9c24d15f367a57c13abc26af06.webp",
+            "alt": "CGV Hùng Vương Plaza"
+          },
+          {
+            "src": "https://cdn.moveek.com/storage/media/cache/square/524ba157cd271c9c24d15f367a57c13abc26af06.webp",
+            "alt": "CGV Liberty Citypoint"
+          },
+          {
+            "src": "https://cdn.moveek.com/storage/media/cache/square/524ba157cd271c9c24d15f367a57c13abc26af06.webp",
+            "alt": "CGV Lý Chính Thắng"
+          },
+          {
+            "src": "https://cdn.moveek.com/storage/media/cache/square/524ba157cd271c9c24d15f367a57c13abc26af06.webp",
+            "alt": "CGV Menas Mall (CGV CT Plaza)"
+          },
+          {
+            "src": "https://cdn.moveek.com/storage/media/cache/square/524ba157cd271c9c24d15f367a57c13abc26af06.webp",
+            "alt": "CGV Pandora City"
+          },
+          {
+            "src": "https://cdn.moveek.com/storage/media/cache/square/524ba157cd271c9c24d15f367a57c13abc26af06.webp",
+            "alt": "CGV Pearl Plaza"
+          },
+          {
+            "src": "https://cdn.moveek.com/storage/media/cache/square/524ba157cd271c9c24d15f367a57c13abc26af06.webp",
+            "alt": "CGV Saigonres Nguyễn Xí"
+          },
+          {
+            "src": "https://cdn.moveek.com/storage/media/cache/square/524ba157cd271c9c24d15f367a57c13abc26af06.webp",
+            "alt": "CGV Satra Củ Chi"
+          },
+          {
+            "src": "https://cdn.moveek.com/storage/media/cache/square/524ba157cd271c9c24d15f367a57c13abc26af06.webp",
+            "alt": "CGV Sư Vạn Hạnh"
+          },
+          {
+            "src": "https://cdn.moveek.com/storage/media/cache/square/524ba157cd271c9c24d15f367a57c13abc26af06.webp",
+            "alt": "CGV Thảo Điền Pearl"
+          },
+          {
+            "src": "https://cdn.moveek.com/storage/media/cache/square/524ba157cd271c9c24d15f367a57c13abc26af06.webp",
+            "alt": "CGV Vincom Đồng Khởi"
+          },
+          {
+            "src": "https://cdn.moveek.com/storage/media/cache/square/524ba157cd271c9c24d15f367a57c13abc26af06.webp",
+            "alt": "CGV Vincom Gò Vấp"
+          },
+          {
+            "src": "https://cdn.moveek.com/storage/media/cache/square/524ba157cd271c9c24d15f367a57c13abc26af06.webp",
+            "alt": "CGV Vincom Landmark 81"
+          },
+          {
+            "src": "https://cdn.moveek.com/storage/media/cache/square/524ba157cd271c9c24d15f367a57c13abc26af06.webp",
+            "alt": "CGV Vincom Mega Mall Grand Park"
+          },
+          {
+            "src": "https://cdn.moveek.com/storage/media/cache/square/524ba157cd271c9c24d15f367a57c13abc26af06.webp",
+            "alt": "CGV Vincom Thủ Đức"
+          },
+          {
+            "src": "https://cdn.moveek.com/storage/media/cache/square/524ba157cd271c9c24d15f367a57c13abc26af06.webp",
+            "alt": "CGV Vivo City"
+          },
+          {
+            "src": "https://cdn.moveek.com/storage/media/cache/square/5fffb30b3194c340097683.webp",
+            "alt": "Galaxy Cine+ Thiso Phan Huy Ích"
+          },
+          {
+            "src": "https://cdn.moveek.com/storage/media/cache/square/5fffb30b3194c340097683.webp",
+            "alt": "Galaxy CineO GO! An Lạc"
+          },
+          {
+            "src": "https://cdn.moveek.com/storage/media/cache/square/5fffb30b3194c340097683.webp",
+            "alt": "Galaxy Huỳnh Tấn Phát"
+          },
+          {
+            "src": "https://cdn.moveek.com/storage/media/cache/square/5fffb30b3194c340097683.webp",
+            "alt": "Galaxy Kinh Dương Vương"
+          },
+          {
+            "src": "https://cdn.moveek.com/storage/media/cache/square/5fffb30b3194c340097683.webp",
+            "alt": "Galaxy Linh Trung Thủ Đức"
+          },
+          {
+            "src": "https://cdn.moveek.com/storage/media/cache/square/5fffb30b3194c340097683.webp",
+            "alt": "Galaxy Nguyễn Du"
+          },
+          {
+            "src": "https://cdn.moveek.com/storage/media/cache/square/5fffb30b3194c340097683.webp",
+            "alt": "Galaxy Nguyễn Văn Quá"
+          },
+          {
+            "src": "https://cdn.moveek.com/storage/media/cache/square/5fffb30b3194c340097683.webp",
+            "alt": "Galaxy Parc Mall Q8"
+          },
+          {
+            "src": "https://cdn.moveek.com/storage/media/cache/square/5fffb30b3194c340097683.webp",
+            "alt": "Galaxy Quang Trung"
+          },
+          {
+            "src": "https://cdn.moveek.com/storage/media/cache/square/5fffb30b3194c340097683.webp",
+            "alt": "Galaxy Sala"
+          },
+          {
+            "src": "https://cdn.moveek.com/storage/media/cache/square/5fffb30b3194c340097683.webp",
+            "alt": "Galaxy Tân Bình"
+          },
+          {
+            "src": "https://cdn.moveek.com/storage/media/cache/square/5fffb30b3194c340097683.webp",
+            "alt": "Galaxy Trung Chánh"
+          },
+          {
+            "src": "https://cdn.moveek.com/storage/media/cache/square/5fffb30b3194c340097683.webp",
+            "alt": "Galaxy Trường Chinh"
+          },
+          {
+            "src": "https://cdn.moveek.com/storage/media/cache/square/38fee9d0c0a533a3d4fb4779d4efa8842a6d5bae.webp",
+            "alt": "Lotte Cantavil"
+          },
+          {
+            "src": "https://cdn.moveek.com/storage/media/cache/square/38fee9d0c0a533a3d4fb4779d4efa8842a6d5bae.webp",
+            "alt": "Lotte Cộng Hoà"
+          },
+          {
+            "src": "https://cdn.moveek.com/storage/media/cache/square/38fee9d0c0a533a3d4fb4779d4efa8842a6d5bae.webp",
+            "alt": "Lotte Gò Vấp"
+          },
+          {
+            "src": "https://cdn.moveek.com/storage/media/cache/square/38fee9d0c0a533a3d4fb4779d4efa8842a6d5bae.webp",
+            "alt": "Lotte Gold View"
+          },
+          {
+            "src": "https://cdn.moveek.com/storage/media/cache/square/38fee9d0c0a533a3d4fb4779d4efa8842a6d5bae.webp",
+            "alt": "Lotte Moonlight Thủ Đức"
+          },
+          {
+            "src": "https://cdn.moveek.com/storage/media/cache/square/38fee9d0c0a533a3d4fb4779d4efa8842a6d5bae.webp",
+            "alt": "Lotte Nam Sài Gòn"
+          },
+          {
+            "src": "https://cdn.moveek.com/storage/media/cache/square/38fee9d0c0a533a3d4fb4779d4efa8842a6d5bae.webp",
+            "alt": "Lotte Phú Thọ"
+          },
+          {
+            "src": "https://cdn.moveek.com/storage/media/cache/square/38fee9d0c0a533a3d4fb4779d4efa8842a6d5bae.webp",
+            "alt": "Lotte Thủ Đức"
+          },
+          {
+            "src": "https://cdn.moveek.com/img/no-thumbnail.webp",
+            "alt": "Viện Trao đổi Văn Hóa Pháp - IDECAF"
+          },
+          {
+            "src": "https://cdn.moveek.com/img/mascot-sorry.webp",
+            "alt": ""
+          },
+          {
+            "src": "https://cdn.moveek.com/partners/lotte-cinema-icon.webp",
+            "alt": ""
+          }
+        ],
+        "links": [
+          {
+            "text": "",
+            "href": "https://moveek.com/"
+          },
+          {
+            "text": "",
+            "href": "https://moveek.com/phim/diem-mu/#"
+          },
+          {
+            "text": "Hỗ trợ",
+            "href": "https://moveek.com/support"
+          },
+          {
+            "text": "",
+            "href": "https://moveek.com/phim/diem-mu/#"
+          },
+          {
+            "text": "Đặt vé phim chiếu rạp",
+            "href": "https://moveek.com/mua-ve/"
+          },
+          {
+            "text": "Lịch chiếu",
+            "href": "https://moveek.com/lich-chieu/"
+          },
+          {
+            "text": "Phim",
+            "href": "https://moveek.com/phim/diem-mu/#"
+          },
+          {
+            "text": "Đang chiếu",
+            "href": "https://moveek.com/dang-chieu/"
+          },
+          {
+            "text": "Sắp chiếu",
+            "href": "https://moveek.com/sap-chieu/"
+          },
+          {
+            "text": "Chiếu sớm",
+            "href": "https://moveek.com/chieu-som/"
+          },
+          {
+            "text": "Phim tháng 10/2026",
+            "href": "https://moveek.com/phim-thang-10-2026/"
+          },
+          {
+            "text": "Phim Việt Nam",
+            "href": "https://moveek.com/phim-viet-nam/"
+          },
+          {
+            "text": "Rạp",
+            "href": "https://moveek.com/rap/"
+          },
+          {
+            "text": "Tin tức",
+            "href": "https://moveek.com/phim/diem-mu/#"
+          },
+          {
+            "text": "Tin điện ảnh",
+            "href": "https://moveek.com/tin-tuc/"
+          },
+          {
+            "text": "Đánh giá phim",
+            "href": "https://moveek.com/danh-gia-phim/"
+          },
+          {
+            "text": "Video",
+            "href": "https://moveek.com/video/"
+          },
+          {
+            "text": "Chuyên đề",
+            "href": "https://moveek.com/phim/diem-mu/#"
+          },
+          {
+            "text": "Siêu Anh Hùng",
+            "href": "https://moveek.com/superheroes/"
+          },
+          {
+            "text": "Kinh Dị",
+            "href": "https://moveek.com/horror-thriller/"
+          },
+          {
+            "text": "Góc Nghệ Thuật",
+            "href": "https://moveek.com/art-house/"
+          },
+          {
+            "text": "Vũ trụ điện ảnh",
+            "href": "https://moveek.com/phim/diem-mu/#"
+          },
+          {
+            "text": "Marvel Cinematic Universe",
+            "href": "https://moveek.com/marvel-cinematic-universe/"
+          },
+          {
+            "text": "Worlds of DC",
+            "href": "https://moveek.com/worlds-of-dc/"
+          },
+          {
+            "text": "MonsterVerse",
+            "href": "https://moveek.com/monsterverse/"
+          },
+          {
+            "text": "Star Wars Cinematic Universe",
+            "href": "https://moveek.com/star-wars-cinematic-universe/"
+          },
+          {
+            "text": "The Conjuring Universe",
+            "href": "https://moveek.com/the-conjuring-universe/"
+          },
+          {
+            "text": "Tv Series",
+            "href": "https://moveek.com/tv/"
+          },
+          {
+            "text": "Cộng đồng",
+            "href": "https://moveek.com/community"
+          },
+          {
+            "text": "",
+            "href": "https://moveek.com/phim/diem-mu/"
+          },
+          {
+            "text": "Điểm Mù",
+            "href": "https://moveek.com/phim/diem-mu/"
+          },
+          {
+            "text": "Thích",
+            "href": "https://moveek.com/phim/diem-mu/#"
+          },
+          {
+            "text": "Đánh giá",
+            "href": "https://moveek.com/movie/rate/17638"
+          },
+          {
+            "text": "Trailer",
+            "href": "https://moveek.com/video/19015/"
+          },
+          {
+            "text": "Shin Min-a",
+            "href": "https://moveek.com/nghe-sy/shin-min-a/"
+          },
+          {
+            "text": "Kim Nam-hee",
+            "href": "https://moveek.com/nghe-sy/kim-nam-hee/"
+          },
+          {
+            "text": "Kim Young-ah",
+            "href": "https://moveek.com/nghe-sy/kim-young-ah/"
+          },
+          {
+            "text": "Lee Seung-ryong",
+            "href": "https://moveek.com/nghe-sy/lee-seung-ryong/"
+          },
+          {
+            "text": "Yeom Ji-ho",
+            "href": "https://moveek.com/nghe-sy/yeom-ji-ho/"
+          },
+          {
+            "text": "Kim Mi-hee",
+            "href": "https://moveek.com/nghe-sy/kim-mi-hee/"
+          },
+          {
+            "text": "Thông tin phim",
+            "href": "https://moveek.com/phim/diem-mu/"
+          },
+          {
+            "text": "Đánh giá",
+            "href": "https://moveek.com/review/diem-mu/"
+          },
+          {
+            "text": "Tin tức",
+            "href": "https://moveek.com/tin-tuc/diem-mu/1f1916ed-7984-63e0-b1bb-0242ac110002"
+          },
+          {
+            "text": "Án Mạng Xém Hoàn Hảo",
+            "href": "https://moveek.com/phim/an-mang-xem-hoan-hao/"
+          },
+          {
+            "text": "Chị Chị Em Em 3",
+            "href": "https://moveek.com/phim/chi-chi-em-em-3/"
+          },
+          {
+            "text": "Mẹ Mìn",
+            "href": "https://moveek.com/phim/me-min/"
+          },
+          {
+            "text": "Huyết Thống",
+            "href": "https://moveek.com/phim/huyet-thong/"
+          },
+          {
+            "text": "Án Mạng Karaoke",
+            "href": "https://moveek.com/phim/an-mang-karaoke-1/"
+          },
+          {
+            "text": "Bò Sữa Bay",
+            "href": "https://moveek.com/phim/bo-sua-bay/"
+          },
+          {
+            "text": "Chuyến Đi Nhớ Đời",
+            "href": "https://moveek.com/phim/chuyen-di-nho-doi/"
+          },
+          {
+            "text": "Người Được Chọn",
+            "href": "https://moveek.com/phim/nguoi-duoc-chon/"
+          },
+          {
+            "text": "Ngày Con Còn Mẹ",
+            "href": "https://moveek.com/phim/ngay-con-con-me/"
+          },
+          {
+            "text": "Về chúng tôi",
+            "href": "https://moveek.com/about-us"
+          },
+          {
+            "text": "Chính sách bảo mật",
+            "href": "https://moveek.com/privacy"
+          },
+          {
+            "text": "Hỗ trợ",
+            "href": "https://moveek.com/support"
+          },
+          {
+            "text": "Liên hệ",
+            "href": "mailto:thailuu@moveek.vn"
+          },
+          {
+            "text": "",
+            "href": "http://online.gov.vn/Home/WebDetails/52309"
+          },
+          {
+            "text": "Quên mật khẩu?",
+            "href": "https://moveek.com/recover-password/request"
+          },
+          {
+            "text": "Đăng ký ngay",
+            "href": "https://moveek.com/register/"
+          },
+          {
+            "text": "Tp. Hồ Chí Minh 72 rạp",
+            "href": "https://moveek.com/rap-khu-vuc/ho-chi-minh/"
+          },
+          {
+            "text": "Hà Nội 56 rạp",
+            "href": "https://moveek.com/rap-khu-vuc/ha-noi/"
+          },
+          {
+            "text": "Đà Nẵng 11 rạp",
+            "href": "https://moveek.com/rap-khu-vuc/da-nang/"
+          },
+          {
+            "text": "Đồng Nai 9 rạp",
+            "href": "https://moveek.com/rap-khu-vuc/dong-nai/"
+          },
+          {
+            "text": "Cần Thơ 5 rạp",
+            "href": "https://moveek.com/rap-khu-vuc/can-tho/"
+          },
+          {
+            "text": "Bình Dương 10 rạp",
+            "href": "https://moveek.com/rap-khu-vuc/binh-duong/"
+          },
+          {
+            "text": "Bình Phước 3 rạp",
+            "href": "https://moveek.com/rap-khu-vuc/binh-phuoc/"
+          },
+          {
+            "text": "Bình Thuận 1 rạp",
+            "href": "https://moveek.com/rap-khu-vuc/binh-thuan/"
+          },
+          {
+            "text": "Bà Rịa - Vũng Tàu 7 rạp",
+            "href": "https://moveek.com/rap-khu-vuc/vung-tau/"
+          },
+          {
+            "text": "An Giang 3 rạp",
+            "href": "https://moveek.com/rap-khu-vuc/an-giang/"
+          },
+          {
+            "text": "Bến Tre 2 rạp",
+            "href": "https://moveek.com/rap-khu-vuc/ben-tre/"
+          },
+          {
+            "text": "Hải Phòng 6 rạp",
+            "href": "https://moveek.com/rap-khu-vuc/hai-phong/"
+          },
+          {
+            "text": "Kiên Giang 4 rạp",
+            "href": "https://moveek.com/rap-khu-vuc/kien-giang/"
+          },
+          {
+            "text": "Hải Dương 4 rạp",
+            "href": "https://moveek.com/rap-khu-vuc/hai-duong/"
+          },
+          {
+            "text": "Trà Vinh 1 rạp",
+            "href": "https://moveek.com/rap-khu-vuc/tra-vinh/"
+          },
+          {
+            "text": "Quảng Ninh 5 rạp",
+            "href": "https://moveek.com/rap-khu-vuc/quang-ninh/"
+          },
+          {
+            "text": "Vĩnh Long 1 rạp",
+            "href": "https://moveek.com/rap-khu-vuc/vinh-long/"
+          },
+          {
+            "text": "Bắc Giang 2 rạp",
+            "href": "https://moveek.com/rap-khu-vuc/bac-giang/"
+          },
+          {
+            "text": "Ninh Bình 1 rạp",
+            "href": "https://moveek.com/rap-khu-vuc/ninh-binh/"
+          },
+          {
+            "text": "Cà Mau 2 rạp",
+            "href": "https://moveek.com/rap-khu-vuc/ca-mau/"
+          },
+          {
+            "text": "Lào Cai 1 rạp",
+            "href": "https://moveek.com/rap-khu-vuc/lao-cai/"
+          },
+          {
+            "text": "Phú Thọ 3 rạp",
+            "href": "https://moveek.com/rap-khu-vuc/phu-tho/"
+          },
+          {
+            "text": "Hậu Giang 1 rạp",
+            "href": "https://moveek.com/rap-khu-vuc/hau-giang/"
+          },
+          {
+            "text": "Thái Bình 1 rạp",
+            "href": "https://moveek.com/rap-khu-vuc/thai-binh/"
+          },
+          {
+            "text": "Tây Ninh 2 rạp",
+            "href": "https://moveek.com/rap-khu-vuc/tay-ninh/"
+          },
+          {
+            "text": "Khánh Hòa 7 rạp",
+            "href": "https://moveek.com/rap-khu-vuc/khanh-hoa/"
+          },
+          {
+            "text": "Thừa Thiên - Huế 6 rạp",
+            "href": "https://moveek.com/rap-khu-vuc/hue/"
+          },
+          {
+            "text": "Đồng Tháp 2 rạp",
+            "href": "https://moveek.com/rap-khu-vuc/dong-thap/"
+          },
+          {
+            "text": "Thái Nguyên 2 rạp",
+            "href": "https://moveek.com/rap-khu-vuc/thai-nguyen/"
+          },
+          {
+            "text": "Bạc Liêu 3 rạp",
+            "href": "https://moveek.com/rap-khu-vuc/bac-lieu/"
+          },
+          {
+            "text": "Thanh Hóa 2 rạp",
+            "href": "https://moveek.com/rap-khu-vuc/thanh-hoa/"
+          },
+          {
+            "text": "Bình Định 4 rạp",
+            "href": "https://moveek.com/rap-khu-vuc/binh-dinh/"
+          },
+          {
+            "text": "Hưng Yên 2 rạp",
+            "href": "https://moveek.com/rap-khu-vuc/hung-yen/"
+          },
+          {
+            "text": "Sóc Trăng 2 rạp",
+            "href": "https://moveek.com/rap-khu-vuc/soc-trang/"
+          },
+          {
+            "text": "Hà Tĩnh 1 rạp",
+            "href": "https://moveek.com/rap-khu-vuc/ha-tinh/"
+          },
+          {
+            "text": "Yên Bái 1 rạp",
+            "href": "https://moveek.com/rap-khu-vuc/yen-bai/"
+          },
+          {
+            "text": "Đắk Lắk 3 rạp",
+            "href": "https://moveek.com/rap-khu-vuc/dak-lak/"
+          },
+          {
+            "text": "Long An 3 rạp",
+            "href": "https://moveek.com/rap-khu-vuc/long-an/"
+          },
+          {
+            "text": "Nghệ An 4 rạp",
+            "href": "https://moveek.com/rap-khu-vuc/nghe-an/"
+          },
+          {
+            "text": "Tiền Giang 3 rạp",
+            "href": "https://moveek.com/rap-khu-vuc/tien-giang/"
+          },
+          {
+            "text": "Bắc Ninh 4 rạp",
+            "href": "https://moveek.com/rap-khu-vuc/bac-ninh/"
+          },
+          {
+            "text": "Hòa Bình 1 rạp",
+            "href": "https://moveek.com/rap-khu-vuc/hoa-binh/"
+          },
+          {
+            "text": "Tuyên Quang 1 rạp",
+            "href": "https://moveek.com/rap-khu-vuc/tuyen-quang/"
+          },
+          {
+            "text": "Lâm Đồng 5 rạp",
+            "href": "https://moveek.com/rap-khu-vuc/lam-dong/"
+          },
+          {
+            "text": "Nam Định 1 rạp",
+            "href": "https://moveek.com/rap-khu-vuc/nam-dinh/"
+          },
+          {
+            "text": "Quảng Bình 3 rạp",
+            "href": "https://moveek.com/rap-khu-vuc/quang-binh/"
+          },
+          {
+            "text": "Sơn La 1 rạp",
+            "href": "https://moveek.com/rap-khu-vuc/son-la/"
+          },
+          {
+            "text": "Phú Yên 1 rạp",
+            "href": "https://moveek.com/rap-khu-vuc/phu-yen/"
+          },
+          {
+            "text": "Quảng Trị 2 rạp",
+            "href": "https://moveek.com/rap-khu-vuc/quang-tri/"
+          },
+          {
+            "text": "Quảng Nam 2 rạp",
+            "href": "https://moveek.com/rap-khu-vuc/quang-nam/"
+          },
+          {
+            "text": "Lạng Sơn 2 rạp",
+            "href": "https://moveek.com/rap-khu-vuc/lang-son/"
+          },
+          {
+            "text": "Quảng Ngãi 1 rạp",
+            "href": "https://moveek.com/rap-khu-vuc/quang-ngai/"
+          },
+          {
+            "text": "Hà Nam 1 rạp",
+            "href": "https://moveek.com/rap-khu-vuc/ha-nam/"
+          },
+          {
+            "text": "Ninh Thuận 1 rạp",
+            "href": "https://moveek.com/rap-khu-vuc/ninh-thuan/"
+          },
+          {
+            "text": "Vĩnh Phúc 1 rạp",
+            "href": "https://moveek.com/rap-khu-vuc/vinh-phuc/"
+          },
+          {
+            "text": "Gia Lai 2 rạp",
+            "href": "https://moveek.com/rap-khu-vuc/gia-lai/"
+          },
+          {
+            "text": "Kon Tum 2 rạp",
+            "href": "https://moveek.com/rap-khu-vuc/kon-tum/"
+          },
+          {
+            "text": "",
+            "href": "https://moveek.com/rap/aeon-beta-central-premium"
+          },
+          {
+            "text": "AEON BETA Central Premium",
+            "href": "https://moveek.com/rap/aeon-beta-central-premium"
+          },
+          {
+            "text": "",
+            "href": "https://moveek.com/rap/beta-nowzone"
+          },
+          {
+            "text": "Beta Nowzone",
+            "href": "https://moveek.com/rap/beta-nowzone"
+          },
+          {
+            "text": "",
+            "href": "https://moveek.com/rap/beta-quang-trung"
+          },
+          {
+            "text": "Beta Quang Trung",
+            "href": "https://moveek.com/rap/beta-quang-trung"
+          },
+          {
+            "text": "",
+            "href": "https://moveek.com/rap/beta-cineplex-tran-quang-khai"
+          },
+          {
+            "text": "Beta Trần Quang Khải",
+            "href": "https://moveek.com/rap/beta-cineplex-tran-quang-khai"
+          },
+          {
+            "text": "",
+            "href": "https://moveek.com/rap/beta-ung-van-khiem"
+          },
+          {
+            "text": "Beta Ung Văn Khiêm",
+            "href": "https://moveek.com/rap/beta-ung-van-khiem"
+          },
+          {
+            "text": "",
+            "href": "https://moveek.com/rap/cinestar-hiep-phu"
+          },
+          {
+            "text": "Cinestar Hiệp Phú",
+            "href": "https://moveek.com/rap/cinestar-hiep-phu"
+          },
+          {
+            "text": "",
+            "href": "https://moveek.com/rap/cinestar-quoc-thanh"
+          },
+          {
+            "text": "Cinestar Quốc Thanh",
+            "href": "https://moveek.com/rap/cinestar-quoc-thanh"
+          },
+          {
+            "text": "",
+            "href": "https://moveek.com/rap/cinestar-satra-quan-6"
+          },
+          {
+            "text": "Cinestar Satra Quận 6",
+            "href": "https://moveek.com/rap/cinestar-satra-quan-6"
+          },
+          {
+            "text": "",
+            "href": "https://moveek.com/rap/dcine-ben-thanh"
+          },
+          {
+            "text": "DCINE Bến Thành",
+            "href": "https://moveek.com/rap/dcine-ben-thanh"
+          },
+          {
+            "text": "",
+            "href": "https://moveek.com/rap/dong-da"
+          },
+          {
+            "text": "Đống Đa",
+            "href": "https://moveek.com/rap/dong-da"
+          },
+          {
+            "text": "",
+            "href": "https://moveek.com/rap/mega-gs-cao-thang"
+          },
+          {
+            "text": "Mega GS Cao Thắng",
+            "href": "https://moveek.com/rap/mega-gs-cao-thang"
+          },
+          {
+            "text": "",
+            "href": "https://moveek.com/rap/mega-gs-ly-chinh-thang"
+          },
+          {
+            "text": "Mega GS Lý Chính Thắng",
+            "href": "https://moveek.com/rap/mega-gs-ly-chinh-thang"
+          },
+          {
+            "text": "",
+            "href": "https://moveek.com/rap/bhd-star-cinema"
+          },
+          {
+            "text": "BHD Star 3/2",
+            "href": "https://moveek.com/rap/bhd-star-cinema"
+          },
+          {
+            "text": "",
+            "href": "https://moveek.com/rap/bhd-star-vincom-le-van-viet"
+          },
+          {
+            "text": "BHD Star Lê Văn Việt",
+            "href": "https://moveek.com/rap/bhd-star-vincom-le-van-viet"
+          },
+          {
+            "text": "",
+            "href": "https://moveek.com/rap/bhd-star-pham-hung"
+          },
+          {
+            "text": "BHD Star Phạm Hùng",
+            "href": "https://moveek.com/rap/bhd-star-pham-hung"
+          },
+          {
+            "text": "",
+            "href": "https://moveek.com/rap/bhd-star-quang-trung"
+          },
+          {
+            "text": "BHD Star Quang Trung",
+            "href": "https://moveek.com/rap/bhd-star-quang-trung"
+          },
+          {
+            "text": "",
+            "href": "https://moveek.com/rap/bhd-star-mega-mall"
+          },
+          {
+            "text": "BHD Star Thảo Điền",
+            "href": "https://moveek.com/rap/bhd-star-mega-mall"
+          },
+          {
+            "text": "",
+            "href": "https://moveek.com/rap/cgv-aeon-mall-binh-tan"
+          },
+          {
+            "text": "CGV Aeon Bình Tân",
+            "href": "https://moveek.com/rap/cgv-aeon-mall-binh-tan"
+          },
+          {
+            "text": "",
+            "href": "https://moveek.com/rap/cgv-celadon"
+          },
+          {
+            "text": "CGV Aeon Tân Phú",
+            "href": "https://moveek.com/rap/cgv-celadon"
+          },
+          {
+            "text": "",
+            "href": "https://moveek.com/rap/cgv-crescent-mall"
+          },
+          {
+            "text": "CGV Crescent Mall",
+            "href": "https://moveek.com/rap/cgv-crescent-mall"
+          },
+          {
+            "text": "",
+            "href": "https://moveek.com/rap/cgv-giga-mall"
+          },
+          {
+            "text": "CGV Giga Mall Thủ Đức",
+            "href": "https://moveek.com/rap/cgv-giga-mall"
+          },
+          {
+            "text": "",
+            "href": "https://moveek.com/rap/cgv-liberty-hoang-van-thu"
+          },
+          {
+            "text": "CGV Hoàng Văn Thụ",
+            "href": "https://moveek.com/rap/cgv-liberty-hoang-van-thu"
+          },
+          {
+            "text": "",
+            "href": "https://moveek.com/rap/cgv-hung-vuong"
+          },
+          {
+            "text": "CGV Hùng Vương Plaza",
+            "href": "https://moveek.com/rap/cgv-hung-vuong"
+          },
+          {
+            "text": "",
+            "href": "https://moveek.com/rap/cgv-liberty-citypoint"
+          },
+          {
+            "text": "CGV Liberty Citypoint",
+            "href": "https://moveek.com/rap/cgv-liberty-citypoint"
+          },
+          {
+            "text": "",
+            "href": "https://moveek.com/rap/cgv_ly_chinh_thang"
+          },
+          {
+            "text": "CGV Lý Chính Thắng",
+            "href": "https://moveek.com/rap/cgv_ly_chinh_thang"
+          },
+          {
+            "text": "",
+            "href": "https://moveek.com/rap/cgv-ct-plaza"
+          },
+          {
+            "text": "CGV Menas Mall (CGV CT Plaza)",
+            "href": "https://moveek.com/rap/cgv-ct-plaza"
+          },
+          {
+            "text": "",
+            "href": "https://moveek.com/rap/cgv-pandora-city"
+          },
+          {
+            "text": "CGV Pandora City",
+            "href": "https://moveek.com/rap/cgv-pandora-city"
+          },
+          {
+            "text": "",
+            "href": "https://moveek.com/rap/cgv-van-thanh"
+          },
+          {
+            "text": "CGV Pearl Plaza",
+            "href": "https://moveek.com/rap/cgv-van-thanh"
+          },
+          {
+            "text": "",
+            "href": "https://moveek.com/rap/cgv-saigonres"
+          },
+          {
+            "text": "CGV Saigonres Nguyễn Xí",
+            "href": "https://moveek.com/rap/cgv-saigonres"
+          },
+          {
+            "text": "",
+            "href": "https://moveek.com/rap/cgv-satra-cu-chi"
+          },
+          {
+            "text": "CGV Satra Củ Chi",
+            "href": "https://moveek.com/rap/cgv-satra-cu-chi"
+          },
+          {
+            "text": "",
+            "href": "https://moveek.com/rap/cgv-su-van-hanh"
+          },
+          {
+            "text": "CGV Sư Vạn Hạnh",
+            "href": "https://moveek.com/rap/cgv-su-van-hanh"
+          },
+          {
+            "text": "",
+            "href": "https://moveek.com/rap/cgv-thao-dien-pearl"
+          },
+          {
+            "text": "CGV Thảo Điền Pearl",
+            "href": "https://moveek.com/rap/cgv-thao-dien-pearl"
+          },
+          {
+            "text": "",
+            "href": "https://moveek.com/rap/cgv-vincom-dong-khoi"
+          },
+          {
+            "text": "CGV Vincom Đồng Khởi",
+            "href": "https://moveek.com/rap/cgv-vincom-dong-khoi"
+          },
+          {
+            "text": "",
+            "href": "https://moveek.com/rap/cgv-go-vap"
+          },
+          {
+            "text": "CGV Vincom Gò Vấp",
+            "href": "https://moveek.com/rap/cgv-go-vap"
+          },
+          {
+            "text": "",
+            "href": "https://moveek.com/rap/cgv-vincom-landmark-81"
+          },
+          {
+            "text": "CGV Vincom Landmark 81",
+            "href": "https://moveek.com/rap/cgv-vincom-landmark-81"
+          },
+          {
+            "text": "",
+            "href": "https://moveek.com/rap/cgv-grand-park"
+          },
+          {
+            "text": "CGV Vincom Mega Mall Grand Park",
+            "href": "https://moveek.com/rap/cgv-grand-park"
+          },
+          {
+            "text": "",
+            "href": "https://moveek.com/rap/cgv-thu-duc"
+          },
+          {
+            "text": "CGV Vincom Thủ Đức",
+            "href": "https://moveek.com/rap/cgv-thu-duc"
+          },
+          {
+            "text": "",
+            "href": "https://moveek.com/rap/cgv-vivocity"
+          },
+          {
+            "text": "CGV Vivo City",
+            "href": "https://moveek.com/rap/cgv-vivocity"
+          },
+          {
+            "text": "",
+            "href": "https://moveek.com/rap/galaxy-cine-thiso-phan-huy-ich"
+          },
+          {
+            "text": "Galaxy Cine+ Thiso Phan Huy Ích",
+            "href": "https://moveek.com/rap/galaxy-cine-thiso-phan-huy-ich"
+          },
+          {
+            "text": "",
+            "href": "https://moveek.com/rap/galaxy-cineo-go-an-lac"
+          },
+          {
+            "text": "Galaxy CineO GO! An Lạc",
+            "href": "https://moveek.com/rap/galaxy-cineo-go-an-lac"
+          },
+          {
+            "text": "",
+            "href": "https://moveek.com/rap/galaxy-huynh-tan-phat"
+          },
+          {
+            "text": "Galaxy Huỳnh Tấn Phát",
+            "href": "https://moveek.com/rap/galaxy-huynh-tan-phat"
+          },
+          {
+            "text": "",
+            "href": "https://moveek.com/rap/galaxy-kinh-duong-vuong"
+          },
+          {
+            "text": "Galaxy Kinh Dương Vương",
+            "href": "https://moveek.com/rap/galaxy-kinh-duong-vuong"
+          },
+          {
+            "text": "",
+            "href": "https://moveek.com/rap/galaxy-thu-duc"
+          },
+          {
+            "text": "Galaxy Linh Trung Thủ Đức",
+            "href": "https://moveek.com/rap/galaxy-thu-duc"
+          },
+          {
+            "text": "",
+            "href": "https://moveek.com/rap/galaxy-nguyen-du"
+          },
+          {
+            "text": "Galaxy Nguyễn Du",
+            "href": "https://moveek.com/rap/galaxy-nguyen-du"
+          },
+          {
+            "text": "",
+            "href": "https://moveek.com/rap/galaxy-nguyen-van-qua"
+          },
+          {
+            "text": "Galaxy Nguyễn Văn Quá",
+            "href": "https://moveek.com/rap/galaxy-nguyen-van-qua"
+          },
+          {
+            "text": "",
+            "href": "https://moveek.com/rap/Galaxy-Parc-Mall-Q8"
+          },
+          {
+            "text": "Galaxy Parc Mall Q8",
+            "href": "https://moveek.com/rap/Galaxy-Parc-Mall-Q8"
+          },
+          {
+            "text": "",
+            "href": "https://moveek.com/rap/galaxy-quang-trung"
+          },
+          {
+            "text": "Galaxy Quang Trung",
+            "href": "https://moveek.com/rap/galaxy-quang-trung"
+          },
+          {
+            "text": "",
+            "href": "https://moveek.com/rap/galaxy-sala"
+          },
+          {
+            "text": "Galaxy Sala",
+            "href": "https://moveek.com/rap/galaxy-sala"
+          },
+          {
+            "text": "",
+            "href": "https://moveek.com/rap/galaxy-tan-binh"
+          },
+          {
+            "text": "Galaxy Tân Bình",
+            "href": "https://moveek.com/rap/galaxy-tan-binh"
+          },
+          {
+            "text": "",
+            "href": "https://moveek.com/rap/galaxy-trung-chanh"
+          },
+          {
+            "text": "Galaxy Trung Chánh",
+            "href": "https://moveek.com/rap/galaxy-trung-chanh"
+          },
+          {
+            "text": "",
+            "href": "https://moveek.com/rap/galaxy-truong-chinh"
+          },
+          {
+            "text": "Galaxy Trường Chinh",
+            "href": "https://moveek.com/rap/galaxy-truong-chinh"
+          },
+          {
+            "text": "",
+            "href": "https://moveek.com/rap/lotte-cinema-cantavil"
+          },
+          {
+            "text": "Lotte Cantavil",
+            "href": "https://moveek.com/rap/lotte-cinema-cantavil"
+          },
+          {
+            "text": "",
+            "href": "https://moveek.com/rap/lotte-cinema-cong-hoa"
+          },
+          {
+            "text": "Lotte Cộng Hoà",
+            "href": "https://moveek.com/rap/lotte-cinema-cong-hoa"
+          },
+          {
+            "text": "",
+            "href": "https://moveek.com/rap/lotte-go-vap"
+          },
+          {
+            "text": "Lotte Gò Vấp",
+            "href": "https://moveek.com/rap/lotte-go-vap"
+          },
+          {
+            "text": "",
+            "href": "https://moveek.com/rap/lotte-gold-view"
+          },
+          {
+            "text": "Lotte Gold View",
+            "href": "https://moveek.com/rap/lotte-gold-view"
+          },
+          {
+            "text": "",
+            "href": "https://moveek.com/rap/lotte-moonlight-thu-duc"
+          },
+          {
+            "text": "Lotte Moonlight Thủ Đức",
+            "href": "https://moveek.com/rap/lotte-moonlight-thu-duc"
+          },
+          {
+            "text": "",
+            "href": "https://moveek.com/rap/lotte-q7"
+          },
+          {
+            "text": "Lotte Nam Sài Gòn",
+            "href": "https://moveek.com/rap/lotte-q7"
+          },
+          {
+            "text": "",
+            "href": "https://moveek.com/rap/lotte-phu-tho"
+          },
+          {
+            "text": "Lotte Phú Thọ",
+            "href": "https://moveek.com/rap/lotte-phu-tho"
+          },
+          {
+            "text": "",
+            "href": "https://moveek.com/rap/lotte-thu-duc"
+          },
+          {
+            "text": "Lotte Thủ Đức",
+            "href": "https://moveek.com/rap/lotte-thu-duc"
+          },
+          {
+            "text": "",
+            "href": "https://moveek.com/rap/vien-trao-doi-van-hoa-phap-idecaf"
+          },
+          {
+            "text": "Viện Trao đổi Văn Hóa Pháp - IDECAF",
+            "href": "https://moveek.com/rap/vien-trao-doi-van-hoa-phap-idecaf"
+          },
+          {
+            "text": "Đóng",
+            "href": "https://moveek.com/phim/diem-mu/#"
+          },
+          {
+            "text": "tại đây",
+            "href": "https://moveek.com/phim/diem-mu/#"
+          },
+          {
+            "text": "Đóng",
+            "href": "https://moveek.com/phim/diem-mu/#"
+          },
+          {
+            "text": "lottecinemavn.com",
+            "href": "https://www.lottecinemavn.com/"
+          },
+          {
+            "text": "Tôi đã hiểu",
+            "href": "https://moveek.com/phim/diem-mu/#"
+          }
+        ],
+        "bodyText": "Hỗ trợ\nĐặt vé phim chiếu rạp\nLịch chiếu\nPhim \nRạp \nTin tức \nCộng đồng\nĐiểm Mù\n\nThe Eyes - Thriller, Horror\n\n Thích Đánh giáTrailer\n\nPhát hiện người chị em song sinh qua đời bất thường dưới vỏ bọc tự sát, Seo-jin (Shin Min-A) quyết tâm dấn thân vào cuộc săn đuổi vạch mặt kẻ thủ ác. Đối mặt với căn bệnh di truyền đang rút cạn thị lực từng ngày và chính bản thân cô trở thành mục tiêu tiếp theo của kẻ sát nhân, hành trình giải mã ma trận tâm lý và truy lùng hung thủ của Seo-jin trở nên căng thẳng và nguy cấp hơn bao giờ hết.\n\nKhởi chiếu\n14/08/2026\nThời lượng\n105 phút\nGiới hạn tuổi\nT18\n\nDiễn viên\nShin Min-a, Kim Nam-hee, Kim Young-ah, Lee Seung-ryong\n\nĐạo diễn\nYeom Ji-ho\n\nNhà sản xuất\nKim Mi-hee\n\nThông tin phim\nĐánh giá\nTin tức\nLịch chiếu\nTp. Hồ Chí Minh\nHà Nội\nĐà Nẵng\nĐồng Nai\nCần Thơ\nBình Dương\nBình Phước\nBình Thuận\nBà Rịa - Vũng Tàu\nAn Giang\nBến Tre\nHải Phòng\nKiên Giang\nHải Dương\nTrà Vinh\nQuảng Ninh\nVĩnh Long\nBắc Giang\nNinh Bình\nCà Mau\nLào Cai\nPhú Thọ\nHậu Giang\nThái Bình\nTây Ninh\nKhánh Hòa\nThừa Thiên - Huế\nĐồng Tháp\nThái Nguyên\nBạc Liêu\nThanh Hóa\nBình Định\nHưng Yên\nSóc Trăng\nHà Tĩnh\nYên Bái\nĐắk Lắk\nLong An\nNghệ An\nTiền Giang\nBắc Ninh\nHòa Bình\nTuyên Quang\nLâm Đồng\nNam Định\nQuảng Bình\nSơn La\nPhú Yên\nQuảng Trị\nQuảng Nam\nLạng Sơn\nQuảng Ngãi\nHà Nam\nNinh Thuận\nVĩnh Phúc\nGia Lai\nKon Tum\nĐịnh dạng\n2D\n3D\nKhông có lịch chiếu phù hợp với điều kiện tìm kiếm của bạn.\nHãy thử chọn một ngày khác hoặc định dạng khác.\nPHIM VIỆT SẮP CHIẾU\nÁn Mạng Xém Hoàn Hảo\nChị Chị Em Em 3\nMẹ Mìn\nHuyết Thống\nÁn Mạng Karaoke\nBò Sữa Bay\nChuyến Đi Nhớ Đời\nNgười Được Chọn\nNgày Con Còn Mẹ\nCÔNG TY TNHH MONET\nSố ĐKKD: 0315367026 · Nơi cấp: Sở kế hoạch và đầu tư Tp. Hồ Chí Minh · Đăng ký lần đầu ngày 01/11/2018\nĐịa chỉ: 33 Nguyễn Trung Trực, P.5, Q. Bình Thạnh, Tp. Hồ Chí Minh\nVề chúng tôi · Chính sách bảo mật · Hỗ trợ · Liên hệ · v8.1\n\nĐỐI TÁC"
+      }
+    },
+    {
+      "externalId": "tu-ho-dai-nao",
+      "source": "Moveek",
+      "sourceUrl": "https://moveek.com/phim/tu-ho-dai-nao/",
+      "fetchedAt": "2026-10-02T13:43:40.454Z",
+      "contentHash": "036ad160acf6c2268d75fe68fcb89f6362f34a38",
+      "raw": {
+        "title": "Tứ Hổ Đại Náo",
+        "description": "Lịch chiếu Tứ Hổ Đại Náo và review phim Tứ Hổ Đại Náo. Đặt vé ngay tại Moveek",
+        "posterUrl": "https://cdn.moveek.com/storage/media/cache/large/698f1272d2b6f149833801.webp",
+        "images": [
+          {
+            "src": "https://cdn.moveek.com/img/logo.png",
+            "alt": "Moveek"
+          },
+          {
+            "src": "https://cdn.moveek.com/storage/media/cache/card/698f12b9a11ae047048399.webp",
+            "alt": "Tứ Hổ Đại Náo"
+          },
+          {
+            "src": "https://cdn.moveek.com/img/favicon-large.png",
+            "alt": "Moveek"
+          },
+          {
+            "src": "https://cdn.moveek.com/partners/beta-cineplex-v2.webp",
+            "alt": "Beta Cinemas"
+          },
+          {
+            "src": "https://cdn.moveek.com/partners/mega-gs-cinemas.webp",
+            "alt": "Mega GS Cinemas"
+          },
+          {
+            "src": "https://cdn.moveek.com/partners/cinestar.webp",
+            "alt": "Cinestar"
+          },
+          {
+            "src": "https://cdn.moveek.com/partners/dcine.webp",
+            "alt": "Dcine"
+          },
+          {
+            "src": "https://cdn.moveek.com/partners/cinemax.webp",
+            "alt": "Cinemax"
+          },
+          {
+            "src": "https://cdn.moveek.com/partners/starlight.webp",
+            "alt": "Starlight"
+          },
+          {
+            "src": "https://cdn.moveek.com/partners/rio.webp",
+            "alt": "Rio Cinemas"
+          },
+          {
+            "src": "https://cdn.moveek.com/partners/dong-da-cinemas.webp",
+            "alt": "DDCinema"
+          },
+          {
+            "src": "https://cdn.moveek.com/partners/touch-cinemas.webp",
+            "alt": "Touch Cinema"
+          },
+          {
+            "src": "https://cdn.moveek.com/partners/baria.webp",
+            "alt": "Bà Rịa Cinema"
+          },
+          {
+            "src": "https://cdn.moveek.com/partners/aeon-beta.webp",
+            "alt": "AEON BETA Cinema"
+          },
+          {
+            "src": "https://cdn.moveek.com/partners/chieu-phim-quoc-gia.webp",
+            "alt": "Trung tâm Chiếu phim Quốc gia"
+          },
+          {
+            "src": "https://cdn.moveek.com/partners/payoo.webp",
+            "alt": "Payoo"
+          },
+          {
+            "src": "https://cdn.moveek.com/partners/momo.webp",
+            "alt": "Ví Điện Tử Momo"
+          },
+          {
+            "src": "https://cdn.moveek.com/partners/zalopay-icon.webp",
+            "alt": "Ví Điện Tử ZaloPay"
+          },
+          {
+            "src": "https://cdn.moveek.com/img/20150827110756-dathongbao.webp",
+            "alt": "Đã thông báo với Bộ Công Thương"
+          },
+          {
+            "src": "https://cdn.moveek.com/storage/media/cache/square/6a0579c0b25ec577708799.webp",
+            "alt": "AEON BETA Central Premium"
+          },
+          {
+            "src": "https://cdn.moveek.com/storage/media/cache/square/5fffb2fcaf3c1018282624.webp",
+            "alt": "Beta Nowzone"
+          },
+          {
+            "src": "https://cdn.moveek.com/storage/media/cache/square/5fffb2fcaf3c1018282624.webp",
+            "alt": "Beta Quang Trung"
+          },
+          {
+            "src": "https://cdn.moveek.com/storage/media/cache/square/5fffb2fcaf3c1018282624.webp",
+            "alt": "Beta Trần Quang Khải"
+          },
+          {
+            "src": "https://cdn.moveek.com/storage/media/cache/square/5fffb2fcaf3c1018282624.webp",
+            "alt": "Beta Ung Văn Khiêm"
+          },
+          {
+            "src": "https://cdn.moveek.com/storage/media/cache/square/59a2a1753d6416c84b4e05146280584a33448c14.webp",
+            "alt": "Cinestar Hiệp Phú"
+          },
+          {
+            "src": "https://cdn.moveek.com/storage/media/cache/square/59a2a1753d6416c84b4e05146280584a33448c14.webp",
+            "alt": "Cinestar Quốc Thanh"
+          },
+          {
+            "src": "https://cdn.moveek.com/storage/media/cache/square/59a2a1753d6416c84b4e05146280584a33448c14.webp",
+            "alt": "Cinestar Satra Quận 6"
+          },
+          {
+            "src": "https://cdn.moveek.com/storage/media/cache/square/a1cd7de61579e7bca68c7bee4d76c4c7388478cb.webp",
+            "alt": "DCINE Bến Thành"
+          },
+          {
+            "src": "https://cdn.moveek.com/storage/media/cache/square/6397446bee6da982816422.webp",
+            "alt": "Đống Đa"
+          },
+          {
+            "src": "https://cdn.moveek.com/storage/media/cache/square/4e2f8af9e4d780495cbc387e5868c2a48c7f82c2.webp",
+            "alt": "Mega GS Cao Thắng"
+          },
+          {
+            "src": "https://cdn.moveek.com/storage/media/cache/square/4e2f8af9e4d780495cbc387e5868c2a48c7f82c2.webp",
+            "alt": "Mega GS Lý Chính Thắng"
+          },
+          {
+            "src": "https://cdn.moveek.com/storage/media/cache/square/dcc08eb55eca8002f729ae0dff98a2ae6c031db0.webp",
+            "alt": "BHD Star 3/2"
+          },
+          {
+            "src": "https://cdn.moveek.com/storage/media/cache/square/dcc08eb55eca8002f729ae0dff98a2ae6c031db0.webp",
+            "alt": "BHD Star Lê Văn Việt"
+          },
+          {
+            "src": "https://cdn.moveek.com/storage/media/cache/square/dcc08eb55eca8002f729ae0dff98a2ae6c031db0.webp",
+            "alt": "BHD Star Phạm Hùng"
+          },
+          {
+            "src": "https://cdn.moveek.com/storage/media/cache/square/dcc08eb55eca8002f729ae0dff98a2ae6c031db0.webp",
+            "alt": "BHD Star Quang Trung"
+          },
+          {
+            "src": "https://cdn.moveek.com/storage/media/cache/square/dcc08eb55eca8002f729ae0dff98a2ae6c031db0.webp",
+            "alt": "BHD Star Thảo Điền"
+          },
+          {
+            "src": "https://cdn.moveek.com/storage/media/cache/square/524ba157cd271c9c24d15f367a57c13abc26af06.webp",
+            "alt": "CGV Aeon Bình Tân"
+          },
+          {
+            "src": "https://cdn.moveek.com/storage/media/cache/square/524ba157cd271c9c24d15f367a57c13abc26af06.webp",
+            "alt": "CGV Aeon Tân Phú"
+          },
+          {
+            "src": "https://cdn.moveek.com/storage/media/cache/square/524ba157cd271c9c24d15f367a57c13abc26af06.webp",
+            "alt": "CGV Crescent Mall"
+          },
+          {
+            "src": "https://cdn.moveek.com/storage/media/cache/square/524ba157cd271c9c24d15f367a57c13abc26af06.webp",
+            "alt": "CGV Giga Mall Thủ Đức"
+          },
+          {
+            "src": "https://cdn.moveek.com/storage/media/cache/square/524ba157cd271c9c24d15f367a57c13abc26af06.webp",
+            "alt": "CGV Hoàng Văn Thụ"
+          },
+          {
+            "src": "https://cdn.moveek.com/storage/media/cache/square/524ba157cd271c9c24d15f367a57c13abc26af06.webp",
+            "alt": "CGV Hùng Vương Plaza"
+          },
+          {
+            "src": "https://cdn.moveek.com/storage/media/cache/square/524ba157cd271c9c24d15f367a57c13abc26af06.webp",
+            "alt": "CGV Liberty Citypoint"
+          },
+          {
+            "src": "https://cdn.moveek.com/storage/media/cache/square/524ba157cd271c9c24d15f367a57c13abc26af06.webp",
+            "alt": "CGV Lý Chính Thắng"
+          },
+          {
+            "src": "https://cdn.moveek.com/storage/media/cache/square/524ba157cd271c9c24d15f367a57c13abc26af06.webp",
+            "alt": "CGV Menas Mall (CGV CT Plaza)"
+          },
+          {
+            "src": "https://cdn.moveek.com/storage/media/cache/square/524ba157cd271c9c24d15f367a57c13abc26af06.webp",
+            "alt": "CGV Pandora City"
+          },
+          {
+            "src": "https://cdn.moveek.com/storage/media/cache/square/524ba157cd271c9c24d15f367a57c13abc26af06.webp",
+            "alt": "CGV Pearl Plaza"
+          },
+          {
+            "src": "https://cdn.moveek.com/storage/media/cache/square/524ba157cd271c9c24d15f367a57c13abc26af06.webp",
+            "alt": "CGV Saigonres Nguyễn Xí"
+          },
+          {
+            "src": "https://cdn.moveek.com/storage/media/cache/square/524ba157cd271c9c24d15f367a57c13abc26af06.webp",
+            "alt": "CGV Satra Củ Chi"
+          },
+          {
+            "src": "https://cdn.moveek.com/storage/media/cache/square/524ba157cd271c9c24d15f367a57c13abc26af06.webp",
+            "alt": "CGV Sư Vạn Hạnh"
+          },
+          {
+            "src": "https://cdn.moveek.com/storage/media/cache/square/524ba157cd271c9c24d15f367a57c13abc26af06.webp",
+            "alt": "CGV Thảo Điền Pearl"
+          },
+          {
+            "src": "https://cdn.moveek.com/storage/media/cache/square/524ba157cd271c9c24d15f367a57c13abc26af06.webp",
+            "alt": "CGV Vincom Đồng Khởi"
+          },
+          {
+            "src": "https://cdn.moveek.com/storage/media/cache/square/524ba157cd271c9c24d15f367a57c13abc26af06.webp",
+            "alt": "CGV Vincom Gò Vấp"
+          },
+          {
+            "src": "https://cdn.moveek.com/storage/media/cache/square/524ba157cd271c9c24d15f367a57c13abc26af06.webp",
+            "alt": "CGV Vincom Landmark 81"
+          },
+          {
+            "src": "https://cdn.moveek.com/storage/media/cache/square/524ba157cd271c9c24d15f367a57c13abc26af06.webp",
+            "alt": "CGV Vincom Mega Mall Grand Park"
+          },
+          {
+            "src": "https://cdn.moveek.com/storage/media/cache/square/524ba157cd271c9c24d15f367a57c13abc26af06.webp",
+            "alt": "CGV Vincom Thủ Đức"
+          },
+          {
+            "src": "https://cdn.moveek.com/storage/media/cache/square/524ba157cd271c9c24d15f367a57c13abc26af06.webp",
+            "alt": "CGV Vivo City"
+          },
+          {
+            "src": "https://cdn.moveek.com/storage/media/cache/square/5fffb30b3194c340097683.webp",
+            "alt": "Galaxy Cine+ Thiso Phan Huy Ích"
+          },
+          {
+            "src": "https://cdn.moveek.com/storage/media/cache/square/5fffb30b3194c340097683.webp",
+            "alt": "Galaxy CineO GO! An Lạc"
+          },
+          {
+            "src": "https://cdn.moveek.com/storage/media/cache/square/5fffb30b3194c340097683.webp",
+            "alt": "Galaxy Huỳnh Tấn Phát"
+          },
+          {
+            "src": "https://cdn.moveek.com/storage/media/cache/square/5fffb30b3194c340097683.webp",
+            "alt": "Galaxy Kinh Dương Vương"
+          },
+          {
+            "src": "https://cdn.moveek.com/storage/media/cache/square/5fffb30b3194c340097683.webp",
+            "alt": "Galaxy Linh Trung Thủ Đức"
+          },
+          {
+            "src": "https://cdn.moveek.com/storage/media/cache/square/5fffb30b3194c340097683.webp",
+            "alt": "Galaxy Nguyễn Du"
+          },
+          {
+            "src": "https://cdn.moveek.com/storage/media/cache/square/5fffb30b3194c340097683.webp",
+            "alt": "Galaxy Nguyễn Văn Quá"
+          },
+          {
+            "src": "https://cdn.moveek.com/storage/media/cache/square/5fffb30b3194c340097683.webp",
+            "alt": "Galaxy Parc Mall Q8"
+          },
+          {
+            "src": "https://cdn.moveek.com/storage/media/cache/square/5fffb30b3194c340097683.webp",
+            "alt": "Galaxy Quang Trung"
+          },
+          {
+            "src": "https://cdn.moveek.com/storage/media/cache/square/5fffb30b3194c340097683.webp",
+            "alt": "Galaxy Sala"
+          },
+          {
+            "src": "https://cdn.moveek.com/storage/media/cache/square/5fffb30b3194c340097683.webp",
+            "alt": "Galaxy Tân Bình"
+          },
+          {
+            "src": "https://cdn.moveek.com/storage/media/cache/square/5fffb30b3194c340097683.webp",
+            "alt": "Galaxy Trung Chánh"
+          },
+          {
+            "src": "https://cdn.moveek.com/storage/media/cache/square/5fffb30b3194c340097683.webp",
+            "alt": "Galaxy Trường Chinh"
+          },
+          {
+            "src": "https://cdn.moveek.com/storage/media/cache/square/38fee9d0c0a533a3d4fb4779d4efa8842a6d5bae.webp",
+            "alt": "Lotte Cantavil"
+          },
+          {
+            "src": "https://cdn.moveek.com/storage/media/cache/square/38fee9d0c0a533a3d4fb4779d4efa8842a6d5bae.webp",
+            "alt": "Lotte Cộng Hoà"
+          },
+          {
+            "src": "https://cdn.moveek.com/storage/media/cache/square/38fee9d0c0a533a3d4fb4779d4efa8842a6d5bae.webp",
+            "alt": "Lotte Gò Vấp"
+          },
+          {
+            "src": "https://cdn.moveek.com/storage/media/cache/square/38fee9d0c0a533a3d4fb4779d4efa8842a6d5bae.webp",
+            "alt": "Lotte Gold View"
+          },
+          {
+            "src": "https://cdn.moveek.com/storage/media/cache/square/38fee9d0c0a533a3d4fb4779d4efa8842a6d5bae.webp",
+            "alt": "Lotte Moonlight Thủ Đức"
+          },
+          {
+            "src": "https://cdn.moveek.com/storage/media/cache/square/38fee9d0c0a533a3d4fb4779d4efa8842a6d5bae.webp",
+            "alt": "Lotte Nam Sài Gòn"
+          },
+          {
+            "src": "https://cdn.moveek.com/storage/media/cache/square/38fee9d0c0a533a3d4fb4779d4efa8842a6d5bae.webp",
+            "alt": "Lotte Phú Thọ"
+          },
+          {
+            "src": "https://cdn.moveek.com/storage/media/cache/square/38fee9d0c0a533a3d4fb4779d4efa8842a6d5bae.webp",
+            "alt": "Lotte Thủ Đức"
+          },
+          {
+            "src": "https://cdn.moveek.com/img/no-thumbnail.webp",
+            "alt": "Viện Trao đổi Văn Hóa Pháp - IDECAF"
+          },
+          {
+            "src": "https://cdn.moveek.com/img/mascot-sorry.webp",
+            "alt": ""
+          },
+          {
+            "src": "https://cdn.moveek.com/partners/lotte-cinema-icon.webp",
+            "alt": ""
+          }
+        ],
+        "links": [
+          {
+            "text": "",
+            "href": "https://moveek.com/"
+          },
+          {
+            "text": "",
+            "href": "https://moveek.com/phim/tu-ho-dai-nao/#"
+          },
+          {
+            "text": "Hỗ trợ",
+            "href": "https://moveek.com/support"
+          },
+          {
+            "text": "",
+            "href": "https://moveek.com/phim/tu-ho-dai-nao/#"
+          },
+          {
+            "text": "Đặt vé phim chiếu rạp",
+            "href": "https://moveek.com/mua-ve/"
+          },
+          {
+            "text": "Lịch chiếu",
+            "href": "https://moveek.com/lich-chieu/"
+          },
+          {
+            "text": "Phim",
+            "href": "https://moveek.com/phim/tu-ho-dai-nao/#"
+          },
+          {
+            "text": "Đang chiếu",
+            "href": "https://moveek.com/dang-chieu/"
+          },
+          {
+            "text": "Sắp chiếu",
+            "href": "https://moveek.com/sap-chieu/"
+          },
+          {
+            "text": "Chiếu sớm",
+            "href": "https://moveek.com/chieu-som/"
+          },
+          {
+            "text": "Phim tháng 10/2026",
+            "href": "https://moveek.com/phim-thang-10-2026/"
+          },
+          {
+            "text": "Phim Việt Nam",
+            "href": "https://moveek.com/phim-viet-nam/"
+          },
+          {
+            "text": "Rạp",
+            "href": "https://moveek.com/rap/"
+          },
+          {
+            "text": "Tin tức",
+            "href": "https://moveek.com/phim/tu-ho-dai-nao/#"
+          },
+          {
+            "text": "Tin điện ảnh",
+            "href": "https://moveek.com/tin-tuc/"
+          },
+          {
+            "text": "Đánh giá phim",
+            "href": "https://moveek.com/danh-gia-phim/"
+          },
+          {
+            "text": "Video",
+            "href": "https://moveek.com/video/"
+          },
+          {
+            "text": "Chuyên đề",
+            "href": "https://moveek.com/phim/tu-ho-dai-nao/#"
+          },
+          {
+            "text": "Siêu Anh Hùng",
+            "href": "https://moveek.com/superheroes/"
+          },
+          {
+            "text": "Kinh Dị",
+            "href": "https://moveek.com/horror-thriller/"
+          },
+          {
+            "text": "Góc Nghệ Thuật",
+            "href": "https://moveek.com/art-house/"
+          },
+          {
+            "text": "Vũ trụ điện ảnh",
+            "href": "https://moveek.com/phim/tu-ho-dai-nao/#"
+          },
+          {
+            "text": "Marvel Cinematic Universe",
+            "href": "https://moveek.com/marvel-cinematic-universe/"
+          },
+          {
+            "text": "Worlds of DC",
+            "href": "https://moveek.com/worlds-of-dc/"
+          },
+          {
+            "text": "MonsterVerse",
+            "href": "https://moveek.com/monsterverse/"
+          },
+          {
+            "text": "Star Wars Cinematic Universe",
+            "href": "https://moveek.com/star-wars-cinematic-universe/"
+          },
+          {
+            "text": "The Conjuring Universe",
+            "href": "https://moveek.com/the-conjuring-universe/"
+          },
+          {
+            "text": "Tv Series",
+            "href": "https://moveek.com/tv/"
+          },
+          {
+            "text": "Cộng đồng",
+            "href": "https://moveek.com/community"
+          },
+          {
+            "text": "",
+            "href": "https://moveek.com/phim/tu-ho-dai-nao/"
+          },
+          {
+            "text": "Tứ Hổ Đại Náo",
+            "href": "https://moveek.com/phim/tu-ho-dai-nao/"
+          },
+          {
+            "text": "Thích",
+            "href": "https://moveek.com/phim/tu-ho-dai-nao/#"
+          },
+          {
+            "text": "Đánh giá",
+            "href": "https://moveek.com/movie/rate/17471"
+          },
+          {
+            "text": "Trailer",
+            "href": "https://moveek.com/video/18865/"
+          },
+          {
+            "text": "Sukollawat Kanarot",
+            "href": "https://moveek.com/nghe-sy/sukollawat-kanarot/"
+          },
+          {
+            "text": "Mario Maurer",
+            "href": "https://moveek.com/nghe-sy/mario-maurer/"
+          },
+          {
+            "text": "Arak Amornsupasiri",
+            "href": "https://moveek.com/nghe-sy/arak-amornsupasiri/"
+          },
+          {
+            "text": "Phakin Khamwilaisak",
+            "href": "https://moveek.com/nghe-sy/phakin-khamwilaisak/"
+          },
+          {
+            "text": "Mashannoad Suvalmas",
+            "href": "https://moveek.com/nghe-sy/mashannoad-suvalmas/"
+          },
+          {
+            "text": "Kongkiat Khomsiri",
+            "href": "https://moveek.com/nghe-sy/kongkiat-khomsiri/"
+          },
+          {
+            "text": "Jatusom Techaratanaprasert",
+            "href": "https://moveek.com/nghe-sy/jatusom-techaratanaprasert/"
+          },
+          {
+            "text": "Piyaluck Mahatanasab",
+            "href": "https://moveek.com/nghe-sy/piyaluck-mahatanasab/"
+          },
+          {
+            "text": "Thông tin phim",
+            "href": "https://moveek.com/phim/tu-ho-dai-nao/"
+          },
+          {
+            "text": "Đánh giá",
+            "href": "https://moveek.com/review/tu-ho-dai-nao/"
+          },
+          {
+            "text": "Tin tức",
+            "href": "https://moveek.com/tin-tuc/tu-ho-dai-nao/1f108d3a-3e8f-6c2a-9427-0242ac110003"
+          },
+          {
+            "text": "Án Mạng Xém Hoàn Hảo",
+            "href": "https://moveek.com/phim/an-mang-xem-hoan-hao/"
+          },
+          {
+            "text": "Chị Chị Em Em 3",
+            "href": "https://moveek.com/phim/chi-chi-em-em-3/"
+          },
+          {
+            "text": "Mẹ Mìn",
+            "href": "https://moveek.com/phim/me-min/"
+          },
+          {
+            "text": "Huyết Thống",
+            "href": "https://moveek.com/phim/huyet-thong/"
+          },
+          {
+            "text": "Án Mạng Karaoke",
+            "href": "https://moveek.com/phim/an-mang-karaoke-1/"
+          },
+          {
+            "text": "Bò Sữa Bay",
+            "href": "https://moveek.com/phim/bo-sua-bay/"
+          },
+          {
+            "text": "Chuyến Đi Nhớ Đời",
+            "href": "https://moveek.com/phim/chuyen-di-nho-doi/"
+          },
+          {
+            "text": "Người Được Chọn",
+            "href": "https://moveek.com/phim/nguoi-duoc-chon/"
+          },
+          {
+            "text": "Ngày Con Còn Mẹ",
+            "href": "https://moveek.com/phim/ngay-con-con-me/"
+          },
+          {
+            "text": "Về chúng tôi",
+            "href": "https://moveek.com/about-us"
+          },
+          {
+            "text": "Chính sách bảo mật",
+            "href": "https://moveek.com/privacy"
+          },
+          {
+            "text": "Hỗ trợ",
+            "href": "https://moveek.com/support"
+          },
+          {
+            "text": "Liên hệ",
+            "href": "mailto:thailuu@moveek.vn"
+          },
+          {
+            "text": "",
+            "href": "http://online.gov.vn/Home/WebDetails/52309"
+          },
+          {
+            "text": "Quên mật khẩu?",
+            "href": "https://moveek.com/recover-password/request"
+          },
+          {
+            "text": "Đăng ký ngay",
+            "href": "https://moveek.com/register/"
+          },
+          {
+            "text": "Tp. Hồ Chí Minh 72 rạp",
+            "href": "https://moveek.com/rap-khu-vuc/ho-chi-minh/"
+          },
+          {
+            "text": "Hà Nội 56 rạp",
+            "href": "https://moveek.com/rap-khu-vuc/ha-noi/"
+          },
+          {
+            "text": "Đà Nẵng 11 rạp",
+            "href": "https://moveek.com/rap-khu-vuc/da-nang/"
+          },
+          {
+            "text": "Đồng Nai 9 rạp",
+            "href": "https://moveek.com/rap-khu-vuc/dong-nai/"
+          },
+          {
+            "text": "Cần Thơ 5 rạp",
+            "href": "https://moveek.com/rap-khu-vuc/can-tho/"
+          },
+          {
+            "text": "Bình Dương 10 rạp",
+            "href": "https://moveek.com/rap-khu-vuc/binh-duong/"
+          },
+          {
+            "text": "Bình Phước 3 rạp",
+            "href": "https://moveek.com/rap-khu-vuc/binh-phuoc/"
+          },
+          {
+            "text": "Bình Thuận 1 rạp",
+            "href": "https://moveek.com/rap-khu-vuc/binh-thuan/"
+          },
+          {
+            "text": "Bà Rịa - Vũng Tàu 7 rạp",
+            "href": "https://moveek.com/rap-khu-vuc/vung-tau/"
+          },
+          {
+            "text": "An Giang 3 rạp",
+            "href": "https://moveek.com/rap-khu-vuc/an-giang/"
+          },
+          {
+            "text": "Bến Tre 2 rạp",
+            "href": "https://moveek.com/rap-khu-vuc/ben-tre/"
+          },
+          {
+            "text": "Hải Phòng 6 rạp",
+            "href": "https://moveek.com/rap-khu-vuc/hai-phong/"
+          },
+          {
+            "text": "Kiên Giang 4 rạp",
+            "href": "https://moveek.com/rap-khu-vuc/kien-giang/"
+          },
+          {
+            "text": "Hải Dương 4 rạp",
+            "href": "https://moveek.com/rap-khu-vuc/hai-duong/"
+          },
+          {
+            "text": "Trà Vinh 1 rạp",
+            "href": "https://moveek.com/rap-khu-vuc/tra-vinh/"
+          },
+          {
+            "text": "Quảng Ninh 5 rạp",
+            "href": "https://moveek.com/rap-khu-vuc/quang-ninh/"
+          },
+          {
+            "text": "Vĩnh Long 1 rạp",
+            "href": "https://moveek.com/rap-khu-vuc/vinh-long/"
+          },
+          {
+            "text": "Bắc Giang 2 rạp",
+            "href": "https://moveek.com/rap-khu-vuc/bac-giang/"
+          },
+          {
+            "text": "Ninh Bình 1 rạp",
+            "href": "https://moveek.com/rap-khu-vuc/ninh-binh/"
+          },
+          {
+            "text": "Cà Mau 2 rạp",
+            "href": "https://moveek.com/rap-khu-vuc/ca-mau/"
+          },
+          {
+            "text": "Lào Cai 1 rạp",
+            "href": "https://moveek.com/rap-khu-vuc/lao-cai/"
+          },
+          {
+            "text": "Phú Thọ 3 rạp",
+            "href": "https://moveek.com/rap-khu-vuc/phu-tho/"
+          },
+          {
+            "text": "Hậu Giang 1 rạp",
+            "href": "https://moveek.com/rap-khu-vuc/hau-giang/"
+          },
+          {
+            "text": "Thái Bình 1 rạp",
+            "href": "https://moveek.com/rap-khu-vuc/thai-binh/"
+          },
+          {
+            "text": "Tây Ninh 2 rạp",
+            "href": "https://moveek.com/rap-khu-vuc/tay-ninh/"
+          },
+          {
+            "text": "Khánh Hòa 7 rạp",
+            "href": "https://moveek.com/rap-khu-vuc/khanh-hoa/"
+          },
+          {
+            "text": "Thừa Thiên - Huế 6 rạp",
+            "href": "https://moveek.com/rap-khu-vuc/hue/"
+          },
+          {
+            "text": "Đồng Tháp 2 rạp",
+            "href": "https://moveek.com/rap-khu-vuc/dong-thap/"
+          },
+          {
+            "text": "Thái Nguyên 2 rạp",
+            "href": "https://moveek.com/rap-khu-vuc/thai-nguyen/"
+          },
+          {
+            "text": "Bạc Liêu 3 rạp",
+            "href": "https://moveek.com/rap-khu-vuc/bac-lieu/"
+          },
+          {
+            "text": "Thanh Hóa 2 rạp",
+            "href": "https://moveek.com/rap-khu-vuc/thanh-hoa/"
+          },
+          {
+            "text": "Bình Định 4 rạp",
+            "href": "https://moveek.com/rap-khu-vuc/binh-dinh/"
+          },
+          {
+            "text": "Hưng Yên 2 rạp",
+            "href": "https://moveek.com/rap-khu-vuc/hung-yen/"
+          },
+          {
+            "text": "Sóc Trăng 2 rạp",
+            "href": "https://moveek.com/rap-khu-vuc/soc-trang/"
+          },
+          {
+            "text": "Hà Tĩnh 1 rạp",
+            "href": "https://moveek.com/rap-khu-vuc/ha-tinh/"
+          },
+          {
+            "text": "Yên Bái 1 rạp",
+            "href": "https://moveek.com/rap-khu-vuc/yen-bai/"
+          },
+          {
+            "text": "Đắk Lắk 3 rạp",
+            "href": "https://moveek.com/rap-khu-vuc/dak-lak/"
+          },
+          {
+            "text": "Long An 3 rạp",
+            "href": "https://moveek.com/rap-khu-vuc/long-an/"
+          },
+          {
+            "text": "Nghệ An 4 rạp",
+            "href": "https://moveek.com/rap-khu-vuc/nghe-an/"
+          },
+          {
+            "text": "Tiền Giang 3 rạp",
+            "href": "https://moveek.com/rap-khu-vuc/tien-giang/"
+          },
+          {
+            "text": "Bắc Ninh 4 rạp",
+            "href": "https://moveek.com/rap-khu-vuc/bac-ninh/"
+          },
+          {
+            "text": "Hòa Bình 1 rạp",
+            "href": "https://moveek.com/rap-khu-vuc/hoa-binh/"
+          },
+          {
+            "text": "Tuyên Quang 1 rạp",
+            "href": "https://moveek.com/rap-khu-vuc/tuyen-quang/"
+          },
+          {
+            "text": "Lâm Đồng 5 rạp",
+            "href": "https://moveek.com/rap-khu-vuc/lam-dong/"
+          },
+          {
+            "text": "Nam Định 1 rạp",
+            "href": "https://moveek.com/rap-khu-vuc/nam-dinh/"
+          },
+          {
+            "text": "Quảng Bình 3 rạp",
+            "href": "https://moveek.com/rap-khu-vuc/quang-binh/"
+          },
+          {
+            "text": "Sơn La 1 rạp",
+            "href": "https://moveek.com/rap-khu-vuc/son-la/"
+          },
+          {
+            "text": "Phú Yên 1 rạp",
+            "href": "https://moveek.com/rap-khu-vuc/phu-yen/"
+          },
+          {
+            "text": "Quảng Trị 2 rạp",
+            "href": "https://moveek.com/rap-khu-vuc/quang-tri/"
+          },
+          {
+            "text": "Quảng Nam 2 rạp",
+            "href": "https://moveek.com/rap-khu-vuc/quang-nam/"
+          },
+          {
+            "text": "Lạng Sơn 2 rạp",
+            "href": "https://moveek.com/rap-khu-vuc/lang-son/"
+          },
+          {
+            "text": "Quảng Ngãi 1 rạp",
+            "href": "https://moveek.com/rap-khu-vuc/quang-ngai/"
+          },
+          {
+            "text": "Hà Nam 1 rạp",
+            "href": "https://moveek.com/rap-khu-vuc/ha-nam/"
+          },
+          {
+            "text": "Ninh Thuận 1 rạp",
+            "href": "https://moveek.com/rap-khu-vuc/ninh-thuan/"
+          },
+          {
+            "text": "Vĩnh Phúc 1 rạp",
+            "href": "https://moveek.com/rap-khu-vuc/vinh-phuc/"
+          },
+          {
+            "text": "Gia Lai 2 rạp",
+            "href": "https://moveek.com/rap-khu-vuc/gia-lai/"
+          },
+          {
+            "text": "Kon Tum 2 rạp",
+            "href": "https://moveek.com/rap-khu-vuc/kon-tum/"
+          },
+          {
+            "text": "",
+            "href": "https://moveek.com/rap/aeon-beta-central-premium"
+          },
+          {
+            "text": "AEON BETA Central Premium",
+            "href": "https://moveek.com/rap/aeon-beta-central-premium"
+          },
+          {
+            "text": "",
+            "href": "https://moveek.com/rap/beta-nowzone"
+          },
+          {
+            "text": "Beta Nowzone",
+            "href": "https://moveek.com/rap/beta-nowzone"
+          },
+          {
+            "text": "",
+            "href": "https://moveek.com/rap/beta-quang-trung"
+          },
+          {
+            "text": "Beta Quang Trung",
+            "href": "https://moveek.com/rap/beta-quang-trung"
+          },
+          {
+            "text": "",
+            "href": "https://moveek.com/rap/beta-cineplex-tran-quang-khai"
+          },
+          {
+            "text": "Beta Trần Quang Khải",
+            "href": "https://moveek.com/rap/beta-cineplex-tran-quang-khai"
+          },
+          {
+            "text": "",
+            "href": "https://moveek.com/rap/beta-ung-van-khiem"
+          },
+          {
+            "text": "Beta Ung Văn Khiêm",
+            "href": "https://moveek.com/rap/beta-ung-van-khiem"
+          },
+          {
+            "text": "",
+            "href": "https://moveek.com/rap/cinestar-hiep-phu"
+          },
+          {
+            "text": "Cinestar Hiệp Phú",
+            "href": "https://moveek.com/rap/cinestar-hiep-phu"
+          },
+          {
+            "text": "",
+            "href": "https://moveek.com/rap/cinestar-quoc-thanh"
+          },
+          {
+            "text": "Cinestar Quốc Thanh",
+            "href": "https://moveek.com/rap/cinestar-quoc-thanh"
+          },
+          {
+            "text": "",
+            "href": "https://moveek.com/rap/cinestar-satra-quan-6"
+          },
+          {
+            "text": "Cinestar Satra Quận 6",
+            "href": "https://moveek.com/rap/cinestar-satra-quan-6"
+          },
+          {
+            "text": "",
+            "href": "https://moveek.com/rap/dcine-ben-thanh"
+          },
+          {
+            "text": "DCINE Bến Thành",
+            "href": "https://moveek.com/rap/dcine-ben-thanh"
+          },
+          {
+            "text": "",
+            "href": "https://moveek.com/rap/dong-da"
+          },
+          {
+            "text": "Đống Đa",
+            "href": "https://moveek.com/rap/dong-da"
+          },
+          {
+            "text": "",
+            "href": "https://moveek.com/rap/mega-gs-cao-thang"
+          },
+          {
+            "text": "Mega GS Cao Thắng",
+            "href": "https://moveek.com/rap/mega-gs-cao-thang"
+          },
+          {
+            "text": "",
+            "href": "https://moveek.com/rap/mega-gs-ly-chinh-thang"
+          },
+          {
+            "text": "Mega GS Lý Chính Thắng",
+            "href": "https://moveek.com/rap/mega-gs-ly-chinh-thang"
+          },
+          {
+            "text": "",
+            "href": "https://moveek.com/rap/bhd-star-cinema"
+          },
+          {
+            "text": "BHD Star 3/2",
+            "href": "https://moveek.com/rap/bhd-star-cinema"
+          },
+          {
+            "text": "",
+            "href": "https://moveek.com/rap/bhd-star-vincom-le-van-viet"
+          },
+          {
+            "text": "BHD Star Lê Văn Việt",
+            "href": "https://moveek.com/rap/bhd-star-vincom-le-van-viet"
+          },
+          {
+            "text": "",
+            "href": "https://moveek.com/rap/bhd-star-pham-hung"
+          },
+          {
+            "text": "BHD Star Phạm Hùng",
+            "href": "https://moveek.com/rap/bhd-star-pham-hung"
+          },
+          {
+            "text": "",
+            "href": "https://moveek.com/rap/bhd-star-quang-trung"
+          },
+          {
+            "text": "BHD Star Quang Trung",
+            "href": "https://moveek.com/rap/bhd-star-quang-trung"
+          },
+          {
+            "text": "",
+            "href": "https://moveek.com/rap/bhd-star-mega-mall"
+          },
+          {
+            "text": "BHD Star Thảo Điền",
+            "href": "https://moveek.com/rap/bhd-star-mega-mall"
+          },
+          {
+            "text": "",
+            "href": "https://moveek.com/rap/cgv-aeon-mall-binh-tan"
+          },
+          {
+            "text": "CGV Aeon Bình Tân",
+            "href": "https://moveek.com/rap/cgv-aeon-mall-binh-tan"
+          },
+          {
+            "text": "",
+            "href": "https://moveek.com/rap/cgv-celadon"
+          },
+          {
+            "text": "CGV Aeon Tân Phú",
+            "href": "https://moveek.com/rap/cgv-celadon"
+          },
+          {
+            "text": "",
+            "href": "https://moveek.com/rap/cgv-crescent-mall"
+          },
+          {
+            "text": "CGV Crescent Mall",
+            "href": "https://moveek.com/rap/cgv-crescent-mall"
+          },
+          {
+            "text": "",
+            "href": "https://moveek.com/rap/cgv-giga-mall"
+          },
+          {
+            "text": "CGV Giga Mall Thủ Đức",
+            "href": "https://moveek.com/rap/cgv-giga-mall"
+          },
+          {
+            "text": "",
+            "href": "https://moveek.com/rap/cgv-liberty-hoang-van-thu"
+          },
+          {
+            "text": "CGV Hoàng Văn Thụ",
+            "href": "https://moveek.com/rap/cgv-liberty-hoang-van-thu"
+          },
+          {
+            "text": "",
+            "href": "https://moveek.com/rap/cgv-hung-vuong"
+          },
+          {
+            "text": "CGV Hùng Vương Plaza",
+            "href": "https://moveek.com/rap/cgv-hung-vuong"
+          },
+          {
+            "text": "",
+            "href": "https://moveek.com/rap/cgv-liberty-citypoint"
+          },
+          {
+            "text": "CGV Liberty Citypoint",
+            "href": "https://moveek.com/rap/cgv-liberty-citypoint"
+          },
+          {
+            "text": "",
+            "href": "https://moveek.com/rap/cgv_ly_chinh_thang"
+          },
+          {
+            "text": "CGV Lý Chính Thắng",
+            "href": "https://moveek.com/rap/cgv_ly_chinh_thang"
+          },
+          {
+            "text": "",
+            "href": "https://moveek.com/rap/cgv-ct-plaza"
+          },
+          {
+            "text": "CGV Menas Mall (CGV CT Plaza)",
+            "href": "https://moveek.com/rap/cgv-ct-plaza"
+          },
+          {
+            "text": "",
+            "href": "https://moveek.com/rap/cgv-pandora-city"
+          },
+          {
+            "text": "CGV Pandora City",
+            "href": "https://moveek.com/rap/cgv-pandora-city"
+          },
+          {
+            "text": "",
+            "href": "https://moveek.com/rap/cgv-van-thanh"
+          },
+          {
+            "text": "CGV Pearl Plaza",
+            "href": "https://moveek.com/rap/cgv-van-thanh"
+          },
+          {
+            "text": "",
+            "href": "https://moveek.com/rap/cgv-saigonres"
+          },
+          {
+            "text": "CGV Saigonres Nguyễn Xí",
+            "href": "https://moveek.com/rap/cgv-saigonres"
+          },
+          {
+            "text": "",
+            "href": "https://moveek.com/rap/cgv-satra-cu-chi"
+          },
+          {
+            "text": "CGV Satra Củ Chi",
+            "href": "https://moveek.com/rap/cgv-satra-cu-chi"
+          },
+          {
+            "text": "",
+            "href": "https://moveek.com/rap/cgv-su-van-hanh"
+          },
+          {
+            "text": "CGV Sư Vạn Hạnh",
+            "href": "https://moveek.com/rap/cgv-su-van-hanh"
+          },
+          {
+            "text": "",
+            "href": "https://moveek.com/rap/cgv-thao-dien-pearl"
+          },
+          {
+            "text": "CGV Thảo Điền Pearl",
+            "href": "https://moveek.com/rap/cgv-thao-dien-pearl"
+          },
+          {
+            "text": "",
+            "href": "https://moveek.com/rap/cgv-vincom-dong-khoi"
+          },
+          {
+            "text": "CGV Vincom Đồng Khởi",
+            "href": "https://moveek.com/rap/cgv-vincom-dong-khoi"
+          },
+          {
+            "text": "",
+            "href": "https://moveek.com/rap/cgv-go-vap"
+          },
+          {
+            "text": "CGV Vincom Gò Vấp",
+            "href": "https://moveek.com/rap/cgv-go-vap"
+          },
+          {
+            "text": "",
+            "href": "https://moveek.com/rap/cgv-vincom-landmark-81"
+          },
+          {
+            "text": "CGV Vincom Landmark 81",
+            "href": "https://moveek.com/rap/cgv-vincom-landmark-81"
+          },
+          {
+            "text": "",
+            "href": "https://moveek.com/rap/cgv-grand-park"
+          },
+          {
+            "text": "CGV Vincom Mega Mall Grand Park",
+            "href": "https://moveek.com/rap/cgv-grand-park"
+          },
+          {
+            "text": "",
+            "href": "https://moveek.com/rap/cgv-thu-duc"
+          },
+          {
+            "text": "CGV Vincom Thủ Đức",
+            "href": "https://moveek.com/rap/cgv-thu-duc"
+          },
+          {
+            "text": "",
+            "href": "https://moveek.com/rap/cgv-vivocity"
+          },
+          {
+            "text": "CGV Vivo City",
+            "href": "https://moveek.com/rap/cgv-vivocity"
+          },
+          {
+            "text": "",
+            "href": "https://moveek.com/rap/galaxy-cine-thiso-phan-huy-ich"
+          },
+          {
+            "text": "Galaxy Cine+ Thiso Phan Huy Ích",
+            "href": "https://moveek.com/rap/galaxy-cine-thiso-phan-huy-ich"
+          },
+          {
+            "text": "",
+            "href": "https://moveek.com/rap/galaxy-cineo-go-an-lac"
+          },
+          {
+            "text": "Galaxy CineO GO! An Lạc",
+            "href": "https://moveek.com/rap/galaxy-cineo-go-an-lac"
+          },
+          {
+            "text": "",
+            "href": "https://moveek.com/rap/galaxy-huynh-tan-phat"
+          },
+          {
+            "text": "Galaxy Huỳnh Tấn Phát",
+            "href": "https://moveek.com/rap/galaxy-huynh-tan-phat"
+          },
+          {
+            "text": "",
+            "href": "https://moveek.com/rap/galaxy-kinh-duong-vuong"
+          },
+          {
+            "text": "Galaxy Kinh Dương Vương",
+            "href": "https://moveek.com/rap/galaxy-kinh-duong-vuong"
+          },
+          {
+            "text": "",
+            "href": "https://moveek.com/rap/galaxy-thu-duc"
+          },
+          {
+            "text": "Galaxy Linh Trung Thủ Đức",
+            "href": "https://moveek.com/rap/galaxy-thu-duc"
+          },
+          {
+            "text": "",
+            "href": "https://moveek.com/rap/galaxy-nguyen-du"
+          },
+          {
+            "text": "Galaxy Nguyễn Du",
+            "href": "https://moveek.com/rap/galaxy-nguyen-du"
+          },
+          {
+            "text": "",
+            "href": "https://moveek.com/rap/galaxy-nguyen-van-qua"
+          },
+          {
+            "text": "Galaxy Nguyễn Văn Quá",
+            "href": "https://moveek.com/rap/galaxy-nguyen-van-qua"
+          },
+          {
+            "text": "",
+            "href": "https://moveek.com/rap/Galaxy-Parc-Mall-Q8"
+          },
+          {
+            "text": "Galaxy Parc Mall Q8",
+            "href": "https://moveek.com/rap/Galaxy-Parc-Mall-Q8"
+          },
+          {
+            "text": "",
+            "href": "https://moveek.com/rap/galaxy-quang-trung"
+          },
+          {
+            "text": "Galaxy Quang Trung",
+            "href": "https://moveek.com/rap/galaxy-quang-trung"
+          },
+          {
+            "text": "",
+            "href": "https://moveek.com/rap/galaxy-sala"
+          },
+          {
+            "text": "Galaxy Sala",
+            "href": "https://moveek.com/rap/galaxy-sala"
+          },
+          {
+            "text": "",
+            "href": "https://moveek.com/rap/galaxy-tan-binh"
+          },
+          {
+            "text": "Galaxy Tân Bình",
+            "href": "https://moveek.com/rap/galaxy-tan-binh"
+          },
+          {
+            "text": "",
+            "href": "https://moveek.com/rap/galaxy-trung-chanh"
+          },
+          {
+            "text": "Galaxy Trung Chánh",
+            "href": "https://moveek.com/rap/galaxy-trung-chanh"
+          },
+          {
+            "text": "",
+            "href": "https://moveek.com/rap/galaxy-truong-chinh"
+          },
+          {
+            "text": "Galaxy Trường Chinh",
+            "href": "https://moveek.com/rap/galaxy-truong-chinh"
+          },
+          {
+            "text": "",
+            "href": "https://moveek.com/rap/lotte-cinema-cantavil"
+          },
+          {
+            "text": "Lotte Cantavil",
+            "href": "https://moveek.com/rap/lotte-cinema-cantavil"
+          },
+          {
+            "text": "",
+            "href": "https://moveek.com/rap/lotte-cinema-cong-hoa"
+          },
+          {
+            "text": "Lotte Cộng Hoà",
+            "href": "https://moveek.com/rap/lotte-cinema-cong-hoa"
+          },
+          {
+            "text": "",
+            "href": "https://moveek.com/rap/lotte-go-vap"
+          },
+          {
+            "text": "Lotte Gò Vấp",
+            "href": "https://moveek.com/rap/lotte-go-vap"
+          },
+          {
+            "text": "",
+            "href": "https://moveek.com/rap/lotte-gold-view"
+          },
+          {
+            "text": "Lotte Gold View",
+            "href": "https://moveek.com/rap/lotte-gold-view"
+          },
+          {
+            "text": "",
+            "href": "https://moveek.com/rap/lotte-moonlight-thu-duc"
+          },
+          {
+            "text": "Lotte Moonlight Thủ Đức",
+            "href": "https://moveek.com/rap/lotte-moonlight-thu-duc"
+          },
+          {
+            "text": "",
+            "href": "https://moveek.com/rap/lotte-q7"
+          },
+          {
+            "text": "Lotte Nam Sài Gòn",
+            "href": "https://moveek.com/rap/lotte-q7"
+          },
+          {
+            "text": "",
+            "href": "https://moveek.com/rap/lotte-phu-tho"
+          },
+          {
+            "text": "Lotte Phú Thọ",
+            "href": "https://moveek.com/rap/lotte-phu-tho"
+          },
+          {
+            "text": "",
+            "href": "https://moveek.com/rap/lotte-thu-duc"
+          },
+          {
+            "text": "Lotte Thủ Đức",
+            "href": "https://moveek.com/rap/lotte-thu-duc"
+          },
+          {
+            "text": "",
+            "href": "https://moveek.com/rap/vien-trao-doi-van-hoa-phap-idecaf"
+          },
+          {
+            "text": "Viện Trao đổi Văn Hóa Pháp - IDECAF",
+            "href": "https://moveek.com/rap/vien-trao-doi-van-hoa-phap-idecaf"
+          },
+          {
+            "text": "Đóng",
+            "href": "https://moveek.com/phim/tu-ho-dai-nao/#"
+          },
+          {
+            "text": "tại đây",
+            "href": "https://moveek.com/phim/tu-ho-dai-nao/#"
+          },
+          {
+            "text": "Đóng",
+            "href": "https://moveek.com/phim/tu-ho-dai-nao/#"
+          },
+          {
+            "text": "lottecinemavn.com",
+            "href": "https://www.lottecinemavn.com/"
+          },
+          {
+            "text": "Tôi đã hiểu",
+            "href": "https://moveek.com/phim/tu-ho-dai-nao/#"
+          }
+        ],
+        "bodyText": "Hỗ trợ\nĐặt vé phim chiếu rạp\nLịch chiếu\nPhim \nRạp \nTin tức \nCộng đồng\nTứ Hổ Đại Náo\n\n4 Tigers - Action, Crime, Fantasy\n\n Thích Đánh giáTrailer\n\nTrong Thế Chiến II, 9 tấn vàng của chính phủ Thái Lan đột ngột bị thất lạc - Châm ngòi cho cuộc truy lùng đẫm máu khắp cả nước. Bốn tên cướp khét tiếng, mỗi người sở hữu một năng lực tà thuật riêng, bị lôi kéo vào trò chơi tử thần. Giữa thời đại mà công lý sụp đổ và người dân không còn nơi nương tựa, một huyền thoại hùng mạnh đã ra đời: Tứ Hổ.\n\nKhởi chiếu\n27/03/2026\nThời lượng\n122 phút\nGiới hạn tuổi\nT18\n\nDiễn viên\nSukollawat Kanarot, Mario Maurer, Arak Amornsupasiri, Phakin Khamwilaisak, Mashannoad Suvalmas\n\nĐạo diễn\nKongkiat Khomsiri\n\nNhà sản xuất\nJatusom Techaratanaprasert, Piyaluck Mahatanasab\n\nThông tin phim\nĐánh giá\nTin tức\nLịch chiếu\nTp. Hồ Chí Minh\nHà Nội\nĐà Nẵng\nĐồng Nai\nCần Thơ\nBình Dương\nBình Phước\nBình Thuận\nBà Rịa - Vũng Tàu\nAn Giang\nBến Tre\nHải Phòng\nKiên Giang\nHải Dương\nTrà Vinh\nQuảng Ninh\nVĩnh Long\nBắc Giang\nNinh Bình\nCà Mau\nLào Cai\nPhú Thọ\nHậu Giang\nThái Bình\nTây Ninh\nKhánh Hòa\nThừa Thiên - Huế\nĐồng Tháp\nThái Nguyên\nBạc Liêu\nThanh Hóa\nBình Định\nHưng Yên\nSóc Trăng\nHà Tĩnh\nYên Bái\nĐắk Lắk\nLong An\nNghệ An\nTiền Giang\nBắc Ninh\nHòa Bình\nTuyên Quang\nLâm Đồng\nNam Định\nQuảng Bình\nSơn La\nPhú Yên\nQuảng Trị\nQuảng Nam\nLạng Sơn\nQuảng Ngãi\nHà Nam\nNinh Thuận\nVĩnh Phúc\nGia Lai\nKon Tum\nĐịnh dạng\n2D\n3D\nKhông có lịch chiếu phù hợp với điều kiện tìm kiếm của bạn.\nHãy thử chọn một ngày khác hoặc định dạng khác.\nPHIM VIỆT SẮP CHIẾU\nÁn Mạng Xém Hoàn Hảo\nChị Chị Em Em 3\nMẹ Mìn\nHuyết Thống\nÁn Mạng Karaoke\nBò Sữa Bay\nChuyến Đi Nhớ Đời\nNgười Được Chọn\nNgày Con Còn Mẹ\nCÔNG TY TNHH MONET\nSố ĐKKD: 0315367026 · Nơi cấp: Sở kế hoạch và đầu tư Tp. Hồ Chí Minh · Đăng ký lần đầu ngày 01/11/2018\nĐịa chỉ: 33 Nguyễn Trung Trực, P.5, Q. Bình Thạnh, Tp. Hồ Chí Minh\nVề chúng tôi · Chính sách bảo mật · Hỗ trợ · Liên hệ · v8.1\n\nĐỐI TÁC"
+      }
+    }
+  ],
+  "showtimes": {
+    "source": "Moveek",
+    "sourceUrl": "https://moveek.com/lich-chieu/",
+    "fetchedAt": "2026-10-02T13:43:44.111Z",
+    "raw": [
+      {
+        "heading": "Lịch chiếu",
+        "text": "Lịch chiếu\nTìm lịch chiếu phim / rạp nhanh nhất với chỉ 1 bước!"
+      },
+      {
+        "heading": "Trại Buôn Người",
+        "text": "Trại Buôn Người\n\nThe Journey of Heroes · T18 · 2h15' · Trailer\n\nAction, Thriller\n\n2D Phụ Đề Anh\n08:45\n \n12:25\n \n14:00\n \n15:00\n \n16:35\n \n17:35\n \n19:45\n \n20:40\n \n21:10\n \n21:45\n \n22:20\n \n23:00"
+      },
+      {
+        "heading": "Scotty Giải Cứu Hoàng Thượng",
+        "text": "Scotty Giải Cứu Hoàng Thượng\n\nScotty · P · 1h20' · Trailer\n\nAdventure, Animation, Family\n\n2D Lồng Tiếng\n08:00"
+      },
+      {
+        "heading": "Quyết Cua Anh Này",
+        "text": "Quyết Cua Anh Này\n\nHenry's First Dates · T13 · 1h55' · Trailer\n\nComedy, Romance\n\n2D Phụ Đề Việt\n09:20\n \n12:00\n \n20:00\n \n22:30"
+      },
+      {
+        "heading": "Út Lan 2",
+        "text": "Út Lan 2\n\nT18 · 1h47' · Trailer\n\nDrama, Horror\n\n2D Phụ Đề Anh\n09:40\n \n11:35\n \n16:20\n \n23:15"
+      },
+      {
+        "heading": "Trái Tim Quái Thú",
+        "text": "Trái Tim Quái Thú\n\nHeart of the Beast · T13 · 1h41' · Trailer\n\nAction, Adventure\n\n2D Phụ Đề Việt\n08:15\n \n10:20\n \n14:15\n \n18:20\n \n20:25"
+      },
+      {
+        "heading": "Avengers: Hồi Kết - Phiên Bản Đặc Biệt",
+        "text": "Avengers: Hồi Kết - Phiên Bản Đặc Biệt\n\nAvengers: Endgame Encore · T13 · 3h3' · Trailer\n\nAction, Adventure, Science Fiction\n\n2D Phụ Đề Việt\n08:35\n \n17:15\n \n22:15"
+      },
+      {
+        "heading": "Hòn Đảo Quên Lãng",
+        "text": "Hòn Đảo Quên Lãng\n\nForgotten Island · K · 1h49' · Trailer\n\nComedy, Adventure, Animation, Family, Fantasy\n\n2D Lồng Tiếng\n12:15"
+      },
+      {
+        "heading": "Pháo Hoa Lúc Bình Minh",
+        "text": "Pháo Hoa Lúc Bình Minh\n\nA New Dawn (花緑青が明ける日に) · P · 1h15' · Trailer\n\nDrama, Animation\n\n2D Phụ Đề Việt\n16:00"
+      },
+      {
+        "heading": "Khóa Chặt Cửa Nào Suzume",
+        "text": "Khóa Chặt Cửa Nào Suzume\n\nSuzume no Tojimari · P · 2h2' · Trailer\n\nDrama, Adventure, Animation, Fantasy\n\n2D Phụ Đề Việt\n08:25\n \n17:35"
+      },
+      {
+        "heading": "Tp. Hồ Chí Minh 72 rạp",
+        "text": "Tp. Hồ Chí Minh 72 rạp "
+      },
+      {
+        "heading": "Hà Nội 56 rạp",
+        "text": "Hà Nội 56 rạp "
+      },
+      {
+        "heading": "Đà Nẵng 11 rạp",
+        "text": "Đà Nẵng 11 rạp "
+      },
+      {
+        "heading": "Đồng Nai 9 rạp",
+        "text": "Đồng Nai 9 rạp "
+      },
+      {
+        "heading": "Cần Thơ 5 rạp",
+        "text": "Cần Thơ 5 rạp "
+      },
+      {
+        "heading": "Bình Dương 10 rạp",
+        "text": "Bình Dương 10 rạp "
+      },
+      {
+        "heading": "Bình Phước 3 rạp",
+        "text": "Bình Phước 3 rạp "
+      },
+      {
+        "heading": "Bình Thuận 1 rạp",
+        "text": "Bình Thuận 1 rạp "
+      },
+      {
+        "heading": "Bà Rịa - Vũng Tàu 7 rạp",
+        "text": "Bà Rịa - Vũng Tàu 7 rạp "
+      },
+      {
+        "heading": "An Giang 3 rạp",
+        "text": "An Giang 3 rạp "
+      },
+      {
+        "heading": "Bến Tre 2 rạp",
+        "text": "Bến Tre 2 rạp "
+      },
+      {
+        "heading": "Hải Phòng 6 rạp",
+        "text": "Hải Phòng 6 rạp "
+      },
+      {
+        "heading": "Kiên Giang 4 rạp",
+        "text": "Kiên Giang 4 rạp "
+      },
+      {
+        "heading": "Hải Dương 4 rạp",
+        "text": "Hải Dương 4 rạp "
+      },
+      {
+        "heading": "Trà Vinh 1 rạp",
+        "text": "Trà Vinh 1 rạp "
+      },
+      {
+        "heading": "Quảng Ninh 5 rạp",
+        "text": "Quảng Ninh 5 rạp "
+      },
+      {
+        "heading": "Vĩnh Long 1 rạp",
+        "text": "Vĩnh Long 1 rạp "
+      },
+      {
+        "heading": "Bắc Giang 2 rạp",
+        "text": "Bắc Giang 2 rạp "
+      },
+      {
+        "heading": "Ninh Bình 1 rạp",
+        "text": "Ninh Bình 1 rạp "
+      },
+      {
+        "heading": "Cà Mau 2 rạp",
+        "text": "Cà Mau 2 rạp "
+      },
+      {
+        "heading": "Lào Cai 1 rạp",
+        "text": "Lào Cai 1 rạp "
+      },
+      {
+        "heading": "Phú Thọ 3 rạp",
+        "text": "Phú Thọ 3 rạp "
+      },
+      {
+        "heading": "Hậu Giang 1 rạp",
+        "text": "Hậu Giang 1 rạp "
+      },
+      {
+        "heading": "Thái Bình 1 rạp",
+        "text": "Thái Bình 1 rạp "
+      },
+      {
+        "heading": "Tây Ninh 2 rạp",
+        "text": "Tây Ninh 2 rạp "
+      },
+      {
+        "heading": "Khánh Hòa 7 rạp",
+        "text": "Khánh Hòa 7 rạp "
+      },
+      {
+        "heading": "Thừa Thiên - Huế 6 rạp",
+        "text": "Thừa Thiên - Huế 6 rạp "
+      },
+      {
+        "heading": "Đồng Tháp 2 rạp",
+        "text": "Đồng Tháp 2 rạp "
+      },
+      {
+        "heading": "Thái Nguyên 2 rạp",
+        "text": "Thái Nguyên 2 rạp "
+      },
+      {
+        "heading": "Bạc Liêu 3 rạp",
+        "text": "Bạc Liêu 3 rạp "
+      },
+      {
+        "heading": "Thanh Hóa 2 rạp",
+        "text": "Thanh Hóa 2 rạp "
+      },
+      {
+        "heading": "Bình Định 4 rạp",
+        "text": "Bình Định 4 rạp "
+      },
+      {
+        "heading": "Hưng Yên 2 rạp",
+        "text": "Hưng Yên 2 rạp "
+      },
+      {
+        "heading": "Sóc Trăng 2 rạp",
+        "text": "Sóc Trăng 2 rạp "
+      },
+      {
+        "heading": "Hà Tĩnh 1 rạp",
+        "text": "Hà Tĩnh 1 rạp "
+      },
+      {
+        "heading": "Yên Bái 1 rạp",
+        "text": "Yên Bái 1 rạp "
+      },
+      {
+        "heading": "Đắk Lắk 3 rạp",
+        "text": "Đắk Lắk 3 rạp "
+      },
+      {
+        "heading": "Long An 3 rạp",
+        "text": "Long An 3 rạp "
+      },
+      {
+        "heading": "Nghệ An 4 rạp",
+        "text": "Nghệ An 4 rạp "
+      },
+      {
+        "heading": "Tiền Giang 3 rạp",
+        "text": "Tiền Giang 3 rạp "
+      },
+      {
+        "heading": "Bắc Ninh 4 rạp",
+        "text": "Bắc Ninh 4 rạp "
+      },
+      {
+        "heading": "Hòa Bình 1 rạp",
+        "text": "Hòa Bình 1 rạp "
+      },
+      {
+        "heading": "Tuyên Quang 1 rạp",
+        "text": "Tuyên Quang 1 rạp "
+      },
+      {
+        "heading": "Lâm Đồng 5 rạp",
+        "text": "Lâm Đồng 5 rạp "
+      },
+      {
+        "heading": "Nam Định 1 rạp",
+        "text": "Nam Định 1 rạp "
+      },
+      {
+        "heading": "Quảng Bình 3 rạp",
+        "text": "Quảng Bình 3 rạp "
+      },
+      {
+        "heading": "Sơn La 1 rạp",
+        "text": "Sơn La 1 rạp "
+      },
+      {
+        "heading": "Phú Yên 1 rạp",
+        "text": "Phú Yên 1 rạp "
+      },
+      {
+        "heading": "Quảng Trị 2 rạp",
+        "text": "Quảng Trị 2 rạp "
+      },
+      {
+        "heading": "Quảng Nam 2 rạp",
+        "text": "Quảng Nam 2 rạp "
+      },
+      {
+        "heading": "Lạng Sơn 2 rạp",
+        "text": "Lạng Sơn 2 rạp "
+      },
+      {
+        "heading": "Quảng Ngãi 1 rạp",
+        "text": "Quảng Ngãi 1 rạp "
+      },
+      {
+        "heading": "Hà Nam 1 rạp",
+        "text": "Hà Nam 1 rạp "
+      },
+      {
+        "heading": "Ninh Thuận 1 rạp",
+        "text": "Ninh Thuận 1 rạp "
+      },
+      {
+        "heading": "Vĩnh Phúc 1 rạp",
+        "text": "Vĩnh Phúc 1 rạp "
+      },
+      {
+        "heading": "Gia Lai 2 rạp",
+        "text": "Gia Lai 2 rạp "
+      },
+      {
+        "heading": "Kon Tum 2 rạp",
+        "text": "Kon Tum 2 rạp "
+      },
+      {
+        "heading": "AEON BETA Central Premiumbán vé",
+        "text": "AEON BETA Central Premiumbán véRạp AEON BETA, Tầng 6, TTTM Central Premium, 854-856 Tạ Quang Bửu, P. Chánh Hưng, TP.HCM"
+      },
+      {
+        "heading": "Beta Nowzonebán vé",
+        "text": "Beta Nowzonebán véTTTM Nowzone, 235 Nguyễn Văn Cừ, Cầu Ông Lãnh, Hồ Chí Minh"
+      },
+      {
+        "heading": "Beta Quang Trungbán vé",
+        "text": "Beta Quang Trungbán vé645 Quang Trung, Phường 11, Quận Gò Vấp, Thành phố Hồ Chí Minh"
+      },
+      {
+        "heading": "Beta Trần Quang Khảibán vé",
+        "text": "Beta Trần Quang Khảibán véTầng 2 & 3, Toà nhà IMC, 62 Đường Trần Quang Khải, Phường Tân Định, Quận 1, TP. Hồ Chí Minh"
+      },
+      {
+        "heading": "Beta Ung Văn Khiêmbán vé",
+        "text": "Beta Ung Văn Khiêmbán véTầng 1, tòa nhà PAX SKY, 26 Ung Văn Khiêm, phường 25, Quận Bình Thạnh, Thành phố Hồ Chí Minh, Việt Nam"
+      },
+      {
+        "heading": "Cinestar Hiệp Phúbán vé",
+        "text": "Cinestar Hiệp Phúbán vé2 Đ.Trương Thị Hoa, Tân Thới Hiệp, Hồ Chí Minh"
+      },
+      {
+        "heading": "Cinestar Quốc Thanhbán vé",
+        "text": "Cinestar Quốc Thanhbán vé271 Nguyễn Trãi, P. Nguyễn Cư Trinh, Q.1, Tp. Hồ Chí Minh"
+      },
+      {
+        "heading": "Cinestar Satra Quận 6bán vé",
+        "text": "Cinestar Satra Quận 6bán vé1466 Đ. Võ Văn Kiệt, Phường 1, Quận 6, Hồ Chí Minh"
+      },
+      {
+        "heading": "DCINE Bến Thànhbán vé",
+        "text": "DCINE Bến Thànhbán véSố 6, Mạc Đĩnh Chi, Q.1, Tp. Hồ Chí Minh"
+      },
+      {
+        "heading": "Đống Đabán vé",
+        "text": "Đống Đabán vé890 Trần Hưng Đạo, Quận 5, Tp. Hồ Chí Minh"
+      },
+      {
+        "heading": "Mega GS Cao Thắngbán vé",
+        "text": "Mega GS Cao Thắngbán véLầu 6 - 7, 19 Cao Thắng, P.2, Q.3, Tp. Hồ Chí Minh"
+      },
+      {
+        "heading": "Mega GS Lý Chính Thắngbán vé",
+        "text": "Mega GS Lý Chính Thắngbán vé212 Lý Chính Thắng, phường 9, quận 3"
+      },
+      {
+        "heading": "BHD Star 3/2",
+        "text": "BHD Star 3/2Lầu 4, Siêu Thị Vincom 3/2, 3C Đường 3/2, Q. 10, Tp. Hồ Chí Minh"
+      },
+      {
+        "heading": "BHD Star Lê Văn Việt",
+        "text": "BHD Star Lê Văn Việt52 Lê Văn Việt, Quận 9, Tp. Hồ Chí Minh"
+      },
+      {
+        "heading": "BHD Star Phạm Hùng",
+        "text": "BHD Star Phạm HùngLầu 4, Centre Mall, C6/27 Phạm Hùng, Bình Chánh, Tp. Hồ Chí Minh"
+      },
+      {
+        "heading": "BHD Star Quang Trung",
+        "text": "BHD Star Quang TrungTầng B1&B2, TTTM Vincom, 190 Quang Trung, Q. Gò Vấp, Tp. Hồ Chí Minh"
+      },
+      {
+        "heading": "BHD Star Thảo Điền",
+        "text": "BHD Star Thảo ĐiềnTầng 5, TTTM Vincom Centre, 159 Xa Lộ Hà Nội, Quận 2, Tp. Hồ Chí Minh"
+      },
+      {
+        "heading": "CGV Aeon Bình Tânbán vé",
+        "text": "CGV Aeon Bình Tânbán véTầng 3, TTTM Aeon Mall Bình Tân, Số 1 đường số 17A, khu phố 11, P. Bình Trị Đông B, quận Bình Tân, TP. Hồ Chí Minh"
+      },
+      {
+        "heading": "CGV Aeon Tân Phúbán vé",
+        "text": "CGV Aeon Tân Phúbán véLầu 3, Aeon Mall 30 Bờ Bao Tân Thắng, P. Sơn Kỳ, Q. Tân Phú, Tp. Hồ Chí Minh"
+      },
+      {
+        "heading": "CGV Crescent Mallbán vé",
+        "text": "CGV Crescent Mallbán véLầu 5, Crescent Mall Đại lộ Nguyễn Văn Linh, Phú Mỹ Hưng, Q.7 Tp. Hồ Chí Minh"
+      },
+      {
+        "heading": "CGV Giga Mall Thủ Đứcbán vé",
+        "text": "CGV Giga Mall Thủ Đứcbán véTầng 6 TTTM GIGAMALL, 240-242 Phạm Văn Đồng, P. Hiệp Bình Chánh, Q. Thủ Đức, TPHCM."
+      },
+      {
+        "heading": "CGV Hoàng Văn Thụbán vé",
+        "text": "CGV Hoàng Văn Thụbán véTầng 1 và 2, Gala Center, số 415, Hoàng Văn Thụ, Phường 2, Quận Tân Bình, Tp. Hồ Chí Minh"
+      },
+      {
+        "heading": "CGV Hùng Vương Plazabán vé",
+        "text": "CGV Hùng Vương Plazabán véTầng 7, Hùng Vương Plaza, 126 Hùng Vương, Q.5, Tp. Hồ Chí Minh"
+      },
+      {
+        "heading": "CGV Liberty Citypointbán vé",
+        "text": "CGV Liberty Citypointbán véTầng M - 1, Liberty Center Saigon Citypoint, 59 - 61 Pasteur, Q.1, Tp. Hồ Chí Minh"
+      },
+      {
+        "heading": "CGV Lý Chính Thắngbán vé",
+        "text": "CGV Lý Chính Thắngbán véTầng 3 Cao ốc Intresco Plaza - 83 Lý Chính Thắng, Phường 8, Quận 3, TPHCM"
+      },
+      {
+        "heading": "CGV Menas Mall (CGV CT Plaza)bán vé",
+        "text": "CGV Menas Mall (CGV CT Plaza)bán véTầng 10, CT Plaza, 60A Trường Sơn, P.2, Q. Tân Bình, Tp. Hồ Chí Minh"
+      },
+      {
+        "heading": "CGV Pandora Citybán vé",
+        "text": "CGV Pandora Citybán véLầu 3, Pandora City 1/1 Trường Chinh, Q. Tân Phú, Tp. Hồ Chí Minh"
+      },
+      {
+        "heading": "CGV Pearl Plazabán vé",
+        "text": "CGV Pearl Plazabán véTầng 5, Pearl Plaza, 561A Điện Biên Phủ, P.25, Q. Bình Thạnh, Tp. Hồ Chí Minh"
+      },
+      {
+        "heading": "CGV Saigonres Nguyễn Xíbán vé",
+        "text": "CGV Saigonres Nguyễn Xíbán véTầng 4-5, Saigonres Plaza, 79/81 Nguyễn Xí, P 26, Q Bình Thạnh, Tp. Hồ Chí Minh"
+      },
+      {
+        "heading": "CGV Satra Củ Chibán vé",
+        "text": "CGV Satra Củ Chibán véTầng 3, TTTM Satra Củ Chi, Số 1239, Tỉnh Lộ 8, Ấp Thạnh An, Xã Trung An, Huyện Củ Chi, TP.HCM"
+      },
+      {
+        "heading": "CGV Sư Vạn Hạnhbán vé",
+        "text": "CGV Sư Vạn Hạnhbán véTầng 6, Vạn Hạnh Mall, 11 Sư Vạn Hạnh Q. 10, Tp. Hồ Chí Minh"
+      },
+      {
+        "heading": "CGV Thảo Điền Pearlbán vé",
+        "text": "CGV Thảo Điền Pearlbán véTầng 2, Thảo Điền Mall, 12 Quốc Hương, P. Thảo Điền, Q.2, Tp. Hồ Chí Minh"
+      },
+      {
+        "heading": "CGV Vincom Đồng Khởibán vé",
+        "text": "CGV Vincom Đồng Khởibán véTầng 3, TTTM Vincom Center Đồng Khởi, 72 Lê Thánh Tôn & 45A Lý Tự Trọng, Quận 1, Tp. Hồ Chí Minh"
+      },
+      {
+        "heading": "CGV Vincom Gò Vấpbán vé",
+        "text": "CGV Vincom Gò Vấpbán véTầng 5 TTTM Vincom Plaza Gò Vấp, 12 Phan Văn Trị, P.7, Q. Gò Vấp, Tp. Hồ Chí Minh"
+      },
+      {
+        "heading": "CGV Vincom Landmark 81bán vé",
+        "text": "CGV Vincom Landmark 81bán véB1, Vincom Center Landmark 81, 722 Điện Biên Phủ, P. 22, Q. Bình Thạnh, Tp. Hồ Chí Minh"
+      },
+      {
+        "heading": "CGV Vincom Mega Mall Grand Parkbán vé",
+        "text": "CGV Vincom Mega Mall Grand Parkbán véLô L5-01, Tầng L5, Trung Tâm Thương Mại Vincom Mega Mall Grand Park, Dự án Khu dân cư và Công viên Phước Thiện tại số 88 đường Phước Thiện, khu phố Phước Thiện, Phường Long Bình, Thành phố Thủ Đức"
+      },
+      {
+        "heading": "CGV Vincom Thủ Đứcbán vé",
+        "text": "CGV Vincom Thủ Đứcbán véTầng 5, TTTM Vincom Thủ Đức, 216 Võ Văn Ngân, P. Bình Thọ, Q. Thủ Đức, Tp. Hồ Chí Minh"
+      },
+      {
+        "heading": "CGV Vivo Citybán vé",
+        "text": "CGV Vivo Citybán véLầu 5, TTTM SC VivoCity, 1058 Nguyễn Văn Linh, Q.7, Tp. Hồ Chí Minh"
+      },
+      {
+        "heading": "Galaxy Cine+ Thiso Phan Huy Íchbán vé",
+        "text": "Galaxy Cine+ Thiso Phan Huy Íchbán véTầng 4 TTTM Thiso Mall Trường Chinh - Phan Huy Ích - 385 Phan Huy Ích, Phường 14, Quận Gò Vấp, TP. HCM"
+      },
+      {
+        "heading": "Galaxy CineO GO! An Lạcbán vé",
+        "text": "Galaxy CineO GO! An Lạcbán véTTTM GO! An Lạc, 1231 Quốc Lộ 1A, Phường An Lạc, TP.HCM"
+      },
+      {
+        "heading": "Galaxy Huỳnh Tấn Phátbán vé",
+        "text": "Galaxy Huỳnh Tấn Phátbán véLầu 2 CoopMart, 1362 Huỳnh Tấn Phát, khu phố 1, Phường Phú Mỹ, Quận 7"
+      },
+      {
+        "heading": "Galaxy Kinh Dương Vươngbán vé",
+        "text": "Galaxy Kinh Dương Vươngbán vé718bis Kinh Dương Vương, Q.6, Tp. Hồ Chí Minh"
+      },
+      {
+        "heading": "Galaxy Linh Trung Thủ Đứcbán vé",
+        "text": "Galaxy Linh Trung Thủ Đứcbán véSiêu thị Co.opXtra Thủ Đức 934 QL1A, Phường Linh Trung, Quận Thủ Đức, Hồ Chí Minh"
+      },
+      {
+        "heading": "Galaxy Nguyễn Dubán vé",
+        "text": "Galaxy Nguyễn Dubán vé116 Nguyễn Du, Q.1, Tp. Hồ Chí Minh"
+      },
+      {
+        "heading": "Galaxy Nguyễn Văn Quábán vé",
+        "text": "Galaxy Nguyễn Văn Quábán vé119B Nguyễn Văn Quá, P. Đông Hưng Thuận, Q.12, Tp. Hồ Chí Minh"
+      },
+      {
+        "heading": "Galaxy Parc Mall Q8bán vé",
+        "text": "Galaxy Parc Mall Q8bán véTầng 4 TTTM Parc Mall, 547-549 Tạ Quang Bửu, Phường 4, Quận 8"
+      },
+      {
+        "heading": "Galaxy Quang Trungbán vé",
+        "text": "Galaxy Quang Trungbán véLầu 3, CoopMart Foodcosa, 304A Quang Trung, P.11, Q. Gò Vấp, Tp. Hồ Chí Minh"
+      },
+      {
+        "heading": "Galaxy Salabán vé",
+        "text": "Galaxy Salabán véTầng 3, Thiso Mall Sala, 10 Mai Chí Thọ, Phường Thủ Thiêm, Thành phố Thủ Đức"
+      },
+      {
+        "heading": "Galaxy Tân Bìnhbán vé",
+        "text": "Galaxy Tân Bìnhbán vé246 Nguyễn Hồng Đào, Q.Tân Bình, Tp. Hồ Chí Minh"
+      },
+      {
+        "heading": "Galaxy Trung Chánhbán vé",
+        "text": "Galaxy Trung Chánhbán véTrung Tâm Văn Hóa Quận 12, 09 Quốc lộ 22, P. Trung Mỹ Tây, Q.12, Tp. Hồ Chí Minh"
+      },
+      {
+        "heading": "Galaxy Trường Chinhbán vé",
+        "text": "Galaxy Trường Chinhbán véTầng 3 - Co.opMart TTTM Thắng Lợi - Số 2 Trường Chinh, Tây Thạnh, Tân Phú, Thành phố Hồ Chí Minh"
+      },
+      {
+        "heading": "Lotte Cantavil",
+        "text": "Lotte CantavilTầng 7, Cantavil Premier, Xa lộ Hà Nội, P. n Phú, Q.2, TP. Hồ Chí Minh"
+      },
+      {
+        "heading": "Lotte Cộng Hoà",
+        "text": "Lotte Cộng HoàTầng 4, Pico Plaza, 20 Cộng Hòa, P.12, Q. Tân Bình, Tp. Hồ Chí Minh"
+      },
+      {
+        "heading": "Lotte Gò Vấp",
+        "text": "Lotte Gò VấpTầng 3, Lotte Mart Gò Vấp, 242 Nguyễn Văn Lượng, Q.Gò Vấp, TP.HCM"
+      },
+      {
+        "heading": "Lotte Gold View",
+        "text": "Lotte Gold ViewTẩng 3 TNL Plaza, 346 Bến Vân Đồn, P.1, Q.4, Tp. Hồ Chí Minh"
+      },
+      {
+        "heading": "Lotte Moonlight Thủ Đức",
+        "text": "Lotte Moonlight Thủ ĐứcMoonlight Residences, 102 Đặng Văn Bi, Bình Thọ, Thủ Đức, Hồ Chí Minh"
+      },
+      {
+        "heading": "Lotte Nam Sài Gòn",
+        "text": "Lotte Nam Sài GònTầng 3, Lotte Mart, 469 Nguyễn Hữu Thọ, P. Tân Hưng, Q.7, Tp. Hồ Chí Minh"
+      },
+      {
+        "heading": "Lotte Phú Thọ",
+        "text": "Lotte Phú ThọTầng 4 Lotte Mart Phú Thọ, ngã tư 3/2 và Lê Đại Hành, Q.11, Tp. Hồ Chí Minh"
+      },
+      {
+        "heading": "Lotte Thủ Đức",
+        "text": "Lotte Thủ ĐứcTầng 2, TTTM Joy Citipoint Thủ Đức, KCX Linh Trung 1, QL 1A, Tp. Hồ Chí Minh"
+      },
+      {
+        "heading": "Viện Trao đổi Văn Hóa Pháp - IDECAF",
+        "text": "Viện Trao đổi Văn Hóa Pháp - IDECAF31 Thái Văn Lung Quận 1"
+      }
+    ]
+  }
+}

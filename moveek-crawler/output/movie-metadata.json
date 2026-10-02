@@ -1,0 +1,108 @@
+[
+  {
+    "movieId": "MOV-vung-dat-quy-du-2026",
+    "externalId": "vung-dat-quy-du-2026",
+    "slug": "vung-dat-quy-du-2026",
+    "title": "Vùng Đất Quỷ Dữ 2026",
+    "originalTitle": "Resident Evil 2026",
+    "synopsis": "Lịch chiếu Vùng Đất Quỷ Dữ 2026 và review phim Vùng Đất Quỷ Dữ 2026. Đặt vé ngay tại Moveek",
+    "durationMin": 94,
+    "releaseDate": "2026-09-18",
+    "ageRating": "T18",
+    "status": "NOW_SHOWING",
+    "posterUrl": "https://cdn.moveek.com/storage/media/cache/large/6a98ed3d527ec952441120.webp",
+    "backdropUrl": null,
+    "trailerUrl": "https://moveek.com/video/19043/",
+    "language": null,
+    "country": null,
+    "ratingAvg": null,
+    "ratingCount": null,
+    "genres": [
+      "Horror",
+      "Science Fiction"
+    ],
+    "credits": {
+      "director": "Zach Cregger",
+      "cast": [
+        "Austin AbramsZach CherryKali ReisPaul Walter HauserJohnno Wilson"
+      ]
+    },
+    "source": {
+      "chain": "MOVEek",
+      "externalId": "vung-dat-quy-du-2026",
+      "url": "https://moveek.com/phim/vung-dat-quy-du-2026/"
+    },
+    "crawledAt": "2026-10-02T13:43:34.362Z"
+  },
+  {
+    "movieId": "MOV-diem-mu",
+    "externalId": "diem-mu",
+    "slug": "diem-mu",
+    "title": "Điểm Mù",
+    "originalTitle": "The Eyes",
+    "synopsis": "Lịch chiếu Điểm Mù và review phim Điểm Mù. Đặt vé ngay tại Moveek",
+    "durationMin": 105,
+    "releaseDate": "2026-08-14",
+    "ageRating": "T18",
+    "status": "NOW_SHOWING",
+    "posterUrl": "https://cdn.moveek.com/storage/media/cache/large/6a7442639cf87089399902.webp",
+    "backdropUrl": null,
+    "trailerUrl": "https://moveek.com/video/19015/",
+    "language": null,
+    "country": null,
+    "ratingAvg": null,
+    "ratingCount": null,
+    "genres": [
+      "Thriller",
+      "Horror"
+    ],
+    "credits": {
+      "director": "Yeom Ji-ho",
+      "cast": [
+        "Shin Min-a, Kim Nam-hee, Kim Young-ah, Lee Seung-ryong"
+      ]
+    },
+    "source": {
+      "chain": "MOVEek",
+      "externalId": "diem-mu",
+      "url": "https://moveek.com/phim/diem-mu/"
+    },
+    "crawledAt": "2026-10-02T13:43:37.600Z"
+  },
+  {
+    "movieId": "MOV-tu-ho-dai-nao",
+    "externalId": "tu-ho-dai-nao",
+    "slug": "tu-ho-dai-nao",
+    "title": "Tứ Hổ Đại Náo",
+    "originalTitle": "4 Tigers",
+    "synopsis": "Lịch chiếu Tứ Hổ Đại Náo và review phim Tứ Hổ Đại Náo. Đặt vé ngay tại Moveek",
+    "durationMin": 122,
+    "releaseDate": "2026-03-27",
+    "ageRating": "T18",
+    "status": "NOW_SHOWING",
+    "posterUrl": "https://cdn.moveek.com/storage/media/cache/large/698f1272d2b6f149833801.webp",
+    "backdropUrl": null,
+    "trailerUrl": "https://moveek.com/video/18865/",
+    "language": null,
+    "country": null,
+    "ratingAvg": null,
+    "ratingCount": null,
+    "genres": [
+      "Action",
+      "Crime",
+      "Fantasy"
+    ],
+    "credits": {
+      "director": "Kongkiat Khomsiri",
+      "cast": [
+        "Sukollawat Kanarot, Mario Maurer, Arak Amornsupasiri, Phakin Khamwilaisak, Mashannoad Suvalmas"
+      ]
+    },
+    "source": {
+      "chain": "MOVEek",
+      "externalId": "tu-ho-dai-nao",
+      "url": "https://moveek.com/phim/tu-ho-dai-nao/"
+    },
+    "crawledAt": "2026-10-02T13:43:40.454Z"
+  }
+]
