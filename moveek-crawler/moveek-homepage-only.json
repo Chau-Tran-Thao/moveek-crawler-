@@ -1,0 +1,162 @@
+{
+  "source": {
+    "url": "https://moveek.com/",
+    "crawl_scope": "homepage_only",
+    "follow_links": false,
+    "max_depth": 0
+  },
+  "homepage": {
+    "site_name": "Moveek",
+    "title": "Think Movies, Go Moveek | Mua vé, Lịch chiếu, Review phim, Giá vé",
+    "movies": [
+      {
+        "title": "Trại Buôn Người",
+        "release_date": "25/09",
+        "rating_percent": 96
+      },
+      {
+        "title": "Quyết Cua Anh Này",
+        "release_date": "02/10"
+      },
+      {
+        "title": "Trái Tim Quái Thú",
+        "release_date": "02/10"
+      },
+      {
+        "title": "Scotty Giải Cứu Hoàng Thượng",
+        "release_date": "02/10"
+      },
+      {
+        "title": "Út Lan 2",
+        "release_date": "25/09",
+        "rating_percent": 57
+      },
+      {
+        "title": "Thần Sư Chung Quỳ: Linh Giới Đại Chiến",
+        "release_date": "02/10"
+      },
+      {
+        "title": "Avengers: Hồi Kết - Phiên Bản Đặc Biệt",
+        "release_date": "25/09",
+        "rating_percent": 94
+      },
+      {
+        "title": "Lên Hương",
+        "release_date": "14/09",
+        "rating_percent": 87
+      },
+      {
+        "title": "Vùng Đất Quỷ Dữ 2026",
+        "release_date": "18/09",
+        "rating_percent": 57
+      },
+      {
+        "title": "Hòn Đảo Quên Lãng",
+        "release_date": "25/09"
+      },
+      {
+        "title": "Pháo Hoa Lúc Bình Minh",
+        "release_date": "25/09"
+      },
+      {
+        "title": "Bóng Ma Nhà Hát",
+        "release_date": "18/09"
+      },
+      {
+        "title": "Bát Tiên Truy Tìm Lưu Ly Đăng",
+        "release_date": "11/09"
+      },
+      {
+        "title": "Hộ Linh Tráng Sĩ: Bí Ẩn Mộ Vua Đinh (Rút Gọn)",
+        "release_date": "28/08",
+        "rating_percent": 79
+      },
+      {
+        "title": "Chiikawa: Bí Mật Đảo Người Cá",
+        "release_date": "28/08",
+        "rating_percent": 85
+      },
+      {
+        "title": "Tàu Buôn Người",
+        "release_date": "28/08",
+        "rating_percent": 64
+      },
+      {
+        "title": "Shin Cậu Bé Bút Chì: Kỳ Kỳ Quái Quái Kỳ Nghỉ Yêu Quái Của Tớ",
+        "release_date": "21/08",
+        "rating_percent": 91
+      },
+      {
+        "title": "PAW Patrol: Phim Khủng Long",
+        "release_date": "14/08",
+        "rating_percent": 100
+      },
+      {
+        "title": "Khóa Chặt Cửa Nào Suzume",
+        "release_date": "10/03",
+        "rating_percent": 97
+      },
+      {
+        "title": "Laputa Lâu Đài Trên Không",
+        "release_date": "TBA"
+      },
+      {
+        "title": "Marnie Yêu Dấu",
+        "release_date": "TBA"
+      }
+    ],
+    "reviews": [
+      {
+        "title": "Review Quyết Cua Anh Này - Một bản remake duyên dáng, hài hước và đậm chất Thái",
+        "author": "linhhuynh0257",
+        "published": "02/10 10:30"
+      },
+      {
+        "title": "Avengers: Hồi Kết (Phiên Bản Đặc Biệt) - Coi để chuẩn bị cho Avengers: Doomsday",
+        "author": "Ivy_Trat",
+        "published": "29/09 14:00"
+      },
+      {
+        "title": "So sánh Trại Buôn Người và Thiên Đường Máu - Có gì khác nhau?",
+        "author": "linhhuynh0257",
+        "published": "25/09 12:00"
+      },
+      {
+        "title": "Án Mạng Karaoke – Sự kết hợp của dàn diễn viên trẻ và gạo cội",
+        "author": "linhhuynh0257",
+        "published": "24/09 10:20"
+      },
+      {
+        "title": "Review Trại Buôn Người – Phim hành động 18+ chất lượng",
+        "author": "linhhuynh0257",
+        "published": "23/09 20:00"
+      },
+      {
+        "title": "Trại Buôn Người (2026) - Sau Thiên Đường Máu liệu phim có gì mới để kể?",
+        "author": "Ivy_Trat",
+        "published": "23/09 12:00"
+      },
+      {
+        "title": "Review Trái Tim Quái Thú (Heart of the Beast) - Hành trình sinh tồn của một người một chó",
+        "author": "Ivy_Trat",
+        "published": "02/10 11:00"
+      },
+      {
+        "title": "Review Vùng Đất Quỷ Dữ 2026 – Phim kinh dị 18+ gây bất ngờ lớn",
+        "author": "linhhuynh0257",
+        "published": "19/09 21:30"
+      },
+      {
+        "title": "Review Út Lan 2 - Nỗi sợ tâm linh miền sông nước được đưa lên màn ảnh",
+        "author": "linhhuynh0257",
+        "published": "19/09 21:00"
+      },
+      {
+        "title": "Review Bóng Ma Nhà Hát (2026) - Cú bắt tay chữa lành giữa người và ma",
+        "author": "Ivy_Trat",
+        "published": "18/09 18:28"
+      }
+    ],
+    "crawl_note": "Các mục trên được lấy từ nội dung trang chủ. Không truy cập nội dung của các đường dẫn được liên kết từ trang chủ."
+  }
+}
