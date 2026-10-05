@@ -1,0 +1,126 @@
+{
+  "url": "https://www.galaxycine.vn/api/v2/mobile/promotions",
+  "body": {
+    "response": {
+      "status": 200,
+      "code": 0,
+      "message": "OK",
+      "url": "https://www.galaxycine.vn/api/v2/mobile/promotions"
+    },
+    "data": {
+      "total": 10,
+      "result": [
+        {
+          "id": "450f9505-39c1-4542-9377-0906bd9da24f",
+          "name": "Mua 1 Tặng 1 Bắp Nước Tại Galaxy CineO Coop Quang Trung",
+          "slug": "mua-1-tang-1-bap-nuoc-tai-galaxy-cineo-coop-quang-trung",
+          "imageLandscape": "https://cdn.galaxycine.vn/media/2026/10/1/galaxy-cineo-quang-trung-mua-1-tang-1-4_1790830628302.jpg",
+          "imagePortrait": "https://cdn.galaxycine.vn/media/2026/10/1/galaxy-cineo-quang-trung-mua-1-tang-1-3_1790830611012.jpg",
+          "cityIds": [],
+          "action": "",
+          "actionLink": "",
+          "order": 0
+        },
+        {
+          "id": "42ffe7b6-81f0-4e8d-bfee-2ab3a90efb9c",
+          "name": "Ưu Đãi Độc Quyền Chỉ Có Tại Galaxy CineO GO! An Lạc",
+          "slug": "uu-dai-doc-quyen-chi-co-tai-galaxy-cineo-go-an-lac",
+          "imageLandscape": "https://cdn.galaxycine.vn/media/2026/9/25/galaxy-cineo-go-an-lac--5_1790312391768.jpg",
+          "imagePortrait": "https://cdn.galaxycine.vn/media/2026/9/25/galaxy-cineo-go-an-lac--4_1790312376143.jpg",
+          "cityIds": [],
+          "action": "",
+          "actionLink": "",
+          "order": 0
+        },
+        {
+          "id": "c48bbfe9-65e2-4100-bad2-460fe706f21a",
+          "name": "Bắp Ngọt Vị Cốm – Hương Vị Mùa Thu Hà Nội Giữa Lòng Rạp Chiếu",
+          "slug": "bap-ngot-vi-com--huong-vi-mua-thu-ha-noi-giua-long-rap-chieu",
+          "imageLandscape": "https://cdn.galaxycine.vn/media/2026/8/10/bap-com-galaxy-cinema-5_1786347376298.jpg",
+          "imagePortrait": "https://cdn.galaxycine.vn/media/2026/8/10/bap-com-galaxy-cinema-4_1786347368028.jpg",
+          "cityIds": [],
+          "action": "",
+          "actionLink": "",
+          "order": 0
+        },
+        {
+          "id": "c159d12b-5446-4b46-aac0-2de90c0ab002",
+          "name": "Voucher ShopeePay Giảm Đến 50K Dành Tặng Các Stars!",
+          "slug": "voucher-giam-khung-danh-tang-cac-stars",
+          "imageLandscape": "https://cdn.galaxycine.vn/media/2026/8/30/shopee-x-galaxy-cinema-6_1788051785481.jpg",
+          "imagePortrait": "https://cdn.galaxycine.vn/media/2026/8/30/shopee-x-galaxy-cinema-5_1788051690839.jpg",
+          "cityIds": [],
+          "action": "",
+          "actionLink": "",
+          "order": 1
+        },
+        {
+          "id": "4aa6d305-f93e-4249-9a1a-f664fbd57284",
+          "name": "Happy Day - Vé Chỉ Từ 45K",
+          "slug": "happy-day---ve-chi-tu-45k",
+          "imageLandscape": "https://cdn.galaxycine.vn/media/2026/1/12/750_1768184255674.jpg",
+          "imagePortrait": "https://cdn.galaxycine.vn/media/2026/1/12/500_1768184251718.jpg",
+          "cityIds": [],
+          "action": "",
+          "actionLink": "",
+          "order": 1
+        },
+        {
+          "id": "e3587484-13a6-4cd6-bd55-31c90061d2c2",
+          "name": "Ưu Đãi Thành Viên Galaxy Cinema 2026",
+          "slug": "uu-dai-thanh-vien-galaxy-cinema-2026",
+          "imageLandscape": "https://cdn.galaxycine.vn/media/2025/1/22/bangqltv-digital-1350x900_1737516330683.jpg",
+          "imagePortrait": "https://cdn.galaxycine.vn/media/2025/1/22/bangqltv-digital-1200x1800_1737516321041.jpg",
+          "cityIds": [],
+          "action": "",
+          "actionLink": "",
+          "order": 2
+        },
+        {
+          "id": "fce7431b-beb8-4147-abf4-e3d588c664e6",
+          "name": "Ngày Tri Ân Của Galaxy Cinema - Ngày Thứ Hai ĐẦU TIÊN Mỗi Tháng",
+          "slug": "ngay-tri-an-cua-galaxy-cinema---ngay-thu-hai-dau-tien-moi-thang",
+          "imageLandscape": "https://cdn.galaxycine.vn/media/2026/10/2/750_1790934036810.jpg",
+          "imagePortrait": "https://cdn.galaxycine.vn/media/2026/10/2/500_1790934030424.jpg",
+          "cityIds": [],
+          "action": "",
+          "actionLink": "",
+          "order": 5
+        },
+        {
+          "id": "61aed020-7cd0-4f90-aae4-9062bda07bf1",
+          "name": "Galaxy CineX - Hanoi Centre: Mãn Nhãn Với Không Gian, \"Mãn Vị\" Với Menu Tiệc Khai Trương Đẳng Cấp!",
+          "slug": "galaxy-cinex---hanoi-centre-man-nhan-voi-khong-gian-man-vi-voi-menu-tiec-khai-truong-dang-cap",
+          "imageLandscape": "https://cdn.galaxycine.vn/media/2026/3/26/galaxy-cinex---hanoi-centre-1_1774496927993.jpg",
+          "imagePortrait": "https://cdn.galaxycine.vn/media/2026/3/26/galaxy-cinex---hanoi-centre-2_1774496922823.jpg",
+          "cityIds": [],
+          "action": "",
+          "actionLink": "",
+          "order": 9
+        },
+        {
+          "id": "a0507e79-dd1b-4dc2-936b-0508e2889745",
+          "name": "Tiêu Chí Phân Loại Phim Theo Lứa Tuổi",
+          "slug": "tie-chi-phan-loai-phim-theo-lua-tuoi-cap-nhat-moi-tu-cuc-dien-anh",
+          "imageLandscape": "https://cdn.galaxycine.vn/media/2023/5/23/quy-dinh-do-tuoi-digital-1350x900_1684835377244.jpg",
+          "imagePortrait": "https://cdn.galaxycine.vn/media/2023/7/25/quy-dinh-do-tuoi-digital-1200x1800-1684835366729_1690277000962.jpg",
+          "cityIds": [],
+          "action": "",
+          "actionLink": "",
+          "order": 9
+        },
+        {
+          "id": "d227db34-df56-4547-91e9-bfe767757fcf",
+          "name": "Tín Đồ Sô-cô-la: \"Bắt Sóng\" Vị Ngọt Ovaltine, Nâng Tầm Trải Nghiệm Xem Phim Tại Galaxy",
+          "slug": "tin-do-so-co-la-bat-song-vi-ngot-ovaltine-nang-tam-trai-nghiem-xem-phim-tai-galaxy",
+          "imageLandscape": "https://cdn.galaxycine.vn/media/2026/4/24/bat-song-vi-ngot-ovaltine-2_1777025442816.jpg",
+          "imagePortrait": "https://cdn.galaxycine.vn/media/2026/4/24/bat-song-vi-ngot-ovaltine-1_1777025435911.jpg",
+          "cityIds": [],
+          "action": "",
+          "actionLink": "",
+          "order": 999999999
+        }
+      ]
+    }
+  }
+}
