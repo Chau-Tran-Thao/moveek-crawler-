@@ -1,0 +1,12 @@
+{
+  "url": "https://www.galaxycine.vn/api/v2/mobile/booking/cart",
+  "body": {
+    "response": {
+      "status": 200,
+      "code": 0,
+      "message": "OK",
+      "url": "https://www.galaxycine.vn/api/v2/mobile/booking/cart"
+    },
+    "data": null
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "url": "https://www.galaxycine.vn/galaxy-inventory/graphql",
+  "body": {
+    "errors": [
+      {
+        "message": "Forbidden resource",
+        "code": "FORBIDDEN"
+      }
+    ],
+    "data": {
+      "cart": null
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "url": "https://www.galaxycine.vn/api/v2/mobile/user/profile",
+  "body": {
+    "response": {
+      "status": 403,
+      "code": 60004,
+      "message": "Forbidden",
+      "url": "https://www.galaxycine.vn/api/v2/mobile/user/profile"
+    },
+    "data": {
+      "message": "Phiên đăng nhập của bạn đã hết hạn"
+    }
+  }
+}

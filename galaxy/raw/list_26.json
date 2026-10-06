@@ -1,0 +1,2855 @@
+{
+  "url": "https://www.galaxycine.vn/_next/data/jlFhZubH0FvJHtiAI8tby/vi/rap-gia-ve/premium-hall.json",
+  "body": {
+    "pageProps": {
+      "technologySystems": [
+        {
+          "id": "4f2b3e9a-4f61-4cd3-899f-95fb12648793",
+          "slug": "onyx-x-dolby-atmos",
+          "short": "",
+          "name": "ONYX X DOLBY ATMOS",
+          "type": "system",
+          "category": "technology",
+          "displayOrder": 0,
+          "excerpt": "<p style=\"text-align: left;\">Phòng chiếu <strong>ONYX X DOLBY ATMOS</strong> tiên phong thiết lập chuẩn mực rạp chiếu thế hệ mới tại Hà Nội khi đồng bộ trang bị màn hình <strong>Samsung Onyx Cinema LED</strong> - màn hình LED dành cho rạp chiếu phim đầu tiên trên thế giới đạt chứng nhận Digital Cinema Initiatives (DCI) cùng hệ thống loa trần <strong>Dolby Atmos</strong> mang đến trải nghiệm âm thanh vòm bao trùm đa chiều, vượt xa chuẩn âm thanh vòm truyền thống.&nbsp;</p><p style=\"text-align: left;\"></p><p style=\"text-align: left;\"><span style=\"color: rgb(0, 0, 0);\"><strong>Màn hình Samsung Onyx Cinema LED: Tái định nghĩa chuẩn mực hình ảnh cao cấp cho rạp phim</strong></span></p><p style=\"text-align: left;\"><span style=\"color: rgb(0, 0, 0);\">Màn hình mang đến trải nghiệm hình ảnh 4K HDR với độ chính xác màu sắc cao, sắc đen sâu và độ tương phản gần như vô hạn. Nhờ công nghệ LED tự phát sáng, Onyx khắc phục những giới hạn của máy chiếu truyền thống như nhạt màu, giảm độ nét, thiếu nhất quán trong các cảnh sáng - tối. Màn hình đạt độ sáng tối đa lên đến 300 nits (87.6fL), cao gấp 6 lần tiêu chuẩn rạp chiếu thông thường, giúp tái hiện trọn vẹn ý đồ hình ảnh của nhà làm phim, đồng thời đảm bảo sự thoải mái cho mắt người xem. Với tần số quét lên đến 4K 120Hz, mọi chuyển động được thể hiện mượt mà, sắc nét đến từng chi tiết, mang lại trải nghiệm điện ảnh sống động và chân thực hơn bao giờ hết. Samsung Onyx Cinema LED được phát triển với mục tiêu tối ưu hiệu suất vận hành lâu dài. Hệ thống tản nhiệt chủ động và thụ động giúp màn hình hoạt động ổn định trong thời gian dài, duy trì chất lượng hình ảnh và độ bền linh kiện. Đây cũng là màn hình LED dành cho rạp chiếu phim đầu tiên và duy nhất hiện nay có chế độ bảo hành lên đến 10 năm, thiết lập chuẩn mực mới về độ tin cậy trong công nghệ màn hình.&nbsp;</span></p><p style=\"text-align: left;\">&nbsp;<br><span style=\"color: rgb(0, 0, 0);\"><strong>Dolby Atmos mang đến trải nghiệm âm thanh vòm bao trùm đa chiều</strong>&nbsp;</span></p><p style=\"text-align: left;\"><span style=\"color: rgb(0, 0, 0);\">Phòng chiếu được trang bị máy chủ đa phương tiện tích hợp Dolby Integrated Media Server IMS3000, hệ thống khuếch đại Dolby Multichannel Amplifiers và hệ thống loa kênh màn hình Dolby System 131 Screen Channel Speaker, mang đến trải nghiệm điện ảnh nhập vai trọn vẹn cho khán giả. Hệ thống này cho phép hỗ trợ chiếu phim với chất lượng âm thanh vượt trội, được thiết kế nhằm mang đến âm thanh mạnh mẽ, rõ nét và đồng đều cho mọi vị trí ghế ngồi. &nbsp;</span></p><p style=\"text-align: left;\"><span style=\"color: rgb(0, 0, 0);\">Vượt xa khái niệm âm thanh vòm truyền thống, Dolby Atmos đưa khán giả đắm mình vào thế giới điện ảnh với hệ thống giúp âm thanh di chuyển mượt mà, bao trùm toàn bộ không gian rạp, thậm chí cả trên cao. Với nhiều lớp âm thanh chi tiết sắc sảo, Dolby Atmos tái hiện chân thật chuyển động của con người, không gian, sự vật,... giúp khán giả có cảm giác như đang sống trong từng phân cảnh.</span></p>",
+          "coverImage": "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/Screenshot-2026-03-27-150941-1774599004581-409fdb5b.png",
+          "images": [
+            "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/Onyx-3-1775462661936-7daa5296.jpg",
+            "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/Onyx-4-1775462669877-e71769fb.jpg",
+            "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/Onyx-6-1775462679195-861facf1.jpg",
+            "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/Onyx-5-1775462683001-6e0bfdc5.jpg"
+          ],
+          "locations": [
+            {
+              "cinemaId": "d7f6f35a-4e7b-4df4-bec6-e7d02900b0eb",
+              "cinemaCode": "1029",
+              "cinemaName": "Galaxy CineX - Hanoi Centre",
+              "cinemaSlug": "galaxy-ha-noi-center",
+              "address": "Tầng 3, tòa Nam, Trung tâm thương mại Hanoi Centre (Tiến Bộ plaza) – Số 175 Nguyễn Thái Học, phường Ô Chợ Dừa, Hà Nội",
+              "order": 1,
+              "note": null,
+              "coverImage": "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema//Lobby-2-1775038144269-492e924b.jpg",
+              "images": [
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/Boulevard-7-1775556177646-a8a5b4f5.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/Boulevard-16-1775556177461-fab1d024.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/IMAX-5-1775556176879-f90aa499.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/Lobby-1-1775556177320-b23b6750.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/Lobby-2-1775556177410-bb030eb5.jpg"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "32189771-5c0e-442a-9dd9-e19a82c50bab",
+          "slug": "imax-with-laser",
+          "short": "",
+          "name": "IMAX WITH LASER",
+          "type": "system",
+          "category": "technology",
+          "displayOrder": 0,
+          "excerpt": "<p><span style=\"color: rgb(0, 0, 0);\"><strong>Phòng chiếu IMAX with Laser đầu tiên tại Việt Nam - Tiên phong công nghệ trình chiếu IMAX with Laser</strong>&nbsp;</span></p><p style=\"text-align: left;\"><span style=\"color: rgb(0, 0, 0);\">Công nghệ mang đến trải nghiệm điện ảnh đỉnh cao với màn hình tỷ lệ 1.43:1 hoặc 1.90:1, tốc độ khung hình lên đến 120fps và máy chiếu IMAX Laser 4K, cho hình ảnh sắc nét vượt trội, độ tương phản sâu và màu sắc sống động, mở rộng tối đa tầm nhìn và khiến cảm giác như khán giả đang “bước vào bên trong bộ phim”. Trải nghiệm còn được nâng tầm với âm thanh chính xác IMAX thế hệ mới và công nghệ âm thanh đa kênh, mang đến dải động lớn hơn, được tinh chỉnh đồng đều trong toàn bộ không gian rạp, mang đến cảm giác nhập vai sống động cả về hình ảnh lẫn âm thanh.&nbsp;</span></p><p style=\"text-align: left;\"><span style=\"color: rgb(0, 0, 0);\">Ngoài hệ thống công nghệ IMAX with Laser, phòng chiếu còn được trang bị ghế bọc da cao cấp được thiết kế dạng bậc thang với khoảng cách giữa các dãy ghế vô cùng rộng rãi, thoải mái để tận hưởng và trải nghiệm diện ảnh một cách trọn vẹn nhất.&nbsp;</span></p><p><br></p>",
+          "coverImage": "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/26-b-trc-8643-pano_1767776123782.jpg",
+          "images": [
+            "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/26-b-trc-8643-pano_1767776123782.jpg",
+            "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/26-b-trc-8591-pano_1767776132948.jpg",
+            "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/-trc8342_1767776199706.jpg",
+            "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/imax01-1775619161161-52f8cd3a.jpg",
+            "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/imax02-1775619161183-424334cb.jpg",
+            "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/imax03-1775619161353-fc08f338.jpg",
+            "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/imax05-1775619161313-539951df.jpg",
+            "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/imax06-1775619161192-18299d99.jpg",
+            "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/imax08-1775619161330-52158938.jpg"
+          ],
+          "locations": [
+            {
+              "cinemaId": "917fe3dd-eef9-4404-bd0e-ea79f42d5410",
+              "cinemaCode": "1024",
+              "cinemaName": "Galaxy CineX - Sala",
+              "cinemaSlug": "galaxy-thiso-sala",
+              "address": "Tầng 3, TTTM Thiso Mall Sala - Số 10 Đường Mai Chí Thọ, Phường An Khánh, TP.HCM",
+              "order": 3,
+              "note": null,
+              "coverImage": "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/Entrance-1776243118462-e3ba716f.jpg",
+              "images": [
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/Boulevard06-1776243129043-706fcdc3.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/Haatopia02-1776243129258-46c719a0.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/imax01-1776243129131-3db8d11d.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/Lagom01-1776243129647-8b8e647e.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/Laurus05-1776243129149-f2787990.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/Lobby04-1776243129495-4c03957b.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/Lobby05-1776243129578-6f4fc8b6.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/WalkHall04-1776243129376-f261cc83.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/WalkHall06-1776243129405-c04f1b6a.jpg"
+              ]
+            },
+            {
+              "cinemaId": "d7f6f35a-4e7b-4df4-bec6-e7d02900b0eb",
+              "cinemaCode": "1029",
+              "cinemaName": "Galaxy CineX - Hanoi Centre",
+              "cinemaSlug": "galaxy-ha-noi-center",
+              "address": "Tầng 3, tòa Nam, Trung tâm thương mại Hanoi Centre (Tiến Bộ plaza) – Số 175 Nguyễn Thái Học, phường Ô Chợ Dừa, Hà Nội",
+              "order": 3,
+              "note": null,
+              "coverImage": "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema//Lobby-2-1775038144269-492e924b.jpg",
+              "images": [
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/Boulevard-7-1775556177646-a8a5b4f5.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/Boulevard-16-1775556177461-fab1d024.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/IMAX-5-1775556176879-f90aa499.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/Lobby-1-1775556177320-b23b6750.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/Lobby-2-1775556177410-bb030eb5.jpg"
+              ]
+            }
+          ]
+        }
+      ],
+      "styleSystems": [
+        {
+          "id": "36881284-cf39-438a-b822-4de3f8410632",
+          "slug": "romantico",
+          "short": "",
+          "name": "ROMÁNTICO",
+          "type": "system",
+          "category": "style",
+          "displayOrder": 0,
+          "excerpt": "<p><strong>Phòng chiếu ROMÁNTICO</strong> là nơi những cung bậc cảm xúc giữa các cặp đôi được nâng niu và là địa điểm hẹn hò vô cùng lí tưởng. Vượt xa định nghĩa xem phim thông thường, <strong>ROMÁNTICO </strong>như một khu vườn tình yêu đích thực - ấm áp, sang trọng và tinh tế trong từng chi tiết nhưng không kém phần riêng tư và thư giãn. Mỗi thước phim được nâng tầm với hệ thống máy chiếu laser màu sắc sống động, độ sáng rực rỡ kết hợp cùng công nghệ âm thanh Dolby 7.1, mang đến những trải nghiệm chân thực và hoàn hảo. Chất lượng dịch vụ cũng được chăm chút kĩ lưỡng với:&nbsp;</p><ul><li><p>Quyền lợi check in ưu tiên và tận hưởng tiện nghi riêng biệt trong khi chờ đợi&nbsp;</p></li><li><p>Ghế da cao cấp đa chế độ từ ngồi đến nằm, thoải mái tận hưởng suốt thời gian xem phim&nbsp;</p></li><li><p>Ấm áp với chăn lông mềm mại tại ghế ngồi&nbsp;</p></li><li><p>Ẩm thực được phục vụ tận nơi&nbsp;</p></li><li><p><br></p></li></ul><p></p>",
+          "coverImage": "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/Romantico-1-1-1775104236949-86016b61.jpg",
+          "images": [
+            "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/Romantico-2-1775465084910-4fb6b43a.jpg",
+            "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/Romantico-3-1775465084994-9ecad971.jpg",
+            "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/Romantico-4-1775465085124-d429b925.jpg",
+            "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/Romantico-7-1775465085140-6cb09d9f.jpg",
+            "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/Romantico-8-1775465085093-59ce0e8e.jpg"
+          ],
+          "locations": [
+            {
+              "cinemaId": "d7f6f35a-4e7b-4df4-bec6-e7d02900b0eb",
+              "cinemaCode": "1029",
+              "cinemaName": "Galaxy CineX - Hanoi Centre",
+              "cinemaSlug": "galaxy-ha-noi-center",
+              "address": "Tầng 3, tòa Nam, Trung tâm thương mại Hanoi Centre (Tiến Bộ plaza) – Số 175 Nguyễn Thái Học, phường Ô Chợ Dừa, Hà Nội",
+              "order": 2,
+              "note": null,
+              "coverImage": "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema//Lobby-2-1775038144269-492e924b.jpg",
+              "images": [
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/Boulevard-7-1775556177646-a8a5b4f5.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/Boulevard-16-1775556177461-fab1d024.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/IMAX-5-1775556176879-f90aa499.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/Lobby-1-1775556177320-b23b6750.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/Lobby-2-1775556177410-bb030eb5.jpg"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "a5c3ce6b-0839-4f21-8462-ce2e8320d829",
+          "slug": "lagom",
+          "short": "",
+          "name": "LAGOM ",
+          "type": "system",
+          "category": "style",
+          "displayOrder": 0,
+          "excerpt": "<p>Bước vào <strong>LAGOM</strong> là bước vào một thế giới nơi công nghệ hòa quyện tinh tế cùng nghệ thuật cảm xúc. Lấy cảm hứng từ triết lý <strong>LAGOM</strong> của Thụy Điển - Vừa đủ, Cân bằng và trọn vẹn, không gian phòng chiếu được bao phủ bởi những gam màu be nhẹ nhàng, ấm áp, tạo nên một không khí thanh lịch, trầm ổn, nơi mọi ồn ào của cuộc sống dường như được bỏ lại phía sau cánh cửa. Công nghệ trình chiếu sử dụng hệ thống máy chiếu tiên tiến cùng âm thanh Dolby 7.1 sống động nhưng hòa quyện tuyệt vời để không phá vỡ sự tĩnh tại của thiết kế phòng chiếu.&nbsp;</p><p style=\"text-align: left;\">Ghế da tại <strong>LAGOM </strong>được cung cấp bởi BoConcept, hỗ trợ ôm sát và nâng đỡ cơ thể hoàn hảo, đi kèm với chất lượng dịch vụ chuyên biệt cho các phòng chiếu cao cấp:&nbsp;</p><ul><li><p>Quyền lợi check in ưu tiên và tận hưởng tiện nghi riêng biệt trong khi chờ đợi&nbsp;</p></li><li><p>Ghế da cao cấp đa chế độ từ ngồi đến nằm, thoải mái tận hưởng suốt thời gian xem phim&nbsp;</p></li><li><p>Ấm áp với chăn lông mềm mại tại ghế ngồi&nbsp;</p></li><li><p>Ẩm thực được phục vụ tận nơi&nbsp;</p></li><li><p><br></p></li></ul><p></p>",
+          "coverImage": "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/Lagom-2-1776237953476-8d01dfa6.jpg",
+          "images": [
+            "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/Lagom-2-1776237961134-ac05c571.jpg",
+            "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/Lagom-3-1776237961897-c14634ec.jpg",
+            "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/Lagom01-1776237962049-f9943dfb.jpg",
+            "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/Lagom02-1776237961646-4459bc24.jpg",
+            "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/Lagom04-1776237961996-966ddfdb.jpg",
+            "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/Lagom05-1776237962177-183db9d7.jpg",
+            "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/Lagom06-1776237961385-71a051d4.jpg"
+          ],
+          "locations": [
+            {
+              "cinemaId": "917fe3dd-eef9-4404-bd0e-ea79f42d5410",
+              "cinemaCode": "1024",
+              "cinemaName": "Galaxy CineX - Sala",
+              "cinemaSlug": "galaxy-thiso-sala",
+              "address": "Tầng 3, TTTM Thiso Mall Sala - Số 10 Đường Mai Chí Thọ, Phường An Khánh, TP.HCM",
+              "order": 2,
+              "note": null,
+              "coverImage": "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/Entrance-1776243118462-e3ba716f.jpg",
+              "images": [
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/Boulevard06-1776243129043-706fcdc3.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/Haatopia02-1776243129258-46c719a0.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/imax01-1776243129131-3db8d11d.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/Lagom01-1776243129647-8b8e647e.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/Laurus05-1776243129149-f2787990.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/Lobby04-1776243129495-4c03957b.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/Lobby05-1776243129578-6f4fc8b6.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/WalkHall04-1776243129376-f261cc83.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/WalkHall06-1776243129405-c04f1b6a.jpg"
+              ]
+            },
+            {
+              "cinemaId": "d7f6f35a-4e7b-4df4-bec6-e7d02900b0eb",
+              "cinemaCode": "1029",
+              "cinemaName": "Galaxy CineX - Hanoi Centre",
+              "cinemaSlug": "galaxy-ha-noi-center",
+              "address": "Tầng 3, tòa Nam, Trung tâm thương mại Hanoi Centre (Tiến Bộ plaza) – Số 175 Nguyễn Thái Học, phường Ô Chợ Dừa, Hà Nội",
+              "order": 6,
+              "note": null,
+              "coverImage": "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema//Lobby-2-1775038144269-492e924b.jpg",
+              "images": [
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/Boulevard-7-1775556177646-a8a5b4f5.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/Boulevard-16-1775556177461-fab1d024.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/IMAX-5-1775556176879-f90aa499.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/Lobby-1-1775556177320-b23b6750.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/Lobby-2-1775556177410-bb030eb5.jpg"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "ab85a933-c6a0-4707-a9fd-0498e634026b",
+          "slug": "aqualis",
+          "short": "",
+          "name": "AQUALIS",
+          "type": "system",
+          "category": "style",
+          "displayOrder": 0,
+          "excerpt": "<p><span style=\"color: rgb(0, 0, 0);\">Không gian phòng chiếu <strong>AQUALIS</strong> sang trọng lấy cảm hứng từ những chiếc du thuyền hiện đại mang đậm hơi thở đại dương, nơi bắt đầu một hành trình thoát khỏi guồng quay thường nhật để đám mình vào trải nghiệm điện ảnh. Không chỉ là thiết kế độc đáo, <strong>AQUALIS</strong> còn sở hữu hệ thống trình chiếu và âm thanh hoàn hảo, cùng chất lượng dịch vụ vượt trội và khác biệt:</span></p><ul><li><p>Quyền lợi check in ưu tiên và tận hưởng tiện nghi riêng biệt trong khi chờ đợi&nbsp;</p></li><li><p>Ghế da cao cấp đa chế độ từ ngồi đến nằm, thoải mái tận hưởng suốt thời gian xem phim&nbsp;</p></li><li><p>Ấm áp với chăn lông mềm mại tại ghế ngồi&nbsp;</p></li><li><p>Ẩm thực được phục vụ tận nơi&nbsp;</p></li><li><p></p></li></ul><p></p>",
+          "coverImage": "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/Aqualis-1-1776240151736-b99177d5.jpg",
+          "images": [
+            "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/Aqualis-1-1776240157614-5f0ebaff.jpg",
+            "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/Aqualis-2-1776240157949-5d53bff5.jpg",
+            "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/Aqualis-3-1776240158065-2572e8d8.jpg",
+            "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/Aqualis-5-1776240157982-cad06a3a.jpg"
+          ],
+          "locations": [
+            {
+              "cinemaId": "d7f6f35a-4e7b-4df4-bec6-e7d02900b0eb",
+              "cinemaCode": "1029",
+              "cinemaName": "Galaxy CineX - Hanoi Centre",
+              "cinemaSlug": "galaxy-ha-noi-center",
+              "address": "Tầng 3, tòa Nam, Trung tâm thương mại Hanoi Centre (Tiến Bộ plaza) – Số 175 Nguyễn Thái Học, phường Ô Chợ Dừa, Hà Nội",
+              "order": 0,
+              "note": null,
+              "coverImage": "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema//Lobby-2-1775038144269-492e924b.jpg",
+              "images": [
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/Boulevard-7-1775556177646-a8a5b4f5.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/Boulevard-16-1775556177461-fab1d024.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/IMAX-5-1775556176879-f90aa499.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/Lobby-1-1775556177320-b23b6750.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/Lobby-2-1775556177410-bb030eb5.jpg"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "c798f8b1-eccc-4dc5-8ab4-d91ab2b6b934",
+          "slug": "laurus",
+          "short": "",
+          "name": "LAURUS",
+          "type": "system",
+          "category": "style",
+          "displayOrder": 0,
+          "excerpt": "<p>Trong tiếng Hy Lạp cổ, <strong>LAURUS</strong> biểu trưng cho \"Vòng nguyệt quế\" - một biểu tượng bất diệt của vinh quang và chiến thắng. Mang tinh thần ấy vào không gian phòng chiếu, <strong>LAURUS</strong> được kiến tạo với tông màu đen xám tối giản nhưng thanh lịch và đầy quyền lực, nơi mọi chi tiết đều được tinh chỉnh để tôn vinh sự tinh tế và đẳng cấp. Hệ thống máy chiếu Laser tái hiện hình ảnh sắc nét, kết hợp hài hòa cùng công nghệ âm thanh Dolby 7.1 mang đến trải nghiệm âm thanh sống động và đầy cảm xúc, khiến mỗi khoảnh khắc trên màn ảnh đều trở nên chân thực và mạnh mẽ.&nbsp;</p><p style=\"text-align: left;\"><strong>LAURUS</strong> không chỉ là một phòng chiếu phim, <strong>LAURUS</strong> còn mang đến trải nghiệm tuyệt vời về dịch vụ với:&nbsp;</p><ul><li><p>Quyền lợi check in ưu tiên và tận hưởng tiện nghi riêng biệt trong khi chờ đợi&nbsp;</p></li><li><p>Ghế da cao cấp đa chế độ từ ngồi đến nằm, thoải mái tận hưởng suốt thời gian xem phim&nbsp;</p></li><li><p>Ấm áp với chăn lông mềm mại tại ghế ngồi&nbsp;</p></li><li><p>Ẩm thực được phục vụ tận nơi&nbsp;</p></li></ul><p></p>",
+          "coverImage": "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/Laurus04-1776238197310-48c06e72.jpg",
+          "images": [
+            "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/Laurus02-1776238203559-28bba5eb.jpg",
+            "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/Laurus04-1776238203546-c67ed56d.jpg",
+            "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/Laurus05-1776238203495-bb904ef5.jpg"
+          ],
+          "locations": [
+            {
+              "cinemaId": "917fe3dd-eef9-4404-bd0e-ea79f42d5410",
+              "cinemaCode": "1024",
+              "cinemaName": "Galaxy CineX - Sala",
+              "cinemaSlug": "galaxy-thiso-sala",
+              "address": "Tầng 3, TTTM Thiso Mall Sala - Số 10 Đường Mai Chí Thọ, Phường An Khánh, TP.HCM",
+              "order": 1,
+              "note": null,
+              "coverImage": "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/Entrance-1776243118462-e3ba716f.jpg",
+              "images": [
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/Boulevard06-1776243129043-706fcdc3.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/Haatopia02-1776243129258-46c719a0.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/imax01-1776243129131-3db8d11d.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/Lagom01-1776243129647-8b8e647e.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/Laurus05-1776243129149-f2787990.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/Lobby04-1776243129495-4c03957b.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/Lobby05-1776243129578-6f4fc8b6.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/WalkHall04-1776243129376-f261cc83.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/WalkHall06-1776243129405-c04f1b6a.jpg"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "1bf173a1-49e9-47dc-8c09-cbdbda7b954e",
+          "slug": "cine-de-kids",
+          "short": "",
+          "name": "CINE DE KIDS",
+          "type": "system",
+          "category": "style",
+          "displayOrder": 0,
+          "excerpt": "<p><span style=\"color: rgb(0, 0, 0);\">Phòng chiếu <strong>CINE DE KIDS </strong>lần đầu tiên có mặt tại Hà Nội, được thiết kế chuyên biệt dành riêng cho các khán giả nhí với không gian vui tươi, tràn đầy màu sắc, nơi các bé và gia đình có thể đắm chìm trong hành trình điện ảnh theo cách tự nhiên và trọn vẹn nhất. Trải nghiệm kết hợp giữa công nghệ hiện đại với hệ thống máy chiếu tiên tiến mang đến hình ảnh sắc nét, rực rỡ, cùng dàn âm thanh sống động. Sự thoải mái của các bé luôn được đặt lên hàng đầu với ghế bọc da siêu mềm mại, êm ái và đầy màu sắc, cho phép các bé tự do nhún nhảy và tận hưởng mà không hề bị gò bó.</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\">Tích hợp ngay trong không gian phòng chiếu là khu vực giải trí với <strong>cầu trượt khổng lồ</strong> cùng đồ chơi hấp dẫn, tất cả đều được chế tác từ vật liệu cao cấp đạt tiêu chuẩn an toàn, biến mỗi buổi xem phim thành hành trình vui chơi sôi động, trọn vẹn niềm vui và sự khám phá cho các bạn nhỏ và cả gia đình.</span></p>",
+          "coverImage": "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/Cine-de-Kids-2-1776233383322-39977b4d.jpg",
+          "images": [
+            "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/Cine-de-Kids-1-1776233389024-66ca571c.jpg",
+            "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/Cine-de-Kids-2-1776233389837-017794fc.jpg",
+            "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/Cine-de-Kids-1776233389945-184cbd5d.jpg",
+            "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/CinedeKids1-1776233389313-11d591d0.jpg",
+            "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/PHI-Anh-chup-15-1776233389180-0a7cee06.jpg",
+            "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/PHI-Anh-chup-16-1776233389346-91691b66.jpg",
+            "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/PHI-Anh-chup-23-1776233389338-40cdd62f.jpg",
+            "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/Rap-chieu-phim-Galaxy-Hue-Avalo-Cine-de-Kids-9-A-1776233389612-2722a268.jpg",
+            "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/TRC_3242-1776233389213-480dc8ad.jpg",
+            "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/TRC_3243-1776233389735-28b44356.jpg",
+            "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/TRC_3603-1776233389774-2323af51.jpg",
+            "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/TRC_3606-1776233389416-ef277d89.jpg",
+            "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/TRC_3620-Pano-1776233389532-2e84dd1b.jpg"
+          ],
+          "locations": [
+            {
+              "cinemaId": "2c619811-b180-4138-9ff5-77e03341c297",
+              "cinemaCode": "1025",
+              "cinemaName": "Galaxy Aeon Mall Huế",
+              "cinemaSlug": "galaxy-aeon-mall-hue",
+              "address": "Tầng 4, TTTM AEON Mall Huế, Số 8 Đường Võ Nguyên Giáp, Phường An Cựu, TP.Huế",
+              "order": 0,
+              "note": null,
+              "coverImage": "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/Rap-chieu-phim-Galaxy-Hue-Lobby-Avalo-Interior-JSC-A-8-1776241191734-78f1150f.jpg",
+              "images": [
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/Rap-chieu-phim-Galaxy-Hue-Avalo-Cine-de-Kids-9-A-1776241200307-c094a602.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/Rap-chieu-phim-Galaxy-Hue-Cinema-Avalo-Interior-JSC-4-A-1776241200480-44d06a26.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/Rap-chieu-phim-Galaxy-Hue-Corridor-Avalo-Interior-JSC-1-A-1776241200662-fdba3220.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/Rap-chieu-phim-Galaxy-Hue-Corridor-Avalo-Interior-JSC-10-A-1776241200703-0309a398.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/Rap-chieu-phim-Galaxy-Hue-Lobby-Avalo-Interior-JSC-A-6-1776241200898-d8836fee.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/Rap-chieu-phim-Galaxy-Hue-Lobby-Avalo-Interior-JSC-A-7-1776241201150-e414fc81.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/Rap-chieu-phim-Galaxy-Hue-Lobby-Avalo-Interior-JSC-A-8-1776241200639-7a2fb80e.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/Rap-chieu-phim-Galaxy-Hue-Lobby-Avalo-Interior-JSC-A-10-1776241200811-e482589b.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/TRC_2859-1776241200791-7137f116.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/TRC_2885-1776241200938-8330c8a6.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/TRC_2907-1776241200990-3c9cab2e.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/TRC_2964-1776241201023-c4a73802.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/TRC_3071-1776241201137-fdc9b5bc.jpg"
+              ]
+            },
+            {
+              "cinemaId": "357466ca-843e-47d2-95ba-30c0f185e77a",
+              "cinemaCode": "1031",
+              "cinemaName": "Galaxy Vincom Plaza Vinh",
+              "cinemaSlug": "galaxy-vincom-vinh",
+              "address": "Tầng L5, Tòa nhà Vincom Plaza Vinh, đường Quang Trung, Phường Thành Vinh, Tỉnh Nghệ An, Việt Nam",
+              "order": 0,
+              "note": null,
+              "coverImage": "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/TRC_3344-1-1776241658517-89d43358.jpg",
+              "images": [
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/TRC_3243-1776241582836-030bf895.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/TRC_3275-1776241583123-01a85cd5.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/TRC_3307-1776241582383-a38f6150.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/TRC_3313-1776241583006-b99f7c7a.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/TRC_3318-1776241582787-aa13eb29.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/TRC_3330-1776241583734-6cd72dc7.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/TRC_3364-1776241583206-3a7017ec.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/TRC_3422-1776241583247-964a917d.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/TRC_3454-1776241583093-20c4aa48.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/TRC_3455-1776241583338-7a083589.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/TRC_3473-1776241583312-c2e55bfd.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/TRC_3474-1776241583565-620cf84c.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/TRC_3476-1776241583437-e520771e.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/TRC_3521-1776241583633-9508e4f7.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/WalkHall1-1776241583475-07831042.jpg"
+              ]
+            },
+            {
+              "cinemaId": "546680f3-3bfe-42cc-aa23-ddaa5599f322",
+              "cinemaCode": "1026",
+              "cinemaName": "Galaxy Parc Mall",
+              "cinemaSlug": "galaxy-parc-mall",
+              "address": "Tầng 4, TTTM Parc Mall - 547-549 Tạ Quang Bửu, Phường Chánh Hưng, TP.HCM",
+              "order": 1,
+              "note": null,
+              "coverImage": "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/Lobby1-1776240542276-67aeae79.jpg",
+              "images": [
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/Auditorium1-1776240549394-6b06b8b6.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/Auditorium4-1776240549700-214db755.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/Auditorium6-1776240549584-2a8c6988.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/CinedeKids1-1776240549760-a4c46a95.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/CinedePlay1-1776240549791-87e18c33.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/CinedePlay2-1776240549806-4e52ffd1.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/Cinemunch1-1776240549616-a6ba5f1e.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/Cinemunch2-1776240549741-b83efcb0.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/Detail4-1776240549895-f3ed6146.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/Entrance1-1776240550107-6e4d857d.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/Lobby1-1776240550191-8672a26c.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/Ticketstation1-1776240550234-58f6e0ce.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/Toilet1-1776240550098-f1205671.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/WalkHall1-1776240550093-17198ca5.jpg"
+              ]
+            },
+            {
+              "cinemaId": "3a908a81-2c43-406f-b2db-96e7de68203f",
+              "cinemaCode": "1028",
+              "cinemaName": "Galaxy Cine+ Gold Coast Nha Trang",
+              "cinemaSlug": "galaxy-gold-coast-nha-trang",
+              "address": "Tầng 8, TTTM Gold Coast - Số 1 Trần Hưng Đạo, Phường Nha Trang, Tỉnh Khánh Hòa",
+              "order": 1,
+              "note": null,
+              "coverImage": "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/TRC_3801-1776242443509-7ba811ae.jpg",
+              "images": [
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/TRC_3603-1776242450702-67c82e70.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/TRC_3630-1776242450435-f0e9d4b9.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/TRC_3633-1776242450724-bb879928.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/TRC_3686-1776242450686-db24be08.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/TRC_3710-Pano-1776242450819-3a57dd79.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/TRC_3719-Pano-1776242450889-0096469c.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/TRC_3785-1776242450499-ee87fb73.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/TRC_3786-1776242450575-652b139c.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/TRC_3796-1776242450646-b8d916cf.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/TRC_3801-1776242450733-a7024394.jpg"
+              ]
+            },
+            {
+              "cinemaId": "4e959794-025e-409b-954c-a2e83f3e943b",
+              "cinemaCode": "1027",
+              "cinemaName": "Galaxy Thiso Mall Phan Huy Ích",
+              "cinemaSlug": "galaxy-thiso-phan-huy-ich",
+              "address": "Tầng 4, TTTM Thiso Mall Trường Chinh - Phan Huy Ích - 385 Phan Huy Ích, Phường An Hội Tây, TP.HCM",
+              "order": 1,
+              "note": null,
+              "coverImage": "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/PHI-Anh-chup-1-1776242079393-fe8ee4af.jpg",
+              "images": [
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/PHI-Anh-chup-4-1776242095148-3bb9c6c4.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/PHI-Anh-chup-5-1776242095310-81cebf90.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/PHI-Anh-chup-11-1776242095351-319cc06c.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/PHI-Anh-chup-12-1776242095376-d2e15e2c.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/PHI-Anh-chup-16-1776242095576-85d9be75.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/PHI-Anh-chup-23-1776242095448-53a3c806.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/PHI-Anh-chup-24-1776242095422-8bbbec83.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/PHI-Anh-chup-25-1776242095250-fa60c596.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/PHI-Anh-chup-26-1776242095514-65b34824.jpg"
+              ]
+            },
+            {
+              "cinemaId": "d7f6f35a-4e7b-4df4-bec6-e7d02900b0eb",
+              "cinemaCode": "1029",
+              "cinemaName": "Galaxy CineX - Hanoi Centre",
+              "cinemaSlug": "galaxy-ha-noi-center",
+              "address": "Tầng 3, tòa Nam, Trung tâm thương mại Hanoi Centre (Tiến Bộ plaza) – Số 175 Nguyễn Thái Học, phường Ô Chợ Dừa, Hà Nội",
+              "order": 7,
+              "note": null,
+              "coverImage": "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema//Lobby-2-1775038144269-492e924b.jpg",
+              "images": [
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/Boulevard-7-1775556177646-a8a5b4f5.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/Boulevard-16-1775556177461-fab1d024.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/IMAX-5-1775556176879-f90aa499.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/Lobby-1-1775556177320-b23b6750.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/Lobby-2-1775556177410-bb030eb5.jpg"
+              ]
+            }
+          ]
+        }
+      ],
+      "amenitySystems": [
+        {
+          "id": "561d8c41-de3f-4845-a2cb-ca0e3ee67a6b",
+          "slug": "boulevard-lounge",
+          "short": "",
+          "name": "BOULEVARD LOUNGE",
+          "type": "system",
+          "category": "amenities",
+          "displayOrder": 0,
+          "excerpt": "<p><span style=\"color: rgb(0, 0, 0);\">Lấy cảm hứng từ vẻ hào nhoáng và đầy mê hoặc của những sân khấu Broadway danh giá, <strong>Boulevard Lounge</strong> được kiến tạo như một không gian phòng chờ đậm chất thượng lưu, nơi sự tinh tế hòa quyện cùng cảm giác ấm cúng trong từng chi tiết nội thất, và quầy bar cao cấp trở thành điểm nhấn của trải nghiệm.</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\">Tại đây, mỗi khoảnh khắc đều được nâng tầm với dịch vụ chuẩn mực, nơi thực đơn được tuyển chọn kỹ lưỡng và những ly cocktail/mocktail được pha chế điêu luyện bởi đội ngũ bartender giàu kinh nghiệm. Đi cùng là những món bánh nhẹ tinh tuyển, góp phần hoànthiện một hành trình thưởng thức trọn vẹn.</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\">Không chỉ là nơi dừng chân trước giờ chiếu, <strong>Boulevard Lounge</strong> còn là chốn riêng tư lý tưởng để thư giãn, trò chuyện và tận hưởng những phút giây tinh tế. Một điểm hẹn phong cách dành cho những cuộc gặp gỡ đầy cảm hứng—nơi mỗi ly đồ uống, mỗi khoảnh khắc đều góp phần tạo nên một trải nghiệm điện ảnh đậm dấu ấn và khó quên.</span></p>",
+          "coverImage": "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/Boulevard-2-1776229506267-e5669150.jpg",
+          "images": [
+            "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/Boulevard-1-1776229514181-d95c4982.jpg",
+            "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/Boulevard-2-1776229514565-5883632d.jpg",
+            "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/Boulevard-3-1776229515379-ada8ca84.jpg",
+            "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/Boulevard-4-1776229514845-f3ae2b9d.jpg",
+            "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/Boulevard-5-1776229515438-6257d99a.jpg",
+            "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/Boulevard-6-1776229514540-59f24eac.jpg",
+            "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/Boulevard-7-1776229514585-10b4efe4.jpg",
+            "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/Boulevard-8-1776229515284-874afc2b.jpg",
+            "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/Boulevard01-1776229514872-b36b9e9c.jpg",
+            "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/Boulevard02-1776229515331-4ab967bf.jpg",
+            "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/Boulevard03-1776229515157-efd7a252.jpg"
+          ],
+          "locations": [
+            {
+              "cinemaId": "917fe3dd-eef9-4404-bd0e-ea79f42d5410",
+              "cinemaCode": "1024",
+              "cinemaName": "Galaxy CineX - Sala",
+              "cinemaSlug": "galaxy-thiso-sala",
+              "address": "Tầng 3, TTTM Thiso Mall Sala - Số 10 Đường Mai Chí Thọ, Phường An Khánh, TP.HCM",
+              "order": 0,
+              "note": null,
+              "coverImage": "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/Entrance-1776243118462-e3ba716f.jpg",
+              "images": [
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/Boulevard06-1776243129043-706fcdc3.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/Haatopia02-1776243129258-46c719a0.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/imax01-1776243129131-3db8d11d.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/Lagom01-1776243129647-8b8e647e.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/Laurus05-1776243129149-f2787990.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/Lobby04-1776243129495-4c03957b.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/Lobby05-1776243129578-6f4fc8b6.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/WalkHall04-1776243129376-f261cc83.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/WalkHall06-1776243129405-c04f1b6a.jpg"
+              ]
+            },
+            {
+              "cinemaId": "d7f6f35a-4e7b-4df4-bec6-e7d02900b0eb",
+              "cinemaCode": "1029",
+              "cinemaName": "Galaxy CineX - Hanoi Centre",
+              "cinemaSlug": "galaxy-ha-noi-center",
+              "address": "Tầng 3, tòa Nam, Trung tâm thương mại Hanoi Centre (Tiến Bộ plaza) – Số 175 Nguyễn Thái Học, phường Ô Chợ Dừa, Hà Nội",
+              "order": 4,
+              "note": null,
+              "coverImage": "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema//Lobby-2-1775038144269-492e924b.jpg",
+              "images": [
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/Boulevard-7-1775556177646-a8a5b4f5.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/Boulevard-16-1775556177461-fab1d024.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/IMAX-5-1775556176879-f90aa499.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/Lobby-1-1775556177320-b23b6750.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/Lobby-2-1775556177410-bb030eb5.jpg"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "59089cae-ba28-4850-a842-6178be751ab2",
+          "slug": "cine-de-play",
+          "short": "",
+          "name": "CINE DE PLAY",
+          "type": "system",
+          "category": "amenities",
+          "displayOrder": 0,
+          "excerpt": "<p><span style=\"color: rgb(0, 0, 0);\"><strong>CINE DE PLAY</strong> ra đời như một ốc đảo giải trí thu nhỏ ngay trong khuôn viên sảnh rạp dành riêng cho khán giả nhí, đáp ứng nhu cầu giải trí trong khi chờ đợi </span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\">Khu vực vui chơi với nhà bóng đầy sắc màu, hấp dẫn cùng thiết kế đệm lót sàn êm ái và an toàn, khuyến khích các bé tự do vận động và thỏa sức sáng tạo trước giờ vào xem phim. <strong>CINE DE PLAY </strong>không chỉ là một khu vui chơi trong rạp mà còn là nơi lưu giữ những khoảnh khắc tràn ngập niềm vui và thư giãn cho cả gia đình.&nbsp;</span></p>",
+          "coverImage": "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/CinedePlay2-1776232101218-e05bb1c1.jpg",
+          "images": [
+            "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/Cine-de-Kids-4-1776232108970-46adf52d.jpg",
+            "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/Cine-de-Kids-8-1776232109323-34ffccf2.jpg",
+            "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/Cine-de-Kids-10-1776232109133-8cf7f3b3.jpg",
+            "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/CinedePlay1-1776232109225-4fc46b2d.jpg",
+            "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/CinedePlay2-1776232109240-69f46069.jpg",
+            "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/PHI-Anh-chup-24-1776232109106-c32eb876.jpg",
+            "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/TRC_2885-1776232109073-c078ea7f.jpg",
+            "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/TRC_2906-1776232770881-63b23f97.jpg",
+            "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/TRC_2907-1776232771264-87bb2173.jpg",
+            "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/TRC_3275-1776232771313-a943e0f4.jpg",
+            "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/TRC_3309-1776232771479-6a4e39fa.jpg",
+            "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/TRC_3313-1776232771535-245263ef.jpg",
+            "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/TRC_3710-Pano-1-1776232771428-455543c6.jpg",
+            "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/TRC_3719-Pano-1-1776232771227-fbfe67a2.jpg"
+          ],
+          "locations": [
+            {
+              "cinemaId": "4e959794-025e-409b-954c-a2e83f3e943b",
+              "cinemaCode": "1027",
+              "cinemaName": "Galaxy Thiso Mall Phan Huy Ích",
+              "cinemaSlug": "galaxy-thiso-phan-huy-ich",
+              "address": "Tầng 4, TTTM Thiso Mall Trường Chinh - Phan Huy Ích - 385 Phan Huy Ích, Phường An Hội Tây, TP.HCM",
+              "order": 0,
+              "note": null,
+              "coverImage": "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/PHI-Anh-chup-1-1776242079393-fe8ee4af.jpg",
+              "images": [
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/PHI-Anh-chup-4-1776242095148-3bb9c6c4.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/PHI-Anh-chup-5-1776242095310-81cebf90.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/PHI-Anh-chup-11-1776242095351-319cc06c.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/PHI-Anh-chup-12-1776242095376-d2e15e2c.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/PHI-Anh-chup-16-1776242095576-85d9be75.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/PHI-Anh-chup-23-1776242095448-53a3c806.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/PHI-Anh-chup-24-1776242095422-8bbbec83.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/PHI-Anh-chup-25-1776242095250-fa60c596.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/PHI-Anh-chup-26-1776242095514-65b34824.jpg"
+              ]
+            },
+            {
+              "cinemaId": "546680f3-3bfe-42cc-aa23-ddaa5599f322",
+              "cinemaCode": "1026",
+              "cinemaName": "Galaxy Parc Mall",
+              "cinemaSlug": "galaxy-parc-mall",
+              "address": "Tầng 4, TTTM Parc Mall - 547-549 Tạ Quang Bửu, Phường Chánh Hưng, TP.HCM",
+              "order": 1,
+              "note": null,
+              "coverImage": "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/Lobby1-1776240542276-67aeae79.jpg",
+              "images": [
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/Auditorium1-1776240549394-6b06b8b6.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/Auditorium4-1776240549700-214db755.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/Auditorium6-1776240549584-2a8c6988.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/CinedeKids1-1776240549760-a4c46a95.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/CinedePlay1-1776240549791-87e18c33.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/CinedePlay2-1776240549806-4e52ffd1.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/Cinemunch1-1776240549616-a6ba5f1e.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/Cinemunch2-1776240549741-b83efcb0.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/Detail4-1776240549895-f3ed6146.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/Entrance1-1776240550107-6e4d857d.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/Lobby1-1776240550191-8672a26c.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/Ticketstation1-1776240550234-58f6e0ce.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/Toilet1-1776240550098-f1205671.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/WalkHall1-1776240550093-17198ca5.jpg"
+              ]
+            },
+            {
+              "cinemaId": "357466ca-843e-47d2-95ba-30c0f185e77a",
+              "cinemaCode": "1031",
+              "cinemaName": "Galaxy Vincom Plaza Vinh",
+              "cinemaSlug": "galaxy-vincom-vinh",
+              "address": "Tầng L5, Tòa nhà Vincom Plaza Vinh, đường Quang Trung, Phường Thành Vinh, Tỉnh Nghệ An, Việt Nam",
+              "order": 2,
+              "note": null,
+              "coverImage": "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/TRC_3344-1-1776241658517-89d43358.jpg",
+              "images": [
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/TRC_3243-1776241582836-030bf895.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/TRC_3275-1776241583123-01a85cd5.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/TRC_3307-1776241582383-a38f6150.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/TRC_3313-1776241583006-b99f7c7a.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/TRC_3318-1776241582787-aa13eb29.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/TRC_3330-1776241583734-6cd72dc7.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/TRC_3364-1776241583206-3a7017ec.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/TRC_3422-1776241583247-964a917d.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/TRC_3454-1776241583093-20c4aa48.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/TRC_3455-1776241583338-7a083589.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/TRC_3473-1776241583312-c2e55bfd.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/TRC_3474-1776241583565-620cf84c.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/TRC_3476-1776241583437-e520771e.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/TRC_3521-1776241583633-9508e4f7.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/WalkHall1-1776241583475-07831042.jpg"
+              ]
+            },
+            {
+              "cinemaId": "3a908a81-2c43-406f-b2db-96e7de68203f",
+              "cinemaCode": "1028",
+              "cinemaName": "Galaxy Cine+ Gold Coast Nha Trang",
+              "cinemaSlug": "galaxy-gold-coast-nha-trang",
+              "address": "Tầng 8, TTTM Gold Coast - Số 1 Trần Hưng Đạo, Phường Nha Trang, Tỉnh Khánh Hòa",
+              "order": 3,
+              "note": null,
+              "coverImage": "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/TRC_3801-1776242443509-7ba811ae.jpg",
+              "images": [
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/TRC_3603-1776242450702-67c82e70.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/TRC_3630-1776242450435-f0e9d4b9.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/TRC_3633-1776242450724-bb879928.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/TRC_3686-1776242450686-db24be08.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/TRC_3710-Pano-1776242450819-3a57dd79.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/TRC_3719-Pano-1776242450889-0096469c.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/TRC_3785-1776242450499-ee87fb73.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/TRC_3786-1776242450575-652b139c.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/TRC_3796-1776242450646-b8d916cf.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/TRC_3801-1776242450733-a7024394.jpg"
+              ]
+            },
+            {
+              "cinemaId": "d7f6f35a-4e7b-4df4-bec6-e7d02900b0eb",
+              "cinemaCode": "1029",
+              "cinemaName": "Galaxy CineX - Hanoi Centre",
+              "cinemaSlug": "galaxy-ha-noi-center",
+              "address": "Tầng 3, tòa Nam, Trung tâm thương mại Hanoi Centre (Tiến Bộ plaza) – Số 175 Nguyễn Thái Học, phường Ô Chợ Dừa, Hà Nội",
+              "order": 4,
+              "note": null,
+              "coverImage": "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema//Lobby-2-1775038144269-492e924b.jpg",
+              "images": [
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/Boulevard-7-1775556177646-a8a5b4f5.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/Boulevard-16-1775556177461-fab1d024.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/IMAX-5-1775556176879-f90aa499.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/Lobby-1-1775556177320-b23b6750.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/Lobby-2-1775556177410-bb030eb5.jpg"
+              ]
+            },
+            {
+              "cinemaId": "2c619811-b180-4138-9ff5-77e03341c297",
+              "cinemaCode": "1025",
+              "cinemaName": "Galaxy Aeon Mall Huế",
+              "cinemaSlug": "galaxy-aeon-mall-hue",
+              "address": "Tầng 4, TTTM AEON Mall Huế, Số 8 Đường Võ Nguyên Giáp, Phường An Cựu, TP.Huế",
+              "order": 5,
+              "note": null,
+              "coverImage": "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/Rap-chieu-phim-Galaxy-Hue-Lobby-Avalo-Interior-JSC-A-8-1776241191734-78f1150f.jpg",
+              "images": [
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/Rap-chieu-phim-Galaxy-Hue-Avalo-Cine-de-Kids-9-A-1776241200307-c094a602.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/Rap-chieu-phim-Galaxy-Hue-Cinema-Avalo-Interior-JSC-4-A-1776241200480-44d06a26.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/Rap-chieu-phim-Galaxy-Hue-Corridor-Avalo-Interior-JSC-1-A-1776241200662-fdba3220.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/Rap-chieu-phim-Galaxy-Hue-Corridor-Avalo-Interior-JSC-10-A-1776241200703-0309a398.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/Rap-chieu-phim-Galaxy-Hue-Lobby-Avalo-Interior-JSC-A-6-1776241200898-d8836fee.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/Rap-chieu-phim-Galaxy-Hue-Lobby-Avalo-Interior-JSC-A-7-1776241201150-e414fc81.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/Rap-chieu-phim-Galaxy-Hue-Lobby-Avalo-Interior-JSC-A-8-1776241200639-7a2fb80e.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/Rap-chieu-phim-Galaxy-Hue-Lobby-Avalo-Interior-JSC-A-10-1776241200811-e482589b.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/TRC_2859-1776241200791-7137f116.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/TRC_2885-1776241200938-8330c8a6.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/TRC_2907-1776241200990-3c9cab2e.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/TRC_2964-1776241201023-c4a73802.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/TRC_3071-1776241201137-fdc9b5bc.jpg"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "78b7b8d7-d646-457f-a756-3a4e607f85f0",
+          "slug": "cinemunch-eatery",
+          "short": "",
+          "name": "CINEMUNCH EATERY",
+          "type": "system",
+          "category": "amenities",
+          "displayOrder": 0,
+          "excerpt": "<p><span>Sẵn sàng đánh thức mọi giác quan tại <strong>CineMunch Eatery</strong> — nơi ẩm thực giao thoa cùng điện ảnh, kiến tạo một hành trình trải nghiệm trọn vẹn và đầy cảm hứng ngay trong lòng rạp chiếu.</span></p><p><span>Thực đơn được tuyển chọn phong phú, cân bằng giữa sự tiện lợi và tinh tế, từ những lựa chọn nhẹ nhàng với các loại bánh ngọt đến các món ăn vặt với công thức riêng mang dấu ấn đặc biệt — tất cả được thiết kế để chiều lòng mọi khẩu vị, trong mọi khoảnh khắc trước giờ chiếu.</span></p><p><span>Với sự tiện nghi tối ưu và lựa chọn đa dạng phù hợp cho mọi đối tượng, <strong>CineMunch Eatery</strong> không chỉ là điểm dừng chân ẩm thực, mà còn là mảnh ghép hoàn hảo cho trải nghiệm giải trí “all-in-one” tại các hệ thống rạp chiếu phim của Galaxy.</span></p>",
+          "coverImage": "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/Cinemunch2-1776247047118-c1c8f421.jpg",
+          "images": [
+            "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/CineMunch02-1776247053956-23ca178d.jpg",
+            "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/Cinemunch2-1776247054082-85b72f48.jpg",
+            "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/PHI-Anh-chup-3-1776247054549-06f6c4e0.jpg",
+            "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/TRC_3330-1776247054580-dddd6b9a.jpg",
+            "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/TRC_3364-1776247054680-abd62d51.jpg",
+            "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/TRC_3785-1776247054341-5939aa93.jpg",
+            "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/TRC_3801-1776247054037-f1e57ad8.jpg"
+          ],
+          "locations": [
+            {
+              "cinemaId": "546680f3-3bfe-42cc-aa23-ddaa5599f322",
+              "cinemaCode": "1026",
+              "cinemaName": "Galaxy Parc Mall",
+              "cinemaSlug": "galaxy-parc-mall",
+              "address": "Tầng 4, TTTM Parc Mall - 547-549 Tạ Quang Bửu, Phường Chánh Hưng, TP.HCM",
+              "order": 0,
+              "note": null,
+              "coverImage": "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/Lobby1-1776240542276-67aeae79.jpg",
+              "images": [
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/Auditorium1-1776240549394-6b06b8b6.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/Auditorium4-1776240549700-214db755.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/Auditorium6-1776240549584-2a8c6988.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/CinedeKids1-1776240549760-a4c46a95.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/CinedePlay1-1776240549791-87e18c33.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/CinedePlay2-1776240549806-4e52ffd1.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/Cinemunch1-1776240549616-a6ba5f1e.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/Cinemunch2-1776240549741-b83efcb0.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/Detail4-1776240549895-f3ed6146.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/Entrance1-1776240550107-6e4d857d.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/Lobby1-1776240550191-8672a26c.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/Ticketstation1-1776240550234-58f6e0ce.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/Toilet1-1776240550098-f1205671.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/WalkHall1-1776240550093-17198ca5.jpg"
+              ]
+            },
+            {
+              "cinemaId": "4e959794-025e-409b-954c-a2e83f3e943b",
+              "cinemaCode": "1027",
+              "cinemaName": "Galaxy Thiso Mall Phan Huy Ích",
+              "cinemaSlug": "galaxy-thiso-phan-huy-ich",
+              "address": "Tầng 4, TTTM Thiso Mall Trường Chinh - Phan Huy Ích - 385 Phan Huy Ích, Phường An Hội Tây, TP.HCM",
+              "order": 1,
+              "note": null,
+              "coverImage": "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/PHI-Anh-chup-1-1776242079393-fe8ee4af.jpg",
+              "images": [
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/PHI-Anh-chup-4-1776242095148-3bb9c6c4.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/PHI-Anh-chup-5-1776242095310-81cebf90.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/PHI-Anh-chup-11-1776242095351-319cc06c.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/PHI-Anh-chup-12-1776242095376-d2e15e2c.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/PHI-Anh-chup-16-1776242095576-85d9be75.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/PHI-Anh-chup-23-1776242095448-53a3c806.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/PHI-Anh-chup-24-1776242095422-8bbbec83.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/PHI-Anh-chup-25-1776242095250-fa60c596.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/PHI-Anh-chup-26-1776242095514-65b34824.jpg"
+              ]
+            },
+            {
+              "cinemaId": "357466ca-843e-47d2-95ba-30c0f185e77a",
+              "cinemaCode": "1031",
+              "cinemaName": "Galaxy Vincom Plaza Vinh",
+              "cinemaSlug": "galaxy-vincom-vinh",
+              "address": "Tầng L5, Tòa nhà Vincom Plaza Vinh, đường Quang Trung, Phường Thành Vinh, Tỉnh Nghệ An, Việt Nam",
+              "order": 2,
+              "note": null,
+              "coverImage": "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/TRC_3344-1-1776241658517-89d43358.jpg",
+              "images": [
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/TRC_3243-1776241582836-030bf895.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/TRC_3275-1776241583123-01a85cd5.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/TRC_3307-1776241582383-a38f6150.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/TRC_3313-1776241583006-b99f7c7a.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/TRC_3318-1776241582787-aa13eb29.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/TRC_3330-1776241583734-6cd72dc7.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/TRC_3364-1776241583206-3a7017ec.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/TRC_3422-1776241583247-964a917d.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/TRC_3454-1776241583093-20c4aa48.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/TRC_3455-1776241583338-7a083589.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/TRC_3473-1776241583312-c2e55bfd.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/TRC_3474-1776241583565-620cf84c.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/TRC_3476-1776241583437-e520771e.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/TRC_3521-1776241583633-9508e4f7.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/WalkHall1-1776241583475-07831042.jpg"
+              ]
+            },
+            {
+              "cinemaId": "d7f6f35a-4e7b-4df4-bec6-e7d02900b0eb",
+              "cinemaCode": "1029",
+              "cinemaName": "Galaxy CineX - Hanoi Centre",
+              "cinemaSlug": "galaxy-ha-noi-center",
+              "address": "Tầng 3, tòa Nam, Trung tâm thương mại Hanoi Centre (Tiến Bộ plaza) – Số 175 Nguyễn Thái Học, phường Ô Chợ Dừa, Hà Nội",
+              "order": 3,
+              "note": null,
+              "coverImage": "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema//Lobby-2-1775038144269-492e924b.jpg",
+              "images": [
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/Boulevard-7-1775556177646-a8a5b4f5.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/Boulevard-16-1775556177461-fab1d024.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/IMAX-5-1775556176879-f90aa499.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/Lobby-1-1775556177320-b23b6750.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/Lobby-2-1775556177410-bb030eb5.jpg"
+              ]
+            },
+            {
+              "cinemaId": "917fe3dd-eef9-4404-bd0e-ea79f42d5410",
+              "cinemaCode": "1024",
+              "cinemaName": "Galaxy CineX - Sala",
+              "cinemaSlug": "galaxy-thiso-sala",
+              "address": "Tầng 3, TTTM Thiso Mall Sala - Số 10 Đường Mai Chí Thọ, Phường An Khánh, TP.HCM",
+              "order": 4,
+              "note": null,
+              "coverImage": "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/Entrance-1776243118462-e3ba716f.jpg",
+              "images": [
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/Boulevard06-1776243129043-706fcdc3.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/Haatopia02-1776243129258-46c719a0.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/imax01-1776243129131-3db8d11d.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/Lagom01-1776243129647-8b8e647e.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/Laurus05-1776243129149-f2787990.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/Lobby04-1776243129495-4c03957b.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/Lobby05-1776243129578-6f4fc8b6.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/WalkHall04-1776243129376-f261cc83.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/WalkHall06-1776243129405-c04f1b6a.jpg"
+              ]
+            },
+            {
+              "cinemaId": "1a97a84e-7277-4dbb-abc8-923a23f2cafe",
+              "cinemaCode": "",
+              "cinemaName": "Galaxy Cine+ Gold Coast Nha Trang",
+              "cinemaSlug": "galaxy-cine-gold-coast-nha-trang",
+              "address": "Tầng 8, TTTM Gold Coast - Số 1 Trần Hưng Đạo, Phường Nha Trang, Tỉnh Khánh Hòa",
+              "order": 5,
+              "note": null,
+              "coverImage": null,
+              "images": []
+            }
+          ]
+        },
+        {
+          "id": "afa0b815-46e0-4fe3-8ab9-689b87f08aac",
+          "slug": "didim-playground",
+          "short": "",
+          "name": "DIDIM PLAYROUND",
+          "type": "system",
+          "category": "amenities",
+          "displayOrder": 0,
+          "excerpt": "<p><span style=\"color: rgb(0, 0, 0);\"><strong>DIDIM PLAYGROUND </strong>là một trong những công nghệ tiên phong lần đầu tiên xuất hiện tại Việt Nam, mang đến một trải nghiệm thể chất hoàn toàn mới cho khán giả nhí tại khu vui chơi <strong>Cine De Play</strong>.</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\">Với hệ thống cảm biến thông minh và nền tảng kỹ thuật số, DIDIM biến sàn nhà thành một “sân chơi ảo”, nơi các bé có thể tham gia các thử thách vận động, trò chơi tương tác và các hoạt động thi đấu vui nhộn mà không cần thiết bị cầm tay hay dụng cụ phức tạp.</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\">Hệ thống trò chơi của DIDIM Playground thích hợp cho các bé yêu vận động ở mọi lứa tuổi, các bé có thể chơi cùng nhau hoặc chơi cùng gia đình mà không giới hạn số lượng và thời gian chơi.</span></p><p><br></p><p>&nbsp;</p>",
+          "coverImage": "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/Cine-de-Kids-9-1776224274219-3fd5d4de.jpg",
+          "images": [
+            "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/Cine-de-Kids-4-1776224289797-1cc792eb.jpg",
+            "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/Cine-de-Kids-7-1776224289951-729240a8.jpg",
+            "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/Cine-de-Kids-9-1776224289879-341061fd.jpg",
+            "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/Cine-de-Kids-10-1776224289990-a8a0f3c6.jpg",
+            "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/TRC_3710-Pano-1-1776224290030-4a516624.jpg",
+            "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/TRC_3719-Pano-1-1776224290525-d22c4500.jpg"
+          ],
+          "locations": [
+            {
+              "cinemaId": "3a908a81-2c43-406f-b2db-96e7de68203f",
+              "cinemaCode": "1028",
+              "cinemaName": "Galaxy Cine+ Gold Coast Nha Trang",
+              "cinemaSlug": "galaxy-gold-coast-nha-trang",
+              "address": "Tầng 8, TTTM Gold Coast - Số 1 Trần Hưng Đạo, Phường Nha Trang, Tỉnh Khánh Hòa",
+              "order": 0,
+              "note": null,
+              "coverImage": "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/TRC_3801-1776242443509-7ba811ae.jpg",
+              "images": [
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/TRC_3603-1776242450702-67c82e70.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/TRC_3630-1776242450435-f0e9d4b9.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/TRC_3633-1776242450724-bb879928.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/TRC_3686-1776242450686-db24be08.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/TRC_3710-Pano-1776242450819-3a57dd79.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/TRC_3719-Pano-1776242450889-0096469c.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/TRC_3785-1776242450499-ee87fb73.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/TRC_3786-1776242450575-652b139c.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/TRC_3796-1776242450646-b8d916cf.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/TRC_3801-1776242450733-a7024394.jpg"
+              ]
+            },
+            {
+              "cinemaId": "d7f6f35a-4e7b-4df4-bec6-e7d02900b0eb",
+              "cinemaCode": "1029",
+              "cinemaName": "Galaxy CineX - Hanoi Centre",
+              "cinemaSlug": "galaxy-ha-noi-center",
+              "address": "Tầng 3, tòa Nam, Trung tâm thương mại Hanoi Centre (Tiến Bộ plaza) – Số 175 Nguyễn Thái Học, phường Ô Chợ Dừa, Hà Nội",
+              "order": 1,
+              "note": null,
+              "coverImage": "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema//Lobby-2-1775038144269-492e924b.jpg",
+              "images": [
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/Boulevard-7-1775556177646-a8a5b4f5.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/Boulevard-16-1775556177461-fab1d024.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/IMAX-5-1775556176879-f90aa499.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/Lobby-1-1775556177320-b23b6750.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/Lobby-2-1775556177410-bb030eb5.jpg"
+              ]
+            }
+          ]
+        }
+      ],
+      "premiumCinemas": [
+        {
+          "id": "2c619811-b180-4138-9ff5-77e03341c297",
+          "slug": "galaxy-aeon-mall-hue",
+          "short": "Lần đầu đến với vùng đất Huế cổ kính, Galaxy Cinema giới thiệu không gian rạp phim phong cách kiến trúc cung đình xưa, đầy hoài cổ với mái ngói âm dương, đầu đao, cửa sổ hoa thị, vân mây cuồn cuộn… Dẫu vậy, Galaxy Aeon Mall Huế vẫn đậm hơi thở hiện đại với 6 phòng chiếu công nghệ tối tân, gồm 755 ghế. Rạp sở hữu công nghệ trình chiếu Laser mới nhất, màn hình sắc nét chuẩn quốc tế cùng hệ thống âm thanh vòm Dolby 7.1 , ghế ngồi bọc da cực kì thoải mái.",
+          "name": "Galaxy Aeon Mall Huế",
+          "type": "cinema",
+          "category": null,
+          "displayOrder": 0,
+          "excerpt": "<p><strong>Galaxy Aeon Mall Huế</strong> - <strong>Tầng 4, TTTM AEON Mall Huế, Số 8 Đường Võ Nguyên Giáp, Phường An Cựu, TP.Huế</strong> là rạp phim mang phong cách mới lạ đặc sắc, chưa từng có. Tọa lạc ngay tại Aeon Huế - trung tâm thương mại hứa hẹn là địa điểm vui chơi, giải trí hàng đầu cho người dân cố đô.&nbsp;&nbsp;</p><p>Lần đầu đến với vùng đất Huế cổ kính, Galaxy Cinema giới thiệu không gian rạp phim phong cách kiến trúc cung đình xưa, đầy hoài cổ với mái ngói âm dương, đầu đao, cửa sổ hoa thị, vân mây cuồn cuộn… Dẫu vậy, <strong>Galaxy Aeon Mall Huế</strong> vẫn đậm hơi thở hiện đại với 6 phòng chiếu công nghệ tối tân, gồm 755 ghế. Rạp sở hữu công nghệ trình chiếu Laser mới nhất, màn hình sắc nét chuẩn quốc tế cùng hệ thống âm thanh vòm Dolby 7.1 , ghế ngồi bọc da cực kì thoải mái.</p><p></p><p>Đặc biệt, <strong>Galaxy Aeon Mall Huế</strong> là cụm rạp đầu tiên tại Việt Nam có phòng chiếu thiết kế riêng cho gia đình Cine de Kids và khu vui chơi tích hợp Cine de Play. <strong>Galaxy Aeon Mall Huế</strong> cũng ưu tiên thêm khu vực vui chơi trẻ em, sẵn sàng phục vụ các khán giả nhỏ tuổi. Rạp còn có khu ẩm thực đa dạng phục vụ bắp ngon nước ngọt và nhiều món ăn vừa đẹp mắt vừa ngon miệng, để quý khách hàng thỏa thích check-in cùng không gian cổ kim kết hợp độc đáo.</p><p></p><p><strong>Galaxy Aeon Mall Huế - Tầng 4, TTTM AEON Mall Huế, Số 8 Đường Võ Nguyên Giáp, Phường An Cựu, TP.Huế.</strong> Từ trung tâm thành phố Huế, chỉ mất 10 phút, rất hân hạnh đón tiếp các vị khách cố đô.</p>",
+          "coverImage": "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/Rap-chieu-phim-Galaxy-Hue-Lobby-Avalo-Interior-JSC-A-8-1776241191734-78f1150f.jpg",
+          "images": [
+            "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/Rap-chieu-phim-Galaxy-Hue-Avalo-Cine-de-Kids-9-A-1776241200307-c094a602.jpg",
+            "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/Rap-chieu-phim-Galaxy-Hue-Cinema-Avalo-Interior-JSC-4-A-1776241200480-44d06a26.jpg",
+            "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/Rap-chieu-phim-Galaxy-Hue-Corridor-Avalo-Interior-JSC-1-A-1776241200662-fdba3220.jpg",
+            "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/Rap-chieu-phim-Galaxy-Hue-Corridor-Avalo-Interior-JSC-10-A-1776241200703-0309a398.jpg",
+            "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/Rap-chieu-phim-Galaxy-Hue-Lobby-Avalo-Interior-JSC-A-6-1776241200898-d8836fee.jpg",
+            "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/Rap-chieu-phim-Galaxy-Hue-Lobby-Avalo-Interior-JSC-A-7-1776241201150-e414fc81.jpg",
+            "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/Rap-chieu-phim-Galaxy-Hue-Lobby-Avalo-Interior-JSC-A-8-1776241200639-7a2fb80e.jpg",
+            "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/Rap-chieu-phim-Galaxy-Hue-Lobby-Avalo-Interior-JSC-A-10-1776241200811-e482589b.jpg",
+            "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/TRC_2859-1776241200791-7137f116.jpg",
+            "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/TRC_2885-1776241200938-8330c8a6.jpg",
+            "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/TRC_2907-1776241200990-3c9cab2e.jpg",
+            "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/TRC_2964-1776241201023-c4a73802.jpg",
+            "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/TRC_3071-1776241201137-fdc9b5bc.jpg"
+          ],
+          "systems": [
+            {
+              "systemId": "1bf173a1-49e9-47dc-8c09-cbdbda7b954e",
+              "systemSlug": "cine-de-kids",
+              "systemName": "CINE DE KIDS",
+              "systemShort": "",
+              "category": "style",
+              "order": 0,
+              "coverImage": "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/Cine-de-Kids-2-1776233383322-39977b4d.jpg",
+              "images": [
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/Cine-de-Kids-1-1776233389024-66ca571c.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/Cine-de-Kids-2-1776233389837-017794fc.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/Cine-de-Kids-1776233389945-184cbd5d.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/CinedeKids1-1776233389313-11d591d0.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/PHI-Anh-chup-15-1776233389180-0a7cee06.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/PHI-Anh-chup-16-1776233389346-91691b66.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/PHI-Anh-chup-23-1776233389338-40cdd62f.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/Rap-chieu-phim-Galaxy-Hue-Avalo-Cine-de-Kids-9-A-1776233389612-2722a268.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/TRC_3242-1776233389213-480dc8ad.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/TRC_3243-1776233389735-28b44356.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/TRC_3603-1776233389774-2323af51.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/TRC_3606-1776233389416-ef277d89.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/TRC_3620-Pano-1776233389532-2e84dd1b.jpg"
+              ]
+            },
+            {
+              "systemId": "59089cae-ba28-4850-a842-6178be751ab2",
+              "systemSlug": "cine-de-play",
+              "systemName": "CINE DE PLAY",
+              "systemShort": "",
+              "category": "amenities",
+              "order": 5,
+              "coverImage": "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/CinedePlay2-1776232101218-e05bb1c1.jpg",
+              "images": [
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/Cine-de-Kids-4-1776232108970-46adf52d.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/Cine-de-Kids-8-1776232109323-34ffccf2.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/Cine-de-Kids-10-1776232109133-8cf7f3b3.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/CinedePlay1-1776232109225-4fc46b2d.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/CinedePlay2-1776232109240-69f46069.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/PHI-Anh-chup-24-1776232109106-c32eb876.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/TRC_2885-1776232109073-c078ea7f.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/TRC_2906-1776232770881-63b23f97.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/TRC_2907-1776232771264-87bb2173.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/TRC_3275-1776232771313-a943e0f4.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/TRC_3309-1776232771479-6a4e39fa.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/TRC_3313-1776232771535-245263ef.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/TRC_3710-Pano-1-1776232771428-455543c6.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/TRC_3719-Pano-1-1776232771227-fbfe67a2.jpg"
+              ]
+            }
+          ],
+          "code": "1025",
+          "address": "Tầng 4, TTTM AEON Mall Huế, Số 8 Đường Võ Nguyên Giáp, Phường An Cựu, TP.Huế",
+          "phone": null,
+          "cinemaId": "fd63a828-6a83-4815-94ac-5d306f0f06ee"
+        },
+        {
+          "id": "d7f6f35a-4e7b-4df4-bec6-e7d02900b0eb",
+          "slug": "galaxy-ha-noi-center",
+          "short": "Được phát triển trên nền di sản Nhà in Tiến Bộ, một dấu ấn gắn với dòng chảy tri thức của Hà Nội trong thế kỷ 20, Galaxy CineX – Hanoi Centre được kiến tạo như một sự tiếp nối tinh thần lịch sử bằng ngôn ngữ kiến trúc đương đại với thiết kế như một không gian giải trí toàn diện, nơi khách hàng có thể tận hưởng nhiều dịch vụ trọn vẹn trước, trong và sau khi xem phim. Mỗi không gian, mỗi khu vực tại Galaxy CineX đều mang cá tính và triết lý riêng, nhưng cùng hướng đến một mục tiêu: tôn vinh trải nghiệm cảm xúc cá nhân của từng khách hàng.\n",
+          "name": "Galaxy CineX - Hanoi Centre",
+          "type": "cinema",
+          "category": null,
+          "displayOrder": 0,
+          "excerpt": "<p>Tọa lạc tại khu đất vàng Tiến Bộ, <strong>Galaxy CineX – Hanoi Centre</strong> (tầng 3, tòa Nam, Trung tâm thương mại Hanoi Centre – 175 Nguyễn Thái Học, phường Ô Chợ Dừa, Hà Nội) là món quà đặc biệt mà Galaxy Cinema dành tặng khán giả Thủ đô – nơi lưu giữ tinh thần của những di sản công nghiệp trong diện mạo điện ảnh hiện đại.&nbsp;</p><p><strong>Galaxy CineX - Hanoi Centre </strong>sở hữu<strong> </strong>phòng chiếu <strong>IMAX with Laser</strong>, phòng chiếu <strong>Onyx x Dolby Atmos</strong> với màn hình Samsung Onyx Cinema LED kết hợp âm thanh Dolby Atmos thế hệ mới – lần đầu tiên có mặt tại Hà Nội, mang đến chất lượng hình ảnh và âm thanh sống động đến từng chi tiết.&nbsp;</p><p>Không chỉ dừng lại ở công nghệ đỉnh cao, <strong>Galaxy CineX – Hanoi Centre</strong> còn mang đến không gian điện ảnh đẳng cấp với hệ thống phòng chiếu VIP mang dấu ấn riêng. <strong>Aqualis</strong> gợi cảm giác lênh đênh giữa du thuyền sang trọng, <strong>Lagom</strong> đem đến nét tối giản ấm áp cho những ai yêu sự riêng tư, còn <strong>Romántico</strong> là góc lãng mạn dành cho các cặp đôi muốn tận hưởng khoảnh khắc ngọt ngào. Đặc biệt, <strong>Cine de Kids</strong> – phòng chiếu rực rỡ sắc màu kết hợp khu vui chơi <strong>Cine de Play</strong> cùng hệ thống DIDIM Playground hiện đại – mở ra thế giới giải trí trọn vẹn, nơi trẻ em thỏa sức vui chơi và gia đình cùng nhau tạo nên những kỷ niệm đáng nhớ.&nbsp;</p><p>Hệ thống máy chiếu Laser tiên tiến mang đến hình ảnh chân thực, độ tương phản cao và màu sắc sống động trong từng khung hình. Không chỉ nâng tầm trải nghiệm thị giác, công nghệ này còn thân thiện với môi trường khi tiêu thụ chỉ 1/3 điện năng so với máy chiếu truyền thống.&nbsp;</p><p>Đến <strong>Galaxy CineX – Hanoi Centre</strong>, khán giả còn được tận hưởng hành trình trải nghiệm đa giác quan với <strong>CineMunch Eatery</strong> – khu ẩm thực all-in-one hiện đại, nơi hương vị được hòa quyện trong không gian tinh tế. Bên cạnh đó, <strong>Boulevard Lounge</strong> – phòng chờ VIP sang trọng – là nơi lý tưởng để thư giãn, thưởng thức cocktail và thực đơn được chế biến tỉ mỉ bởi những đầu bếp tận tâm, khiến mỗi buổi xem phim trở nên trọn vẹn hơn bao giờ hết.&nbsp;</p><p></p><p><span style=\"color: rgb(0, 0, 0);\"><strong>Galaxy CineX – Hanoi Centre</strong> được định vị như một không gian kết nối giữa quá khứ và hiện tại, nơi ngôn ngữ điện ảnh trở thành nhịp cầu tiếp nối những giá trị văn hóa đô thị. Rạp được thiết kế theo hướng hiện đại, giàu cảm xúc, với sự kết hợp hài hòa giữa hình khối mềm mại, vật liệu đương đại và hệ ánh sáng đa tầng, nhằm tôn vinh yếu tố di sản đồng thời dẫn dắt trải nghiệm của khán giả trong toàn bộ hành trình trước - trong - sau giờ chiếu.</span></p><p><br></p><p></p>",
+          "coverImage": "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema//Lobby-2-1775038144269-492e924b.jpg",
+          "images": [
+            "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/Boulevard-7-1775556177646-a8a5b4f5.jpg",
+            "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/Boulevard-16-1775556177461-fab1d024.jpg",
+            "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/IMAX-5-1775556176879-f90aa499.jpg",
+            "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/Lobby-1-1775556177320-b23b6750.jpg",
+            "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/Lobby-2-1775556177410-bb030eb5.jpg"
+          ],
+          "systems": [
+            {
+              "systemId": "ab85a933-c6a0-4707-a9fd-0498e634026b",
+              "systemSlug": "aqualis",
+              "systemName": "AQUALIS",
+              "systemShort": "",
+              "category": "style",
+              "order": 0,
+              "coverImage": "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/Aqualis-1-1776240151736-b99177d5.jpg",
+              "images": [
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/Aqualis-1-1776240157614-5f0ebaff.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/Aqualis-2-1776240157949-5d53bff5.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/Aqualis-3-1776240158065-2572e8d8.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/Aqualis-5-1776240157982-cad06a3a.jpg"
+              ]
+            },
+            {
+              "systemId": "afa0b815-46e0-4fe3-8ab9-689b87f08aac",
+              "systemSlug": "didim-playground",
+              "systemName": "DIDIM PLAYROUND",
+              "systemShort": "",
+              "category": "amenities",
+              "order": 1,
+              "coverImage": "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/Cine-de-Kids-9-1776224274219-3fd5d4de.jpg",
+              "images": [
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/Cine-de-Kids-4-1776224289797-1cc792eb.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/Cine-de-Kids-7-1776224289951-729240a8.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/Cine-de-Kids-9-1776224289879-341061fd.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/Cine-de-Kids-10-1776224289990-a8a0f3c6.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/TRC_3710-Pano-1-1776224290030-4a516624.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/TRC_3719-Pano-1-1776224290525-d22c4500.jpg"
+              ]
+            },
+            {
+              "systemId": "4f2b3e9a-4f61-4cd3-899f-95fb12648793",
+              "systemSlug": "onyx-x-dolby-atmos",
+              "systemName": "ONYX X DOLBY ATMOS",
+              "systemShort": "",
+              "category": "technology",
+              "order": 1,
+              "coverImage": "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/Screenshot-2026-03-27-150941-1774599004581-409fdb5b.png",
+              "images": [
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/Onyx-3-1775462661936-7daa5296.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/Onyx-4-1775462669877-e71769fb.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/Onyx-6-1775462679195-861facf1.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/Onyx-5-1775462683001-6e0bfdc5.jpg"
+              ]
+            },
+            {
+              "systemId": "36881284-cf39-438a-b822-4de3f8410632",
+              "systemSlug": "romantico",
+              "systemName": "ROMÁNTICO",
+              "systemShort": "",
+              "category": "style",
+              "order": 2,
+              "coverImage": "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/Romantico-1-1-1775104236949-86016b61.jpg",
+              "images": [
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/Romantico-2-1775465084910-4fb6b43a.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/Romantico-3-1775465084994-9ecad971.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/Romantico-4-1775465085124-d429b925.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/Romantico-7-1775465085140-6cb09d9f.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/Romantico-8-1775465085093-59ce0e8e.jpg"
+              ]
+            },
+            {
+              "systemId": "32189771-5c0e-442a-9dd9-e19a82c50bab",
+              "systemSlug": "imax-with-laser",
+              "systemName": "IMAX WITH LASER",
+              "systemShort": "",
+              "category": "technology",
+              "order": 3,
+              "coverImage": "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/26-b-trc-8643-pano_1767776123782.jpg",
+              "images": [
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/26-b-trc-8643-pano_1767776123782.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/26-b-trc-8591-pano_1767776132948.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/-trc8342_1767776199706.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/imax01-1775619161161-52f8cd3a.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/imax02-1775619161183-424334cb.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/imax03-1775619161353-fc08f338.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/imax05-1775619161313-539951df.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/imax06-1775619161192-18299d99.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/imax08-1775619161330-52158938.jpg"
+              ]
+            },
+            {
+              "systemId": "78b7b8d7-d646-457f-a756-3a4e607f85f0",
+              "systemSlug": "cinemunch-eatery",
+              "systemName": "CINEMUNCH EATERY",
+              "systemShort": "",
+              "category": "amenities",
+              "order": 3,
+              "coverImage": "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/Cinemunch2-1776247047118-c1c8f421.jpg",
+              "images": [
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/CineMunch02-1776247053956-23ca178d.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/Cinemunch2-1776247054082-85b72f48.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/PHI-Anh-chup-3-1776247054549-06f6c4e0.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/TRC_3330-1776247054580-dddd6b9a.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/TRC_3364-1776247054680-abd62d51.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/TRC_3785-1776247054341-5939aa93.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/TRC_3801-1776247054037-f1e57ad8.jpg"
+              ]
+            },
+            {
+              "systemId": "561d8c41-de3f-4845-a2cb-ca0e3ee67a6b",
+              "systemSlug": "boulevard-lounge",
+              "systemName": "BOULEVARD LOUNGE",
+              "systemShort": "",
+              "category": "amenities",
+              "order": 4,
+              "coverImage": "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/Boulevard-2-1776229506267-e5669150.jpg",
+              "images": [
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/Boulevard-1-1776229514181-d95c4982.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/Boulevard-2-1776229514565-5883632d.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/Boulevard-3-1776229515379-ada8ca84.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/Boulevard-4-1776229514845-f3ae2b9d.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/Boulevard-5-1776229515438-6257d99a.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/Boulevard-6-1776229514540-59f24eac.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/Boulevard-7-1776229514585-10b4efe4.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/Boulevard-8-1776229515284-874afc2b.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/Boulevard01-1776229514872-b36b9e9c.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/Boulevard02-1776229515331-4ab967bf.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/Boulevard03-1776229515157-efd7a252.jpg"
+              ]
+            },
+            {
+              "systemId": "59089cae-ba28-4850-a842-6178be751ab2",
+              "systemSlug": "cine-de-play",
+              "systemName": "CINE DE PLAY",
+              "systemShort": "",
+              "category": "amenities",
+              "order": 4,
+              "coverImage": "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/CinedePlay2-1776232101218-e05bb1c1.jpg",
+              "images": [
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/Cine-de-Kids-4-1776232108970-46adf52d.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/Cine-de-Kids-8-1776232109323-34ffccf2.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/Cine-de-Kids-10-1776232109133-8cf7f3b3.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/CinedePlay1-1776232109225-4fc46b2d.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/CinedePlay2-1776232109240-69f46069.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/PHI-Anh-chup-24-1776232109106-c32eb876.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/TRC_2885-1776232109073-c078ea7f.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/TRC_2906-1776232770881-63b23f97.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/TRC_2907-1776232771264-87bb2173.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/TRC_3275-1776232771313-a943e0f4.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/TRC_3309-1776232771479-6a4e39fa.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/TRC_3313-1776232771535-245263ef.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/TRC_3710-Pano-1-1776232771428-455543c6.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/TRC_3719-Pano-1-1776232771227-fbfe67a2.jpg"
+              ]
+            },
+            {
+              "systemId": "a5c3ce6b-0839-4f21-8462-ce2e8320d829",
+              "systemSlug": "lagom",
+              "systemName": "LAGOM ",
+              "systemShort": "",
+              "category": "style",
+              "order": 6,
+              "coverImage": "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/Lagom-2-1776237953476-8d01dfa6.jpg",
+              "images": [
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/Lagom-2-1776237961134-ac05c571.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/Lagom-3-1776237961897-c14634ec.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/Lagom01-1776237962049-f9943dfb.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/Lagom02-1776237961646-4459bc24.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/Lagom04-1776237961996-966ddfdb.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/Lagom05-1776237962177-183db9d7.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/Lagom06-1776237961385-71a051d4.jpg"
+              ]
+            },
+            {
+              "systemId": "1bf173a1-49e9-47dc-8c09-cbdbda7b954e",
+              "systemSlug": "cine-de-kids",
+              "systemName": "CINE DE KIDS",
+              "systemShort": "",
+              "category": "style",
+              "order": 7,
+              "coverImage": "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/Cine-de-Kids-2-1776233383322-39977b4d.jpg",
+              "images": [
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/Cine-de-Kids-1-1776233389024-66ca571c.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/Cine-de-Kids-2-1776233389837-017794fc.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/Cine-de-Kids-1776233389945-184cbd5d.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/CinedeKids1-1776233389313-11d591d0.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/PHI-Anh-chup-15-1776233389180-0a7cee06.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/PHI-Anh-chup-16-1776233389346-91691b66.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/PHI-Anh-chup-23-1776233389338-40cdd62f.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/Rap-chieu-phim-Galaxy-Hue-Avalo-Cine-de-Kids-9-A-1776233389612-2722a268.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/TRC_3242-1776233389213-480dc8ad.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/TRC_3243-1776233389735-28b44356.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/TRC_3603-1776233389774-2323af51.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/TRC_3606-1776233389416-ef277d89.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/TRC_3620-Pano-1776233389532-2e84dd1b.jpg"
+              ]
+            }
+          ],
+          "code": "1029",
+          "address": "Tầng 3, tòa Nam, Trung tâm thương mại Hanoi Centre (Tiến Bộ plaza) – Số 175 Nguyễn Thái Học, phường Ô Chợ Dừa, Hà Nội",
+          "phone": "19002224",
+          "cinemaId": "c26f5f71-657e-4d49-a7c2-c6616072025"
+        },
+        {
+          "id": "917fe3dd-eef9-4404-bd0e-ea79f42d5410",
+          "slug": "galaxy-thiso-sala",
+          "short": "Galaxy Sala tọa lạc tại tầng 3, Tầng 3, TTTM Thiso Mall Sala - Số 10 Đường Mai Chí Thọ, Phường An Khánh, TP.HCM. Galaxy Sala nằm giữa khu đô thị Sala hiện đại bậc nhất thành phố Hồ Chí Minh, là nơi giới trẻ tụ tập giải trí vui chơi sau những giờ học tập và làm việc căng thẳng.",
+          "name": "Galaxy CineX - Sala",
+          "type": "cinema",
+          "category": null,
+          "displayOrder": 0,
+          "excerpt": "<p><strong>Galaxy Sala</strong> tọa lạc tại tầng 3, Tầng 3, TTTM Thiso Mall Sala - Số 10 Đường Mai Chí Thọ, Phường An Khánh, TP.HCM, giữa khu đô thị Sala hiện đại bậc nhất thành phố Hồ Chí Minh, là nơi giới trẻ tụ tập giải trí vui chơi sau những giờ học tập và làm việc căng thẳng.</p><p>Giữa khu phức hợp Thiso Mall Sala bao gồm hàng loạt thương hiệu đình đám, <strong>Galaxy Sala</strong> sở hữu thiết kế mới lạ, độc đáo chưa từng có như một cú lột xác bất ngờ của Galaxy Cinema nhân dịp thương hiệu bước sang độ tuổi 20.</p><p><strong>Galaxy Sala</strong> mang đến rất nhiều “lần đầu tiên”:</p><ul><li><p>- Cụm rạp đầu tiên của Galaxy Cinema và đầu tiên trên toàn quốc sở hữu phòng chiếu <strong>IMAX with Laser</strong> - công nghệ trình chiếu hiện đại, vượt trội hơn hẳn màn hình IMAX thông thường. <strong>IMAX with Laser</strong> sở hữu độ sắc nét chuẩn quốc tế cùng hệ thống âm thanh 12 kênh tối ưu, giúp trải nghiệm điện ảnh trở nên vô cùng chân thật. Ngoài ra, ghế ngồi bọc da với thiết kế vòng cung mang lại cảm giác thoải mái tuyệt vời, tối đa hóa hiệu ứng âm thanh hình ảnh trong suốt thời gian xem phim.</p></li><li><p>- Cụm rạp đầu tiên sở hữu hệ thống phòng chiếu VIP : <strong>Lagom</strong> &amp; <strong>Laurus - </strong>phòng chiếu theo chủ đề với hệ thống ghế da đa chế độ cao cấp, chăn lông ấm áp và ẩm thực được phục vụ tận nơi, đi kèm quyền lợi check in ưu tiên. Máy chiếu Laser mang đến hình ảnh sắc nét, cũng dàn âm thanh sống động mang đến trải nghiệm điện ảnh trọn vẹn.</p></li><li><p>- Cụm rạp đầu tiên sở hữu phòng chờ VIP <strong>Boulevard Lounge</strong> - <span style=\"color: rgb(0, 0, 0);\">Dành riêng cho khách hàng yêu thích sự yên tĩnh và sang trọng. Boulevard Lounge được thiết kế như một “tiền sảnh cảm xúc”, nơi khách hàng có thể nghỉ ngơi, thư giãn trước khi bước vào thế giới điện ảnh. Với nội thất trang nhã, dịch vụ ẩm thực cao cấp và không gian tách biệt, đây là điểm đến lý tưởng cho cả những buổi hẹn riêng tư lẫn gặp gỡ đối tác.</span></p><p><br><span style=\"color: rgb(74, 74, 74);\">Theo hướng cầu Ba Son hoặc hầm Thủ Thiêm chỉ mất 5 phút từ trung tâm thành phố Hồ Chí Minh, <strong>Galaxy Sala</strong> chắc chắn sẽ trở thành điểm check-in thường trực của giới trẻ Sài Gòn.</span></p></li></ul><p></p>",
+          "coverImage": "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/Entrance-1776243118462-e3ba716f.jpg",
+          "images": [
+            "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/Boulevard06-1776243129043-706fcdc3.jpg",
+            "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/Haatopia02-1776243129258-46c719a0.jpg",
+            "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/imax01-1776243129131-3db8d11d.jpg",
+            "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/Lagom01-1776243129647-8b8e647e.jpg",
+            "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/Laurus05-1776243129149-f2787990.jpg",
+            "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/Lobby04-1776243129495-4c03957b.jpg",
+            "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/Lobby05-1776243129578-6f4fc8b6.jpg",
+            "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/WalkHall04-1776243129376-f261cc83.jpg",
+            "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/WalkHall06-1776243129405-c04f1b6a.jpg"
+          ],
+          "systems": [
+            {
+              "systemId": "561d8c41-de3f-4845-a2cb-ca0e3ee67a6b",
+              "systemSlug": "boulevard-lounge",
+              "systemName": "BOULEVARD LOUNGE",
+              "systemShort": "",
+              "category": "amenities",
+              "order": 0,
+              "coverImage": "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/Boulevard-2-1776229506267-e5669150.jpg",
+              "images": [
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/Boulevard-1-1776229514181-d95c4982.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/Boulevard-2-1776229514565-5883632d.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/Boulevard-3-1776229515379-ada8ca84.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/Boulevard-4-1776229514845-f3ae2b9d.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/Boulevard-5-1776229515438-6257d99a.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/Boulevard-6-1776229514540-59f24eac.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/Boulevard-7-1776229514585-10b4efe4.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/Boulevard-8-1776229515284-874afc2b.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/Boulevard01-1776229514872-b36b9e9c.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/Boulevard02-1776229515331-4ab967bf.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/Boulevard03-1776229515157-efd7a252.jpg"
+              ]
+            },
+            {
+              "systemId": "c798f8b1-eccc-4dc5-8ab4-d91ab2b6b934",
+              "systemSlug": "laurus",
+              "systemName": "LAURUS",
+              "systemShort": "",
+              "category": "style",
+              "order": 1,
+              "coverImage": "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/Laurus04-1776238197310-48c06e72.jpg",
+              "images": [
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/Laurus02-1776238203559-28bba5eb.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/Laurus04-1776238203546-c67ed56d.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/Laurus05-1776238203495-bb904ef5.jpg"
+              ]
+            },
+            {
+              "systemId": "a5c3ce6b-0839-4f21-8462-ce2e8320d829",
+              "systemSlug": "lagom",
+              "systemName": "LAGOM ",
+              "systemShort": "",
+              "category": "style",
+              "order": 2,
+              "coverImage": "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/Lagom-2-1776237953476-8d01dfa6.jpg",
+              "images": [
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/Lagom-2-1776237961134-ac05c571.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/Lagom-3-1776237961897-c14634ec.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/Lagom01-1776237962049-f9943dfb.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/Lagom02-1776237961646-4459bc24.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/Lagom04-1776237961996-966ddfdb.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/Lagom05-1776237962177-183db9d7.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/Lagom06-1776237961385-71a051d4.jpg"
+              ]
+            },
+            {
+              "systemId": "32189771-5c0e-442a-9dd9-e19a82c50bab",
+              "systemSlug": "imax-with-laser",
+              "systemName": "IMAX WITH LASER",
+              "systemShort": "",
+              "category": "technology",
+              "order": 3,
+              "coverImage": "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/26-b-trc-8643-pano_1767776123782.jpg",
+              "images": [
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/26-b-trc-8643-pano_1767776123782.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/26-b-trc-8591-pano_1767776132948.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/-trc8342_1767776199706.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/imax01-1775619161161-52f8cd3a.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/imax02-1775619161183-424334cb.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/imax03-1775619161353-fc08f338.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/imax05-1775619161313-539951df.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/imax06-1775619161192-18299d99.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/imax08-1775619161330-52158938.jpg"
+              ]
+            },
+            {
+              "systemId": "78b7b8d7-d646-457f-a756-3a4e607f85f0",
+              "systemSlug": "cinemunch-eatery",
+              "systemName": "CINEMUNCH EATERY",
+              "systemShort": "",
+              "category": "amenities",
+              "order": 4,
+              "coverImage": "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/Cinemunch2-1776247047118-c1c8f421.jpg",
+              "images": [
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/CineMunch02-1776247053956-23ca178d.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/Cinemunch2-1776247054082-85b72f48.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/PHI-Anh-chup-3-1776247054549-06f6c4e0.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/TRC_3330-1776247054580-dddd6b9a.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/TRC_3364-1776247054680-abd62d51.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/TRC_3785-1776247054341-5939aa93.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/TRC_3801-1776247054037-f1e57ad8.jpg"
+              ]
+            }
+          ],
+          "code": "1024",
+          "address": "Tầng 3, TTTM Thiso Mall Sala - Số 10 Đường Mai Chí Thọ, Phường An Khánh, TP.HCM",
+          "phone": null,
+          "cinemaId": "ce1c7816-3275-4516-a7ad-371e337bd7ba"
+        },
+        {
+          "id": "546680f3-3bfe-42cc-aa23-ddaa5599f322",
+          "slug": "galaxy-parc-mall",
+          "short": "Galaxy Parc Mall tọa lạc tại Tầng 4, TTTM Parc Mall - 547-549 Tạ Quang Bửu, Phường Chánh Hưng, TP.HCM sở hữu thiết kế đầy tâm huyết với môi trường, đem công viên vào mall. Đến với Galaxy Parc Mall để đắm chìm vào không gian rạp chiếu phim đậm chất xanh, trải nghiệm vừa thưởng thức điện ảnh vừa chill với thiên nhiên. ",
+          "name": "Galaxy Parc Mall",
+          "type": "cinema",
+          "category": null,
+          "displayOrder": 0,
+          "excerpt": "Tầng 4, TTTM Parc Mall - 547-549 Tạ Quang Bửu, Phường Chánh Hưng, TP.HCM",
+          "coverImage": "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/Lobby1-1776240542276-67aeae79.jpg",
+          "images": [
+            "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/Auditorium1-1776240549394-6b06b8b6.jpg",
+            "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/Auditorium4-1776240549700-214db755.jpg",
+            "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/Auditorium6-1776240549584-2a8c6988.jpg",
+            "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/CinedeKids1-1776240549760-a4c46a95.jpg",
+            "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/CinedePlay1-1776240549791-87e18c33.jpg",
+            "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/CinedePlay2-1776240549806-4e52ffd1.jpg",
+            "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/Cinemunch1-1776240549616-a6ba5f1e.jpg",
+            "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/Cinemunch2-1776240549741-b83efcb0.jpg",
+            "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/Detail4-1776240549895-f3ed6146.jpg",
+            "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/Entrance1-1776240550107-6e4d857d.jpg",
+            "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/Lobby1-1776240550191-8672a26c.jpg",
+            "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/Ticketstation1-1776240550234-58f6e0ce.jpg",
+            "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/Toilet1-1776240550098-f1205671.jpg",
+            "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/WalkHall1-1776240550093-17198ca5.jpg"
+          ],
+          "systems": [
+            {
+              "systemId": "78b7b8d7-d646-457f-a756-3a4e607f85f0",
+              "systemSlug": "cinemunch-eatery",
+              "systemName": "CINEMUNCH EATERY",
+              "systemShort": "",
+              "category": "amenities",
+              "order": 0,
+              "coverImage": "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/Cinemunch2-1776247047118-c1c8f421.jpg",
+              "images": [
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/CineMunch02-1776247053956-23ca178d.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/Cinemunch2-1776247054082-85b72f48.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/PHI-Anh-chup-3-1776247054549-06f6c4e0.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/TRC_3330-1776247054580-dddd6b9a.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/TRC_3364-1776247054680-abd62d51.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/TRC_3785-1776247054341-5939aa93.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/TRC_3801-1776247054037-f1e57ad8.jpg"
+              ]
+            },
+            {
+              "systemId": "1bf173a1-49e9-47dc-8c09-cbdbda7b954e",
+              "systemSlug": "cine-de-kids",
+              "systemName": "CINE DE KIDS",
+              "systemShort": "",
+              "category": "style",
+              "order": 1,
+              "coverImage": "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/Cine-de-Kids-2-1776233383322-39977b4d.jpg",
+              "images": [
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/Cine-de-Kids-1-1776233389024-66ca571c.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/Cine-de-Kids-2-1776233389837-017794fc.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/Cine-de-Kids-1776233389945-184cbd5d.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/CinedeKids1-1776233389313-11d591d0.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/PHI-Anh-chup-15-1776233389180-0a7cee06.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/PHI-Anh-chup-16-1776233389346-91691b66.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/PHI-Anh-chup-23-1776233389338-40cdd62f.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/Rap-chieu-phim-Galaxy-Hue-Avalo-Cine-de-Kids-9-A-1776233389612-2722a268.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/TRC_3242-1776233389213-480dc8ad.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/TRC_3243-1776233389735-28b44356.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/TRC_3603-1776233389774-2323af51.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/TRC_3606-1776233389416-ef277d89.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/TRC_3620-Pano-1776233389532-2e84dd1b.jpg"
+              ]
+            },
+            {
+              "systemId": "59089cae-ba28-4850-a842-6178be751ab2",
+              "systemSlug": "cine-de-play",
+              "systemName": "CINE DE PLAY",
+              "systemShort": "",
+              "category": "amenities",
+              "order": 1,
+              "coverImage": "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/CinedePlay2-1776232101218-e05bb1c1.jpg",
+              "images": [
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/Cine-de-Kids-4-1776232108970-46adf52d.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/Cine-de-Kids-8-1776232109323-34ffccf2.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/Cine-de-Kids-10-1776232109133-8cf7f3b3.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/CinedePlay1-1776232109225-4fc46b2d.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/CinedePlay2-1776232109240-69f46069.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/PHI-Anh-chup-24-1776232109106-c32eb876.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/TRC_2885-1776232109073-c078ea7f.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/TRC_2906-1776232770881-63b23f97.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/TRC_2907-1776232771264-87bb2173.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/TRC_3275-1776232771313-a943e0f4.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/TRC_3309-1776232771479-6a4e39fa.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/TRC_3313-1776232771535-245263ef.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/TRC_3710-Pano-1-1776232771428-455543c6.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/TRC_3719-Pano-1-1776232771227-fbfe67a2.jpg"
+              ]
+            }
+          ],
+          "code": "1026",
+          "address": "Tầng 4, TTTM Parc Mall - 547-549 Tạ Quang Bửu, Phường Chánh Hưng, TP.HCM",
+          "phone": null,
+          "cinemaId": "2b1b8b8d-82b3-4a8d-b792-58ea529c49d2"
+        },
+        {
+          "id": "4e959794-025e-409b-954c-a2e83f3e943b",
+          "slug": "galaxy-thiso-phan-huy-ich",
+          "short": "",
+          "name": "Galaxy Thiso Mall Phan Huy Ích",
+          "type": "cinema",
+          "category": null,
+          "displayOrder": 0,
+          "excerpt": "Tầng 4, TTTM Thiso Mall Trường Chinh - Phan Huy Ích - 385 Phan Huy Ích, Phường An Hội Tây, TP.HCM",
+          "coverImage": "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/PHI-Anh-chup-1-1776242079393-fe8ee4af.jpg",
+          "images": [
+            "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/PHI-Anh-chup-4-1776242095148-3bb9c6c4.jpg",
+            "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/PHI-Anh-chup-5-1776242095310-81cebf90.jpg",
+            "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/PHI-Anh-chup-11-1776242095351-319cc06c.jpg",
+            "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/PHI-Anh-chup-12-1776242095376-d2e15e2c.jpg",
+            "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/PHI-Anh-chup-16-1776242095576-85d9be75.jpg",
+            "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/PHI-Anh-chup-23-1776242095448-53a3c806.jpg",
+            "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/PHI-Anh-chup-24-1776242095422-8bbbec83.jpg",
+            "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/PHI-Anh-chup-25-1776242095250-fa60c596.jpg",
+            "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/PHI-Anh-chup-26-1776242095514-65b34824.jpg"
+          ],
+          "systems": [
+            {
+              "systemId": "59089cae-ba28-4850-a842-6178be751ab2",
+              "systemSlug": "cine-de-play",
+              "systemName": "CINE DE PLAY",
+              "systemShort": "",
+              "category": "amenities",
+              "order": 0,
+              "coverImage": "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/CinedePlay2-1776232101218-e05bb1c1.jpg",
+              "images": [
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/Cine-de-Kids-4-1776232108970-46adf52d.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/Cine-de-Kids-8-1776232109323-34ffccf2.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/Cine-de-Kids-10-1776232109133-8cf7f3b3.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/CinedePlay1-1776232109225-4fc46b2d.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/CinedePlay2-1776232109240-69f46069.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/PHI-Anh-chup-24-1776232109106-c32eb876.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/TRC_2885-1776232109073-c078ea7f.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/TRC_2906-1776232770881-63b23f97.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/TRC_2907-1776232771264-87bb2173.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/TRC_3275-1776232771313-a943e0f4.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/TRC_3309-1776232771479-6a4e39fa.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/TRC_3313-1776232771535-245263ef.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/TRC_3710-Pano-1-1776232771428-455543c6.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/TRC_3719-Pano-1-1776232771227-fbfe67a2.jpg"
+              ]
+            },
+            {
+              "systemId": "78b7b8d7-d646-457f-a756-3a4e607f85f0",
+              "systemSlug": "cinemunch-eatery",
+              "systemName": "CINEMUNCH EATERY",
+              "systemShort": "",
+              "category": "amenities",
+              "order": 1,
+              "coverImage": "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/Cinemunch2-1776247047118-c1c8f421.jpg",
+              "images": [
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/CineMunch02-1776247053956-23ca178d.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/Cinemunch2-1776247054082-85b72f48.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/PHI-Anh-chup-3-1776247054549-06f6c4e0.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/TRC_3330-1776247054580-dddd6b9a.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/TRC_3364-1776247054680-abd62d51.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/TRC_3785-1776247054341-5939aa93.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/TRC_3801-1776247054037-f1e57ad8.jpg"
+              ]
+            },
+            {
+              "systemId": "1bf173a1-49e9-47dc-8c09-cbdbda7b954e",
+              "systemSlug": "cine-de-kids",
+              "systemName": "CINE DE KIDS",
+              "systemShort": "",
+              "category": "style",
+              "order": 1,
+              "coverImage": "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/Cine-de-Kids-2-1776233383322-39977b4d.jpg",
+              "images": [
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/Cine-de-Kids-1-1776233389024-66ca571c.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/Cine-de-Kids-2-1776233389837-017794fc.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/Cine-de-Kids-1776233389945-184cbd5d.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/CinedeKids1-1776233389313-11d591d0.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/PHI-Anh-chup-15-1776233389180-0a7cee06.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/PHI-Anh-chup-16-1776233389346-91691b66.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/PHI-Anh-chup-23-1776233389338-40cdd62f.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/Rap-chieu-phim-Galaxy-Hue-Avalo-Cine-de-Kids-9-A-1776233389612-2722a268.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/TRC_3242-1776233389213-480dc8ad.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/TRC_3243-1776233389735-28b44356.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/TRC_3603-1776233389774-2323af51.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/TRC_3606-1776233389416-ef277d89.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/TRC_3620-Pano-1776233389532-2e84dd1b.jpg"
+              ]
+            }
+          ],
+          "code": "1027",
+          "address": "Tầng 4, TTTM Thiso Mall Trường Chinh - Phan Huy Ích - 385 Phan Huy Ích, Phường An Hội Tây, TP.HCM",
+          "phone": null,
+          "cinemaId": "c26f5f71-657e-4d49-a7c2-c63856620ddf"
+        },
+        {
+          "id": "3a908a81-2c43-406f-b2db-96e7de68203f",
+          "slug": "galaxy-gold-coast-nha-trang",
+          "short": "",
+          "name": "Galaxy Cine+ Gold Coast Nha Trang",
+          "type": "cinema",
+          "category": null,
+          "displayOrder": 0,
+          "excerpt": "Tầng 8, TTTM Gold Coast - Số 1 Trần Hưng Đạo, Phường Nha Trang, Tỉnh Khánh Hòa",
+          "coverImage": "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/TRC_3801-1776242443509-7ba811ae.jpg",
+          "images": [
+            "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/TRC_3603-1776242450702-67c82e70.jpg",
+            "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/TRC_3630-1776242450435-f0e9d4b9.jpg",
+            "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/TRC_3633-1776242450724-bb879928.jpg",
+            "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/TRC_3686-1776242450686-db24be08.jpg",
+            "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/TRC_3710-Pano-1776242450819-3a57dd79.jpg",
+            "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/TRC_3719-Pano-1776242450889-0096469c.jpg",
+            "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/TRC_3785-1776242450499-ee87fb73.jpg",
+            "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/TRC_3786-1776242450575-652b139c.jpg",
+            "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/TRC_3796-1776242450646-b8d916cf.jpg",
+            "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/TRC_3801-1776242450733-a7024394.jpg"
+          ],
+          "systems": [
+            {
+              "systemId": "afa0b815-46e0-4fe3-8ab9-689b87f08aac",
+              "systemSlug": "didim-playground",
+              "systemName": "DIDIM PLAYROUND",
+              "systemShort": "",
+              "category": "amenities",
+              "order": 0,
+              "coverImage": "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/Cine-de-Kids-9-1776224274219-3fd5d4de.jpg",
+              "images": [
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/Cine-de-Kids-4-1776224289797-1cc792eb.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/Cine-de-Kids-7-1776224289951-729240a8.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/Cine-de-Kids-9-1776224289879-341061fd.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/Cine-de-Kids-10-1776224289990-a8a0f3c6.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/TRC_3710-Pano-1-1776224290030-4a516624.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/TRC_3719-Pano-1-1776224290525-d22c4500.jpg"
+              ]
+            },
+            {
+              "systemId": "1bf173a1-49e9-47dc-8c09-cbdbda7b954e",
+              "systemSlug": "cine-de-kids",
+              "systemName": "CINE DE KIDS",
+              "systemShort": "",
+              "category": "style",
+              "order": 1,
+              "coverImage": "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/Cine-de-Kids-2-1776233383322-39977b4d.jpg",
+              "images": [
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/Cine-de-Kids-1-1776233389024-66ca571c.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/Cine-de-Kids-2-1776233389837-017794fc.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/Cine-de-Kids-1776233389945-184cbd5d.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/CinedeKids1-1776233389313-11d591d0.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/PHI-Anh-chup-15-1776233389180-0a7cee06.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/PHI-Anh-chup-16-1776233389346-91691b66.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/PHI-Anh-chup-23-1776233389338-40cdd62f.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/Rap-chieu-phim-Galaxy-Hue-Avalo-Cine-de-Kids-9-A-1776233389612-2722a268.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/TRC_3242-1776233389213-480dc8ad.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/TRC_3243-1776233389735-28b44356.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/TRC_3603-1776233389774-2323af51.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/TRC_3606-1776233389416-ef277d89.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/TRC_3620-Pano-1776233389532-2e84dd1b.jpg"
+              ]
+            },
+            {
+              "systemId": "59089cae-ba28-4850-a842-6178be751ab2",
+              "systemSlug": "cine-de-play",
+              "systemName": "CINE DE PLAY",
+              "systemShort": "",
+              "category": "amenities",
+              "order": 3,
+              "coverImage": "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/CinedePlay2-1776232101218-e05bb1c1.jpg",
+              "images": [
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/Cine-de-Kids-4-1776232108970-46adf52d.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/Cine-de-Kids-8-1776232109323-34ffccf2.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/Cine-de-Kids-10-1776232109133-8cf7f3b3.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/CinedePlay1-1776232109225-4fc46b2d.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/CinedePlay2-1776232109240-69f46069.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/PHI-Anh-chup-24-1776232109106-c32eb876.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/TRC_2885-1776232109073-c078ea7f.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/TRC_2906-1776232770881-63b23f97.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/TRC_2907-1776232771264-87bb2173.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/TRC_3275-1776232771313-a943e0f4.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/TRC_3309-1776232771479-6a4e39fa.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/TRC_3313-1776232771535-245263ef.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/TRC_3710-Pano-1-1776232771428-455543c6.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/TRC_3719-Pano-1-1776232771227-fbfe67a2.jpg"
+              ]
+            }
+          ],
+          "code": "1028",
+          "address": "Tầng 8, TTTM Gold Coast - Số 1 Trần Hưng Đạo, Phường Nha Trang, Tỉnh Khánh Hòa",
+          "phone": null,
+          "cinemaId": "c26f5f71-657e-4d49-a7c2-c63856620dff"
+        },
+        {
+          "id": "357466ca-843e-47d2-95ba-30c0f185e77a",
+          "slug": "galaxy-vincom-vinh",
+          "short": "Galaxy Vincom Plaza Vinh không dừng lại ở một rạp phim, mà là sự xuất hiện của một “trạm dừng lịch sử” – nơi chuẩn mực giải trí được nâng tầm và niềm tự hào Quê Choa được thăng hoa, sẵn sàng chào đón các Stars vào hành trình trải nghiệm điện ảnh trọn vẹn hơn bao giờ hết.​",
+          "name": "Galaxy Vincom Plaza Vinh",
+          "type": "cinema",
+          "category": null,
+          "displayOrder": 0,
+          "excerpt": "<p><span style=\"color: rgb(0, 0, 0);\"><strong>Galaxy Vincom Plaza Vinh</strong> là “trạm dừng lịch sử” nơi tinh thần xứ Nghệ được tôn vinh, kết hợp cùng chuẩn mực điện ảnh đẳng cấp. Đây sẽ là điểm hẹn giải trí mới, nơi không chỉ mang đến trải nghiệm xem phim khác biệt, mà còn được sống trọn vẹn trong không gian văn hoá – cảm xúc – tự hào. ​</span></p><p><span style=\"color: rgb(0, 0, 0);\">Lần đầu tiên tại Nghệ An, hai không gian giải trí đỉnh cao dành riêng cho các Stars nhí </span>​được ra mắt: <span style=\"color: rgb(0, 0, 0);\">Cine de Kids – thế giới sắc màu dành cho các bé với màu sắc rực rỡ và ghế êm hút mắt</span>​​; <span style=\"color: rgb(0, 0, 0);\">Cine de Play – khu vui chơi điện ảnh tích hợp lớn nhất Việt Nam với công nghệ tương tác thực tế ảo DIDIM Playround.</span></p><p></p><p><span style=\"color: rgb(0, 0, 0);\">Bên cạnh đó, <strong>Galaxy Vincom Plaza Vinh</strong> được trang bị hệ thống máy chiếu Laser với chất lượng hình ảnh sắc nét cùng dàn âm thanh sống động, hệ thống ghế Slider bọc da mềm mại, tựa lưng thoải mái, đệm mút đàn hồi và chế độ ngả đến 75 độ cùng khu ẩm thực tích hợp đa dạng</span>​ mang đến trải nghiệm toàn diện.</p>",
+          "coverImage": "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/TRC_3344-1-1776241658517-89d43358.jpg",
+          "images": [
+            "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/TRC_3243-1776241582836-030bf895.jpg",
+            "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/TRC_3275-1776241583123-01a85cd5.jpg",
+            "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/TRC_3307-1776241582383-a38f6150.jpg",
+            "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/TRC_3313-1776241583006-b99f7c7a.jpg",
+            "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/TRC_3318-1776241582787-aa13eb29.jpg",
+            "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/TRC_3330-1776241583734-6cd72dc7.jpg",
+            "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/TRC_3364-1776241583206-3a7017ec.jpg",
+            "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/TRC_3422-1776241583247-964a917d.jpg",
+            "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/TRC_3454-1776241583093-20c4aa48.jpg",
+            "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/TRC_3455-1776241583338-7a083589.jpg",
+            "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/TRC_3473-1776241583312-c2e55bfd.jpg",
+            "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/TRC_3474-1776241583565-620cf84c.jpg",
+            "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/TRC_3476-1776241583437-e520771e.jpg",
+            "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/TRC_3521-1776241583633-9508e4f7.jpg",
+            "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/WalkHall1-1776241583475-07831042.jpg"
+          ],
+          "systems": [
+            {
+              "systemId": "1bf173a1-49e9-47dc-8c09-cbdbda7b954e",
+              "systemSlug": "cine-de-kids",
+              "systemName": "CINE DE KIDS",
+              "systemShort": "",
+              "category": "style",
+              "order": 0,
+              "coverImage": "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/Cine-de-Kids-2-1776233383322-39977b4d.jpg",
+              "images": [
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/Cine-de-Kids-1-1776233389024-66ca571c.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/Cine-de-Kids-2-1776233389837-017794fc.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/Cine-de-Kids-1776233389945-184cbd5d.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/CinedeKids1-1776233389313-11d591d0.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/PHI-Anh-chup-15-1776233389180-0a7cee06.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/PHI-Anh-chup-16-1776233389346-91691b66.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/PHI-Anh-chup-23-1776233389338-40cdd62f.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/Rap-chieu-phim-Galaxy-Hue-Avalo-Cine-de-Kids-9-A-1776233389612-2722a268.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/TRC_3242-1776233389213-480dc8ad.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/TRC_3243-1776233389735-28b44356.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/TRC_3603-1776233389774-2323af51.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/TRC_3606-1776233389416-ef277d89.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/TRC_3620-Pano-1776233389532-2e84dd1b.jpg"
+              ]
+            },
+            {
+              "systemId": "59089cae-ba28-4850-a842-6178be751ab2",
+              "systemSlug": "cine-de-play",
+              "systemName": "CINE DE PLAY",
+              "systemShort": "",
+              "category": "amenities",
+              "order": 2,
+              "coverImage": "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/CinedePlay2-1776232101218-e05bb1c1.jpg",
+              "images": [
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/Cine-de-Kids-4-1776232108970-46adf52d.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/Cine-de-Kids-8-1776232109323-34ffccf2.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/Cine-de-Kids-10-1776232109133-8cf7f3b3.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/CinedePlay1-1776232109225-4fc46b2d.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/CinedePlay2-1776232109240-69f46069.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/PHI-Anh-chup-24-1776232109106-c32eb876.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/TRC_2885-1776232109073-c078ea7f.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/TRC_2906-1776232770881-63b23f97.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/TRC_2907-1776232771264-87bb2173.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/TRC_3275-1776232771313-a943e0f4.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/TRC_3309-1776232771479-6a4e39fa.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/TRC_3313-1776232771535-245263ef.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/TRC_3710-Pano-1-1776232771428-455543c6.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/TRC_3719-Pano-1-1776232771227-fbfe67a2.jpg"
+              ]
+            },
+            {
+              "systemId": "78b7b8d7-d646-457f-a756-3a4e607f85f0",
+              "systemSlug": "cinemunch-eatery",
+              "systemName": "CINEMUNCH EATERY",
+              "systemShort": "",
+              "category": "amenities",
+              "order": 2,
+              "coverImage": "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/Cinemunch2-1776247047118-c1c8f421.jpg",
+              "images": [
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/CineMunch02-1776247053956-23ca178d.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/Cinemunch2-1776247054082-85b72f48.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/PHI-Anh-chup-3-1776247054549-06f6c4e0.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/TRC_3330-1776247054580-dddd6b9a.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/TRC_3364-1776247054680-abd62d51.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/TRC_3785-1776247054341-5939aa93.jpg",
+                "https://cdn.galaxycine.vn/media/2026/4/23/premium_cinema/TRC_3801-1776247054037-f1e57ad8.jpg"
+              ]
+            }
+          ],
+          "code": "1031",
+          "address": "Tầng L5, Tòa nhà Vincom Plaza Vinh, đường Quang Trung, Phường Thành Vinh, Tỉnh Nghệ An, Việt Nam",
+          "phone": "19002224",
+          "cinemaId": "4e296181-c2f0-4b37-a270-c4fa38edfcf6"
+        }
+      ]
+    },
+    "configs": {
+      "support": {
+        "phone": "19002224",
+        "email": "hotro@galaxystudio.vn",
+        "linkFAQ": "https://www.galaxycine.vn/hoi-dap/"
+      },
+      "booking": {
+        "displayPin": true,
+        "displayVoucher": true,
+        "voucherLength": 12,
+        "noteForVoucher": "<p><span style=\"color:#e74c3c;\">Điều kiện &aacute;p dụng:</span> Voucher đang trong giai đoạn thử nghiệm n&ecirc;n chỉ &aacute;p dụng với đơn h&agrave;ng thanh to&aacute;n ho&agrave;n to&agrave;n bằng Voucher (Hợp lệ: Đơn h&agrave;ng 2 v&eacute; được &aacute;p dụng th&agrave;nh c&ocirc;ng 2 Voucher).<br />\n<!--| --></p>\n",
+        "ageConfirmPopup": {
+          "title": "Xác nhận mua vé cho người có độ tuổi phù hợp",
+          "contents": {
+            "13": "Tôi xác nhận mua vé phim này cho người có độ tuổi từ 13 tuổi trở lên và đồng ý cung cấp giấy tờ tùy thân/thẻ học sinh để chứng minh độ tuổi.",
+            "16": "Tôi xác nhận mua vé phim này cho người có độ tuổi từ 16 tuổi trở lên và đồng ý cung cấp giấy tờ tùy thân để xác minh độ tuổi.",
+            "18": "Tôi xác nhận mua vé phim này cho người có độ tuổi từ 18 tuổi trở lên và đồng ý cung cấp giấy tờ tùy thân để xác minh độ tuổi.",
+            "k": "Đây là phim phổ biến đến người xem dưới 13 tuổi với điều kiện xem cùng cha, mẹ hoặc người giám hộ."
+          }
+        }
+      },
+      "validate": {
+        "email": "/^\\w+([\\.-]?\\w+)*@\\w+([\\.-]?\\w+)*(\\.\\w{2,3})+$/",
+        "phone": "/^(\\+*84|0)(\\d{9}|\\d{10}|\\d{11})$/i",
+        "enableSocialDistance": true
+      },
+      "vig": {
+        "exchangeRate": 0,
+        "displayReward": false
+      },
+      "movie": {
+        "movieFormats": [
+          {
+            "key": "2d-sub",
+            "order": 1
+          },
+          {
+            "key": "2d-voice",
+            "order": 2
+          },
+          {
+            "key": "3d-sub",
+            "order": 3
+          },
+          {
+            "key": "3d-voice",
+            "order": 4
+          },
+          {
+            "key": "digital-sub",
+            "order": 5
+          },
+          {
+            "key": "digital-voice",
+            "order": 6
+          },
+          {
+            "key": "imax2d-sub",
+            "order": 7
+          },
+          {
+            "key": "imax3d-sub",
+            "order": 8
+          },
+          {
+            "key": "imax2d-voice",
+            "order": 9
+          },
+          {
+            "key": "imax3d-voice",
+            "order": 10
+          },
+          {
+            "key": "laurus2d-sub",
+            "order": 11
+          },
+          {
+            "key": "laurus3d-sub",
+            "order": 12
+          },
+          {
+            "key": "laurus2d-voice",
+            "order": 13
+          },
+          {
+            "key": "laurus3d-voice",
+            "order": 14
+          },
+          {
+            "key": "lagom2d-sub",
+            "order": 15
+          },
+          {
+            "key": "lagom3d-sub",
+            "order": 16
+          },
+          {
+            "key": "lagom2d-voice",
+            "order": 17
+          },
+          {
+            "key": "lagom3d-voice",
+            "order": 18
+          },
+          {
+            "key": "laurusdigital-sub",
+            "order": 19
+          },
+          {
+            "key": "laurusdigital-voice",
+            "order": 20
+          },
+          {
+            "key": "lagomdigital-sub",
+            "order": 21
+          },
+          {
+            "key": "lagomsdigital-voice",
+            "order": 22
+          },
+          {
+            "key": "samsung2d-sub",
+            "order": 23
+          },
+          {
+            "key": "samsung3d-sub",
+            "order": 24
+          },
+          {
+            "key": "samsung2d-voice",
+            "order": 25
+          },
+          {
+            "key": "samsung3d-voice",
+            "order": 26
+          },
+          {
+            "key": "samsungdigital-sub",
+            "order": 27
+          },
+          {
+            "key": "samsungdigital-voice",
+            "order": 28
+          },
+          {
+            "key": "Q8kids2d-sub",
+            "order": 29
+          },
+          {
+            "key": "Q8kids3d-sub",
+            "order": 30
+          },
+          {
+            "key": "Q8kids2d-voice",
+            "order": 31
+          },
+          {
+            "key": "Q8kids3d-voice",
+            "order": 32
+          },
+          {
+            "key": "onyx2d-sub",
+            "order": 33
+          },
+          {
+            "key": "onyx3d-sub",
+            "order": 34
+          },
+          {
+            "key": "onyx2d-voice",
+            "order": 35
+          },
+          {
+            "key": "onyx3d-voice",
+            "order": 36
+          },
+          {
+            "key": "onyxdigital-sub",
+            "order": 37
+          },
+          {
+            "key": "onyxdigital-voice",
+            "order": 38
+          },
+          {
+            "key": "aqualis2d-sub",
+            "order": 39
+          },
+          {
+            "key": "aqualis3d-sub",
+            "order": 40
+          },
+          {
+            "key": "aqualis2d-voice",
+            "order": 41
+          },
+          {
+            "key": "aqualis3d-voice",
+            "order": 42
+          },
+          {
+            "key": "aqualisdigital-sub",
+            "order": 43
+          },
+          {
+            "key": "aqualisdigital-voice",
+            "order": 44
+          },
+          {
+            "key": "romantico2d-sub",
+            "order": 45
+          },
+          {
+            "key": "romantico3d-sub",
+            "order": 46
+          },
+          {
+            "key": "romantico2d-voice",
+            "order": 47
+          },
+          {
+            "key": "romantico3d-voice",
+            "order": 48
+          },
+          {
+            "key": "romanticodigital-sub",
+            "order": 49
+          },
+          {
+            "key": "romanticodigital-voice",
+            "order": 50
+          },
+          {
+            "key": "lagom2d-sub",
+            "order": 51
+          },
+          {
+            "key": "lagom3d-sub",
+            "order": 52
+          },
+          {
+            "key": "lagom2d-voice",
+            "order": 53
+          },
+          {
+            "key": "lagom3d-voice",
+            "order": 54
+          },
+          {
+            "key": "lagomdigital-sub",
+            "order": 55
+          },
+          {
+            "key": "lagomsdigital-voice",
+            "order": 56
+          },
+          {
+            "key": "imaxLaser2d-sub",
+            "order": 57
+          },
+          {
+            "key": "imaxLaser3d-sub",
+            "order": 58
+          },
+          {
+            "key": "imaxLaser2d-voice",
+            "order": 59
+          },
+          {
+            "key": "imaxLaser3d-voice",
+            "order": 60
+          },
+          {
+            "key": "imaxLaserdigital-sub",
+            "order": 61
+          },
+          {
+            "key": "imaxLaserdigital-voice",
+            "order": 62
+          },
+          {
+            "key": "imaxLaserimax2d-sub",
+            "order": 63
+          },
+          {
+            "key": "imaxLaserimax3d-sub",
+            "order": 64
+          },
+          {
+            "key": "live-sub",
+            "order": 65
+          },
+          {
+            "key": "rebroadcast-sub",
+            "order": 66
+          },
+          {
+            "key": "haatopia1-sub",
+            "order": 67
+          },
+          {
+            "key": "haatopia2-sub",
+            "order": 68
+          },
+          {
+            "key": "haatopia1-voice",
+            "order": 69
+          },
+          {
+            "key": "haatopia2-voice",
+            "order": 70
+          },
+          {
+            "key": "xharbor12d-sub",
+            "order": 71
+          },
+          {
+            "key": "xharbor13d-sub",
+            "order": 72
+          },
+          {
+            "key": "xharbor12d-voice",
+            "order": 73
+          },
+          {
+            "key": "xharbor13d-voice",
+            "order": 74
+          },
+          {
+            "key": "xharbor1digital-sub",
+            "order": 75
+          },
+          {
+            "key": "xharbor1digital-voice",
+            "order": 76
+          },
+          {
+            "key": "xharbor22d-sub",
+            "order": 77
+          },
+          {
+            "key": "xharbor23d-sub",
+            "order": 78
+          },
+          {
+            "key": "xharbor22d-voice",
+            "order": 79
+          },
+          {
+            "key": "xharbor23d-voice",
+            "order": 80
+          },
+          {
+            "key": "xharbor2digital-sub",
+            "order": 81
+          },
+          {
+            "key": "xharbor2digital-voice",
+            "order": 82
+          },
+          {
+            "key": "dolby2d-sub",
+            "order": 83
+          },
+          {
+            "key": "dolby3d-sub",
+            "order": 84
+          },
+          {
+            "key": "dolby2d-voice",
+            "order": 85
+          },
+          {
+            "key": "dolby3d-voice",
+            "order": 86
+          },
+          {
+            "key": "dolbydigital-sub",
+            "order": 87
+          },
+          {
+            "key": "dolbydigital-voice",
+            "order": 88
+          },
+          {
+            "key": "imaxLaserimax2dfull-sub",
+            "order": 89
+          },
+          {
+            "key": "2d_invi-sub",
+            "order": 90
+          }
+        ]
+      },
+      "whitelist": {
+        "reward": {
+          "enable": false,
+          "emails": []
+        },
+        "subscription": {
+          "enable": true,
+          "emails": [
+            "ellie.tramnhp@gmail.com",
+            "le.buu.liem@gmail.com",
+            "nhutquangluong@gmail.com",
+            "khang.quoc.huynh.nguyen@gmail.com",
+            "ductrung.816479@gmail.com",
+            "volyminhnhan@gmail.com",
+            "vinh.nguyenthe@gmail.com"
+          ]
+        },
+        "preOrder": {
+          "enable": false,
+          "emails": []
+        }
+      },
+      "totalDescription": "Galaxy Cinema sẽ xét duyệt hạng thành viên năm 2026 dựa vào chi tiêu của năm 2026",
+      "ticketIMAXCollection": [
+        {
+          "movieID": "40c241c6-6b9c-4e41-9210-0135222f79f1",
+          "movieName": "Avatar: Dòng Chảy Của Nước",
+          "imageTicket": "https://cdn.galaxycine.vn/media/2025/9/19/avatar-2-500_1758269569105.jpg",
+          "version": "imax3d"
+        },
+        {
+          "movieID": "7facc24b-9999-45da-be6e-43bb117eacb0",
+          "movieName": "Trò Chơi Ảo Giác: Ares",
+          "imageTicket": "https://cdn.galaxycine.vn/media/2025/7/21/tron-ares-500_1753081742548.jpg",
+          "version": "imax2d"
+        },
+        {
+          "movieID": "b73a3fb1-d638-435a-99f2-682843003b71",
+          "movieName": "Quái Thú Vô Hình: Vùng Đất Chết Chóc",
+          "imageTicket": "https://cdn.galaxycine.vn/media/2025/9/9/predator-500_1757409424970.jpg",
+          "version": "imax2d"
+        },
+        {
+          "movieID": "f728987b-f9d7-4eff-a9a1-648336135611",
+          "movieName": "Phi Vụ Động Trời 2",
+          "imageTicket": "https://cdn.galaxycine.vn/media/2025/7/31/zootopia2-500_1753933574554.jpg",
+          "version": "imax2d"
+        },
+        {
+          "movieID": "d08320e6-ca42-4cc3-81fd-8be1bf547b20",
+          "movieName": "Avatar: Lửa Và Tro Tàn",
+          "imageTicket": "https://cdn.galaxycine.vn/media/2025/7/30/avatar-3-500_1753848148849.jpg",
+          "version": "imax2d"
+        }
+      ],
+      "ticketIMAXINFO": {
+        "title": "IMAX TREASURE HUNT",
+        "enable": 0,
+        "description": "Hành trình chinh phục 5 cột mốc điện ảnh định dạng IMAX để có cơ hội trở thành một trong 50 thợ săn IMAX đích thực và giành kho báu độc quyền từ Galaxy Cinema.",
+        "content": "<div style=\"font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; color:#111; background:#fff; padding:12px; border-radius:8px; line-height:1.45; font-size:13.5px;\">\n  <h2 style=\"margin:0 0 6px 0; font-size:20px; font-weight:700;\">IMAX TREASURE HUNT</h2>\n  <p style=\"margin:0 0 8px 0; font-weight:600;\">Khởi hành – Săn lùng – Chinh phục</p>\n \n  <p style=\"margin:0 0 8px 0;\">\n    <strong>Thời gian:</strong>\n    từ <time datetime=\"2025-09-23\">23/9</time> đến <time datetime=\"2025-12-31\">31/12/2025</time>\n  </p>\n \n  <p style=\"margin:0 0 10px 0;\">\n    Hành trình chinh phục 5 cột mốc điện ảnh định dạng IMAX để có cơ hội trở thành một trong\n    <strong>50 thợ săn IMAX</strong> đích thực và giành kho báu độc quyền từ Galaxy Cinema.\n  </p>\n \n  <h3 style=\"margin:0 0 6px 0; font-size:15px;\">Danh sách phim áp dụng chương trình</h3>\n  <ol style=\"margin:0 0 10px 16px; padding:0;\">\n    <li style=\"margin:2px 0;\"><strong>Chặng 1:</strong> Avatar 2: The Way of Water</li>\n    <li style=\"margin:2px 0;\"><strong>Chặng 2:</strong> Tron: Ares</li>\n    <li style=\"margin:2px 0;\"><strong>Chặng 3:</strong> Predator: Badlands</li>\n    <li style=\"margin:2px 0;\"><strong>Chặng 4:</strong> Zootopia 2</li>\n    <li style=\"margin:2px 0;\"><strong>Chặng 5:</strong> Avatar: Fire and Ash</li>\n  </ol>\n \n  <h3 style=\"margin:0 0 6px 0; font-size:15px;\">Giải thưởng</h3>\n  <ul style=\"margin:0 0 10px 16px; padding:0;\">\n    <li style=\"margin:4px 0;\">\n      <strong>50 phần quà đặc biệt</strong> dành cho 50 khán giả đầu tiên hoàn thành 5 cột mốc:\n      Set quà độc quyền <em>Avatar: Fire &amp; Ash</em>, gồm 1 túi tote, 1 bình giữ nhiệt và 1 pin cài.\n    </li>\n    <li style=\"margin:4px 0;\">\n      <strong>30 phần quà khuyến khích</strong> dành cho 30 khán giả tiếp theo hoàn thành 5 cột mốc:\n      1 pin cài phim <em>Avatar: Fire and Ash</em>.\n    </li>\n  </ul>\n \n  <h3 style=\"margin:0 0 6px 0; font-size:15px;\">Lưu ý</h3>\n  <ul style=\"margin:0 0 8px 16px; padding:0;\">\n    <li style=\"margin:3px 0;\">Khách hàng sẽ được thông báo cụ thể qua email về địa điểm, thời gian và cách thức nhận quà.</li>\n    <li style=\"margin:3px 0;\">Quà tặng không có giá trị quy đổi thành tiền mặt hoặc sản phẩm khác.</li>\n    <li style=\"margin:3px 0;\">Mỗi khách hàng chỉ được tham gia và nhận quà 01 lần trong suốt chương trình.</li>\n    <li style=\"margin:3px 0;\">Số lượng quà có hạn, chương trình có thể kết thúc sớm khi hết quà.</li>\n    <li style=\"margin:3px 0;\">Mọi trường hợp hủy vé hoặc đổi sang phim khác ngoài các phim được quy định trong chương trình sẽ được tính là không hợp lệ.</li>\n    <li style=\"margin:3px 0;\">Ban tổ chức có quyền kiểm tra, từ chối hoặc hủy bỏ quyền nhận quà nếu phát hiện dấu hiệu gian lận.</li>\n    <li style=\"margin:3px 0;\">Quyết định của Ban tổ chức là quyết định cuối cùng.</li>\n  </ul>\n \n  <p style=\"margin:0;\">\n    Chi tiết chương trình xem thêm tại:\n    <a href=\"https://www.galaxycine.vn/khuyen-mai/imax-treasure-hunt-khoi-hanh--san-lung--chinh-phuc/\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"color:#0b57d0; text-decoration:underline; font-weight:600;\">Galaxy Cinema</a>.\n  </p>\n</div>"
+      },
+      "urlWebview": {
+        "url": "https://dhub.galaxystudio.vn"
+      },
+      "textValidateOTP": {
+        "content": "Vui lòng nhập mã OTP được gửi đến tài khoản Zalo đăng ký bởi số điện thoại {SDT}.\nTrong trường hợp không nhận được mã OTP qua Zalo, hệ thống sẽ tự động gửi mã qua SMS.",
+        "placeholders": [
+          "SDT"
+        ]
+      },
+      "cineSummer": {
+        "isActive": false,
+        "title": "Xin chào hè",
+        "titleEn": "Hello Summer",
+        "startTime": "2026-07-01 00:00:00",
+        "endTime": "2026-08-31 23:59:59",
+        "webviewUrl": "https://galaxysummer.galaxystudio.vn/",
+        "banner": "https://cdn.galaxycine.vn/media/2026/6/30/3--icon-popup_1782795868383.png",
+        "popup": "https://cdn.galaxycine.vn/media/2026/6/30/1--hop-qua_1782795766668.png",
+        "isColorBlock": true,
+        "isGstarTop": true,
+        "gstarBannerDesktop": "https://cdn.galaxycine.vn/media/2026/6/30/g--star---desktop_1782795981818.png",
+        "gstarBannerMobile": "https://cdn.galaxycine.vn/media/2026/6/30/dua-top-in-app-02-01_1782795963775.png",
+        "gstarTopDesktop": "https://cdn.galaxycine.vn/media/2026/6/30/dua-top---desktop_1782795926649.png",
+        "gstarTopMobile": "https://cdn.galaxycine.vn/media/2026/6/30/dua-top---mobile_1782795944461.png",
+        "btnMyReward": "https://cdn.galaxycine.vn/media/2026/6/30/2--button-xem-tai-my-rewards_1782795775076.png",
+        "btnReceive": "https://cdn.galaxycine.vn/media/2026/6/30/1--button-nhan-qua_1782795751441.png"
+      },
+      "campaign": {
+        "campaignVoucherClaim.back-to-school-2026": {
+          "active": true,
+          "startAt": "2026-09-24 00:00:00",
+          "endAt": "2026-10-29 23:59:59",
+          "tryOpenApp": true
+        }
+      },
+      "promotion": {
+        "isActive": false,
+        "icon": "https://cdn.galaxycine.vn/media/2025/11/20/label_1763634030691.png",
+        "url": "https://promotion-xmas.galaxycine.vn/"
+      },
+      "googleRecaptcha": {
+        "siteKey": "6LdcAoooAAAAAG_mEMqjE0iohHPmQ7FmsXVLtYO5",
+        "iosKey": "6LfIPzYsAAAAACMExUI_93j_OEULiT94U2t3fhfG",
+        "androidKey": "6Ld0FDYsAAAAAND-ULtmT8GH6S7vWPMinM99_dIE"
+      }
+    },
+    "categories": [
+      {
+        "id": 2,
+        "name": "Movie-verse",
+        "slug": "movie-verse"
+      },
+      {
+        "id": 3,
+        "name": "Fan Wibu",
+        "slug": "fan-wibu"
+      },
+      {
+        "id": 4,
+        "name": "Inner Child",
+        "slug": "inner-child"
+      },
+      {
+        "id": 5,
+        "name": "#Yolo",
+        "slug": "yolo"
+      },
+      {
+        "id": 6,
+        "name": "Hè Đa Sắc",
+        "slug": "he-da-sac"
+      }
+    ],
+    "memberInfo": {
+      "email": "",
+      "name": "",
+      "phone": "",
+      "birthDay": "",
+      "gender": "",
+      "memberId": "",
+      "avatar": "",
+      "level": 0,
+      "earnedStars": 0,
+      "expense": 0
+    },
+    "__lang": "vi",
+    "__namespaces": {
+      "common": {
+        "companyName": "GALAXY CINEMA",
+        "title": "Xin Chào",
+        "home": "Trang chủ",
+        "reject": "Từ chối",
+        "confirm": "Xác nhận",
+        "variable-example": "Using a variable {{count}}",
+        "forgot_password": "Quên mật khẩu",
+        "forgot_password_decription": "Vui lòng cung cấp email đăng nhập, chúng tôi sẽ gởi link mật khẩu mới về email của bạn!",
+        "email": "Email",
+        "password": "Mật khẩu",
+        "enter_email": "Nhập Email",
+        "email_not_emty": "Email không được để trống!",
+        "email_invalidate": "Email không đúng định dạng. Vui lòng kiểm tra lại!",
+        "password_reset": "Cấp lại mật khẩu",
+        "login": "Đăng nhập",
+        "logout": "Đăng xuất",
+        "account": "Tài khoản",
+        "register": "Đăng ký",
+        "minutes": "Phút",
+        "reviews": "Đánh giá",
+        "producer": "Nhà sản xuất",
+        "director": "Đạo diễn",
+        "actor": "Diễn viên",
+        "movie_content": "Nội dung phim",
+        "screening_schedule": "Lịch chiếu phim",
+        "nationwide": "Toàn quốc",
+        "all_cinemas": "Tất cả rạp",
+        "film_not_schedule": "Hiện tại phim chưa có lịch chiếu",
+        "now_showing": "Phim đang chiếu",
+        "buy_tickets": "Mua vé",
+        "trailer": "Trailer",
+        "movie": "Phim",
+        "showing": "Đang chiếu",
+        "coming_soon": "Sắp chiếu",
+        "current_position": "Vị trí hiện tại ở {{location}}",
+        "cinema_corner": "Góc điện ảnh",
+        "promotion_news": "Tin khuyến mãi",
+        "cinema": "Rạp",
+        "screenings": "Suất",
+        "total": "Tổng cộng",
+        "back": "Quay lại",
+        "continue": "Tiếp tục",
+        "fullName": "Họ và tên",
+        "finish": "Hoàn thành",
+        "phoneNumber": "Số điện thoại",
+        "referralPhoneNumber": "Số điện thoại thành viên giới thiệu",
+        "birthday": "Ngày sinh",
+        "selectBirthday": "Chọn ngày sinh",
+        "gender": "Giới tính",
+        "title_galaxy": "Galaxy Cinema: Hệ Thống Rạp Chiếu Phim Hiện Đại | Galaxy Cinema",
+        "description_galaxy": "Rạp Chiếu Phim Galaxy là một trong những rạp chiếu phim tiêu chuẩn quốc tế đầu tiên tại Việt Nam. Đến Galaxy tận hưởng siêu phẩm Hollywood!",
+        "film_reviews": "Bình luận phim",
+        "film_blog": "Blog điện ảnh",
+        "validate_select_order": "Vui lòng chọn theo thứ tự",
+        "select_movie": "Chọn Phim",
+        "selectMovie": "Chọn Phim",
+        "selectCinema": "Chọn Rạp",
+        "selectDay": "Chọn Ngày",
+        "selectSession": "Chọn Suất Chiếu",
+        "select_theater": "Chọn Rạp",
+        "select_date": "Chọn Ngày",
+        "select_slot": "Chọn Suất",
+        "validate_complete_order": "Vui lòng hoàn tất các thứ tự!",
+        "buy_a_quick_ticket": "Mua vé nhanh",
+        "warning": "Cảnh báo !",
+        "pictureTheater": "Rạp chiếu phim",
+        "cinemaAndPrice": "Rạp/Giá vé",
+        "choose_a_combo": "Chọn Combo",
+        "price": "Giá",
+        "maximum_number_of_seats": "Số lượng ghế tối đa được đặt là 8 ghế",
+        "movie_coming_soon": "Phim sắp chiếu",
+        "search": "Tìm kiếm",
+        "placeholder_search": "Tìm kiếm...",
+        "search_results_for_keywords": "{{result}} Kết quả tìm kiếm cho từ khoá",
+        "trade_cancellation": "Huỷ giao dịch",
+        "promotional_news": "Tin khuyến mãi",
+        "see_more": "Xem thêm",
+        "about_us": "Về chúng tôi",
+        "terms_of_use": "Thoả thuận",
+        "operating_regulation": "Quy chế",
+        "privacy_policy": "Chính sách",
+        "stars": "Stars",
+        "get_it_now": "Nhận Ngay",
+        "redemption_stars": "Starts quy đổi",
+        "expiry_date": "Hạn sử dụng",
+        "detail": "Chi tiết",
+        "expired": "Hết hạn",
+        "otpCode": "OTP Code",
+        "checkOtp": "Kiểm tra",
+        "note_only_show": "Lưu ý: chỉ hiển thị 20 giao dịch gần nhất",
+        "sale_and_service": "Sale & Service",
+        "title_detal": "{{title}}",
+        "related_articles": "Bài viết liên quan",
+        "like": "Thích",
+        "share": "Chia sẻ",
+        "xMinutes": "{{number}} Phút",
+        "xVotes": "{{number}} votes",
+        "today": "Hôm nay",
+        "support": "Hỗ trợ",
+        "hotline_support": "HOTLINE hỗ trợ",
+        "content": "Nội dung",
+        "send_comments": "Gửi góp ý",
+        "address": "Địa chỉ",
+        "hotline": "Hotline",
+        "details": "Thông tin chi tiết",
+        "showtime": "Suất chiếu",
+        "article_not_found": "Không tìm thấy bài viết!",
+        "no_data_found": "Không tìm thấy dữ liệu",
+        "filter": "Phân loại / Lọc",
+        "apply": "Áp Dụng",
+        "clear": "Xoá",
+        "remove_filter": "Xoá bộ lọc",
+        "status": "Trạng thái",
+        "filmography": "Phim đã chiếu",
+        "premiere_date": "Ngày công chiếu",
+        "height": "Chiều cao",
+        "nationality": "Quốc tịch",
+        "images": "Hình ảnh",
+        "film_has_been_involved": "Phim đã tham gia",
+        "story": "Tiểu sử",
+        "updating": "Đang cập nhật",
+        "xTotal_Expenditure": "Tổng chi tiêu {{year}}",
+        "month": "Tháng",
+        "water_corn_combo": "Combo/Sản phẩm",
+        "close": "Đóng",
+        "provinceCity": "Tỉnh / Thành phố",
+        "pleaseWait": "Chờ xíu nhe...",
+        "votes": "votes",
+        "male": "Nam",
+        "female": "Nữ",
+        "member_gStart": "Thành viên G-Start",
+        "transaction_history": "Lịch sử giao dịch",
+        "gift": "Quà tặng",
+        "personal_information": "Thông tin cá nhân",
+        "announcement": "Thông báo",
+        "list_gift": "Danh sách quà",
+        "my_gift": "Quà của tôi",
+        "history": "Lịch sử",
+        "rules": "Thể lệ",
+        "interest": "Quyền lợi",
+        "guide": "Hướng dẫn",
+        "province": "Tỉnh / Thành",
+        "movie_empty": "Hiện tại không tìm thấy phim!",
+        "frequently_asked_questions": "Câu hỏi thường gặp",
+        "load_more": "Tải thêm",
+        "registration_GStar": "Đăng Ký Thành Viên G-star Nhận Ngay Ưu Đãi!",
+        "earn_points": "Tích điểm",
+        "redeem_gifts": "Đổi quà",
+        "special_offer": "Ưu đãi đặt biệt",
+        "update": "Cập nhật",
+        "ticketCode": "Mã vé",
+        "seat": "Ghế",
+        "not_showing_topday": "Không hiển thị hôm nay",
+        "getItNow": "Nhận ngay",
+        "policy": "Chính sách",
+        "xReviews": "{{number}} đánh giá",
+        "submitReview": "Gởi đánh giá",
+        "retypePassword": "Nhập lại mật khẩu",
+        "galaxyMembership": "Galaxy Cinema sẽ xét duyệt hạng thành viên năm {{next_year}} dựa vào chi tiêu của năm {{year_current}}",
+        "G-Start": "G-Start",
+        "day": "Ngày",
+        "year": "Năm",
+        "promotions": "Ưu đãi",
+        "category": "Thể loại",
+        "nation": "Quốc gia",
+        "feedback": "Góp ý",
+        "sendFeedback": "Gửi góp ý",
+        "character": "Ký tự",
+        "blogMovie": "Phim điện ảnh",
+        "otherMovieComments": "Bình luận phim khác",
+        "relatedNews": "Tin liên quan",
+        "picturesFromTheMovie": "Hình trong phim",
+        "sideDetails": "Tình tiết bên lề",
+        "reviewFilm": "Đánh giá phim",
+        "concessionEmpty": "Hiện tại không có sản phẩm nào!",
+        "iMax": "Phim IMAX",
+        "buyNow": "Mua ngay",
+        "movieWeek": "Tuần lễ phim Nhật",
+        "note": "Lưu ý",
+        "skip": "Bỏ qua",
+        "accountLock": "Khoá tài khoản",
+        "confirmAccountLock": "Bạn có chắc chắn muốn khoá tài khoản này không?",
+        "agree": "Đồng ý",
+        "copyCodeVoucher": "Sao chép mã Voucher",
+        "copied": "Đã Copied",
+        "useNow": "Dùng ngay",
+        "busySystem": "Hệ thống đang bận, vui lòng thử lại sau!",
+        "product": "Sản phẩm",
+        "food&Drink": "Đồ ăn & Thức uống",
+        "productATVNCG": "Sản phẩm ATVNCG",
+        "productDescription": "Mô tả sản phẩm",
+        "viewDetails": "Xem chi tiết",
+        "sizeGuide": "Hướng dẫn chọn size",
+        "color": "Màu sắc",
+        "deliveryOptions": "Nhận hàng tại",
+        "quantity": "Số lượng",
+        "payment": "Thanh toán",
+        "addToCart": "Thêm vào giỏ hàng",
+        "order_summary": "Tóm tắt đơn hàng",
+        "payment_method": "Phương thức thanh toán",
+        "payment_method_description": "Chọn phương thức thanh toán cho đơn hàng của bạn",
+        "payment_method_placeholder": "Chọn phương thức thanh toán",
+        "payment_method_select": "Chọn phương thức thanh toán",
+        "payment_method_select_placeholder": "Chọn phương thức thanh toán",
+        "subtotal": "Tổng tiền",
+        "discount": "Giảm giá",
+        "voucherDiscount": "Giảm giá voucher",
+        "pointsDiscount": "Giảm giá điểm",
+        "zero_payment_title": "Không cần thanh toán",
+        "zero_payment_description": "Đơn hàng của bạn đã được giảm giá 100%. Vui lòng chọn nơi nhận hàng và xác nhận đơn hàng.",
+        "total_payment": "Số tiền thanh toán",
+        "order_confirmed": "Đơn hàng đã được xác nhận",
+        "order_confirmed_message": "Đơn hàng của bạn đã được xác nhận và đang được xử lý",
+        "order_number": "Mã đơn hàng",
+        "back_to_home": "Quay lại trang chủ",
+        "select_payment_method": "Chọn phương thức thanh toán",
+        "place_order": "Đặt hàng",
+        "payment_note": "Vui lòng chọn nơi nhận hàng trước khi thanh toán",
+        "delivery_location": "Nơi nhận hàng",
+        "address_not_available": "Địa chỉ không khả dụng",
+        "cancel": "Hủy",
+        "loading_payment_methods": "Đang tải phương thức thanh toán...",
+        "processing": "Đang xử lý...",
+        "noDescription": "Không có mô tả sản phẩm",
+        "errorAddToCart": "Có lỗi xảy ra khi thêm sản phẩm vào giỏ hàng",
+        "addToCartSuccess": "Đã thêm sản phẩm vào giỏ hàng",
+        "viewCart": "Xem giỏ hàng",
+        "cart_empty": "Giỏ hàng của bạn đang trống",
+        "cart_empty_description": "Hãy thêm sản phẩm vào giỏ hàng của bạn",
+        "continue_shopping": "Tiếp tục mua sắm",
+        "clear_cart": "Xóa giỏ hàng",
+        "product_atvngc": "Sản phẩm ATVNCG",
+        "cart": "Giỏ hàng",
+        "size": "Size",
+        "confirm_address": "Xác nhận địa chỉ nhận hàng",
+        "click_button": "Bấm vào nút",
+        "to_complete_order": "để hoàn tất đơn hàng.",
+        "thank_you_for_your_order": "Thank you!",
+        "no_payment_method": "Không có phương thức thanh toán",
+        "city": "Thành phố",
+        "please_select_delivery_location_before_payment": "Vui lòng chọn nơi nhận hàng trước khi thanh toán",
+        "error_place_order": "Có lỗi xảy ra khi đặt hàng",
+        "select_delivery_location": "Chọn rạp nhận hàng",
+        "select_city": "Chọn thành phố",
+        "select_size": "Chọn size",
+        "select_color": "Chọn màu sắc",
+        "select_quantity": "Chọn số lượng",
+        "pickup_instructions": "Hướng dẫn lấy hàng",
+        "transaction_id": "Mã giao dịch",
+        "your_order_has_been_processed_successfully": "Đơn hàng của bạn đã được xử lý thành công",
+        "order_success": "Đơn hàng thành công",
+        "order_success_description": "Đơn hàng của bạn đã được xử lý thành công, vui lòng kiểm tra lại đơn hàng của bạn",
+        "order_success_pickup_instructions": "Đơn hàng của bạn đã được xử lý thành công, vui lòng đến rạp để lấy hàng",
+        "order_success_transaction_id": "Mã giao dịch",
+        "order_success_transaction_id_description": "Mã giao dịch của đơn hàng của bạn là",
+        "order_success_transaction_id_description_2": "Vui lòng kiểm tra lại đơn hàng của bạn",
+        "sorry_your_order_could_not_be_processed": "Rất tiếc, đơn hàng của bạn không thành công. Vui lòng thử lại!",
+        "what_happened": "Điều gì đã xảy ra?",
+        "there_was_an_issue_processing_your_payment": "Có vấn đề xảy ra trong quá trình xử lý thanh toán của bạn",
+        "order_processing_failed": "Đặt hàng không thành công",
+        "order_failed": "Đơn hàng không thành công",
+        "order_failed_description": "Đơn hàng của bạn không thành công, vui lòng kiểm tra lại đơn hàng của bạn",
+        "order_failed_transaction_id": "Mã giao dịch",
+        "order_failed_transaction_id_description": "Mã giao dịch của đơn hàng của bạn là",
+        "return_to_products": "Quay lại sản phẩm",
+        "please_present_your_order_confirmation_at_the_cinema_to_collect_your_items": "Chúng tôi sẽ thông báo thời gian có hàng cho bạn qua App/Email. Bạn vui lòng đến rạp đã chọn để nhận hàng khi có thông báo nhé!",
+        "total_price": "Tổng tiền",
+        "error_loading_cart": "Có lỗi xảy ra khi tải giỏ hàng",
+        "payment_now": "Thanh Toán",
+        "preOrder": "PRE-ORDER",
+        "thank_you_for_your_order_description": "Cảm ơn bạn đã đặt hàng tại Galaxy Cinema!",
+        "noteConfirmOrder": "Khi sản phẩm của bạn có sẵn tại rạp, Galaxy Cinema sẽ gửi thông báo qua App/Email. Vui lòng nhận hàng trong vòng 7 ngày kể từ ngày nhận được thông báo.",
+        "noProductsFound": "Không tìm thấy sản phẩm!",
+        "termsOfService": "Điều khoản dịch vụ",
+        "ofGLX": "của Galaxy Cinema.",
+        "thank_you_for_your_order_before": "Khi sản phẩm của bạn có sẵn tại rạp, chúng tôi sẽ gửi thông báo qua App/Email nhé!",
+        "thank_you_for_your_order_after": "Bạn nhớ đến rạp để nhận hàng trong vòng 7 ngày kể từ ngày đặt nhé!",
+        "buttonConfirm": "xác nhận",
+        "payment_amount": "Số tiền thanh toán",
+        "confirmOrderText": "Bằng việc bấm nút <span class='font-medium text-orange-500'>Xác nhận</span> tôi đồng ý các <a href='https://www.galaxycine.vn/thoa-thuan-su-dung/' target='_blank' rel='noopener noreferrer' class='text-orange-500 hover:underline italic'><strong>Điều khoản dịch vụ</strong></a> và <a href='https://www.galaxycine.vn/chinh-sach-bao-mat/' target='_blank' rel='noopener noreferrer' class='text-orange-500 hover:underline italic'><strong>Chính sách bảo mật & Chia sẻ thông tin</strong></a> của Galaxy Cinema.",
+        "accessConfirmOrder": "Tôi xác nhận các thông tin đặt hàng đã chính xác",
+        "downloadApp": "Tải ứng dụng Galaxy Cinema",
+        "downloadAppDescription": "Vui lòng truy cập từ thiết bị di động để tải ứng dụng.",
+        "can_not_get_payment_method": "Không tìm thấy phương thức thanh toán. Vui lòng tạo đơn hàng mới!",
+        "no_notification": "Không có thông báo",
+        "product_category": "CineTag#",
+        "ATVNCG": "Sản phẩm ATVNCG",
+        "galaxy_merch": "Sản phẩm Seasonal Merchandise",
+        "movie_merch": "Sản phẩm Movie Merchandise",
+        "useCouponSuccess": "Đã sử dụng Coupon thành công",
+        "useCouponFailed": "Sử dụng Coupon thất bại, vui lòng thử lại sau",
+        "confirmUseCoupon": "Tôi xác nhận sử dụng E-Coupon",
+        "FestivalMoviesGermany": "Tuần lễ phim Đức",
+        "bringECouponToCounter": "Vui lòng mang E-Coupon đến quầy để nhân viên Galaxy hỗ trợ đổi quà",
+        "exchangeAtGalaxy": "Đổi quà tại Galaxy",
+        "confirmGift": "Xác nhận đổi quà",
+        "confirmUseCoupon2": "Bạn xác nhận đổi quà và sử dụng E-Coupon này?",
+        "noteConfirmUseCoupon": "E-Coupon đã được sử dụng sẽ không thể hoàn lại!",
+        "promotion": "Khuyến mãi",
+        "voucherCode": "Mã voucher",
+        "enterVoucherCode": "Nhập mã voucher",
+        "voucherRequired": "Vui lòng nhập mã voucher",
+        "applyVoucherSuccess": "Áp dụng voucher thành công",
+        "applyVoucherError": "Có lỗi xảy ra khi áp dụng voucher",
+        "removeVoucherError": "Có lỗi xảy ra khi xóa voucher",
+        "applied": "đã áp dụng",
+        "usePoints": "Sử dụng điểm Star",
+        "points": "điểm",
+        "pointsApplied": "điểm đã áp dụng",
+        "availablePoints": "Điểm hiện có",
+        "enterPoints": "Nhập số điểm",
+        "pointsRequired": "Vui lòng nhập số điểm",
+        "minPoints": "Số điểm tối thiểu là {{min}}",
+        "maxPoints": "Số điểm tối đa là {{max}}",
+        "applyPointsSuccess": "Áp dụng điểm thành công",
+        "applyPointsError": "Có lỗi xảy ra khi áp dụng điểm",
+        "removePointsError": "Có lỗi xảy ra khi xóa điểm",
+        "noPointsAvailable": "Bạn không có điểm để sử dụng",
+        "availableVouchers": "Voucher khả dụng",
+        "selectVoucher": "Áp dụng",
+        "noVouchersAvailable": "Không có voucher khả dụng",
+        "usepointSuccess": "Đổi voucher điểm thành công",
+        "usepointFailed": "Đổi vouhcer diểm thất bại",
+        "confirmApplyPointVoucher": "Điểm Stars Lì Xì sau khi Stars xác nhận sẽ được cộng vào tài khoản thành viên Galaxy Cinema",
+        "applyPointSuccess": "Đổi Điểm Stars Lì Xì thành công",
+        "u22ComboTitle": "Bắp Nước U22",
+        "u22VipPriceTitle": "Giá vé rạp đặc biệt"
+      },
+      "header": {
+        "login": "Đăng nhập",
+        "movie": "Phim",
+        "now_showing": "Phim đang chiếu",
+        "comming_soon": "Phim sắp chiếu",
+        "cinema_blog": "Góc điện ảnh",
+        "movie_genre": "Thể Loại Phim",
+        "actor": "Diễn Viên",
+        "director": "Đạo Diễn",
+        "movie_review": "Bình Luận Phim",
+        "movie_blog": "Blog Điện Ảnh",
+        "event": "Sự Kiện",
+        "favorable": "Ưu đãi",
+        "hot_movie": "Phim Hay Tháng",
+        "cinema_price": "Rạp / Giá Vé",
+        "home": "Trang Chủ",
+        "privacy_policy": "Chính sách bảo mật",
+        "operating_regulation": "Quy chế hoạt động",
+        "terms_of_use": "Thoả thuận sử dụng",
+        "about_us": "Về chúng tôi",
+        "faq": "Giải đáp",
+        "feedback": "Góp ý",
+        "sale_services": "Sale & Services",
+        "career": "Tuyển dụng",
+        "promotion": "Khuyến mãi",
+        "detail": "Chi tiết",
+        "address": "3/9 Võ Văn Tần, Phường Xuân Hòa, Thành phố Hồ Chí Minh, Việt Nam",
+        "downloadCinema": "Tải ứng dụng galaxy Cinema",
+        "lockupShowtime": "Tra cứu lịch chiếu và đặt vé siêu nhanh",
+        "open": "Mở",
+        "imax_movie": "Phim IMAX",
+        "products": "CineTag#",
+        "prodcutATVNCG": "Anh Trai Vượt Ngàn Chông Gai",
+        "food&Drink": "Đồ ăn & Thức Uống",
+        "galaxyMerch": "Seasonal Merchandise",
+        "movieMerch": "Movie Merchandise",
+        "premium_hall": "Rạp Đặc Biệt",
+        "u22": "U22"
+      },
+      "message": {
+        "unknownError": "Lỗi không xác định. Vui lòng thử lại sau ít phút",
+        "requiredField": "{{name}} không được để trống!",
+        "invalidFormatField": "{{name}} không đúng định dạng. Vui lòng kiểm tra lại!",
+        "enterField": "Nhập {{name}}",
+        "pleaseSelectFollowOrder": "Vui lòng chọn theo thứ tự",
+        "minValueField": "Số {{name}} tối thiểu là {{value}}",
+        "maxValueField": "Số {{name}} tối đa là {{value}}",
+        "validAge": "Số tuổi đăng ký không hợp lệ (từ 12 tuổi đến 65 tuổi)",
+        "passwordNotMatch": "Mật khẩu không khớp",
+        "loginAgain": "Vui lòng đăng nhập lại để hoàn tất thay đổi!",
+        "validMinLength": "Mật khẩu có ít nhất {{number}} ký tự",
+        "invalidVoucherLength": "{{name}} phải có {{length}} ký tự",
+        "sendFeedbackSuccess": "Cám ơn bạn đã gởi yêu cầu",
+        "sendFeedbackFail": "Gửi yêu cầu thất bại, vui lòng thử lại sau ít phút",
+        "invalidRecaptchaToken": "Phản hồi của bạn với ReCaptcha có vẻ không hợp lệ",
+        "deactivateAccountFail": "Khoá tài khoản thất bại",
+        "deactiveAccountSuccess": "Khoá tài khoản thành công",
+        "ssoCallbackError": "Không thể kết nối đến tài khoản của bạn. Vui lòng liên hệ hỗ trợ"
+      },
+      "account": {
+        "loginInToAccount": "Đăng nhập tài khoản",
+        "forgotPassword": "Quên mật khẩu?",
+        "doYouHaveAnAccount": "Bạn chưa có tài khoản?",
+        "invalidUsernameOrPassword": "Thông tin đăng nhập không chính xác",
+        "signUpForAnAccount": "Đăng ký tài khoản",
+        "backToSignIn": "Trở về đăng nhập",
+        "pleaseEnterOtpCode": "Vui lòng nhập mã OTP",
+        "resendOtpCode": "Gửi lại OTP",
+        "resendOtpAfter": "Gửi lại OTP sau",
+        "registerSuccess": "Đăng ký thành công",
+        "downloadAppReminderTitle": "Quà đã được ghi nhận vào tài khoản",
+        "downloadAppReminderMessage": "Tải app Galaxy Cinema và đăng nhập cùng tài khoản để xem và sử dụng ưu đãi thuận tiện hơn.",
+        "downloadAppNow": "Tải app ngay",
+        "forgotPasswordDescription": "Vui lòng cung cấp email đăng nhập, chúng tôi sẽ gửi link kích hoạt cho bạn.",
+        "resetPassword": "Cấp lại mật khẩu",
+        "resetPasswordSuccess": "Email khôi phục lại mật khẩu đã được gởi lại thành công tới <email/>",
+        "pleaseCheckMessageToReceiveOTP": "Vui lòng truy cập <span class='text-blue-500 text-lg font-bold'>ZALO</span> để nhận OTP",
+        "zalo": "ZALO",
+        "information": "Thông tin cá nhân",
+        "policy": "Chính sách",
+        "logout": "Đăng xuất",
+        "notification": "Thông báo",
+        "reward": "Quà tặng",
+        "transaction": "Giao dịch",
+        "fullName": "Họ và tên",
+        "birthday": "Ngày sinh",
+        "email": "Email",
+        "gender": "Giới tính",
+        "phoneNumber": "Số điện thoại",
+        "transactionHistoryNote": "Lưu ý: chỉ hiển thị 20 giao dịch gần nhất",
+        "change": "Thay đổi {{name}}",
+        "newEmail": "Email mới",
+        "changeEmail": "Thay đổi Email",
+        "pleaseProvideEmail": "Vui lòng cung cấp email mới, chúng tôi sẽ gửi mã xác thực cho bạn!",
+        "enterNewEmail": "Nhập địa chỉ Email mới",
+        "enterAuthCode": "Nhập mã xác thực",
+        "enterCodeEmail": "Nhập mã được gửi tới {{email}}",
+        "youHaveNotOtp": "Bạn chưa nhận được mã OTP?",
+        "loginAgain": "Đăng nhập lại",
+        "currentPassword": "Mật khẩu hiện tại",
+        "newPassword": "Mật khẩu mới",
+        "confirmPassword": "Xác nhận mật khẩu mới",
+        "updatePassword": "Cập nhật mật khẩu mới",
+        "changeText": "Thay đổi",
+        "alreadyHaveAccount": "Bạn đã có tài khoản?",
+        "edit": "Chỉnh sửa {{name}}",
+        "account": "Tài khoản",
+        "imax_stamps_title": "IMAX TREASURE HUNT",
+        "imax_sub_title": "Hành trình chinh phục 5 cột mốc điện ảnh định dạng IMAX để có cơ hội trở thành một trong 50 thợ săn IMAX đích thực và giành kho báu độc quyền từ Galaxy Cinema.",
+        "imax_stamps_close_button": "Đóng",
+        "imax_stamps_button": "Thông Tin Chương Trình",
+        "imax_stamps_text": "tem",
+        "imax_stamps_text_count": "tem",
+        "imax_cta": "Chúc mừng bạn đã săn được",
+        "imax_gift_info": "<p><strong>IMAX TREASURE HUNT</strong></p>\n<p><em>Khởi hành – Săn lùng – Chinh phục</em></p>\n<p><strong>Thời gian: từ 23/9 đến 31/12/2025</strong><br />\nHành trình chinh phục 5 cột mốc điện ảnh định dạng IMAX để có cơ hội trở thành một trong 50 thợ săn IMAX đích thực và giành kho báu độc quyền từ Galaxy Cinema.</p>\n\n<p><strong>Giải thưởng bao gồm:</strong></p>\n<ul>\n  <li><strong>50 phần quà đặc biệt</strong> dành cho 50 khán giả đầu tiên hoàn thành 5 cột mốc: Set quà độc quyền Avatar Fire & Ash, gồm 1 túi tote, 1 bình giữ nhiệt và 1 pin cài.</li>\n  <li><strong>30 phần quà khuyến khích</strong> dành cho 30 khán giả tiếp theo hoàn thành 5 cột mốc: 1 pin cài phim Avatar Fire and Ash.</li>\n</ul>\n\n<p><strong>Lưu ý:</strong></p>\n<ul>\n  <li>Khách hàng sẽ được thông báo cụ thể qua email về địa điểm, thời gian và cách thức nhận quà.</li>\n  <li>Quà tặng không có giá trị quy đổi thành tiền mặt hoặc sản phẩm khác.</li>\n <li>Mọi trường hợp hủy vé hoặc đổi sang phim khác ngoài các phim được quy định trong chương trình sẽ được tính là không hợp lệ.</li>\n   <li>Mỗi khách hàng chỉ được tham gia và nhận quà 01 lần trong suốt chương trình.</li>\n  <li>Số lượng quà có hạn, chương trình có thể kết thúc sớm khi hết quà.</li>\n  <li>Ban tổ chức có quyền kiểm tra, từ chối hoặc hủy bỏ quyền nhận quà nếu phát hiện dấu hiệu gian lận.</li>\n  <li>Quyết định của Ban tổ chức là quyết định cuối cùng.</li>\n</ul>",
+        "title_warning_export_invoice": "<p>Bạn đã quá thời gian nhập nên hóa đơn được xuất theo diện khách lẻ.<br/>Bạn cần trợ giúp? Liên hệ:<br/><a href=\"tel:19002224\" style=\"font-weight:600;text-decoration:none;border-bottom:1px dashed currentColor;\">1900 2224</a>&nbsp;•&nbsp;<a href=\"mailto:hotro@galaxystudio.vn\" style=\"font-weight:600;text-decoration:none;border-bottom:1px dashed currentColor;\">hotro@galaxystudio.vn</a></p>",
+        "processing": "Đang xử lý...",
+        "export_invoice": "Xuất hoá đơn",
+        "reminder_dont_show_again": "Không hiện lại",
+        "reminder_contact_staff_cta": "Liên hệ nhân viên ngay!"
+      },
+      "booking": {
+        "redeem_a_showtime": "Đổi suất chiếu",
+        "screen": "Màn hình",
+        "session": "Suất",
+        "total": "Tổng cộng",
+        "collapse": "Thu gọn chi tiết đơn hàng",
+        "expand": "Mở rộng chi tiết đơn hàng",
+        "back": "Quay lại",
+        "seat": "Ghế",
+        "continue": "Tiếp tục",
+        "seats_sold": "Ghế đã bán",
+        "seats_selected": "Ghế đang chọn",
+        "seats_VIP": "Ghế VIP",
+        "single_seat": "Ghế đơn",
+        "double_seats": "Ghế đôi",
+        "confirmBookingSuccess": "Xác nhận mua vé thành công!",
+        "bookingSuccessNote": "Thông tin đặt vé của bạn sẽ được gởi qua email theo thông tin bạn đã cung cấp trước đó. Vui lòng kiểm tra email(kể cả hộp thư rác - Spam / Junk Box).",
+        "bookingContactNote": "Trường hợp bạn không nhận được email. Cảm phiền quý khách liên hệ hotline <phone/> hoặc email <email/> để nhận hỗ trợ của chúng tôi. Galaxy Cinema mong quý khách thông cảm vì sự bất tiện này",
+        "bookingFailNote": "Trường hợp giao dịch chưa thành công, quý khách vui lòng không thực hiện giao dịch online lần nữa và tới rạp Galaxy Cinema gần nhất để mua vé.",
+        "bookingFailContactNote": "Việc phản hồi tới quý khách có thể bị chậm trễ, mong quý khách thông cảm và kiên nhẫn cùng nhân viên CSKH của Galaxy Cinema",
+        "bookingFailRefundNote": "Chúng tôi cam kết sẽ hoàn lại 100% giá trị giao dịch lỗi đã bị trừ tiền sau khi đội ngũ CSKH kiểm tra và xác nhận. Vui lòng gởi thông tin giao dịch lỗi về email <email/> hoặc tin nhắn trang fanpage <fanpage/>",
+        "backToHome": "Quay Về Trang Chủ",
+        "confirmBookingFail": "Xuất vé thất bại",
+        "downloadAppSlogan": "Đặt Vé Online - Không Lo Trễ Nải",
+        "quickBuy": "Mua vé nhanh",
+        "stepSession": "Chọn phim / Rạp / Suất",
+        "stepSeat": "Chọn ghế",
+        "stepConcession": "Chọn thức ăn",
+        "stepPayment": "Thanh toán",
+        "stepConfirm": "Xác nhận",
+        "switchSession": "Đổi suất chiếu",
+        "soldSeat": "Ghế đã bán",
+        "selectedSeat": "Ghế đang chọn",
+        "vipSeat": "Ghế VIP",
+        "singleSeat": "Ghế đơn",
+        "coupleSeat": "Ghế đôi",
+        "maxSelectedSeats": "Số lượng ghế tối đa được đặt là {{number}} ghế",
+        "pleaseSelectSeat": "Vui lòng chọn ghế",
+        "pleaseSelectSession": "Vui lòng chọn suất chiếu",
+        "holdingTime": "Thời gian giữ ghế",
+        "selectConcession": "Chọn Combo / Sản phẩm",
+        "price": "Giá",
+        "paymentMethods": "Phương thức thanh toán",
+        "placeOrder": "Thanh Toán",
+        "paymentNote": "Bằng việc click/chạm vào THANH TOÁN bên phải, bạn đã xác nhận hiểu rõ các Quy Định Giao Dịch Trực Tuyến của Galaxy Cinema.",
+        "selectLocation": "Chọn vị trí",
+        "selectMovie": "Chọn phim",
+        "selectCinema": "Chọn rạp",
+        "selectDay": "Chọn ngày",
+        "selectSession": "Chọn suất",
+        "allCinema": "Tất cả các rạp",
+        "metaTitle": "Đặt vé phim {{name}}",
+        "title": "Ghét đông đúc ồn ào? Lười xếp hàng mua vé? Hãy quên đi cách mua vé giấy truyền thống tốn thời gian hay xếp hàng lấy vé online phiền toái.",
+        "title_book_online": "Đặt Vé Online - Không Lo Trễ Nải",
+        "confirmAgeRating": "Xác nhận mua vé cho người có độ tuổi phù hợp",
+        "confirmAgeContent13": "Tôi xác nhận mua vé phim này cho người có độ tuổi từ 13 tuổi trở lên và đồng ý cung cấp giấy tờ tùy thân/thẻ học sinh để chứng minh độ tuổi.",
+        "confirmAgeContent16": "Tôi xác nhận mua vé phim này cho người có độ tuổi từ 16 tuổi trở lên ",
+        "confirmAgeContent18": "Tôi xác nhận mua vé phim này cho người có độ tuổi từ 18 tuổi trở lên ",
+        "confirmAgeContentk": "Phim được phổ biến đến người xem dưới 13 tuổi với điều kiện xem cùng cha, mẹ hoặc người giám hộ",
+        "confirmAgeContentDefault": "Tôi xác nhận mua vé phim này cho người có độ tuổi phù hợp với phân loại phim",
+        "promotion": "Khuyến mãi",
+        "voucherCode": "Mã khuyến mãi",
+        "promotionNote": "Lưu ý: Có thể áp dụng nhiều vouchers vào 1 lần thanh toán",
+        "yourRewards": "Khuyến mãi của bạn",
+        "useNow": "Dùng ngay",
+        "applyVoucherSuccess": "Áp dụng khuyến mãi thành công",
+        "expiryDate": "Hạn sử dụng",
+        "listVoucherApplied": "Voucher đã áp dụng",
+        "giftVoucher": "Gift Voucher",
+        "starsPoint": "Điểm Stars",
+        "applyStarPoint": "Áp dụng điểm Stars",
+        "point": "Điểm",
+        "youHaveXStarsPoint": "Bạn đang có {{points}} điểm Stars",
+        "applyPointSuccess": "Áp dụng điểm Stars thành công",
+        "clearPointSuccess": "Xoá điểm Stars thành công",
+        "confirmClearVoucher": "Các khuyến mãi đã áp dụng sẽ được gỡ bỏ, bạn có muốn tiếp tục?",
+        "validSelectSeat": "Việc chọn vị trí ghế của bạn không được để trống 1 ghế ở bên trái, giữa hoặc bên phải trên cùng hàng ghế mà bạn vừa chọn.",
+        "inforBooking": "Thông tin đặt vé",
+        "totalPayment": "Tổng",
+        "accessConfirm": "Tôi xác nhận các thông tin đặt vé đã chính xác",
+        "msgConfirmOrder": "Vui lòng xác nhận thông tin đặt vé!",
+        "confirmPackage": "Gói {{package}} sẽ được gỡ bỏ, bạn có muốn tiếp tục không?",
+        "tripleSeat": "Ghế ba",
+        "doubleBed": "Giường đôi",
+        "agreeToProvideId": "và đồng ý cung cấp giấy tờ tuỳ thân để xác minh độ tuổi.",
+        "confirmRemoveConcession": "Các combo đã chọn sẽ bị gỡ bỏ, bạn có muốn tiếp tục không?",
+        "accessConfirmUpdate": "Tôi xác nhận các thông tin đặt vé đã chính xác",
+        "accessConfirmText": "Tôi đồng ý các <a href='https://www.galaxycine.vn/thoa-thuan-su-dung/' target='_blank' rel='noopener noreferrer' class='text-orange-500 hover:underline italic'><strong>Điều khoản dịch vụ</strong></a> và <a href='https://www.galaxycine.vn/chinh-sach-bao-mat/' target='_blank' rel='noopener noreferrer' class='text-orange-500 hover:underline italic'><strong>Chính sách bảo mật & Chia sẻ thông tin</strong></a> của Galaxy Cinema.",
+        "removeConcessionFailed": "Gỡ bỏ combo thất bại. Vui lòng gỡ bỏ thủ công.",
+        "notEnoughIngredientsSelected": "Chưa chọn đủ thành phần",
+        "pleaseChoose": "Vui lòng chọn",
+        "noConcessionAvailable": "Không có sản phẩm tương ứng",
+        "genericError": "Lỗi không xác định",
+        "contentExportInvoice": "Đừng quên vào mục <history>Lịch sử giao dịch</history>, chọn giao dịch để điền thông tin xuất hóa đơn trong vòng 60 phút kể từ khi hoàn tất mua vé Star nhé!"
+      },
+      "footer": {
+        "career": "Tuyển dụng",
+        "faq": "Giải đáp",
+        "feedback": "Góp ý",
+        "all_times_Support": "Hỗ trợ 24/7",
+        "resubmit_ticket_information": "Gửi lại thông tin vé",
+        "get_promotion": "Nhận khuyến mãi",
+        "title_feedback": "Bạn có gì muốn nhắn nhủ Galaxy Cinema?",
+        "introduce": "Giới thiệu",
+        "about_us": "Về chúng tôi",
+        "terms_of_use": "Thoả thuận sử dụng",
+        "operating_regulation": "Quy chế hoạt động",
+        "privacy_policy": "Chính sách bảo mật",
+        "cinema_blog": "Góc điện ảnh",
+        "movie_genre": "Thể Loại Phim",
+        "movie_review": "Bình luận phim",
+        "movie_blog": "Blog điện ảnh",
+        "hot_movie": "Phim hay tháng",
+        "support": "Hỗ trợ",
+        "sale_services": "Sale & Services",
+        "cinema_price": "Rạp / Giá vé",
+        "FAQ": "FAQ",
+        "join_G_star_now": "Tham gia G-star ngay",
+        "sign_up_now": "Đăng ký",
+        "download_app": "Download App",
+        "address": "3/9 Võ Văn Tần, Phường Xuân Hòa, Thành phố Hồ Chí Minh, Việt Nam",
+        "imax_movie": "Phim IMAX",
+        "invoiceCode": "MST: {{code}}"
+      },
+      "seo": {
+        "defaultTitle": "Hệ Thống Rạp Chiếu Phim Hiện Đại",
+        "titleSuffix": "Galaxy Cinema"
+      },
+      "user": {
+        "you_have": "Bạn đang có ",
+        "number_stars": "{{numbers}} Stars.",
+        "exchange_VUI": "Bạn muốn đổi bao nhiêu VUI?",
+        "VUI": "VUI",
+        "Stars": "Stars",
+        "please_confirm": "Vui lòng xác nhận",
+        "you_want_to_change": "Bạn chắc chắn muốn đổi",
+        "numbers_VUI": "{{numbers}} VUI",
+        "to": "thành",
+        "view_gifts": "Xem quà"
+      },
+      "content": {
+        "pictures_movies": "Hình trong phim"
+      },
+      "movie": {
+        "showtime": "Lịch chiếu",
+        "allCinema": "Tất cả các rạp",
+        "movieGallery": "Hình ảnh trong phim",
+        "trailerModal": "Xem trailer phim",
+        "trailerNotReady": "Trailer chưa sẵn sàng.",
+        "trailerUpdateSoon": "Galaxy sẽ cập nhật trong thời gian sớm nhất",
+        "loadingVideo": "Đang tải video..."
+      },
+      "premium-hall": {
+        "technologyExperience": "Trải nghiệm công nghệ",
+        "styleExperience": "Trải nghiệm phong cách",
+        "amenitiesExperience": "Trải nghiệm tiện ích",
+        "screeningSpecial": "Phòng chiếu đặc biệt",
+        "amenitiesTitle": "Khu vực tiện ích",
+        "listCinema": "Danh sách các rạp",
+        "description": "Mô tả",
+        "amenitiesLabel": "Tiện ích",
+        "ticketPrice": "Giá vé",
+        "bookNow": "Đặt vé ngay",
+        "cinemaGroup": "Cụm rạp",
+        "loading": "Đang tải...",
+        "notFound": "Không tìm thấy thông tin này",
+        "notFoundAmenity": "Không tìm thấy tiện ích này"
+      }
+    },
+    "__N_SSG": true
+  }
+}
