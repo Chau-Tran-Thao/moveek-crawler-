@@ -1,48 +1,34 @@
 /**
- * crawl-galaxycine-2026.js
+ * crawl-moveek-galaxy-2026.js
  * ------------------------------------------------------------------
- * Crawl dữ liệu Galaxy Cinema (https://www.galaxycine.vn/) cho năm 2026,
- * xuất JSON theo đúng các bảng/trường trong schema CineHub (Prisma).
+ * Crawl dữ liệu Galaxy Cinema TOÀN QUỐC trên Moveek (https://moveek.com), năm 2026.
+ * Xuất JSON theo schema CineHub (CinemaChain, Province, District, Cinema, Genre,
+ * Person, Movie, MovieGenre, MovieCredit, MovieSource, Showtime, movie_metadata).
  *
- * Bảng/trường lấy được từ Galaxy:
- *   CinemaChain  : code=GALAXY, name, logoUrl, websiteUrl, isActive
- *   Province     : code, name
- *   District     : provinceCode, name            (nếu địa chỉ còn cấp quận/huyện)
- *   Cinema       : externalId, name, address, provinceCode, districtName,
- *                  latitude, longitude, phone, timezone, isActive
- *   Genre        : slug, name
- *   Person       : fullName
- *   Movie        : slug, title, originalTitle, synopsis, durationMin, releaseDate,
- *                  ageRating, status, posterUrl, backdropUrl, trailerUrl,
- *                  language, country, ratingAvg, ratingCount
- *   MovieGenre / MovieCredit (DIRECTOR|ACTOR + billingOrder) / MovieSource
- *   Showtime     : dedupKey, startTime(UTC), endTime, format, language, status,
- *                  seatSource=MOCK, lastSyncedAt  (+ tham chiếu movieSlug, cinemaExternalId)
- *   Promotion    : title, imageUrl, linkUrl, description, startsAt, endsAt, sortOrder, isActive
- *   Voucher      : (best effort) code, type, value, startsAt, endsAt - nếu bài khuyến mãi có ghi mã
- *   Concession   : name, description, category, imageUrl, price (VND), cinemaExternalId (null = cả cụm)
- *   movie_metadata (Mongo): gallery, tags, sourceScore...
- *
- * KHÔNG lấy được từ Galaxy (do CineHub tự sinh/mô phỏng hoặc phát sinh từ người dùng):
- *   Auditorium, Seat, ShowtimeSeat, TicketType, SeatType, ShowtimePrice (chỉ lấy
- *   được nếu site hiển thị -> xem cinema.priceTables), User, Booking, Payment...
+ * Luồng chạy:
+ *  1. /he-thong-rap/galaxy-cinema/  -> danh sách tất cả rạp Galaxy (+ tỉnh/thành, rạp ngừng hoạt động)
+ *  2. /rap/<slug>                   -> chi tiết rạp (địa chỉ, khu vực, ảnh)
+ *  3. Mỗi rạp x mỗi ngày            -> lịch chiếu (phim, định dạng, giờ)
+ *  4. /dang-chieu, /sap-chieu, /chieu-som, /phim-viet-nam, /phim-thang-MM-2026
+ *                                   -> gom thêm phim ra mắt năm 2026
+ *  5. /phim/<slug>                  -> chi tiết phim (ngày khởi chiếu, thể loại, diễn viên, đạo diễn...)
+ *  6. Lọc: phim khởi chiếu 2026 HOẶC có suất chiếu Galaxy trong 2026; suất chiếu chỉ năm 2026.
  *
  * Cài đặt & chạy:
  *   npm init -y && npm i playwright && npx playwright install chromium
- *   node crawl-galaxycine-2026.js
+ *   node crawl-moveek-galaxy-2026.js
  *
  * Biến môi trường:
- *   HEADLESS=false      xem trình duyệt chạy
- *   KEEP_UNKNOWN=true   giữ phim không rõ ngày chiếu nếu poster nằm trong /media/2026/
- *   MAX_MOVIES=5        giới hạn số phim (để chạy thử)
- *   CONCURRENCY=3       số phim cào song song
- *   REGION_SWEEP=false  chỉ lấy "Toàn quốc", không quét từng tỉnh/thành
- *   CINEMA_SWEEP=true   quét thêm từng rạp trong từng tỉnh (đầy đủ nhất, chậm nhất)
- *   FRESH=true          bỏ qua file cũ (mặc định gộp/tích luỹ với galaxycine_2026.json)
+ *   FULL_YEAR=true          quét 01/01/2026 -> 31/12/2026 (mặc định: hôm nay -> +13 ngày)
+ *   DATE_FROM=2026-10-01    tuỳ chỉnh khoảng ngày (YYYY-MM-DD), luôn bị kẹp trong năm 2026
+ *   DATE_TO=2026-10-31
+ *   MAX_CINEMAS=3           chỉ chạy N rạp đầu (để thử)
+ *   MAX_MOVIES=10           chỉ cào chi tiết N phim đầu (để thử)
+ *   HEADLESS=false          xem trình duyệt chạy (hữu ích nếu bị chặn bot)
  *
- * LƯU Ý "cả năm 2026": website chỉ hiển thị lịch chiếu ~7 ngày tới, không có lịch sử.
- * Hãy chạy script MỖI NGÀY (cron); mỗi lần chạy sẽ gộp thêm suất mới vào file cũ,
- * suất đã qua tự chuyển thành FINISHED.
+ * LƯU Ý: Moveek thường chỉ giữ lịch chiếu cho hôm nay và vài tuần tới. Ngày đã qua
+ * trong năm 2026 thường không còn dữ liệu -> kết quả rỗng là bình thường.
+ * Hãy kiểm tra robots.txt / điều khoản của Moveek và giữ tốc độ chậm.
  */
 
 const fs = require('fs');
@@ -50,27 +36,33 @@ const path = require('path');
 const crypto = require('crypto');
 
 // ===================== CẤU HÌNH =====================
-const BASE = 'https://www.galaxycine.vn';
+const BASE = 'https://moveek.com';
+const CHAIN_PAGE = `${BASE}/he-thong-rap/galaxy-cinema/`;
 const CHAIN_CODE = 'GALAXY';
 const TARGET_YEAR = 2026;
 const HEADLESS = process.env.HEADLESS !== 'false';
-const KEEP_UNKNOWN = process.env.KEEP_UNKNOWN === 'true';
+const FULL_YEAR = process.env.FULL_YEAR === 'true';
+const MAX_CINEMAS = process.env.MAX_CINEMAS ? +process.env.MAX_CINEMAS : Infinity;
 const MAX_MOVIES = process.env.MAX_MOVIES ? +process.env.MAX_MOVIES : Infinity;
-const CONCURRENCY = +(process.env.CONCURRENCY || 3);           // số phim cào song song
-const REGION_SWEEP = process.env.REGION_SWEEP !== 'false';     // quét lần lượt từng tỉnh/thành trong dropdown
-const CINEMA_SWEEP = process.env.CINEMA_SWEEP === 'true';      // quét thêm từng rạp (chậm hơn, đầy đủ nhất)
-const FRESH = process.env.FRESH === 'true';                    // true = bỏ qua file cũ, không gộp
-const OUT_FILE = path.join(__dirname, 'galaxycine_2026.json');
-const PROMO_ALL = process.env.PROMO_ALL === 'true';           // giữ cả khuyến mãi không rõ ngày (mặc định bỏ)
-const DELAY_MS = [800, 1800];
+const DELAY_MS = [1200, 2500];
 const OUT_DIR = __dirname;
 const RAW_DIR = path.join(OUT_DIR, 'raw');
 
+const addDays = (iso, n) => new Date(new Date(iso + 'T00:00:00Z').getTime() + n * 86400000).toISOString().slice(0, 10);
+const TODAY = new Date(Date.now() + 7 * 3600 * 1000).toISOString().slice(0, 10); // ngày hiện tại theo giờ VN
+const clampYear = (d) => (d < `${TARGET_YEAR}-01-01` ? `${TARGET_YEAR}-01-01` : d > `${TARGET_YEAR}-12-31` ? `${TARGET_YEAR}-12-31` : d);
+const DATE_FROM = clampYear(process.env.DATE_FROM || (FULL_YEAR ? `${TARGET_YEAR}-01-01` : TODAY));
+const DATE_TO = clampYear(process.env.DATE_TO || (FULL_YEAR ? `${TARGET_YEAR}-12-31` : addDays(TODAY, 13)));
+
 const MOVIE_LISTS = [
-  { url: `${BASE}/phim-dang-chieu/`, tag: 'dang-chieu' },
-  { url: `${BASE}/phim-sap-chieu/`, tag: 'sap-chieu' },
-  { url: `${BASE}/phim-imax/`, tag: 'imax' },
-  { url: `${BASE}/`, tag: 'trang-chu' },
+  { url: `${BASE}/dang-chieu/`, tag: 'dang-chieu' },
+  { url: `${BASE}/sap-chieu/`, tag: 'sap-chieu' },
+  { url: `${BASE}/chieu-som/`, tag: 'chieu-som' },
+  { url: `${BASE}/phim-viet-nam/`, tag: 'phim-viet-nam' },
+  ...Array.from({ length: 12 }, (_, i) => {
+    const mm = String(i + 1).padStart(2, '0');
+    return { url: `${BASE}/phim-thang-${mm}-${TARGET_YEAR}/`, tag: `thang-${mm}` };
+  }),
 ];
 
 // ===================== TIỆN ÍCH =====================
@@ -88,7 +80,6 @@ function slugify(s) {
     .toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, '');
 }
 
-/** Chuẩn hoá ngày: dd/mm/yyyy | dd.mm.yyyy | yyyy-mm-dd -> {iso, year} */
 function parseDate(str) {
   if (!str || typeof str !== 'string') return null;
   let m = str.match(/(\d{1,2})[\/\-.](\d{1,2})[\/\-.](20\d{2})/);
@@ -96,64 +87,6 @@ function parseDate(str) {
   m = str.match(/(20\d{2})-(\d{2})-(\d{2})/);
   if (m) return { iso: `${m[1]}-${m[2]}-${m[3]}`, year: +m[1] };
   return null;
-}
-
-function deepCollect(obj, test, out = [], p = '') {
-  if (obj && typeof obj === 'object') {
-    for (const [k, v] of Object.entries(obj)) {
-      if (test(k, v)) out.push({ key: k, value: v, path: p + '.' + k });
-      deepCollect(v, test, out, p + '.' + k);
-    }
-  }
-  return out;
-}
-
-const RELEASE_KEY = /(release|opening|khoi.?chieu|premiere|publish|start.?date)/i;
-function findReleaseDate(blobs) {
-  const c = [];
-  for (const b of blobs) deepCollect(b, (k, v) => RELEASE_KEY.test(k) && typeof v === 'string' && parseDate(v), c);
-  return c.length ? parseDate(c[0].value) : null;
-}
-
-/** Tìm id nội bộ của phim trong JSON API: object có 1 giá trị chuỗi chứa slug và có field id */
-function findInternalId(blobs, slug) {
-  let found = null;
-  const walk = (o) => {
-    if (found || !o || typeof o !== 'object') return;
-    if (!Array.isArray(o) && typeof o.id === 'string' && o.id.length >= 8) {
-      if (Object.values(o).some((v) => typeof v === 'string' && v.split('/').filter(Boolean).pop() === slug)) {
-        found = o.id;
-        return;
-      }
-    }
-    Object.values(o).forEach(walk);
-  };
-  blobs.forEach(walk);
-  return found;
-}
-
-function findYoutube(blobs) {
-  const c = [];
-  for (const b of blobs) deepCollect(b, (k, v) => typeof v === 'string' && /(youtube\.com|youtu\.be)/.test(v), c);
-  return c.length ? c[0].value : null;
-}
-
-/** Lấy các dòng giữa nhãn bắt đầu và nhãn kết thúc đầu tiên (xem innerText của trang). */
-function sliceSection(text, startLabel, stopLabels = []) {
-  const lines = text.split('\n').map((l) => l.trim());
-  const start = norm(startLabel);
-  const stops = stopLabels.map(norm);
-  const isLabel = (l, lab) => norm(l) === lab || norm(l).startsWith(lab + ':');
-  const i = lines.findIndex((l) => isLabel(l, start));
-  if (i === -1) return [];
-  const out = [];
-  const inline = lines[i].split(/[:：]/).slice(1).join(':').trim();
-  if (inline) out.push(inline);
-  for (let j = i + 1; j < lines.length; j++) {
-    if (stops.some((s) => isLabel(lines[j], s))) break;
-    if (lines[j]) out.push(lines[j]);
-  }
-  return out;
 }
 
 function extractField(text, labels) {
@@ -164,25 +97,31 @@ function extractField(text, labels) {
   return null;
 }
 
-async function autoScroll(page, rounds = 25) {
+function sliceSection(text, startLabel, stopLabels = []) {
+  const lines = text.split('\n').map((l) => l.trim());
+  const start = norm(startLabel);
+  const stops = stopLabels.map(norm);
+  const isLabel = (l, lab) => norm(l) === lab || norm(l).startsWith(lab + ':');
+  const i = lines.findIndex((l) => isLabel(l, start));
+  if (i === -1) return [];
+  const out = [];
+  for (let j = i + 1; j < lines.length; j++) {
+    if (stops.some((s) => isLabel(lines[j], s))) break;
+    if (lines[j]) out.push(lines[j]);
+  }
+  return out;
+}
+
+async function autoScroll(page, rounds = 15) {
   let last = 0;
   for (let i = 0; i < rounds; i++) {
     await page.evaluate(() => window.scrollTo(0, document.body.scrollHeight));
-    await sleep(700);
+    await sleep(600);
     const h = await page.evaluate(() => document.body.scrollHeight);
     if (h === last) break;
     last = h;
   }
   await page.evaluate(() => window.scrollTo(0, 0));
-}
-
-async function expandContent(page) {
-  for (const label of [/xem thêm/i, /đọc thêm/i, /read more/i]) {
-    const btns = page.getByText(label);
-    const n = Math.min(await btns.count().catch(() => 0), 5);
-    for (let k = 0; k < n; k++) await btns.nth(k).click({ timeout: 1500 }).catch(() => {});
-  }
-  await sleep(400);
 }
 
 async function gotoSafe(page, url) {
@@ -191,25 +130,48 @@ async function gotoSafe(page, url) {
   } catch (_) {
     log('  ! timeout, dùng nội dung đã load:', url);
   }
-  await sleep(1200);
+  await sleep(800);
 }
 
-/** Gắn bộ bắt JSON response vào page, trả về mảng chứa các JSON bắt được */
-function captureJson(page, saveAs) {
-  const blobs = [];
+// Lưu vài response XHR + snapshot HTML để bạn xem/tinh chỉnh (giới hạn số lượng)
+let rawSaved = 0;
+function captureNetwork(page, tag) {
   page.on('response', async (res) => {
     try {
-      if (!(res.headers()['content-type'] || '').includes('json')) return;
-      if (!/galaxycine/i.test(res.url())) return;
-      const body = await res.json();
-      blobs.push(body);
-      if (saveAs) fs.writeFileSync(path.join(RAW_DIR, `${saveAs}_${blobs.length}.json`), JSON.stringify({ url: res.url(), body }, null, 2));
+      const t = res.request().resourceType();
+      if ((t !== 'xhr' && t !== 'fetch') || rawSaved >= 40 || !/moveek\.com/.test(res.url())) return;
+      const body = (await res.text()).slice(0, 200000);
+      rawSaved++;
+      fs.writeFileSync(path.join(RAW_DIR, `xhr_${tag}_${rawSaved}.txt`), `${res.url()}\n\n${body}`);
     } catch (_) {}
   });
-  return blobs;
+}
+let htmlSaved = 0;
+async function snapshotHtml(page, name) {
+  if (htmlSaved >= 4) return;
+  htmlSaved++;
+  fs.writeFileSync(path.join(RAW_DIR, `snapshot_${name}.html`), await page.content());
 }
 
-// ===================== MAPPING SANG ENUM / QUY ƯỚC SCHEMA =====================
+// ===================== MAPPING =====================
+const PROVINCE_CODES = { 'hồ chí minh': 'HCM', 'hà nội': 'HN', 'đà nẵng': 'DN', 'cần thơ': 'CT', 'hải phòng': 'HP' };
+
+function provinceFromName(name, regionSlug) {
+  if (!name) return null;
+  const clean = name.replace(/^(tp\.?|thành phố|tỉnh)\s+/i, '').trim();
+  const code = PROVINCE_CODES[clean.toLowerCase()] || (regionSlug ? regionSlug.toUpperCase().replace(/-/g, '_') : slugify(clean).toUpperCase().replace(/-/g, '_'));
+  return { code, name: clean };
+}
+
+/** Lấy quận/huyện nếu địa chỉ còn cấp này (địa chỉ mới sau sáp nhập có thể không có). */
+function parseDistrict(address) {
+  if (!address) return null;
+  const m = address.match(/(?:\b|,\s*)(Quận|Q\.|Huyện|H\.|Thị xã|TX\.)\s*([^,]+)/i);
+  if (!m) return null;
+  const kind = /^q/i.test(m[1]) ? 'Quận' : /^h/i.test(m[1]) ? 'Huyện' : 'Thị xã';
+  return `${kind} ${m[2].trim()}`;
+}
+
 function mapScreenFormat(line) {
   const s = String(line || '').toUpperCase();
   if (/IMAX/.test(s)) return 'IMAX';
@@ -221,8 +183,8 @@ function mapScreenFormat(line) {
 
 function extractLanguage(line) {
   let s = String(line || '');
-  for (let i = 0; i < 4; i++) s = s.replace(/^\s*(IMAX|2D|3D|4DX|SCREEN\s?X|\+|-)\s*/i, '');
-  return s.trim() || null; // "Lồng Tiếng", "Phụ Đề"...
+  for (let i = 0; i < 4; i++) s = s.replace(/^\s*(IMAX|2D|3D|4DX|SCREEN\s?X|\+|-|·)\s*/i, '');
+  return s.trim() || null;
 }
 
 function mapAgeRating(s) {
@@ -230,44 +192,9 @@ function mapAgeRating(s) {
   return m ? m[1] : null;
 }
 
-const PROVINCE_CODES = { 'hồ chí minh': 'HCM', 'hà nội': 'HN', 'đà nẵng': 'DN', 'cần thơ': 'CT', 'hải phòng': 'HP' };
-
-/** Tách tỉnh/thành và quận/huyện từ địa chỉ. Địa chỉ mới (2 cấp) có thể không có quận/huyện. */
-function parseAddress(address) {
-  if (!address) return { province: null, district: null };
-  const parts = address.split(',').map((p) => p.trim()).filter(Boolean).filter((p) => !/^việt nam$/i.test(p));
-  const last = parts[parts.length - 1] || '';
-  const name = last.replace(/^(thành phố|tp\.?|tỉnh)\s+/i, '').trim();
-  const code = PROVINCE_CODES[name.toLowerCase()] || slugify(name).toUpperCase().replace(/-/g, '_');
-  const district = parts.find((p) => /^(quận|huyện|thị xã)\s/i.test(p)) || null;
-  return { province: name ? { code, name: last } : null, district };
-}
-
-/** Parse dòng giờ chiếu từ innerText mục "Lịch Chiếu" của 1 ngày */
-function parseShowtimeLines(lines) {
-  const out = [];
-  let cinema = null;
-  let fmt = null;
-  for (const l of lines) {
-    if (/^Galaxy\b/i.test(l)) { cinema = l; fmt = null; continue; }
-    if (/^(IMAX|2D|3D|4DX|SCREEN\s?X)\b/i.test(l)) { fmt = l; continue; }
-    const m = l.match(/^(\d{1,2}):(\d{2})(?:\s|$)/);
-    if (m && cinema) out.push({ cinemaName: cinema, formatLine: fmt, hour: +m[1], minute: +m[2] });
-  }
-  return out;
-}
-
-/** dd/mm -> năm hợp lý (xử lý chuyển năm tháng 12 -> tháng 1) */
-function inferYear(dd, mm, now = new Date()) {
-  let y = now.getFullYear();
-  if (mm < now.getMonth() + 1 - 6) y += 1;
-  return y;
-}
-
-/** Giờ địa phương VN (UTC+7) -> ISO UTC */
-function vnToUtcIso(y, mo, d, h, mi) {
+function vnToUtcIso(dateIso, h, mi) {
   const p = (n) => String(n).padStart(2, '0');
-  return new Date(`${y}-${p(mo)}-${p(d)}T${p(h)}:${p(mi)}:00+07:00`).toISOString();
+  return new Date(`${dateIso}T${p(h)}:${p(mi)}:00+07:00`).toISOString();
 }
 
 // ===================== CSV =====================
@@ -282,395 +209,141 @@ function toCSV(rows) {
   return '\uFEFF' + [headers.join(','), ...rows.map((r) => headers.map((h) => csvEscape(r[h])).join(','))].join('\n');
 }
 
-// ===================== 1. CINEMA CHAIN + RẠP + TỈNH/QUẬN =====================
+// ===================== PARSER THUẦN (dễ test) =====================
+/**
+ * Parse trang /he-thong-rap/galaxy-cinema/.
+ * Cấu trúc text: "<Tỉnh>" -> "N cụm rạp" -> (tên rạp, địa chỉ)*; sau đó "Ngừng hoạt động" -> (tên rạp, tỉnh)*.
+ */
+function parseCinemaListLines(lines, nameToHref) {
+  const out = [];
+  const seen = new Set();
+  let province = null;
+  let inactive = false;
+  for (let i = 0; i < lines.length; i++) {
+    const l = lines[i];
+    if (/^\d+\s*cụm rạp$/i.test(l)) { province = lines[i - 1] || null; inactive = false; continue; }
+    if (/^Ngừng hoạt động$/i.test(l)) { inactive = true; province = null; continue; }
+    if (nameToHref[l] && !seen.has(l)) {
+      seen.add(l);
+      const next = lines[i + 1] && !nameToHref[lines[i + 1]] ? lines[i + 1] : null;
+      out.push({
+        name: l,
+        url: nameToHref[l],
+        externalId: nameToHref[l].split('/').filter(Boolean).pop(),
+        address: inactive ? null : next,
+        provinceName: inactive ? next : province,
+        isActive: !inactive,
+      });
+    }
+  }
+  return out;
+}
+
+const FORMAT_RE = /^(IMAX|2D|3D|4DX|SCREEN\s?X|Standard|Digital)\b/i;
+const TIME_RE = /^(\d{1,2}):(\d{2})(?!\d)/;
+
+/** Parse text một ngày lịch chiếu của 1 rạp: tên phim -> định dạng -> các giờ chiếu. */
+function parseDayLines(text, titleMap) {
+  let lines = text.split('\n').map((l) => l.trim()).filter(Boolean);
+  const cut = lines.findIndex((l) => /^PHIM .*(SẮP CHIẾU|ĐANG CHIẾU)$/i.test(l) || /^CÔNG TY TNHH MONET/i.test(l));
+  if (cut > 0) lines = lines.slice(0, cut);
+
+  const out = [];
+  let movie = null;
+  let fmt = null;
+  for (const l of lines) {
+    if (titleMap[l]) { movie = { slug: titleMap[l], title: l, ageHint: null }; fmt = null; continue; }
+    if (!movie) continue;
+    const t = l.match(TIME_RE);
+    if (t) {
+      const range = l.match(/^(\d{1,2}):(\d{2}).*?(\d{1,2}):(\d{2})/);
+      out.push({
+        movieSlug: movie.slug, movieTitle: movie.title, ageHint: movie.ageHint, formatLine: fmt,
+        hour: +t[1], minute: +t[2],
+        endHour: range ? +range[3] : null, endMinute: range ? +range[4] : null,
+        rawLine: l,
+      });
+      continue;
+    }
+    if (/^(T13|T16|T18|P|K|C)$/.test(l)) { movie.ageHint = l; continue; }
+    if (FORMAT_RE.test(l)) fmt = l;
+  }
+  return out;
+}
+
+// ===================== 1. DANH SÁCH + CHI TIẾT RẠP =====================
 async function scrapeCinemas(context) {
   const page = await context.newPage();
-  captureJson(page, 'cinemas');
-  log('Crawl danh sách rạp:', `${BASE}/rap-gia-ve/`);
-  await gotoSafe(page, `${BASE}/rap-gia-ve/`);
-  await autoScroll(page, 8);
+  captureNetwork(page, 'chain');
+  log('Danh sách rạp Galaxy:', CHAIN_PAGE);
+  await gotoSafe(page, CHAIN_PAGE);
 
-  const logoUrl = await page.$eval('img[src*="logo"], img[alt*="Logo" i]', (i) => i.src).catch(() => null);
-  const links = new Set(
-    (await page.$$eval('a[href*="/rap-gia-ve/"]', (as) => as.map((a) => a.href.split('?')[0].split('#')[0])))
-      .filter((u) => /\/rap-gia-ve\/[^/]+\/?$/.test(u) && !/premium-hall/.test(u))
-  );
-  log(`  -> ${links.size} trang rạp`);
+  const { text, links } = await page.evaluate(() => ({
+    text: document.body.innerText,
+    links: [...document.querySelectorAll('a[href*="/rap/"]')]
+      .map((a) => ({ name: a.innerText.trim(), href: a.href.split('?')[0].split('#')[0] }))
+      .filter((l) => l.name && /moveek\.com\/rap\/[^/]+$/i.test(l.href)),
+  }));
+  const nameToHref = Object.fromEntries(links.map((l) => [l.name, l.href]));
+  let list = parseCinemaListLines(text.split('\n').map((l) => l.trim()).filter(Boolean), nameToHref);
+  log(`  -> ${list.length} rạp (${list.filter((c) => c.isActive).length} đang hoạt động)`);
+  if (list.length > MAX_CINEMAS) list = list.slice(0, MAX_CINEMAS);
 
   const cinemas = [];
-  const cinemaCards = [];
-  for (const url of links) {
+  for (const c of list) {
+    let detail = {};
     try {
-      await gotoSafe(page, url);
-      await expandContent(page);
-      const info = await page.evaluate(() => {
-        const q = (s) => document.querySelector(s);
+      await gotoSafe(page, c.url);
+      detail = await page.evaluate(() => {
+        const h1 = document.querySelector('h1');
+        const region = document.querySelector('a[href*="/rap-khu-vuc/"]');
+        const map = document.querySelector('a[href*="maps.google"]');
+        const lines = document.body.innerText.split('\n').map((l) => l.trim()).filter(Boolean);
+        const hi = lines.findIndex((l) => l === h1?.innerText?.trim());
         return {
-          name: q('h1')?.innerText?.trim() || q('meta[property="og:title"]')?.content || null,
-          tel: q('a[href^="tel:"]')?.getAttribute('href')?.replace('tel:', '') || null,
-          html: document.documentElement.outerHTML,
-          text: document.body.innerText,
-          tables: [...document.querySelectorAll('table')].map((t) =>
-            [...t.querySelectorAll('tr')].map((r) => [...r.children].map((c) => c.innerText.trim()))
-          ),
+          h1: h1?.innerText?.trim() || null,
+          address: hi >= 0 ? lines[hi + 1] : null,
+          regionName: region?.innerText?.trim() || null,
+          regionSlug: region?.href?.split('/').filter(Boolean).pop() || null,
+          mapUrl: map?.href || null,
+          image: document.querySelector('meta[property="og:image"]')?.content || null,
         };
       });
-
-      const stops = ['Điện thoại', 'Hotline', 'Số điện thoại', 'Giờ mở cửa', 'Giá vé', 'Lịch chiếu', 'Phim'];
-      const addrLines = sliceSection(info.text, 'Địa chỉ', stops);
-      let address = addrLines.slice(0, 2).join(', ') || null;
-      if (!address) address = info.text.split('\n').find((l) => /(phường|quận|huyện|thành phố)/i.test(l) && l.includes(',')) || null;
-
-      let lat = null, lng = null;
-      let m = info.html.match(/!2d(-?\d+\.\d+)!3d(-?\d+\.\d+)/);
-      if (m) { lng = +m[1]; lat = +m[2]; }
-      else if ((m = info.html.match(/@(-?\d+\.\d+),(-?\d+\.\d+)/)) || (m = info.html.match(/[?&]q=(-?\d+\.\d+),(-?\d+\.\d+)/))) {
-        lat = +m[1]; lng = +m[2];
-      }
-
-      const phone = info.tel || (info.text.match(/(0\d[\d. ]{8,12}\d)/) || [])[1] || null;
-      const { province, district } = parseAddress(address);
-      const cards = await extractConcessionCards(page).catch(() => []);
-      cinemaCards.push(...cards.map((c) => ({ ...c, cinemaExternalId: url.split('/').filter(Boolean).pop() })));
-
-      cinemas.push({
-        chainCode: CHAIN_CODE,
-        externalId: url.split('/').filter(Boolean).pop(),
-        name: info.name,
-        address,
-        provinceCode: province?.code || null,
-        provinceName: province?.name || null,
-        districtName: district,
-        latitude: lat,
-        longitude: lng,
-        phone,
-        timezone: 'Asia/Ho_Chi_Minh',
-        isActive: true,
-        url,
-        priceTables: info.tables.length ? info.tables : null, // bảng giá vé thô nếu trang có
-      });
-      log('  rạp:', info.name);
     } catch (e) {
-      log('  ! lỗi rạp', url, e.message);
+      log('  ! lỗi rạp', c.url, e.message);
     }
-    await politeWait();
-  }
-  await page.close();
-  return { cinemas, logoUrl, cinemaCards };
-}
-
-// ===================== 2. KHUYẾN MÃI (Promotion + Voucher) =====================
-/** "từ 01/10 đến 31/10/2026", "01/10/2026 - 31/12/2026" -> {startsAt, endsAt} */
-function parseRange(text) {
-  const re = /(\d{1,2})[\/.](\d{1,2})(?:[\/.](20\d{2}))?\s*(?:-|–|—|đến hết ngày|đến ngày|đến|->)\s*(\d{1,2})[\/.](\d{1,2})[\/.](20\d{2})/i;
-  const m = String(text || '').match(re);
-  if (!m) return null;
-  const ey = +m[6];
-  const sy = m[3] ? +m[3] : ey;
-  const p2 = (n) => String(n).padStart(2, '0');
-  return { startsAt: `${sy}-${p2(m[2])}-${p2(m[1])}`, endsAt: `${ey}-${p2(m[5])}-${p2(m[4])}` };
-}
-
-/** Tìm mã voucher + loại/giá trị giảm trong nội dung khuyến mãi (best effort) */
-function extractVoucherFromText(title, text, range, linkUrl) {
-  const codeM = String(text || '').match(/(?:mã(?: giảm giá| khuyến mãi| ưu đãi| code)?|code|voucher)\s*[:：]?\s*["“']?([A-Z][A-Z0-9]{4,19})\b/);
-  if (!codeM) return null;
-  const pct = text.match(/(?:giảm|off)[^\d]{0,15}(\d{1,3})\s?%/i);
-  const fix = text.match(/(?:giảm|off)[^\d]{0,15}(\d{1,3}(?:[.,]\d{3})+|\d{2,3}\s?k)/i);
-  return {
-    code: codeM[1],
-    description: title,
-    type: pct ? 'PERCENT' : 'FIXED',
-    value: pct ? +pct[1] : fix ? parseVnd(fix[1]) : null,
-    maxDiscount: null,
-    minOrderAmount: 0,
-    startsAt: range?.startsAt || null,
-    endsAt: range?.endsAt || null,
-    usageLimit: null,
-    perUserLimit: 1,
-    isActive: true,
-    promotionLink: linkUrl,
-    bestEffort: true,
-  };
-}
-
-/** Khuyến mãi từ JSON API: object có title + ngày bắt đầu/kết thúc */
-function promotionsFromJson(entries) {
-  const out = [];
-  const walk = (o) => {
-    if (!o || typeof o !== 'object') return;
-    if (!Array.isArray(o)) {
-      const keys = Object.keys(o);
-      const tk = keys.find((k) => /^(title|name|tieude)$/i.test(k) && typeof o[k] === 'string');
-      const sk = keys.find((k) => /(start|from|begin)/i.test(k) && typeof o[k] === 'string' && parseDate(o[k]));
-      const ek = keys.find((k) => /(end|to|expire)/i.test(k) && typeof o[k] === 'string' && parseDate(o[k]));
-      if (tk && (sk || ek)) {
-        const img = keys.find((k) => /(image|img|thumb|banner)/i.test(k) && typeof o[k] === 'string');
-        const slug = keys.find((k) => /(slug|url|link)/i.test(k) && typeof o[k] === 'string');
-        out.push({
-          title: o[tk],
-          imageUrl: img ? o[img] : null,
-          linkUrl: slug ? (o[slug].startsWith('http') ? o[slug] : `${BASE}/khuyen-mai/${o[slug].replace(/^\/+/, '')}`) : null,
-          startsAt: sk ? parseDate(o[sk]).iso : null,
-          endsAt: ek ? parseDate(o[ek]).iso : null,
-        });
-      }
-    }
-    Object.values(o).forEach(walk);
-  };
-  entries.forEach((e) => walk(e.body));
-  return out;
-}
-
-async function scrapePromotions(context, globalJson) {
-  const page = await context.newPage();
-  const cards = [];
-
-  for (const listUrl of [`${BASE}/khuyen-mai/`, `${BASE}/`]) {
-    log('Crawl khuyến mãi:', listUrl);
-    await gotoSafe(page, listUrl);
-    for (let i = 0; i < 30; i++) { // bấm "Xem thêm" đến hết
-      const btn = page.getByText(/xem thêm|load more/i).first();
-      if (!(await btn.isVisible().catch(() => false))) break;
-      await btn.click().catch(() => {});
-      await sleep(900);
-    }
-    await autoScroll(page, 12);
-    cards.push(
-      ...(await page.$$eval('a[href*="/khuyen-mai/"]', (as) =>
-        as.map((a) => ({
-          href: a.href.split('?')[0].split('#')[0],
-          title: (a.querySelector('img')?.alt || a.getAttribute('title') || a.innerText || '').trim(),
-          img: a.querySelector('img')?.src || null,
-        }))
-      ))
-    );
-  }
-  const uniq = [...new Map(cards.filter((c) => /\/khuyen-mai\/[^/]+/.test(c.href)).map((c) => [c.href, c])).values()];
-  log(`  -> ${uniq.length} khuyến mãi`);
-
-  const promotions = [];
-  const vouchers = [];
-  for (let i = 0; i < uniq.length; i++) {
-    const c = uniq[i];
-    let range = null, title = c.title, img = c.img, contentText = null, voucher = null;
-    try {
-      await gotoSafe(page, c.href);
-      await expandContent(page);
-      const d = await page.evaluate(() => ({
-        h1: document.querySelector('h1')?.innerText?.trim(),
-        og: document.querySelector('meta[property="og:image"]')?.content,
-        body: (document.querySelector('article, main') || document.body).innerText,
-      }));
-      title = d.h1 || title;
-      img = img || d.og;
-      contentText = d.body.slice(0, 8000);
-      range = parseRange(d.body);
-      voucher = extractVoucherFromText(title, d.body, range, c.href);
-    } catch (_) {}
-    promotions.push({
-      title, imageUrl: img, linkUrl: c.href,
-      description: contentText, // nội dung chi tiết/điều kiện áp dụng
-      startsAt: range?.startsAt || null, endsAt: range?.endsAt || null,
-      sortOrder: i,
-      isActive: range?.endsAt ? new Date(range.endsAt + 'T23:59:59+07:00') >= new Date() : true,
-      mediaYearHint: +(img || '').match(/\/media\/(20\d{2})\//)?.[1] || null,
+    const address = detail.address && detail.address.length > 8 && !/Lịch chiếu/i.test(detail.address) ? detail.address : c.address;
+    const prov = provinceFromName(detail.regionName || c.provinceName, detail.regionSlug);
+    cinemas.push({
+      chainCode: CHAIN_CODE,
+      externalId: c.externalId,
+      name: c.name,
+      address: address || c.address || null,
+      provinceCode: prov?.code || null,
+      provinceName: prov?.name || null,
+      districtName: parseDistrict(address || c.address),
+      latitude: null, // Moveek chỉ cung cấp liên kết Google Maps theo tên, không có toạ độ
+      longitude: null,
+      phone: null,
+      timezone: 'Asia/Ho_Chi_Minh',
+      isActive: c.isActive,
+      url: c.url,
+      mapUrl: detail.mapUrl || null,
+      imageUrl: detail.image || null,
     });
-    if (voucher) vouchers.push(voucher);
+    log('  rạp:', c.name, '|', prov?.name || '?', c.isActive ? '' : '(ngừng hoạt động)');
     await politeWait();
   }
   await page.close();
-
-  // Bổ sung từ JSON API (khuyến mãi mà DOM không có / thiếu ngày)
-  for (const j of promotionsFromJson(globalJson)) {
-    const hit = promotions.find((p) => slugify(p.title) === slugify(j.title));
-    if (hit) { hit.startsAt = hit.startsAt || j.startsAt; hit.endsAt = hit.endsAt || j.endsAt; hit.imageUrl = hit.imageUrl || j.imageUrl; }
-    else promotions.push({ ...j, description: null, sortOrder: promotions.length, isActive: true, mediaYearHint: +(j.imageUrl || '').match(/\/media\/(20\d{2})\//)?.[1] || null });
-  }
-  return { promotions, vouchers };
+  return cinemas;
 }
 
-// ===================== 2b. BẮP NƯỚC (Concession) =====================
-const FOOD_SRC = '(combo|bắp|bỏng|popcorn|nước|coke|pepsi|sprite|fanta|snack|trà|cà phê|cafe|hộp|bánh|kẹo|\\bly\\b)';
-const FOOD_RE = new RegExp(FOOD_SRC, 'i');
-
-/** "89.000đ" | 89000 | "89K" -> 89000 (VND, Int) */
-function parseVnd(v) {
-  if (typeof v === 'number') return v >= 1000 ? Math.round(v) : null;
-  const s = String(v || '');
-  let m = s.match(/(\d{1,3}(?:[.,]\d{3})+|\d{4,7})/);
-  if (m) return +m[1].replace(/[.,]/g, '');
-  m = s.match(/\b(\d{2,3})\s?k\b/i);
-  return m ? +m[1] * 1000 : null;
-}
-
-function mapConcessionCategory(name) {
-  if (/combo|\bset\b/i.test(name)) return 'COMBO';
-  if (/bắp|bỏng|popcorn/i.test(name)) return 'POPCORN';
-  if (/nước|coke|pepsi|sprite|fanta|trà|cà phê|cafe|drink|\bly\b/i.test(name)) return 'DRINK';
-  return 'SNACK';
-}
-
-/** Tìm thẻ sản phẩm (ảnh + tên + giá) trên trang hiện tại: leaf-most element có giá & từ khoá đồ ăn */
-async function extractConcessionCards(page) {
-  const cards = await page.evaluate((foodSrc) => {
-    const FOOD = new RegExp(foodSrc, 'i');
-    const PRICE = /(\d{1,3}(?:[.,]\d{3})+|\d{4,6})\s*(?:đ|₫|vnđ|vnd)\b/i;
-    const PRICEK = /\b(\d{2,3})\s?k\b/i;
-    const els = [...document.querySelectorAll('article,li,div,a')].filter((e) => {
-      const t = (e.innerText || '').trim();
-      return t.length >= 8 && t.length <= 400 && (PRICE.test(t) || PRICEK.test(t)) && FOOD.test(t) && e.querySelector('img');
-    });
-    const leaf = els.filter((e) => !els.some((o) => o !== e && e.contains(o)));
-    return leaf.map((e) => {
-      const lines = e.innerText.split('\n').map((l) => l.trim()).filter(Boolean);
-      const isPrice = (l) => PRICE.test(l) || PRICEK.test(l);
-      const name = lines.find((l) => !isPrice(l) && l.length > 2) || null;
-      const priceLine = lines.find(isPrice) || '';
-      return {
-        name,
-        description: lines.filter((l) => l !== name && !isPrice(l)).join(' ') || null,
-        priceText: priceLine,
-        imageUrl: e.querySelector('img')?.src || null,
-      };
-    });
-  }, FOOD_SRC);
-  return cards
-    .map((c) => ({ ...c, price: parseVnd(c.priceText), sourceUrl: page.url() }))
-    .filter((c) => c.name && c.price && FOOD_RE.test(`${c.name} ${c.description || ''}`));
-}
-
-/** Bắp nước từ JSON API: object có tên (khớp từ khoá đồ ăn) + giá */
-function concessionsFromJson(entries) {
-  const out = [];
-  const walk = (o, url) => {
-    if (!o || typeof o !== 'object') return;
-    if (!Array.isArray(o)) {
-      const keys = Object.keys(o);
-      const nk = keys.find((k) => /^(name|title|displayname|itemname|ten)$/i.test(k) && typeof o[k] === 'string');
-      const pk = keys.find((k) => /(price|gia|amount)/i.test(k) && (typeof o[k] === 'number' || typeof o[k] === 'string'));
-      if (nk && pk && FOOD_RE.test(o[nk])) {
-        const price = parseVnd(o[pk]);
-        if (price) {
-          const ik = keys.find((k) => /(image|img|thumb|photo|poster)/i.test(k) && typeof o[k] === 'string');
-          const dk = keys.find((k) => /(desc|content|mota|detail)/i.test(k) && typeof o[k] === 'string');
-          out.push({ name: o[nk].trim(), price, imageUrl: ik ? o[ik] : null, description: dk ? o[dk].trim() : null, sourceUrl: url });
-        }
-      }
-    }
-    Object.values(o).forEach((v) => walk(v, url));
-  };
-  entries.forEach((e) => walk(e.body, e.url));
-  return out;
-}
-
-/** Gộp: món có ở >=60% rạp (hoặc ở trang chung) -> cấp cụm (cinemaExternalId=null); còn lại giữ theo rạp */
-function consolidateConcessions(general, perCinema, cinemaCount) {
-  const key = (c) => `${slugify(c.name)}|${c.price}`;
-  const chainLevel = new Map();
-  for (const c of general) chainLevel.set(key(c), { ...c, cinemaExternalId: null });
-
-  const groups = new Map();
-  for (const c of perCinema) {
-    const k = key(c);
-    if (!groups.has(k)) groups.set(k, { rows: [], cinemas: new Set() });
-    groups.get(k).rows.push(c);
-    groups.get(k).cinemas.add(c.cinemaExternalId);
-  }
-  const perRows = [];
-  for (const [k, g] of groups) {
-    if (chainLevel.has(k)) continue;
-    if (cinemaCount && g.cinemas.size / cinemaCount >= 0.6) chainLevel.set(k, { ...g.rows[0], cinemaExternalId: null });
-    else perRows.push(...g.rows);
-  }
-  return [...chainLevel.values(), ...perRows].map((c, i) => ({
-    chainCode: CHAIN_CODE,
-    cinemaExternalId: c.cinemaExternalId ?? null,
-    name: c.name,
-    description: c.description || null,
-    category: mapConcessionCategory(c.name),
-    imageUrl: c.imageUrl || null,
-    price: c.price,
-    isActive: true,
-    sortOrder: i,
-    sourceUrl: c.sourceUrl || null,
-  }));
-}
-
-/** Tìm trang bắp nước công khai từ menu trang chủ rồi cào thẻ sản phẩm */
-async function scrapeGeneralConcessions(context) {
-  const page = await context.newPage();
-  await gotoSafe(page, `${BASE}/`);
-  const links = await page.$$eval('a[href]', (as) =>
-    as.map((a) => ({ href: a.href.split('#')[0], text: (a.innerText || a.title || '').trim() }))
-  );
-  const cand = [...new Set(
-    links
-      .filter((l) => l.href.startsWith(BASE) && (/(bắp|nước|combo|f&b|fnb|ăn uống|food)/i.test(l.text) || /(bap-nuoc|combo|fnb|food|an-uong)/i.test(l.href)))
-      .map((l) => l.href)
-  )].slice(0, 6);
-  log(`Trang bắp nước công khai tìm thấy: ${cand.length}`, cand);
-
-  const rows = [];
-  for (const u of cand) {
-    await gotoSafe(page, u);
-    await expandContent(page);
-    await autoScroll(page, 6);
-    rows.push(...(await extractConcessionCards(page).catch(() => [])));
-    await politeWait();
-  }
-  await page.close();
-  return rows;
-}
-
-// ===================== 3. GOM LINK PHIM =====================
-async function collectMovieLinks(context) {
-  const links = new Map();
-  const page = await context.newPage();
-  captureJson(page, 'list');
-
-  for (const lp of MOVIE_LISTS) {
-    log('Mở trang danh sách phim:', lp.url);
-    await gotoSafe(page, lp.url);
-
-    if (lp.tag === 'trang-chu') {
-      for (const label of ['Đang chiếu', 'Sắp chiếu', 'Phim IMAX']) {
-        try {
-          await page.getByText(label, { exact: true }).first().click({ timeout: 3000 });
-          await sleep(1500);
-          await autoScroll(page, 5);
-        } catch (_) {}
-      }
-    }
-    for (let i = 0; i < 30; i++) {
-      const btn = page.getByText(/xem thêm|load more/i).first();
-      if (!(await btn.isVisible().catch(() => false))) break;
-      await btn.click().catch(() => {});
-      await sleep(1000);
-    }
-    await autoScroll(page);
-
-    const found = await page.$$eval('a[href*="/phim/"], a[href*="/dat-ve/"]', (as) =>
-      as.map((a) => ({ href: a.href, title: (a.getAttribute('title') || a.querySelector('img')?.alt || a.textContent || '').trim() }))
-    );
-    for (const f of found) {
-      const url = f.href.split('?')[0].split('#')[0];
-      if (!links.has(url)) links.set(url, { url, title: f.title, sources: new Set() });
-      links.get(url).sources.add(lp.tag);
-    }
-    log(`  -> tổng link phim: ${links.size}`);
-    await politeWait();
-  }
-  await page.close();
-  return [...links.values()];
-}
-
-// ===================== 4. LỊCH CHIẾU (Showtime) trên trang chi tiết phim =====================
-/** Click tab ngày dd/mm bằng DOM click (kể cả khi tab nằm ngoài vùng carousel đang hiển thị). */
-async function clickDateTab(page, ddmm) {
-  return page.evaluate((d) => {
-    const re = new RegExp('(^|\\s)' + d.replace('/', '\\/') + '\\s*$');
-    const cands = [...document.querySelectorAll('div,button,li,a,span')].filter((e) => {
+// ===================== 2. LỊCH CHIẾU =====================
+async function clickDateTab(page, iso) {
+  const [, mm, dd] = iso.split('-').map(Number);
+  return page.evaluate(([d, m]) => {
+    const re = new RegExp('(^|\\s)0?' + d + '\\/0?' + m + '\\s*$');
+    const cands = [...document.querySelectorAll('a,button,li,div,span')].filter((e) => {
       const t = (e.innerText || '').trim();
       return t.length < 30 && re.test(t);
     });
@@ -678,338 +351,253 @@ async function clickDateTab(page, ddmm) {
     if (!leaf.length) return false;
     leaf[0].click();
     return true;
-  }, ddmm);
+  }, [dd, mm]);
 }
 
-/** Đọc 1 thẻ <select> có option khớp regex -> {idx, options[]} (dropdown "Toàn quốc" / "Tất cả rạp") */
-async function readSelect(page, re) {
-  return page.evaluate((src) => {
-    const r = new RegExp(src, 'i');
-    const selects = [...document.querySelectorAll('select')];
-    const idx = selects.findIndex((sel) => [...sel.options].some((o) => r.test(o.textContent)));
-    if (idx === -1) return null;
-    return { idx, options: [...selects[idx].options].map((o) => o.textContent.trim()).filter(Boolean) };
-  }, re.source);
+async function readDay(page) {
+  return page.evaluate(() => {
+    const titleMap = {};
+    document.querySelectorAll('a[href*="/phim/"]').forEach((a) => {
+      const m = a.href.match(/\/phim\/([^/?#]+)/);
+      if (!m) return;
+      for (const t of [a.innerText, a.getAttribute('title')]) if (t && t.trim()) titleMap[t.trim()] = m[1];
+    });
+    return { text: document.body.innerText, titleMap };
+  });
 }
 
-async function selectOpt(page, idx, label) {
-  await page.locator('select').nth(idx).selectOption({ label }, { timeout: 3000 });
-  await sleep(900);
-}
+let DAY_MODE = null; // 'param' (?date=YYYY-MM-DD) hoặc 'click' (bấm tab ngày) — tự phát hiện ở rạp đầu tiên
 
-let warnedNoSelect = false;
-
-async function scrapeShowtimes(page, movie, cinemaIndex) {
-  const results = new Map();
-  const now = new Date();
-  const SECTION_STOP = ['Giới thiệu', 'Hỗ trợ', 'Phim khác'];
-
-  // Duyệt tất cả tab ngày với bộ lọc (tỉnh/rạp) hiện tại
-  const harvest = async (regionLabel) => {
-    const t0 = await page.evaluate(() => document.body.innerText);
-    const dates = [...new Set(sliceSection(t0, 'Lịch chiếu', SECTION_STOP).filter((l) => /^\d{1,2}\/\d{1,2}$/.test(l)))];
-    for (const ddmm of dates) {
-      const [dd, mm] = ddmm.split('/').map(Number);
-      await clickDateTab(page, ddmm);
-      await sleep(900);
-      const text = await page.evaluate(() => document.body.innerText);
-      const lines = sliceSection(text, 'Lịch chiếu', SECTION_STOP);
-      const year = inferYear(dd, mm, now);
-
-      for (const s of parseShowtimeLines(lines)) {
-        const start = vnToUtcIso(year, mm, dd, s.hour, s.minute);
-        const end = movie.durationMin ? new Date(new Date(start).getTime() + movie.durationMin * 60000).toISOString() : null;
-        const cin = cinemaIndex.get(norm(s.cinemaName).replace(/galaxy( cinema)?/g, '').trim());
-        const cinemaExternalId = cin?.externalId || `name:${slugify(s.cinemaName)}`;
-        // dedupKey theo schema: sha1(chain:cinema:movie:auditorium:startTimeUTC); Galaxy không công khai phòng chiếu
-        const dedupKey = sha1([CHAIN_CODE, cinemaExternalId, movie.slug, 'default', start].join(':'));
-        if (results.has(dedupKey)) continue;
-        results.set(dedupKey, {
-          dedupKey,
-          movieSlug: movie.slug,
-          cinemaExternalId,
-          cinemaName: s.cinemaName,
-          auditoriumName: null,
-          startTime: start,
-          endTime: end,
-          format: mapScreenFormat(s.formatLine),
-          language: extractLanguage(s.formatLine),
-          formatRaw: s.formatLine,
-          status: 'SCHEDULED',
-          seatSource: 'MOCK',
-          lastSyncedAt: new Date().toISOString(),
-        });
-      }
-    }
-  };
-
-  await harvest('Toàn quốc'); // mặc định: Toàn quốc + Tất cả rạp
-
-  if (REGION_SWEEP) {
-    const region = await readSelect(page, /toàn quốc/);
-    if (!region) {
-      if (!warnedNoSelect) { log('  ! không thấy <select> chọn tỉnh/thành -> chỉ lấy "Toàn quốc"'); warnedNoSelect = true; }
-    } else {
-      for (const r of region.options.filter((o) => !/toàn quốc/i.test(o))) {
-        try { await selectOpt(page, region.idx, r); } catch (_) { continue; }
-        await harvest(r);
-        if (CINEMA_SWEEP) {
-          const cs = await readSelect(page, /tất cả rạp/);
-          if (cs) {
-            for (const c of cs.options.filter((o) => !/tất cả rạp/i.test(o))) {
-              try { await selectOpt(page, cs.idx, c); } catch (_) { continue; }
-              await harvest(`${r} / ${c}`);
-            }
-          }
-        }
-      }
-    }
+async function loadDay(page, cinema, iso, mode) {
+  if (mode === 'param') {
+    await gotoSafe(page, `${cinema.url}?date=${iso}`);
+  } else {
+    if (!page.url().startsWith(cinema.url)) await gotoSafe(page, cinema.url);
+    await clickDateTab(page, iso);
+    await sleep(1200);
   }
-  return [...results.values()];
+  return readDay(page);
 }
 
-// ===================== 5. CHI TIẾT PHIM =====================
-async function scrapeMovie(context, item, cinemaIndex) {
-  const page = await context.newPage();
-  const blobs = captureJson(page);
-  await gotoSafe(page, item.url);
-  await expandContent(page);
+async function detectDayMode(page, cinema) {
+  const d0 = TODAY, d1 = addDays(TODAY, 1);
+  const a = parseDayLines((await loadDay(page, cinema, d0, 'param')).text, (await readDay(page)).titleMap);
+  await snapshotHtml(page, `${cinema.externalId}_${d0}`);
+  const b = parseDayLines((await loadDay(page, cinema, d1, 'param')).text, (await readDay(page)).titleMap);
+  const sig = (x) => x.map((s) => `${s.movieSlug}${s.hour}:${s.minute}`).join('|');
+  const mode = sig(a) !== sig(b) || (!a.length && !b.length) ? 'param' : 'click';
+  log(`  Phát hiện cách chọn ngày: ${mode} (${a.length} / ${b.length} suất hôm nay / ngày mai)`);
+  if (!a.length && !b.length) log('  ! Không thấy suất nào — xem raw/snapshot_*.html để chỉnh parser nếu rạp này đang có phim.');
+  return mode;
+}
 
-  blobs.push(
-    ...(await page.evaluate(() => {
-      const out = [];
-      const nd = document.getElementById('__NEXT_DATA__');
-      if (nd) try { out.push(JSON.parse(nd.textContent)); } catch (_) {}
-      document.querySelectorAll('script[type="application/ld+json"]').forEach((s) => {
-        try { out.push(JSON.parse(s.textContent)); } catch (_) {}
+async function scrapeCinemaShowtimes(page, cinema) {
+  const dates = [];
+  for (let d = DATE_FROM; d <= DATE_TO; d = addDays(d, 1)) dates.push(d);
+  const map = new Map();
+  let i = 0, streak = 0, foundAny = false;
+
+  while (i < dates.length) {
+    const iso = dates[i];
+    let items = [];
+    try {
+      const day = await loadDay(page, cinema, iso, DAY_MODE);
+      items = parseDayLines(day.text, day.titleMap);
+    } catch (e) {
+      log('  ! lỗi ngày', iso, e.message);
+    }
+
+    for (const s of items) {
+      const start = vnToUtcIso(iso, s.hour, s.minute);
+      const end = s.endHour !== null ? vnToUtcIso(iso, s.endHour, s.endMinute) : null;
+      // dedupKey theo schema: sha1(chain:cinema:movie:auditorium:startTimeUTC); Moveek không có phòng chiếu -> 'default'
+      const dedupKey = sha1([CHAIN_CODE, cinema.externalId, s.movieSlug, 'default', start].join(':'));
+      if (map.has(dedupKey)) continue;
+      map.set(dedupKey, {
+        dedupKey,
+        movieSlug: s.movieSlug,
+        movieTitle: s.movieTitle,
+        cinemaExternalId: cinema.externalId,
+        cinemaName: cinema.name,
+        auditoriumName: null,
+        showDate: iso,
+        startTime: start,
+        endTime: end,
+        format: mapScreenFormat(s.formatLine),
+        language: extractLanguage(s.formatLine),
+        formatRaw: s.formatLine,
+        ageHint: s.ageHint,
+        status: 'SCHEDULED',
+        seatSource: 'MOCK',
+        source: 'moveek',
+        lastSyncedAt: new Date().toISOString(),
       });
-      return out;
-    }))
-  );
+    }
 
-  const dom = await page.evaluate(() => {
+    if (items.length) { streak = 0; foundAny = true; } else streak++;
+    // Ngày đã qua mà 7 ngày liên tiếp trống -> nhảy thẳng tới hôm nay
+    if (iso < TODAY && !foundAny && streak >= 7) {
+      const j = dates.findIndex((d) => d >= TODAY);
+      if (j === -1) break;
+      i = j; streak = 0; continue;
+    }
+    if (iso >= TODAY && streak >= 14) break; // hết lịch chiếu đã công bố
+    i++;
+    await politeWait();
+  }
+  return [...map.values()];
+}
+
+// ===================== 3. GOM LINK PHIM =====================
+async function collectMovieSlugs(context) {
+  const page = await context.newPage();
+  const found = new Map(); // slug -> Set(tag)
+  for (const lp of MOVIE_LISTS) {
+    log('Danh sách phim:', lp.url);
+    let url = lp.url;
+    for (let p = 0; p < 15 && url; p++) {
+      await gotoSafe(page, url);
+      await autoScroll(page, 6);
+      const { slugs, next } = await page.evaluate(() => ({
+        slugs: [...new Set([...document.querySelectorAll('a[href*="/phim/"]')].map((a) => a.href.match(/\/phim\/([^/?#]+)/)?.[1]).filter(Boolean))],
+        next: document.querySelector('a[rel="next"], .pagination .next a, li.next a')?.href || null,
+      }));
+      for (const s of slugs) {
+        if (!found.has(s)) found.set(s, new Set());
+        found.get(s).add(lp.tag);
+      }
+      url = next && next !== url ? next : null;
+      await politeWait();
+    }
+    log(`  -> tổng ${found.size} phim`);
+  }
+  await page.close();
+  return found;
+}
+
+// ===================== 4. CHI TIẾT PHIM =====================
+const PERSON_LABELS = /^(Khởi chiếu|Diễn viên|Đạo diễn|Thể loại|Thời lượng|Quốc gia|Nhà sản xuất|Kiểm duyệt|Ngôn ngữ|Nhà phát hành|Biên kịch)$/i;
+
+async function scrapeMovie(context, slug, tags) {
+  const page = await context.newPage();
+  const url = `${BASE}/phim/${slug}/`;
+  await gotoSafe(page, url);
+
+  const dom = await page.evaluate((labelSrc) => {
+    const LABELS = new RegExp(labelSrc, 'i');
     const q = (s) => document.querySelector(s);
     const meta = (p) => q(`meta[property="${p}"]`)?.content || q(`meta[name="${p}"]`)?.content || null;
-    const title = q('h1')?.innerText?.trim() || meta('og:title');
-    const iframe = [...document.querySelectorAll('iframe')].map((i) => i.src).find((s) => /youtube|youtu\.be/.test(s));
-    const ytLink = [...document.querySelectorAll('a[href*="youtube"],a[href*="youtu.be"]')].map((a) => a.href)[0];
-    // Poster: ảnh có alt chứa tên phim (không nằm trong link /dat-ve/ của phim khác)
-    const imgs = [...document.querySelectorAll('img')].filter((i) => /cdn\.galaxycine\.vn\/media/.test(i.src) && !i.closest('a[href*="/dat-ve/"]'));
-    const poster = imgs.find((i) => title && (i.alt || '').toLowerCase().includes(title.toLowerCase().slice(0, 12)))?.src || null;
-    return {
-      title,
-      description: meta('og:description') || meta('description'),
-      ogImage: meta('og:image'),
-      poster,
-      gallery: [...new Set(imgs.map((i) => i.src))],
-      trailer: iframe || ytLink || null,
-      text: document.body.innerText,
+
+    const labelEls = [...document.querySelectorAll('strong,b,dt,label,span,div,h6,small,p')].filter(
+      (e) => e.children.length === 0 && LABELS.test((e.innerText || '').trim())
+    );
+    const peopleAfter = (re) => {
+      const el = labelEls.find((e) => re.test(e.innerText.trim()));
+      if (!el) return [];
+      const start = el.nextSibling ? el : el.parentElement || el;
+      const out = [];
+      for (let n = start.nextSibling; n; n = n.nextSibling) {
+        if (n.nodeType === 1) {
+          const first = (n.innerText || '').trim().split('\n')[0];
+          if (LABELS.test(first)) break;
+          const as = n.matches('a[href*="/nghe-sy/"]') ? [n] : [...n.querySelectorAll('a[href*="/nghe-sy/"]')];
+          as.forEach((a) => out.push({ name: a.innerText.trim(), slug: a.href.split('/').filter(Boolean).pop() }));
+        }
+      }
+      return out.filter((p) => p.name);
     };
-  });
+
+    const ld = [];
+    document.querySelectorAll('script[type="application/ld+json"]').forEach((s) => {
+      try { ld.push(JSON.parse(s.textContent)); } catch (_) {}
+    });
+    const yt = document.documentElement.outerHTML.match(/(?:https?:)?\/\/(?:www\.)?(?:youtube\.com\/(?:embed\/|watch\?v=)|youtu\.be\/)[\w-]+/);
+
+    return {
+      h1: q('h1')?.innerText?.trim() || null,
+      text: document.body.innerText,
+      ogImage: meta('og:image'),
+      ogDesc: meta('og:description'),
+      actors: peopleAfter(/^Diễn viên$/i),
+      directors: peopleAfter(/^Đạo diễn$/i),
+      trailer: yt ? (yt[0].startsWith('//') ? 'https:' + yt[0] : yt[0]) : null,
+      ld,
+    };
+  }, PERSON_LABELS.source);
 
   const text = dom.text || '';
-  const SECTIONS = ['Nhà sản xuất', 'Thể loại', 'Đạo diễn', 'Diễn viên', 'Nội dung phim', 'Lịch chiếu'];
-  const others = (l) => SECTIONS.filter((x) => norm(x) !== norm(l));
+  // JSON-LD (nếu trang có schema.org/Movie)
+  const ldMovie = dom.ld.flat().find((o) => o && /Movie/i.test(o['@type'] || '')) || {};
 
-  const paragraphs = sliceSection(text, 'Nội dung phim', ['Lịch chiếu']);
-  const synopsis = paragraphs.length ? paragraphs.join('\n') : dom.description;
-  const genres = sliceSection(text, 'Thể loại', others('Thể loại'));
-  const directors = sliceSection(text, 'Đạo diễn', others('Đạo diễn'));
-  const actors = sliceSection(text, 'Diễn viên', others('Diễn viên'));
+  // Dòng giữa tiêu đề và "Thích/Khởi chiếu": thể loại, độ tuổi, thời lượng
+  const lines = text.split('\n').map((l) => l.trim()).filter(Boolean);
+  const hi = lines.findIndex((l) => l === dom.h1);
+  const genres = [];
+  let ageRating = null;
+  let durationMin = null;
+  if (hi >= 0) {
+    for (let j = hi + 1; j < Math.min(lines.length, hi + 8); j++) {
+      const l = lines[j];
+      if (/^(Thích|Đánh giá|Trailer|Khởi chiếu)/i.test(l)) break;
+      const dur = l.match(/^(\d{2,3})\s*phút$/i);
+      if (dur) { durationMin = +dur[1]; continue; }
+      const age = mapAgeRating(l.length <= 4 ? l : '');
+      if (age) { ageRating = age; continue; }
+      if (l.length < 40) l.split(/[,/]/).map((x) => x.trim()).filter(Boolean).forEach((g) => genres.push(g));
+    }
+  }
+  (Array.isArray(ldMovie.genre) ? ldMovie.genre : ldMovie.genre ? [ldMovie.genre] : []).forEach((g) => !genres.includes(g) && genres.push(g));
 
-  const ratingM = text.match(/(\d{1,2}(?:[.,]\d)?)\s*\((\d+)\s*votes?\)/i);
-  const score = ratingM ? parseFloat(ratingM[1].replace(',', '.')) : null;
-  const votes = ratingM ? +ratingM[2] : null;
-
-  const durM = text.match(/(\d{2,3})\s*(?:phút|min)/i);
-  const durationMin = durM ? +durM[1] : null;
-
-  const release =
-    findReleaseDate(blobs) ||
-    parseDate(extractField(text, ['Khởi chiếu', 'Ngày khởi chiếu', 'Ngày chiếu', 'Release'])) ||
-    parseDate((synopsis || '').match(/khởi chiếu[^\d]{0,20}(\d{1,2}[.\/-]\d{1,2}[.\/-]20\d{2})/i)?.[1]) ||
-    null;
-
-  // Tiêu đề dạng "English Title/ Tên Việt" -> tách originalTitle
-  let title = dom.title || item.title;
-  let originalTitle = null;
-  if (title && title.includes('/')) {
-    const [a, ...b] = title.split('/');
-    originalTitle = a.trim();
-    title = b.join('/').trim() || title;
+  const release = parseDate(extractField(text, ['Khởi chiếu'])) || parseDate(ldMovie.datePublished || ldMovie.dateCreated || '');
+  if (!durationMin) {
+    const iso = String(ldMovie.duration || '').match(/PT(?:(\d+)H)?(?:(\d+)M)?/);
+    durationMin = iso && (iso[1] || iso[2]) ? (+iso[1] || 0) * 60 + (+iso[2] || 0) : +(text.match(/(\d{2,3})\s*phút/i)?.[1] || 0) || null;
   }
 
-  const slug = item.url.split('/').filter(Boolean).pop();
-  const posterUrl = dom.poster || dom.ogImage || null;
-  const backdropUrl = dom.ogImage && dom.ogImage !== posterUrl ? dom.ogImage : null;
+  const synopsisLines = sliceSection(text, 'Nội dung', ['Diễn viên', 'Đạo diễn', 'Lịch chiếu', 'Đánh giá']).length
+    ? sliceSection(text, 'Nội dung', ['Diễn viên', 'Đạo diễn', 'Lịch chiếu', 'Đánh giá'])
+    : [];
+  const synopsis =
+    synopsisLines.join('\n') ||
+    ldMovie.description ||
+    (dom.ogDesc && !/moveek/i.test(dom.ogDesc) ? dom.ogDesc : null);
 
-  // Trạng thái: theo tab danh sách; sắp chiếu nếu ngày chiếu ở tương lai
-  const inNow = item.sources.has('dang-chieu') || item.sources.has('imax');
-  let status = inNow ? 'NOW_SHOWING' : 'COMING_SOON';
-  if (release && new Date(release.iso) > new Date() && !inNow) status = 'COMING_SOON';
+  const posterUrl = dom.ogImage && !/no-poster/.test(dom.ogImage) ? dom.ogImage : null;
+  const ratingAvg = ldMovie.aggregateRating?.ratingValue ? +ldMovie.aggregateRating.ratingValue : null;
 
   const movie = {
     slug,
-    title,
-    originalTitle,
+    title: dom.h1 || slug,
+    originalTitle: null,
     synopsis,
     durationMin,
     releaseDate: release?.iso || null,
-    ageRating: mapAgeRating(extractField(text, ['Phân loại', 'Giới hạn độ tuổi']) || text.slice(0, 1500)),
-    status,
+    ageRating: ageRating || mapAgeRating(extractField(text, ['Kiểm duyệt', 'Phân loại'])),
+    status: 'COMING_SOON', // gán lại ở bước tổng hợp
     posterUrl,
-    backdropUrl,
-    trailerUrl: dom.trailer || findYoutube(blobs),
+    backdropUrl: null,
+    trailerUrl: dom.trailer,
     language: extractField(text, ['Ngôn ngữ']),
     country: extractField(text, ['Quốc gia', 'Xuất xứ']),
-    // ratingAvg theo thang 5 của CineHub (Galaxy chấm thang 10) + giữ điểm gốc
-    ratingAvg: score !== null ? Math.round((score / 2) * 100) / 100 : 0,
-    ratingCount: votes ?? 0,
-    sourceScore: score,
-    sourceScoreScale: 10,
-    producers: sliceSection(text, 'Nhà sản xuất', others('Nhà sản xuất')),
+    ratingAvg: ratingAvg ?? 0,
+    ratingCount: ldMovie.aggregateRating?.ratingCount ? +ldMovie.aggregateRating.ratingCount : 0,
     genres,
-    directors,
-    actors,
+    actors: dom.actors,
+    directors: dom.directors,
+    producers: [],
     _releaseYear: release?.year || null,
-    _posterYearHint: +(posterUrl || '').match(/\/media\/(20\d{2})\//)?.[1] || null,
-    _sources: [...item.sources],
+    _tags: [...(tags || [])],
+    _sourceUrl: url,
   };
-
-  const showtimes = await scrapeShowtimes(page, movie, cinemaIndex).catch((e) => {
-    log('  ! lỗi lịch chiếu:', e.message);
-    return [];
-  });
-
-  const sourceRow = {
-    movieSlug: slug,
-    chainCode: CHAIN_CODE,
-    externalId: findInternalId(blobs, slug) || slug,
-    url: item.url,
-    lastSyncedAt: new Date().toISOString(),
-  };
-
-  const metadata = {
-    // movie_metadata (MongoDB)
-    slug,
-    sources: [{ chain: CHAIN_CODE, externalId: sourceRow.externalId, url: item.url, syncedAt: sourceRow.lastSyncedAt }],
-    gallery: dom.gallery.filter((u) => u !== posterUrl),
-    tags: genres,
-    extra: { descriptionParagraphs: paragraphs, descriptionMeta: dom.description, producers: movie.producers },
-  };
-
-  fs.writeFileSync(path.join(RAW_DIR, `detail_${slug}.json`), JSON.stringify(blobs, null, 2));
   await page.close();
-  return { movie, showtimes, sourceRow, metadata };
-}
-
-// ===================== GỘP VỚI DỮ LIỆU CŨ (tích luỹ qua nhiều lần chạy) =====================
-const nonNull = (o) => Object.fromEntries(Object.entries(o).filter(([, v]) => v !== null && v !== undefined));
-function mergeBy(prevArr = [], nextArr = [], keyFn) {
-  const m = new Map(prevArr.map((x) => [keyFn(x), x]));
-  for (const n of nextArr) { const k = keyFn(n); m.set(k, m.has(k) ? { ...m.get(k), ...nonNull(n) } : n); }
-  return [...m.values()];
-}
-
-function buildOutput(scraped, cinemas, logoUrl, promotions, concessions = [], vouchers = []) {
-  const keep = scraped =>
-    m._releaseYear ? m._releaseYear === TARGET_YEAR : KEEP_UNKNOWN && m._posterYearHint === TARGET_YEAR
-  );
-  const strip = (m) => Object.fromEntries(Object.entries(m).filter(([k]) => !k.startsWith('_')));
-
-  const movies = keep.map(({ movie }) => { const { genres, directors, actors, producers, ...rest } = strip(movie); return rest; });
-  const genreMap = new Map(), personMap = new Map(), movieGenres = [], movieCredits = [];
-  for (const { movie } of keep) {
-    for (const g of movie.genres) { const slug = slugify(g); genreMap.set(slug, { slug, name: g }); movieGenres.push({ movieSlug: movie.slug, genreSlug: slug }); }
-    movie.directors.forEach((n, i) => { personMap.set(n, { fullName: n, photoUrl: null }); movieCredits.push({ movieSlug: movie.slug, personName: n, role: 'DIRECTOR', billingOrder: i, characterName: null }); });
-    movie.actors.forEach((n, i) => { personMap.set(n, { fullName: n, photoUrl: null }); movieCredits.push({ movieSlug: movie.slug, personName: n, role: 'ACTOR', billingOrder: i, characterName: null }); });
-  }
-  const showtimes = keep.flatMap((k) => k.showtimes);
-
-  // Rạp chỉ thấy trong lịch chiếu (trang rạp lỗi/thiếu) -> tạo bản ghi tối thiểu để không mất rạp nào
-  const known = new Set(cinemas.map((c) => c.externalId));
-  const cinemaAll = [...cinemas];
-  for (const st of showtimes) {
-    if (!known.has(st.cinemaExternalId)) {
-      known.add(st.cinemaExternalId);
-      cinemaAll.push({ chainCode: CHAIN_CODE, externalId: st.cinemaExternalId, name: st.cinemaName, address: null, provinceCode: null, provinceName: null,
-        districtName: null, latitude: null, longitude: null, phone: null, timezone: 'Asia/Ho_Chi_Minh', isActive: true, url: null, priceTables: null, discoveredFrom: 'showtime' });
-    }
-  }
-
-  const provinceMap = new Map(), districtMap = new Map();
-  for (const c of cinemaAll) {
-    if (c.provinceCode) provinceMap.set(c.provinceCode, { code: c.provinceCode, name: c.provinceName });
-    if (c.provinceCode && c.districtName) districtMap.set(`${c.provinceCode}|${c.districtName}`, { provinceCode: c.provinceCode, name: c.districtName });
-  }
-
-  return {
-    meta: { source: BASE, crawledAt: new Date().toISOString(), targetYear: TARGET_YEAR, note: 'Tham chiếu bằng khoá tự nhiên (slug, externalId, code); Core cấp UUID khi upsert.' },
-    cinemaChain: { code: CHAIN_CODE, name: 'Galaxy Cinema', logoUrl, websiteUrl: BASE, isActive: true },
-    provinces: [...provinceMap.values()],
-    districts: [...districtMap.values()],
-    cinemas: cinemaAll,
-    genres: [...genreMap.values()],
-    persons: [...personMap.values()],
-    movies,
-    movieGenres,
-    movieCredits,
-    movieSources: keep.map((k) => k.sourceRow),
-    showtimes,
-    promotions,
-    vouchers,
-    concessions,
-    movieMetadata: keep.map((k) => k.metadata),
-  };
-}
-
-function mergeOutputs(prev, next) {
-  if (!prev) return next;
-  const out = { ...next };
-  out.cinemaChain = { ...prev.cinemaChain, ...nonNull(next.cinemaChain) };
-  out.provinces = mergeBy(prev.provinces, next.provinces, (x) => x.code);
-  out.districts = mergeBy(prev.districts, next.districts, (x) => `${x.provinceCode}|${x.name}`);
-  out.cinemas = mergeBy(prev.cinemas, next.cinemas, (x) => x.externalId);
-  out.genres = mergeBy(prev.genres, next.genres, (x) => x.slug);
-  out.persons = mergeBy(prev.persons, next.persons, (x) => x.fullName);
-  out.movies = mergeBy(prev.movies, next.movies, (x) => x.slug);
-  out.movieGenres = mergeBy(prev.movieGenres, next.movieGenres, (x) => `${x.movieSlug}|${x.genreSlug}`);
-  out.movieCredits = mergeBy(prev.movieCredits, next.movieCredits, (x) => `${x.movieSlug}|${x.personName}|${x.role}`);
-  out.movieSources = mergeBy(prev.movieSources, next.movieSources, (x) => `${x.movieSlug}|${x.chainCode}`);
-  out.showtimes = mergeBy(prev.showtimes, next.showtimes, (x) => x.dedupKey); // giữ cả suất đã chiếu từ các lần chạy trước
-  out.promotions = mergeBy(prev.promotions, next.promotions, (x) => x.linkUrl || x.title);
-  out.vouchers = mergeBy(prev.vouchers, next.vouchers, (x) => x.code);
-  out.concessions = mergeBy(prev.concessions, next.concessions, (x) => `${x.cinemaExternalId || 'ALL'}|${slugify(x.name)}`);
-  out.movieMetadata = mergeBy(prev.movieMetadata, next.movieMetadata, (x) => x.slug);
-  return out;
-}
-
-function finalizeAndSave(out) {
-  const nowMs = Date.now();
-  // Chỉ giữ suất chiếu thuộc năm 2026; suất đã qua -> FINISHED
-  out.showtimes = out.showtimes
-    .filter((s) => new Date(s.startTime).getUTCFullYear() === TARGET_YEAR || new Date(s.startTime).getFullYear() === TARGET_YEAR)
-    .map((s) => (new Date(s.startTime).getTime() < nowMs && s.status === 'SCHEDULED' ? { ...s, status: 'FINISHED' } : s))
-    .sort((a, b) => a.startTime.localeCompare(b.startTime));
-  out.movies.sort((a, b) => (a.releaseDate || '').localeCompare(b.releaseDate || ''));
-
-  fs.writeFileSync(OUT_FILE, JSON.stringify(out, null, 2));
-  fs.writeFileSync(path.join(OUT_DIR, 'galaxycine_cinemas.csv'), toCSV(out.cinemas.map(({ priceTables, ...r }) => r)));
-  fs.writeFileSync(path.join(OUT_DIR, 'galaxycine_movies_2026.csv'), toCSV(out.movies));
-  fs.writeFileSync(path.join(OUT_DIR, 'galaxycine_showtimes_2026.csv'), toCSV(out.showtimes));
-  fs.writeFileSync(path.join(OUT_DIR, 'galaxycine_promotions_2026.csv'), toCSV((out.promotions || []).map(({ description, ...r }) => r)));
-  fs.writeFileSync(path.join(OUT_DIR, 'galaxycine_concessions.csv'), toCSV(out.concessions || []));
-  fs.writeFileSync(path.join(OUT_DIR, 'galaxycine_vouchers.csv'), toCSV(out.vouchers || []));
-  return out;
+  return movie;
 }
 
 // ===================== MAIN =====================
 async function main() {
   const { chromium } = require('playwright');
   fs.mkdirSync(RAW_DIR, { recursive: true });
-
-  const prev = !FRESH && fs.existsSync(OUT_FILE) ? JSON.parse(fs.readFileSync(OUT_FILE, 'utf8')) : null;
-  if (prev) log(`Gộp với file cũ: ${prev.movies?.length || 0} phim, ${prev.showtimes?.length || 0} suất chiếu`);
+  log(`Khoảng ngày lịch chiếu: ${DATE_FROM} -> ${DATE_TO} (hôm nay VN: ${TODAY})`);
 
   const browser = await chromium.launch({ headless: HEADLESS });
   const context = await browser.newContext({
@@ -1018,69 +606,114 @@ async function main() {
     userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36',
   });
 
-  const scraped = [];
-  let cinemas = [], logoUrl = null, promotions = [], vouchers = [], cinemaCards = [], generalCards = [];
-
-  // Bắt mọi JSON API liên quan bắp nước / khuyến mãi trên toàn bộ các trang đã mở
-  const globalJson = [];
-  context.on('response', async (res) => {
-    try {
-      if (!(res.headers()['content-type'] || '').includes('json')) return;
-      if (!/galaxycine/i.test(res.url())) return;
-      const body = await res.json();
-      const str = JSON.stringify(body);
-      if (str.length < 3_000_000 && /(combo|bắp|popcorn|concession|food|khuyến mãi|promotion|voucher|ưu đãi)/i.test(str)) {
-        globalJson.push({ url: res.url(), body });
-      }
-    } catch (_) {}
-  });
-
-  const computeConcessions = () => {
-    const general = [...generalCards, ...concessionsFromJson(globalJson)];
-    return consolidateConcessions(general, cinemaCards, cinemas.length);
-  };
-  const save = () => finalizeAndSave(mergeOutputs(prev, buildOutput(scraped, cinemas, logoUrl, promotions, computeConcessions(), vouchers)));
-  process.on('SIGINT', () => { log('Ctrl+C -> lưu dữ liệu đã cào...'); try { save(); } catch (_) {} process.exit(0); });
-
   try {
-    // --- Rạp toàn quốc, tỉnh, quận ---
-    ({ cinemas, logoUrl, cinemaCards } = await scrapeCinemas(context));
-    const cinemaIndex = new Map(cinemas.map((c) => [norm(c.name).replace(/galaxy( cinema)?/g, '').trim(), c]));
+    // --- Rạp ---
+    const cinemas = await scrapeCinemas(context);
 
-    // --- Khuyến mãi ---
-    const promo = await scrapePromotions(context, globalJson);
-    promotions = promo.promotions.filter((p) =>
-      [p.startsAt, p.endsAt].some((d) => d && +d.slice(0, 4) === TARGET_YEAR) || p.mediaYearHint === TARGET_YEAR || (PROMO_ALL && !p.startsAt && !p.endsAt)
-    );
-    const keepLinks = new Set(promotions.map((p) => p.linkUrl));
-    vouchers = promo.vouchers.filter((v) => keepLinks.has(v.promotionLink));
-
-    // --- Bắp nước: trang công khai (nếu có) + thẻ trên trang rạp + JSON API ---
-    generalCards = await scrapeGeneralConcessions(context);
-
-    // --- Phim + lịch chiếu toàn quốc (chạy song song CONCURRENCY phim) ---
-    let links = await collectMovieLinks(context);
-    if (links.length > MAX_MOVIES) links = links.slice(0, MAX_MOVIES);
-    log(`Tìm thấy ${links.length} phim. Cào chi tiết + lịch chiếu toàn quốc (song song ${CONCURRENCY})...`);
-
-    let next = 0, done = 0;
-    const worker = async () => {
-      while (next < links.length) {
-        const i = next++;
-        log(`[${i + 1}/${links.length}] ${links[i].url}`);
-        try { scraped.push(await scrapeMovie(context, links[i], cinemaIndex)); } catch (e) { log('  ! lỗi:', e.message); }
-        if (++done % 10 === 0) save(); // checkpoint
-        await politeWait();
+    // --- Lịch chiếu từng rạp (bỏ qua rạp ngừng hoạt động) ---
+    const page = await context.newPage();
+    captureNetwork(page, 'cinema');
+    const showtimes = [];
+    const active = cinemas.filter((c) => c.isActive);
+    for (let i = 0; i < active.length; i++) {
+      const c = active[i];
+      log(`[${i + 1}/${active.length}] Lịch chiếu: ${c.name}`);
+      if (!DAY_MODE) DAY_MODE = await detectDayMode(page, c);
+      try {
+        const st = await scrapeCinemaShowtimes(page, c);
+        log(`  -> ${st.length} suất`);
+        showtimes.push(...st);
+      } catch (e) {
+        log('  ! lỗi:', e.message);
       }
-    };
-    await Promise.all(Array.from({ length: Math.max(1, CONCURRENCY) }, worker));
+      fs.writeFileSync(path.join(RAW_DIR, 'showtimes_checkpoint.json'), JSON.stringify(showtimes, null, 2));
+    }
+    await page.close();
 
-    const out = save();
+    // --- Phim: hợp của (phim có suất Galaxy) và (phim trong các danh sách 2026) ---
+    const listSlugs = await collectMovieSlugs(context);
+    const showtimeSlugs = new Set(showtimes.map((s) => s.movieSlug));
+    const allSlugs = new Map(listSlugs);
+    for (const s of showtimeSlugs) if (!allSlugs.has(s)) allSlugs.set(s, new Set(['galaxy-showtime']));
+    let slugList = [...allSlugs.keys()];
+    if (slugList.length > MAX_MOVIES) slugList = slugList.slice(0, MAX_MOVIES);
+    log(`Cào chi tiết ${slugList.length} phim...`);
+
+    const scraped = [];
+    for (let i = 0; i < slugList.length; i++) {
+      log(`[${i + 1}/${slugList.length}] ${slugList[i]}`);
+      try { scraped.push(await scrapeMovie(context, slugList[i], allSlugs.get(slugList[i]))); } catch (e) { log('  ! lỗi:', e.message); }
+      await politeWait();
+    }
+
+    // --- Lọc năm 2026 & hoàn thiện ---
+    const yearOf = (iso) => (iso ? +iso.slice(0, 4) : null);
+    const keep = scraped.filter((m) => m._releaseYear === TARGET_YEAR || showtimeSlugs.has(m.slug));
+    const keepSlugs = new Set(keep.map((m) => m.slug));
+    const movieBySlug = new Map(keep.map((m) => [m.slug, m]));
+
+    for (const m of keep) {
+      const upcoming = m.releaseDate && m.releaseDate > TODAY;
+      const showingNow = m._tags.includes('dang-chieu');
+      m.status = showingNow ? 'NOW_SHOWING' : upcoming || m._tags.includes('sap-chieu') ? 'COMING_SOON' : showtimeSlugs.has(m.slug) ? 'NOW_SHOWING' : 'ENDED';
+      if (!m.ageRating) m.ageRating = showtimes.find((s) => s.movieSlug === m.slug && s.ageHint)?.ageHint || null;
+    }
+
+    const finalShowtimes = showtimes
+      .filter((s) => yearOf(s.showDate) === TARGET_YEAR && keepSlugs.has(s.movieSlug))
+      .map((s) => {
+        const dur = movieBySlug.get(s.movieSlug)?.durationMin;
+        const { ageHint, ...rest } = s;
+        return { ...rest, endTime: rest.endTime || (dur ? new Date(new Date(rest.startTime).getTime() + dur * 60000).toISOString() : null) };
+      });
+
+    const genreMap = new Map(), personMap = new Map();
+    const movieGenres = [], movieCredits = [];
+    for (const m of keep) {
+      m.genres.forEach((g) => { const gs = slugify(g); genreMap.set(gs, { slug: gs, name: g }); movieGenres.push({ movieSlug: m.slug, genreSlug: gs }); });
+      m.directors.forEach((p, i) => { personMap.set(p.slug, { slug: p.slug, fullName: p.name, photoUrl: null }); movieCredits.push({ movieSlug: m.slug, personSlug: p.slug, personName: p.name, role: 'DIRECTOR', billingOrder: i, characterName: null }); });
+      m.actors.forEach((p, i) => { personMap.set(p.slug, { slug: p.slug, fullName: p.name, photoUrl: null }); movieCredits.push({ movieSlug: m.slug, personSlug: p.slug, personName: p.name, role: 'ACTOR', billingOrder: i, characterName: null }); });
+    }
+
+    const provinceMap = new Map(), districtMap = new Map();
+    for (const c of cinemas) {
+      if (c.provinceCode) provinceMap.set(c.provinceCode, { code: c.provinceCode, name: c.provinceName });
+      if (c.provinceCode && c.districtName) districtMap.set(`${c.provinceCode}|${c.districtName}`, { provinceCode: c.provinceCode, name: c.districtName });
+    }
+
+    const movies = keep
+      .map(({ genres, actors, directors, producers, ...m }) => Object.fromEntries(Object.entries(m).filter(([k]) => !k.startsWith('_'))))
+      .sort((a, b) => (a.releaseDate || '').localeCompare(b.releaseDate || ''));
+
+    const output = {
+      meta: {
+        source: BASE, chainPage: CHAIN_PAGE, crawledAt: new Date().toISOString(),
+        targetYear: TARGET_YEAR, showtimeRange: { from: DATE_FROM, to: DATE_TO },
+        note: 'Tham chiếu bằng khoá tự nhiên (slug, externalId, code); Core cấp UUID khi upsert.',
+      },
+      cinemaChain: { code: CHAIN_CODE, name: 'Galaxy Cinema', logoUrl: null, websiteUrl: 'https://www.galaxycine.vn', isActive: true },
+      provinces: [...provinceMap.values()],
+      districts: [...districtMap.values()],
+      cinemas,
+      genres: [...genreMap.values()],
+      persons: [...personMap.values()],
+      movies,
+      movieGenres,
+      movieCredits,
+      movieSources: keep.map((m) => ({ movieSlug: m.slug, chainCode: CHAIN_CODE, externalId: m.slug, url: m._sourceUrl, sourceSite: 'moveek.com', lastSyncedAt: new Date().toISOString() })),
+      showtimes: finalShowtimes,
+      movieMetadata: keep.map((m) => ({ slug: m.slug, sources: [{ chain: CHAIN_CODE, externalId: m.slug, url: m._sourceUrl }], gallery: [], tags: m.genres, extra: {} })),
+    };
+
+    fs.writeFileSync(path.join(OUT_DIR, 'galaxy_moveek_2026.json'), JSON.stringify(output, null, 2));
+    fs.writeFileSync(path.join(OUT_DIR, 'galaxy_cinemas.csv'), toCSV(cinemas));
+    fs.writeFileSync(path.join(OUT_DIR, 'galaxy_movies_2026.csv'), toCSV(movies));
+    fs.writeFileSync(path.join(OUT_DIR, 'galaxy_showtimes_2026.csv'), toCSV(finalShowtimes));
+
     log('================ KẾT QUẢ ================');
-    log(`Phim ${TARGET_YEAR}: ${out.movies.length} | Suất chiếu ${TARGET_YEAR}: ${out.showtimes.length}`);
-    log(`Rạp: ${out.cinemas.length} | Tỉnh/thành: ${out.provinces.length} | Quận/huyện: ${out.districts.length}`);
-    log(`Thể loại: ${out.genres.length} | Người: ${out.persons.length} | Khuyến mãi: ${out.promotions.length} | Voucher: ${out.vouchers.length} | Bắp nước: ${out.concessions.length}`);
-    log('File: galaxycine_2026.json + CSV (cinemas, movies, showtimes, promotions, concessions, vouchers)');
+    log(`Rạp: ${cinemas.length} (hoạt động ${active.length}) | Tỉnh/thành: ${provinceMap.size} | Quận/huyện: ${districtMap.size}`);
+    log(`Phim: ${movies.length} | Thể loại: ${genreMap.size} | Người: ${personMap.size} | Suất chiếu: ${finalShowtimes.length}`);
+    log('File: galaxy_moveek_2026.json + 3 file CSV');
   } finally {
     await browser.close();
   }
@@ -1090,4 +723,4 @@ if (require.main === module) {
   main().catch((e) => { console.error(e); process.exit(1); });
 }
 
-module.exports = { parseRange, parseVnd, mapConcessionCategory, consolidateConcessions, concessionsFromJson, promotionsFromJson, extractVoucherFromText, mergeOutputs, buildOutput, finalizeAndSave, parseDate, parseAddress, parseShowtimeLines, mapScreenFormat, extractLanguage, mapAgeRating, slugify, sliceSection, vnToUtcIso, inferYear };
+module.exports = { parseCinemaListLines, parseDayLines, parseDistrict, provinceFromName, mapScreenFormat, extractLanguage, vnToUtcIso, parseDate, slugify, addDays };

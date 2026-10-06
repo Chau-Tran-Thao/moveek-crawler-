@@ -1,0 +1,385 @@
+https://moveek.com/cinema/showtime/4?date=&header=0
+
+<div class="showtimes">
+            <div class="btn-group btn-block showtime-dates mb-3" id="dates">
+                            <a class="btn btn-light text-muted date active" data-date="2026-10-06">
+                    6/10
+                    <br /><span class="small text-nowrap">Thứ 3</span>
+                </a>
+                            <a class="btn btn-light text-muted date" data-date="2026-10-07">
+                    7/10
+                    <br /><span class="small text-nowrap">Thứ 4</span>
+                </a>
+                            <a class="btn btn-light text-muted date" data-date="2026-10-08">
+                    8/10
+                    <br /><span class="small text-nowrap">Thứ 5</span>
+                </a>
+                            <a class="btn btn-light text-muted date" data-date="2026-10-09">
+                    9/10
+                    <br /><span class="small text-nowrap">Thứ 6</span>
+                </a>
+                            <a class="btn btn-light text-muted date" data-date="2026-10-10">
+                    10/10
+                    <br /><span class="small text-nowrap">Thứ 7</span>
+                </a>
+                            <a class="btn btn-light text-muted date" data-date="2026-10-11">
+                    11/10
+                    <br /><span class="small text-nowrap">CN</span>
+                </a>
+                    </div>
+    
+    
+            <div class="alert alert-warning mb-3">
+            <div class="row">
+                <div class="col-auto">
+                    <img src="https://cdn.moveek.com/partners/zalopay-icon-transparent.webp" alt="" width="52">
+                </div>
+                <div class="col">
+                    <strong>Giảm 30% với mã ZLPMOVEEK</strong>.
+                    Chọn suất chiếu để sang ZaloPay chọn ghế &amp; thanh toán.
+                    Hỗ trợ: <a href="tel://1900545436">1900 545436</a>
+                </div>
+            </div>
+        </div>
+    
+    
+                        <div class="card card-sm mb-3" data-movie="trai-buon-nguoi" data-movie-id="17224">
+        <div class="card-body">
+        <div class="row">
+            <div class="col-3 col-sm-2">
+                <a href="/phim/trai-buon-nguoi/">
+                    <img src="https://cdn.moveek.com/storage/media/cache/mini/6ab9e4ebac84d102988943.webp" alt="Trại Buôn Người" class="rounded img-fluid">
+                </a>
+            </div>
+            <div class="col ml-n2">
+                <h4 class="card-title mb-1 name">
+                    <a href="/phim/trai-buon-nguoi/">
+                        Trại Buôn Người
+                    </a>
+                </h4>
+
+                <p class="card-text small text-muted mb-0">
+                                                                        The Journey of Heroes &middot;
+                                                                            T18 &middot;
+                                                                            2h15&#039;  &middot;
+                                                                            <a href="/video/19052/" data-toggle="modal" data-target="#videoModal" data-video-id="19052" data-video-url="3uzzMdKQImk" data-remote="false">Trailer</a>
+                                                            </p>
+                                    <p class="card-text small text-muted mb-0">
+                                                    Action,                                                     Thriller                                            </p>
+                
+                
+                                    <div class="mt-2">
+                            <div class="mb-1">
+        <label class="small mb-2 font-weight-bold d-block text-dark">
+            2D Phụ Đề Anh
+        </label>
+                                                                                <a href="/dat-ve/1e527f25-232f-3542-a4fc-ab2b9a9d7fc1" data-cineplex="galaxy" data-cinema="galaxy-nguyen-du" data-id="439555501"  class="btn btn-sm btn-showtime disabled btn-light is-ticketing is-affiliate" data-reference="1e527f25-232f-3542-a4fc-ab2b9a9d7fc1">
+    <span class="time">09:00</span>
+    </a>
+                                                                                <a href="/dat-ve/47c6fc92-c73f-3df7-9aa1-c7639265c38e" data-cineplex="galaxy" data-cinema="galaxy-nguyen-du" data-id="440030892"  class="btn btn-sm btn-showtime disabled btn-light is-ticketing is-affiliate" data-reference="47c6fc92-c73f-3df7-9aa1-c7639265c38e">
+    <span class="time">09:45</span>
+    </a>
+                                                                                <a href="/dat-ve/7bfe6851-91ff-35c4-945f-d4d6e5a9ed2f" data-cineplex="galaxy" data-cinema="galaxy-nguyen-du" data-id="439555502"  class="btn btn-sm btn-showtime disabled btn-light is-ticketing is-affiliate" data-reference="7bfe6851-91ff-35c4-945f-d4d6e5a9ed2f">
+    <span class="time">10:30</span>
+    </a>
+                                                                                <a href="/dat-ve/27037f14-d915-3a9b-81b8-067b62cea335" data-cineplex="galaxy" data-cinema="galaxy-nguyen-du" data-id="439555503"  class="btn btn-sm btn-showtime disabled btn-light is-ticketing is-affiliate" data-reference="27037f14-d915-3a9b-81b8-067b62cea335">
+    <span class="time">11:30</span>
+    </a>
+                                                                                <a href="/dat-ve/f0ef66a8-1ae6-3cf8-9444-b4a034153ee3" data-cineplex="galaxy" data-cinema="galaxy-nguyen-du" data-id="440030893"  class="btn btn-sm btn-showtime disabled btn-light is-ticketing is-affiliate" data-reference="f0ef66a8-1ae6-3cf8-9444-b4a034153ee3">
+    <span class="time">12:15</span>
+    </a>
+                                                                                <a href="/dat-ve/cc7576e5-1f5a-3d9a-b9f4-2abf726e956c" data-cineplex="galaxy" data-cinema="galaxy-nguyen-du" data-id="439555504"  class="btn btn-sm btn-showtime disabled btn-light is-ticketing is-affiliate" data-reference="cc7576e5-1f5a-3d9a-b9f4-2abf726e956c">
+    <span class="time">13:00</span>
+    </a>
+                                                                                <a href="/dat-ve/5bc7e214-6a10-3434-9f90-cffd6b304bde" data-cineplex="galaxy" data-cinema="galaxy-nguyen-du" data-id="439555505"  class="btn btn-sm btn-showtime disabled btn-light is-ticketing is-affiliate" data-reference="5bc7e214-6a10-3434-9f90-cffd6b304bde">
+    <span class="time">14:00</span>
+    </a>
+                                                                                <a href="/dat-ve/89f7cd3a-86af-3281-b9e9-cdfd5e9234cf" data-cineplex="galaxy" data-cinema="galaxy-nguyen-du" data-id="440030894"  class="btn btn-sm btn-showtime disabled btn-light is-ticketing is-affiliate" data-reference="89f7cd3a-86af-3281-b9e9-cdfd5e9234cf">
+    <span class="time">14:45</span>
+    </a>
+                                                                                <a href="/dat-ve/5c416e3c-e869-3aa8-95f3-9493b35e4a41" data-cineplex="galaxy" data-cinema="galaxy-nguyen-du" data-id="439555506"  class="btn btn-sm btn-showtime disabled btn-light is-ticketing is-affiliate" data-reference="5c416e3c-e869-3aa8-95f3-9493b35e4a41">
+    <span class="time">15:30</span>
+    </a>
+                                                                            <a href="/dat-ve/b060f7aa-b07a-38ad-b14d-3fa8d809b2c0" data-cineplex="galaxy" data-cinema="galaxy-nguyen-du" data-id="439555507"  class="btn btn-sm btn-showtime btn-outline-dark is-ticketing is-affiliate" data-reference="b060f7aa-b07a-38ad-b14d-3fa8d809b2c0">
+    <span class="time">16:30</span>
+    </a>
+                                                                            <a href="/dat-ve/0f129c8c-4f4a-3bab-9508-37e091299ad1" data-cineplex="galaxy" data-cinema="galaxy-nguyen-du" data-id="439555508"  class="btn btn-sm btn-showtime btn-outline-dark is-ticketing is-affiliate" data-reference="0f129c8c-4f4a-3bab-9508-37e091299ad1">
+    <span class="time">17:00</span>
+    </a>
+                                                                            <a href="/dat-ve/a6c3b664-9018-32c0-b681-a49b6e2a3729" data-cineplex="galaxy" data-cinema="galaxy-nguyen-du" data-id="439555509"  class="btn btn-sm btn-showtime btn-outline-dark is-ticketing is-affiliate" data-reference="a6c3b664-9018-32c0-b681-a49b6e2a3729">
+    <span class="time">18:00</span>
+    </a>
+                                                                            <a href="/dat-ve/afae57d2-e764-3f5b-8371-67d4eb2082f6" data-cineplex="galaxy" data-cinema="galaxy-nguyen-du" data-id="440234254"  class="btn btn-sm btn-showtime btn-outline-dark is-ticketing is-affiliate" data-reference="afae57d2-e764-3f5b-8371-67d4eb2082f6">
+    <span class="time">18:30</span>
+    </a>
+                                                                            <a href="/dat-ve/cd5951a5-c7c2-3962-adca-68e93d17ac1a" data-cineplex="galaxy" data-cinema="galaxy-nguyen-du" data-id="439555510"  class="btn btn-sm btn-showtime btn-outline-dark is-ticketing is-affiliate" data-reference="cd5951a5-c7c2-3962-adca-68e93d17ac1a">
+    <span class="time">19:00</span>
+    </a>
+                                                                            <a href="/dat-ve/e3e5de2d-7afc-3942-8a54-f45067005a16" data-cineplex="galaxy" data-cinema="galaxy-nguyen-du" data-id="439555511"  class="btn btn-sm btn-showtime btn-outline-dark is-ticketing is-affiliate" data-reference="e3e5de2d-7afc-3942-8a54-f45067005a16">
+    <span class="time">19:30</span>
+    </a>
+                                                                            <a href="/dat-ve/ed5e666e-e287-3aa1-9716-7e52e3d6f270" data-cineplex="galaxy" data-cinema="galaxy-nguyen-du" data-id="440234255"  class="btn btn-sm btn-showtime btn-outline-dark is-ticketing is-affiliate" data-reference="ed5e666e-e287-3aa1-9716-7e52e3d6f270">
+    <span class="time">20:00</span>
+    </a>
+                                                                            <a href="/dat-ve/4cf0c077-cc58-3957-aeeb-695c3be33589" data-cineplex="galaxy" data-cinema="galaxy-nguyen-du" data-id="439555512"  class="btn btn-sm btn-showtime btn-outline-dark is-ticketing is-affiliate" data-reference="4cf0c077-cc58-3957-aeeb-695c3be33589">
+    <span class="time">20:30</span>
+    </a>
+                                                                            <a href="/dat-ve/2cf260be-11a0-3926-b792-5a1eeb04999b" data-cineplex="galaxy" data-cinema="galaxy-nguyen-du" data-id="440234256"  class="btn btn-sm btn-showtime btn-outline-dark is-ticketing is-affiliate" data-reference="2cf260be-11a0-3926-b792-5a1eeb04999b">
+    <span class="time">21:00</span>
+    </a>
+                                                                            <a href="/dat-ve/eea6ce9a-ad33-3dd7-8ef9-a33f5dab06ad" data-cineplex="galaxy" data-cinema="galaxy-nguyen-du" data-id="439555513"  class="btn btn-sm btn-showtime btn-outline-dark is-ticketing is-affiliate" data-reference="eea6ce9a-ad33-3dd7-8ef9-a33f5dab06ad">
+    <span class="time">21:30</span>
+    </a>
+                                                                            <a href="/dat-ve/450d39b8-487f-32c8-b113-18b2f1823ea2" data-cineplex="galaxy" data-cinema="galaxy-nguyen-du" data-id="439555514"  class="btn btn-sm btn-showtime btn-outline-dark is-ticketing is-affiliate" data-reference="450d39b8-487f-32c8-b113-18b2f1823ea2">
+    <span class="time">22:00</span>
+    </a>
+                                                                            <a href="/dat-ve/32ab7dca-892b-31fe-92e9-52a545e3f415" data-cineplex="galaxy" data-cinema="galaxy-nguyen-du" data-id="440234257"  class="btn btn-sm btn-showtime btn-outline-dark is-ticketing is-affiliate" data-reference="32ab7dca-892b-31fe-92e9-52a545e3f415">
+    <span class="time">22:45</span>
+    </a>
+                                                                            <a href="/dat-ve/df1e7c0f-bc00-37cf-b044-267e400c3806" data-cineplex="galaxy" data-cinema="galaxy-nguyen-du" data-id="439839240"  class="btn btn-sm btn-showtime btn-outline-dark is-ticketing is-affiliate" data-reference="df1e7c0f-bc00-37cf-b044-267e400c3806">
+    <span class="time">23:15</span>
+    </a>
+                                                                            <a href="/dat-ve/a1c0fbcc-1ac9-3191-86b4-beb96c15d6b1" data-cineplex="galaxy" data-cinema="galaxy-nguyen-du" data-id="439555516"  class="btn btn-sm btn-showtime btn-outline-dark is-ticketing is-affiliate" data-reference="a1c0fbcc-1ac9-3191-86b4-beb96c15d6b1">
+    <span class="time">23:55</span>
+    </a>
+            </div>
+                    </div>
+                            </div>
+        </div>
+    </div>
+</div>
+                    <div class="card card-sm mb-3" data-movie="trai-tim-quai-thu" data-movie-id="17612">
+        <div class="card-body">
+        <div class="row">
+            <div class="col-3 col-sm-2">
+                <a href="/phim/trai-tim-quai-thu/">
+                    <img src="https://cdn.moveek.com/storage/media/cache/mini/6a545e387a5bb803695755.webp" alt="Trái Tim Quái Thú" class="rounded img-fluid">
+                </a>
+            </div>
+            <div class="col ml-n2">
+                <h4 class="card-title mb-1 name">
+                    <a href="/phim/trai-tim-quai-thu/">
+                        Trái Tim Quái Thú
+                    </a>
+                </h4>
+
+                <p class="card-text small text-muted mb-0">
+                                                                        Heart of the Beast &middot;
+                                                                            T13 &middot;
+                                                                            1h41&#039;  &middot;
+                                                                            <a href="/video/19046/" data-toggle="modal" data-target="#videoModal" data-video-id="19046" data-video-url="IfhO5CJ8BVM" data-remote="false">Trailer</a>
+                                                            </p>
+                                    <p class="card-text small text-muted mb-0">
+                                                    Action,                                                     Adventure                                            </p>
+                
+                
+                                    <div class="mt-2">
+                            <div class="mb-1">
+        <label class="small mb-2 font-weight-bold d-block text-dark">
+            2D Phụ Đề Việt
+        </label>
+                                                                            <a href="/dat-ve/5ff3b9b7-21f0-3fbf-a6e3-05337a40e78b" data-cineplex="galaxy" data-cinema="galaxy-nguyen-du" data-id="440234258"  class="btn btn-sm btn-showtime btn-outline-dark is-ticketing is-affiliate" data-reference="5ff3b9b7-21f0-3fbf-a6e3-05337a40e78b">
+    <span class="time">23:30</span>
+    </a>
+            </div>
+                    </div>
+                            </div>
+        </div>
+    </div>
+</div>
+                    <div class="card card-sm mb-3" data-movie="quyet-cua-anh-nay" data-movie-id="17668">
+        <div class="card-body">
+        <div class="row">
+            <div class="col-3 col-sm-2">
+                <a href="/phim/quyet-cua-anh-nay/">
+                    <img src="https://cdn.moveek.com/storage/media/cache/mini/6ab21df511f52581742502.webp" alt="Quyết Cua Anh Này" class="rounded img-fluid">
+                </a>
+            </div>
+            <div class="col ml-n2">
+                <h4 class="card-title mb-1 name">
+                    <a href="/phim/quyet-cua-anh-nay/">
+                        Quyết Cua Anh Này
+                    </a>
+                </h4>
+
+                <p class="card-text small text-muted mb-0">
+                                                                        Henry&#039;s First Dates &middot;
+                                                                            T13 &middot;
+                                                                            1h55&#039;  &middot;
+                                                                            <a href="/video/19062/" data-toggle="modal" data-target="#videoModal" data-video-id="19062" data-video-url="XKdEiTx9W68" data-remote="false">Trailer</a>
+                                                            </p>
+                                    <p class="card-text small text-muted mb-0">
+                                                    Comedy,                                                     Romance                                            </p>
+                
+                
+                                    <div class="mt-2">
+                            <div class="mb-1">
+        <label class="small mb-2 font-weight-bold d-block text-dark">
+            2D Lồng Tiếng
+        </label>
+                                                                                <a href="/dat-ve/c798ddc3-a065-3e6e-aad0-d3e3474e3de9" data-cineplex="galaxy" data-cinema="galaxy-nguyen-du" data-id="440030896"  class="btn btn-sm btn-showtime disabled btn-light is-ticketing is-affiliate" data-reference="c798ddc3-a065-3e6e-aad0-d3e3474e3de9">
+    <span class="time">11:00</span>
+    </a>
+            </div>
+                    </div>
+                            </div>
+        </div>
+    </div>
+</div>
+                    <div class="card card-sm mb-3" data-movie="scotty-giai-cuu-hoang-thuong" data-movie-id="17671">
+        <div class="card-body">
+        <div class="row">
+            <div class="col-3 col-sm-2">
+                <a href="/phim/scotty-giai-cuu-hoang-thuong/">
+                    <img src="https://cdn.moveek.com/storage/media/cache/mini/6ab4eb4a27298182568111.webp" alt="Scotty Giải Cứu Hoàng Thượng" class="rounded img-fluid">
+                </a>
+            </div>
+            <div class="col ml-n2">
+                <h4 class="card-title mb-1 name">
+                    <a href="/phim/scotty-giai-cuu-hoang-thuong/">
+                        Scotty Giải Cứu Hoàng Thượng
+                    </a>
+                </h4>
+
+                <p class="card-text small text-muted mb-0">
+                                                                        Scotty &middot;
+                                                                            P &middot;
+                                                                            1h20&#039;  &middot;
+                                                                            <a href="/video/19060/" data-toggle="modal" data-target="#videoModal" data-video-id="19060" data-video-url="yqYjXjDDthY" data-remote="false">Trailer</a>
+                                                            </p>
+                                    <p class="card-text small text-muted mb-0">
+                                                    Adventure,                                                     Animation,                                                     Family                                            </p>
+                
+                
+                                    <div class="mt-2">
+                            <div class="mb-1">
+        <label class="small mb-2 font-weight-bold d-block text-dark">
+            2D Lồng Tiếng
+        </label>
+                                                                                <a href="/dat-ve/009e3cb0-3f2a-3d3f-bcec-a73f12c916c5" data-cineplex="galaxy" data-cinema="galaxy-nguyen-du" data-id="440030897"  class="btn btn-sm btn-showtime disabled btn-light is-ticketing is-affiliate" data-reference="009e3cb0-3f2a-3d3f-bcec-a73f12c916c5">
+    <span class="time">13:15</span>
+    </a>
+            </div>
+                    </div>
+                            </div>
+        </div>
+    </div>
+</div>
+                    <div class="card card-sm mb-3" data-movie="than-su-chung-quy-linh-gioi-dai-chien" data-movie-id="17670">
+        <div class="card-body">
+        <div class="row">
+            <div class="col-3 col-sm-2">
+                <a href="/phim/than-su-chung-quy-linh-gioi-dai-chien/">
+                    <img src="https://cdn.moveek.com/storage/media/cache/mini/6ab38c8f95d12597953725.webp" alt="Thần Sư Chung Quỳ: Linh Giới Đại Chiến" class="rounded img-fluid">
+                </a>
+            </div>
+            <div class="col ml-n2">
+                <h4 class="card-title mb-1 name">
+                    <a href="/phim/than-su-chung-quy-linh-gioi-dai-chien/">
+                        Thần Sư Chung Quỳ: Linh Giới Đại Chiến
+                    </a>
+                </h4>
+
+                <p class="card-text small text-muted mb-0">
+                                                                        Master Zhong &middot;
+                                                                            T13 &middot;
+                                                                            1h36&#039;  &middot;
+                                                                            <a href="/video/19061/" data-toggle="modal" data-target="#videoModal" data-video-id="19061" data-video-url="KEBDVoBTeTk" data-remote="false">Trailer</a>
+                                                            </p>
+                                    <p class="card-text small text-muted mb-0">
+                                                    Action,                                                     Animation,                                                     Fantasy                                            </p>
+                
+                
+                                    <div class="mt-2">
+                            <div class="mb-1">
+        <label class="small mb-2 font-weight-bold d-block text-dark">
+            2D Phụ Đề Việt
+        </label>
+                                                                                <a href="/dat-ve/e100761f-cc75-372f-b7dd-7cf75a61973e" data-cineplex="galaxy" data-cinema="galaxy-nguyen-du" data-id="440030895"  class="btn btn-sm btn-showtime disabled btn-light is-ticketing is-affiliate" data-reference="e100761f-cc75-372f-b7dd-7cf75a61973e">
+    <span class="time">09:15</span>
+    </a>
+            </div>
+                    </div>
+                            </div>
+        </div>
+    </div>
+</div>
+                    <div class="card card-sm mb-3" data-movie="avengers-4-endgame" data-movie-id="9642">
+        <div class="card-body">
+        <div class="row">
+            <div class="col-3 col-sm-2">
+                <a href="/phim/avengers-4-endgame/">
+                    <img src="https://cdn.moveek.com/storage/media/cache/mini/6a98ede56590b445518863.webp" alt="Avengers: Hồi Kết - Phiên Bản Đặc Biệt" class="rounded img-fluid">
+                </a>
+            </div>
+            <div class="col ml-n2">
+                <h4 class="card-title mb-1 name">
+                    <a href="/phim/avengers-4-endgame/">
+                        Avengers: Hồi Kết - Phiên Bản Đặc Biệt
+                    </a>
+                </h4>
+
+                <p class="card-text small text-muted mb-0">
+                                                                        Avengers: Endgame Encore &middot;
+                                                                            T13 &middot;
+                                                                            3h3&#039;  &middot;
+                                                                            <a href="/video/19033/" data-toggle="modal" data-target="#videoModal" data-video-id="19033" data-video-url="xpfuRa6bzVo" data-remote="false">Trailer</a>
+                                                            </p>
+                                    <p class="card-text small text-muted mb-0">
+                                                    Action,                                                     Adventure,                                                     Science Fiction                                            </p>
+                
+                
+                                    <div class="mt-2">
+                            <div class="mb-1">
+        <label class="small mb-2 font-weight-bold d-block text-dark">
+            2D Phụ Đề Việt
+        </label>
+                                                                                <a href="/dat-ve/9d47f523-3bec-35cb-8ed5-4e55c62abb41" data-cineplex="galaxy" data-cinema="galaxy-nguyen-du" data-id="440030898"  class="btn btn-sm btn-showtime disabled btn-light is-ticketing is-affiliate" data-reference="9d47f523-3bec-35cb-8ed5-4e55c62abb41">
+    <span class="time">15:00</span>
+    </a>
+            </div>
+                    </div>
+                            </div>
+        </div>
+    </div>
+</div>
+                    <div class="card card-sm mb-3" data-movie="len-huong" data-movie-id="17416">
+        <div class="card-body">
+        <div class="row">
+            <div class="col-3 col-sm-2">
+                <a href="/phim/len-huong/">
+                    <img src="https://cdn.moveek.com/storage/media/cache/mini/6a853e8a114e2776669135.webp" alt="Lên Hương" class="rounded img-fluid">
+                </a>
+            </div>
+            <div class="col ml-n2">
+                <h4 class="card-title mb-1 name">
+                    <a href="/phim/len-huong/">
+                        Lên Hương
+                    </a>
+                </h4>
+
+                <p class="card-text small text-muted mb-0">
+                                                                        Luck For Sale &middot;
+                                                                            T16 &middot;
+                                                                            2h1&#039;  &middot;
+                                                                            <a href="/video/19021/" data-toggle="modal" data-target="#videoModal" data-video-id="19021" data-video-url="VcAHmTOK-TI" data-remote="false">Trailer</a>
+                                                            </p>
+                                    <p class="card-text small text-muted mb-0">
+                                                    Drama,                                                     Family                                            </p>
+                
+                
+                                    <div class="mt-2">
+                            <div class="mb-1">
+        <label class="small mb-2 font-weight-bold d-block text-dark">
+            2D Phụ Đề Anh
+        </label>
+                                                                            <a href="/dat-ve/74391353-08f2-3e8c-97e1-9e17fa441938" data-cineplex="galaxy" data-cinema="galaxy-nguyen-du" data-id="440030899"  class="btn btn-sm btn-showtime btn-outline-dark is-ticketing is-affiliate" data-reference="74391353-08f2-3e8c-97e1-9e17fa441938">
+    <span class="time">17:30</span>
+    </a>
+            </div>
+                    </div>
+                            </div>
+        </div>
+    </div>
+</div>
+            </div>
