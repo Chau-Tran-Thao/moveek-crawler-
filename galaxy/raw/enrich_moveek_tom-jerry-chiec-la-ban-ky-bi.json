@@ -1,0 +1,112 @@
+{
+  "ld": [
+    {
+      "@context": "http://schema.org",
+      "@type": "Movie",
+      "@id": "https://moveek.com/movie/17408/",
+      "sameAs": "https://moveek.com/phim/tom-jerry-chiec-la-ban-ky-bi/",
+      "url": "https://moveek.com/phim/tom-jerry-chiec-la-ban-ky-bi/",
+      "name": "Tom & Jerry: Chiếc La Bàn Kỳ Bí",
+      "description": "Một chiếc la bàn bí ẩn bất ngờ mở ra cánh cổng kỳ diệu - nơi đầy ắp thử thách, tiếng cười và những màn rượt đuổi “kinh điển” cộp mác Tom & Jerry. Để trở về nhà, cặp đôi oan gia buộc phải hợp tác trước khi chiếc la bàn phá vỡ trật tự của mọi thế giới. Một chuyến phiêu lưu mở vận may, mở tiếng cười, khởi đầu năm mới thật tưng bừng cho cả gia đình.",
+      "duration": "PT98M",
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://cdn.moveek.com/storage/media/cache/tall/693cfefcb642a688679940.webp",
+        "width": "400",
+        "height": "600"
+      },
+      "datePublished": "2026-01-01T00:00:00+07:00",
+      "genre": "Comedy, Animation, Family",
+      "contentRating": "P",
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": 82,
+        "ratingCount": 11,
+        "bestRating": 100
+      },
+      "director": [
+        {
+          "@type": "Person",
+          "name": "Zhang Gang",
+          "url": "https://moveek.com/nghe-sy/zhang-gang-1/"
+        }
+      ],
+      "actor": [
+        {
+          "@type": "Person",
+          "name": "Jiang Wen",
+          "url": "https://moveek.com/nghe-sy/jiang-wen/"
+        },
+        {
+          "@type": "Person",
+          "name": "Shun Zi",
+          "url": "https://moveek.com/nghe-sy/shun-zi/"
+        },
+        {
+          "@type": "Person",
+          "name": "Lan Long",
+          "url": "https://moveek.com/nghe-sy/lan-long/"
+        },
+        {
+          "@type": "Person",
+          "name": "Tu Xiongfei",
+          "url": "https://moveek.com/nghe-sy/tu-xiongfei/"
+        },
+        {
+          "@type": "Person",
+          "name": "Li Baixin",
+          "url": "https://moveek.com/nghe-sy/li-baixin/"
+        },
+        {
+          "@type": "Person",
+          "name": "Li Hanlin",
+          "url": "https://moveek.com/nghe-sy/li-hanlin/"
+        },
+        {
+          "@type": "Person",
+          "name": "Zhang Wenjie",
+          "url": "https://moveek.com/nghe-sy/zhang-wenjie/"
+        },
+        {
+          "@type": "Person",
+          "name": "Zhang Gang",
+          "url": "https://moveek.com/nghe-sy/zhang-gang/"
+        }
+      ]
+    },
+    {
+      "@context": "http://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "item": {
+            "name": "Phim",
+            "url": "https://moveek.com/dang-chieu/"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "item": {
+            "name": "Tom & Jerry: Chiếc La Bàn Kỳ Bí",
+            "url": "https://moveek.com/phim/tom-jerry-chiec-la-ban-ky-bi/"
+          }
+        }
+      ]
+    },
+    {
+      "@context": "http://schema.org",
+      "@type": "WebSite",
+      "name": "Moveek",
+      "alternateName": "Thông tin phim, lịch chiếu, rạp, giá vé...",
+      "url": "https://moveek.com"
+    }
+  ],
+  "ageEls": [],
+  "yt": [
+    "18786"
+  ],
+  "textHead": " Hỗ trợ\nĐặt vé phim chiếu rạp\nLịch chiếu\nPhim \nRạp \nTin tức \nCộng đồng\nTom & Jerry: Chiếc La Bàn Kỳ Bí\n\nTom and Jerry: Forbidden Compass (2025) - Comedy, Animation, Family\n\n Thích  Đánh giá Trailer\n\nMột chiếc la bàn bí ẩn bất ngờ mở ra cánh cổng kỳ diệu - nơi đầy ắp thử thách, tiếng cười và những màn rượt đuổi “kinh điển” cộp mác Tom & Jerry. Để trở về nhà, cặp đôi oan gia buộc phải hợp tác trước khi chiếc la bàn phá vỡ trật tự của mọi thế giới. Một chuyến phiêu lưu mở vận may, mở tiếng cười, khởi đầu năm mới thật tưng bừng cho cả gia đình.\n\n Hài lòng\n82%\n Khởi chiếu\n01/01/2026\n Thời lượng\n98 phút\n Giới hạn tuổi\nP\n\nDiễn viên\nJiang Wen, Shun Zi, Lan Long, Tu Xiongfei, Li Baixin\n\nĐạo diễn\nZhang Gang\n\nNhà sản xuất\nFu Ruoqing, Huixia Zhang\n\nThông tin phim\nĐánh giá\nTin tức\nLịch chiếu\nTp. Hồ Chí Minh\nHà Nội\nĐà Nẵng\nĐồng Nai\nCần Thơ\nBình Dương\nBình Phước\nBình Thuận\nBà Rịa - Vũng Tàu\nAn Giang\nBến Tre\nHải Phòng\nKiên Giang\nHải Dương\nTrà Vinh\nQuảng Ninh\nVĩnh Long\nBắc Giang\nNinh Bình\nCà Mau\nLào Cai\nPhú Thọ\nHậu Giang\nThái Bình\nTây Ninh\nKhánh Hòa\nThừa Thiên - Huế\nĐồng Tháp\nThái Nguyên\nBạc Liêu\nThanh Hóa\nBình Định\nHưng Yên\nSóc Trăng\nHà Tĩnh\nYên Bái\nĐắk Lắk\nLong An\nNghệ An\nTiền Giang\nBắc Ninh\nHòa Bình\nTuyên Quang\nLâm Đồng\nNam Định\nQuảng Bình\nSơn La\nPhú Yên\nQuảng Trị\nQuảng Nam\nLạng Sơn\nQuảng Ngãi\nHà Nam\nNinh Thuận\nVĩnh Phúc\nGia Lai\nKon Tum\nĐịnh dạng\n2D\n3D\nKhông có lịch chiếu phù hợp với điều kiện tìm kiếm của bạn.\nHãy thử chọn một ngày khác hoặc định dạng khác.\nCộng đồng\nTrâm  6\n\n08:22 21/01\n\nKỹ xảo tốt, phim hài hước nhưng chỉ thích hợp cho trẻ em, ng lớn như m xem thấy hơi xàm.\nLy125  7\n\n00:42 03/01\n\nKhúc cuối mới bắt đầu hay. Mình thấy sự pha trộn giữa phương Tây và văn hoá Á Đông ko đc hoà hợp lắm. Cảm giác hơi rời rạc và lạc quẻ. Như kiểu cố cho nó hợp lý. Cốt truyện và nội dung hơi bị gồng, tuy nhiên kĩ xảo và hình ảnh rất đẹp, chỉn chu và chuyên nghiệp. Có thể coi thử để trải nghiệm, phù hợp cho trẻ em xem.\nPHIM VIỆT SẮP CHIẾU\nÁn Mạng Xém Hoàn Hảo\nMẹ Mìn\nHuyết Thống\nChị Chị Em Em 3\nÁn Mạng Karaoke\nBò Sữa Bay\nChuyến Đi Nhớ Đời\nNgười Được Chọn\nNgày Con Còn Mẹ\nCÔNG TY TNHH MONET\nSố ĐKKD: 0315367026 · Nơi cấp: Sở kế hoạch và đầu tư Tp. Hồ Chí Minh · Đăng ký lần đầu ngày 01/11/2018\nĐịa chỉ: 33 Nguyễn Trung Trực, P.5, Q. Bình Thạnh, Tp. Hồ Chí Minh\nVề chúng tôi · Chính sách bảo mật · Hỗ trợ · Liên hệ · v8.1\n\nĐỐI TÁC\n              "
+}

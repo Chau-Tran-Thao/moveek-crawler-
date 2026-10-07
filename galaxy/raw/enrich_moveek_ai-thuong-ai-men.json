@@ -1,0 +1,99 @@
+{
+  "ld": [
+    {
+      "@context": "http://schema.org",
+      "@type": "Movie",
+      "@id": "https://moveek.com/movie/17151/",
+      "sameAs": "https://moveek.com/phim/ai-thuong-ai-men/",
+      "url": "https://moveek.com/phim/ai-thuong-ai-men/",
+      "name": "Ai Thương Ai Mến",
+      "description": "Lấy bối cảnh miền Tây sông nước, Ai Thương Ai Mến xoay quanh Hai Mến — người phụ nữ mất cha mẹ, một mình gồng gánh gia đình giữa nợ nần và những bi kịch dồn dập. Trong hành trình ấy, cô gặp cậu Khả (Ngọc Thuận) – công tử ăn chơi vô tình đem lòng thương mến, tạo nên mối tình vừa ngọt ngào vừa đau đớn. Song song đó, chuyện tình thơm lành của đôi trẻ Chờ – Thương trở thành điểm sáng trước khi cả ba tuyến nhân vật bước vào những thử thách chạm đến trái tim khán giả.",
+      "duration": "PT112M",
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://cdn.moveek.com/storage/media/cache/tall/693a24c236b66658742234.webp",
+        "width": "400",
+        "height": "600"
+      },
+      "datePublished": "2026-01-01T00:00:00+07:00",
+      "genre": "Comedy, Drama, Family",
+      "contentRating": "T16",
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": 88,
+        "ratingCount": 17,
+        "bestRating": 100
+      },
+      "director": [
+        {
+          "@type": "Person",
+          "name": "Thu Trang",
+          "url": "https://moveek.com/nghe-sy/thu-trang/"
+        }
+      ],
+      "actor": [
+        {
+          "@type": "Person",
+          "name": "Thu Trang",
+          "url": "https://moveek.com/nghe-sy/thu-trang/"
+        },
+        {
+          "@type": "Person",
+          "name": "Trâm Anh",
+          "url": "https://moveek.com/nghe-sy/tram-anh/"
+        },
+        {
+          "@type": "Person",
+          "name": "Võ Điền Gia Huy",
+          "url": "https://moveek.com/nghe-sy/vo-dien-gia-huy/"
+        },
+        {
+          "@type": "Person",
+          "name": "Ngọc Thuận",
+          "url": "https://moveek.com/nghe-sy/ngoc-thuan/"
+        },
+        {
+          "@type": "Person",
+          "name": "Ngọc Hiệp",
+          "url": "https://moveek.com/nghe-sy/ngoc-hiep/"
+        }
+      ]
+    },
+    {
+      "@context": "http://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "item": {
+            "name": "Phim",
+            "url": "https://moveek.com/dang-chieu/"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "item": {
+            "name": "Ai Thương Ai Mến",
+            "url": "https://moveek.com/phim/ai-thuong-ai-men/"
+          }
+        }
+      ]
+    },
+    {
+      "@context": "http://schema.org",
+      "@type": "WebSite",
+      "name": "Moveek",
+      "alternateName": "Thông tin phim, lịch chiếu, rạp, giá vé...",
+      "url": "https://moveek.com"
+    }
+  ],
+  "ageEls": [
+    "T16"
+  ],
+  "yt": [
+    "18784"
+  ],
+  "textHead": " Hỗ trợ\nĐặt vé phim chiếu rạp\nLịch chiếu\nPhim \nRạp \nTin tức \nCộng đồng\nAi Thương Ai Mến\n\nThe Ultimate Of Love - Comedy, Drama, Family\n\n Thích  Đánh giá Trailer\n\nLấy bối cảnh miền Tây sông nước, Ai Thương Ai Mến xoay quanh Hai Mến — người phụ nữ mất cha mẹ, một mình gồng gánh gia đình giữa nợ nần và những bi kịch dồn dập. Trong hành trình ấy, cô gặp cậu Khả (Ngọc Thuận) – công tử ăn chơi vô tình đem lòng thương mến, tạo nên mối tình vừa ngọt ngào vừa đau đớn. Song song đó, chuyện tình thơm lành của đôi trẻ Chờ – Thương trở thành điểm sáng trước khi cả ba tuyến nhân vật bước vào những thử thách chạm đến trái tim khán giả.\n\n Hài lòng\n88%\n Khởi chiếu\n01/01/2026\n Thời lượng\n112 phút\n Giới hạn tuổi\nT16\n\nDiễn viên\nThu Trang Trâm Anh Võ Điền Gia Huy Ngọc Thuận Ngọc Hiệp\n\nĐạo diễn\nThu Trang\n\nThông tin phim\nĐánh giá\nTin tức\nLịch chiếu\nTp. Hồ Chí Minh\nHà Nội\nĐà Nẵng\nĐồng Nai\nCần Thơ\nBình Dương\nBình Phước\nBình Thuận\nBà Rịa - Vũng Tàu\nAn Giang\nBến Tre\nHải Phòng\nKiên Giang\nHải Dương\nTrà Vinh\nQuảng Ninh\nVĩnh Long\nBắc Giang\nNinh Bình\nCà Mau\nLào Cai\nPhú Thọ\nHậu Giang\nThái Bình\nTây Ninh\nKhánh Hòa\nThừa Thiên - Huế\nĐồng Tháp\nThái Nguyên\nBạc Liêu\nThanh Hóa\nBình Định\nHưng Yên\nSóc Trăng\nHà Tĩnh\nYên Bái\nĐắk Lắk\nLong An\nNghệ An\nTiền Giang\nBắc Ninh\nHòa Bình\nTuyên Quang\nLâm Đồng\nNam Định\nQuảng Bình\nSơn La\nPhú Yên\nQuảng Trị\nQuảng Nam\nLạng Sơn\nQuảng Ngãi\nHà Nam\nNinh Thuận\nVĩnh Phúc\nGia Lai\nKon Tum\nĐịnh dạng\n2D\n3D\nKhông có lịch chiếu phù hợp với điều kiện tìm kiếm của bạn.\nHãy thử chọn một ngày khác hoặc định dạng khác.\nTin liên quan\nReview Ai Thương Ai Mến – Thu Trang dần khẳng định phong cách điện ảnh của mình\n\nmiduynph · 15:00 08/01\n\nReview Ai Thương Ai Mến - Một bước tiến lớn của Thu Trang\n\nlinhhuynh0257 · 00:00 31/12/2025\n\nAi Thương Ai Mến - Trấn Thành, Trường Giang và Thu Trang hội tụ trong buổi ra mắt phim hoành tráng\n\nMoveek · 10:50 30/12/2025\n\nAi Thương Ai Mến – Thu Trang làm phim gia đình lấy bối cảnh miền Tây\n\nmiduynph · 10:30 22/12/2025\n\nAi Thương Ai Mến - Đạo diễn trăm tỷ Thu Trang trở lại sau Nụ Hôn Bạc Tỷ\n\nMoveek · 14:23 21/10/2025\n\nCộng đồng\nNguyễn Thị Quỳnh Như  10\n\n00:08 07/01\n\nPhim hay, tình cảm về gia đình, vợ chồng. Mình xem cảm thấy rất xúc động. Phim của chị Trang ngày càng hay và hấp dẫn\nMai Ngọc Thưởng  5\n\n00:53 04/01\n\n5/10 phim cung không hay lắm\nMai bảo trung  4\n\n10:52 10/01\n\nphim ok, nhưng để bà thu trang đóng vai chính không phù hợp và già quá, vừa già vừa xấu không có đẹp\nĐoàn Hoàng Văn  10\n\n00:20 08/01\n\nPhim có nhiều tình tiết hay.\nLehongthai59  10\n\n12:56 12/01\n\nLáu lắm mới có phim về gia đình hay như phim này. Tiếc cho phim ra rạp khi Avatar đang làm mưa, phim Thiên đường máu đang làm gió.\nPHIM VIỆT SẮP CHIẾU\nÁn Mạng Xém Hoàn Hảo\nMẹ Mìn\nHuyết Thống\nChị Chị Em Em 3\nÁn Mạng Karaoke\nBò Sữa Bay\nChuyến Đi Nhớ Đời\nNgười Được Chọn\nNgày Con Còn Mẹ\nCÔNG TY TNHH MONET\nSố ĐKKD: 0315367026 · Nơi cấp: Sở kế hoạch và đầu tư Tp. Hồ Chí Minh · Đăng ký lần đầu ngày 01/11/2018\nĐịa chỉ: 33 Nguyễn Trung Trực, P.5, Q. Bình Thạnh, Tp. Hồ Chí Minh\nVề chúng tôi · Chín"
+}

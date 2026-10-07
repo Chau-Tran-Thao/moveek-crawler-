@@ -1,0 +1,637 @@
+{
+ "search?q=Si%C3%AAu+th%E1%BB%8B+Co.opXtra+Th%E1%BB%A7+%C4%90%E1%BB%A9c+934+QL1A%2C+Ph%C6%B0%E1%BB%9Dng+Linh+Trung%2C+Qu%E1%BA%ADn+Th%E1%BB%A7+%C4%90%E1%BB%A9c%2C+H%E1%BB%93+Ch%C3%AD+Minh%2C+Vi%E1%BB%87t+Nam&countrycodes=vn&limit=1": [],
+ "search?q=Galaxy+Cinema+Linh+Trung+Th%E1%BB%A7+%C4%90%E1%BB%A9c%2C+H%E1%BB%93+Ch%C3%AD+Minh%2C+Vi%E1%BB%87t+Nam&countrycodes=vn&limit=1": [],
+ "search?q=T%E1%BA%A7ng+3%2C+Thiso+Mall+Sala%2C+10+Mai+Ch%C3%AD+Th%E1%BB%8D%2C+Ph%C6%B0%E1%BB%9Dng+Th%E1%BB%A7+Thi%C3%AAm%2C+Th%C3%A0nh+ph%E1%BB%91+Th%E1%BB%A7+%C4%90%E1%BB%A9c%2C+H%E1%BB%93+Ch%C3%AD+Minh%2C+Vi%E1%BB%87t+Nam&countrycodes=vn&limit=1": [],
+ "search?q=Thiso+Mall+Sala%2C+10+Mai+Ch%C3%AD+Th%E1%BB%8D%2C+Ph%C6%B0%E1%BB%9Dng+Th%E1%BB%A7+Thi%C3%AAm%2C+Th%C3%A0nh+ph%E1%BB%91+Th%E1%BB%A7+%C4%90%E1%BB%A9c%2C+H%E1%BB%93+Ch%C3%AD+Minh%2C+Vi%E1%BB%87t+Nam&countrycodes=vn&limit=1": [],
+ "search?q=10+Mai+Ch%C3%AD+Th%E1%BB%8D%2C+Ph%C6%B0%E1%BB%9Dng+Th%E1%BB%A7+Thi%C3%AAm%2C+Th%C3%A0nh+ph%E1%BB%91+Th%E1%BB%A7+%C4%90%E1%BB%A9c%2C+H%E1%BB%93+Ch%C3%AD+Minh%2C+Vi%E1%BB%87t+Nam&countrycodes=vn&limit=1": [],
+ "search?q=Galaxy+Cinema+Sala%2C+H%E1%BB%93+Ch%C3%AD+Minh%2C+Vi%E1%BB%87t+Nam&countrycodes=vn&limit=1": [],
+ "reverse?lat=10.169966011023302&lon=105.53007048480318&zoom=14&addressdetails=1": {
+  "place_id": 259231541,
+  "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+  "osm_type": "relation",
+  "osm_id": 7148208,
+  "lat": "10.1728997",
+  "lon": "105.4961593",
+  "category": "boundary",
+  "type": "administrative",
+  "place_rank": 12,
+  "importance": 0.2400612993057145,
+  "addresstype": "city_district",
+  "name": "Xã Trung Hưng",
+  "display_name": "Xã Trung Hưng, Thành phố Cần Thơ, Việt Nam",
+  "address": {
+   "city_district": "Xã Trung Hưng",
+   "city": "Thành phố Cần Thơ",
+   "ISO3166-2-lvl4": "VN-CT",
+   "country": "Việt Nam",
+   "country_code": "vn"
+  },
+  "boundingbox": [
+   "10.1211890",
+   "10.2255107",
+   "105.4540821",
+   "105.5460252"
+  ]
+ },
+ "reverse?lat=10.730116192865854&lon=106.60380891481934&zoom=14&addressdetails=1": {
+  "place_id": 257199131,
+  "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+  "osm_type": "relation",
+  "osm_id": 19877777,
+  "lat": "10.7227086",
+  "lon": "106.6022674",
+  "category": "boundary",
+  "type": "administrative",
+  "place_rank": 18,
+  "importance": 0.16006703364614328,
+  "addresstype": "neighbourhood",
+  "name": "Khu phố 39",
+  "display_name": "Khu phố 39, Phường An Lạc, Tân Túc, Thành phố Hồ Chí Minh, 71906, Việt Nam",
+  "address": {
+   "neighbourhood": "Khu phố 39",
+   "suburb": "Phường An Lạc",
+   "town": "Tân Túc",
+   "city": "Thành phố Hồ Chí Minh",
+   "ISO3166-2-lvl4": "VN-SG",
+   "postcode": "71906",
+   "country": "Việt Nam",
+   "country_code": "vn"
+  },
+  "boundingbox": [
+   "10.7173439",
+   "10.7345331",
+   "106.6001118",
+   "106.6072862"
+  ]
+ },
+ "search?q=L%E1%BA%A7u+1+Trung+t%C3%A2m+th%C6%B0%C6%A1ng+m%E1%BA%A1i+Sense+City%2C+26A+Tr%E1%BA%A7n+Qu%E1%BB%91c+Tu%E1%BA%A5n%2C+Ph%C6%B0%E1%BB%9Dng+4%2C+Th%C3%A0nh+ph%E1%BB%91+B%E1%BA%BFn+Tre%2C+Vi%E1%BB%87t+Nam&countrycodes=vn&limit=1": [],
+ "search?q=Trung+t%C3%A2m+th%C6%B0%C6%A1ng+m%E1%BA%A1i+Sense+City%2C+26A+Tr%E1%BA%A7n+Qu%E1%BB%91c+Tu%E1%BA%A5n%2C+Ph%C6%B0%E1%BB%9Dng+4%2C+Th%C3%A0nh+ph%E1%BB%91+B%E1%BA%BFn+Tre%2C+Vi%E1%BB%87t+Nam&countrycodes=vn&limit=1": [],
+ "search?q=26A+Tr%E1%BA%A7n+Qu%E1%BB%91c+Tu%E1%BA%A5n%2C+Ph%C6%B0%E1%BB%9Dng+4%2C+Th%C3%A0nh+ph%E1%BB%91+B%E1%BA%BFn+Tre%2C+Vi%E1%BB%87t+Nam&countrycodes=vn&limit=1": [
+  {
+   "place_id": 258478581,
+   "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+   "osm_type": "way",
+   "osm_id": 1390962349,
+   "lat": "10.2422007",
+   "lon": "106.3767201",
+   "category": "building",
+   "type": "yes",
+   "place_rank": 30,
+   "importance": 0.00005308384832527684,
+   "addresstype": "building",
+   "name": "Co.opMart Bến Tre",
+   "display_name": "Co.opMart Bến Tre, 26A, Trần Quốc Tuấn, Bến Tre, Phường An Hội, Tỉnh Vĩnh Long, 07584, Việt Nam",
+   "boundingbox": [
+    "10.2418656",
+    "10.2424706",
+    "106.3763020",
+    "106.3771538"
+   ]
+  }
+ ],
+ "reverse?lat=10.242201&lon=106.37672&zoom=14&addressdetails=1": {
+  "place_id": 258288541,
+  "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+  "osm_type": "node",
+  "osm_id": 369487050,
+  "lat": "10.2361217",
+  "lon": "106.3763684",
+  "category": "place",
+  "type": "city",
+  "place_rank": 16,
+  "importance": 0.4633431188913769,
+  "addresstype": "city",
+  "name": "Bến Tre",
+  "display_name": "Bến Tre, Phường An Hội, Tỉnh Vĩnh Long, 07584, Việt Nam",
+  "address": {
+   "city": "Bến Tre",
+   "county": "Phường An Hội",
+   "state": "Tỉnh Vĩnh Long",
+   "ISO3166-2-lvl4": "VN-49",
+   "postcode": "07584",
+   "country": "Việt Nam",
+   "country_code": "vn"
+  },
+  "boundingbox": [
+   "10.0761217",
+   "10.3961217",
+   "106.2163684",
+   "106.5363684"
+  ]
+ },
+ "search?q=T%E1%BA%A7ng+2%2C+Trung+t%C3%A2m+th%C6%B0%C6%A1ng+m%E1%BA%A1i+GO%21+B%E1%BA%BFn+Tre%2C+khu+ph%E1%BB%91+1%2C+%C4%91%C6%B0%E1%BB%9Dng+V%C3%B5+Nguy%C3%AAn+Gi%C3%A1p%2C+ph%C6%B0%E1%BB%9Dng+S%C6%A1n+%C4%90%C3%B4ng%2C+t%E1%BB%89nh+V%C4%A9nh+Long%2C+Vi%E1%BB%87t+Nam&countrycodes=vn&limit=1": [],
+ "search?q=Trung+t%C3%A2m+th%C6%B0%C6%A1ng+m%E1%BA%A1i+GO%21+B%E1%BA%BFn+Tre%2C+khu+ph%E1%BB%91+1%2C+%C4%91%C6%B0%E1%BB%9Dng+V%C3%B5+Nguy%C3%AAn+Gi%C3%A1p%2C+ph%C6%B0%E1%BB%9Dng+S%C6%A1n+%C4%90%C3%B4ng%2C+t%E1%BB%89nh+V%C4%A9nh+Long%2C+Vi%E1%BB%87t+Nam&countrycodes=vn&limit=1": [],
+ "search?q=Galaxy+Cinema+CineO+GO%21+B%E1%BA%BFn+Tre%2C+B%E1%BA%BFn+Tre%2C+Vi%E1%BB%87t+Nam&countrycodes=vn&limit=1": [],
+ "search?q=T%E1%BA%A7ng+6%2C+Mipec+Riverside%2C+S%E1%BB%91+2%2C+Ph%E1%BB%91+Long+Bi%C3%AAn+2%2C+Ph%C6%B0%E1%BB%9Dng+Ng%E1%BB%8Dc+L%C3%A2m%2C+Qu%E1%BA%ADn+Long+Bi%C3%AAn%2C+Th%C3%A0nh+ph%E1%BB%91+H%C3%A0+N%E1%BB%99i%2C+Vi%E1%BB%87t+Nam&countrycodes=vn&limit=1": [],
+ "search?q=Mipec+Riverside%2C+2%2C+Ph%E1%BB%91+Long+Bi%C3%AAn+2%2C+Ph%C6%B0%E1%BB%9Dng+Ng%E1%BB%8Dc+L%C3%A2m%2C+Qu%E1%BA%ADn+Long+Bi%C3%AAn%2C+Th%C3%A0nh+ph%E1%BB%91+H%C3%A0+N%E1%BB%99i%2C+Vi%E1%BB%87t+Nam&countrycodes=vn&limit=1": [],
+ "search?q=Galaxy+Cinema+MIPEC+Long+Bi%C3%AAn%2C+H%C3%A0+N%E1%BB%99i%2C+Vi%E1%BB%87t+Nam&countrycodes=vn&limit=1": [],
+ "search?q=T%E1%BA%A7ng+3%2C+t%C3%B2a+Nam%2C+Trung+t%C3%A2m+th%C6%B0%C6%A1ng+m%E1%BA%A1i+Hanoi+Centre+%28Ti%E1%BA%BFn+B%E1%BB%99+plaza%29+%E2%80%93+S%E1%BB%91+175+Nguy%E1%BB%85n+Th%C3%A1i+H%E1%BB%8Dc%2C+ph%C6%B0%E1%BB%9Dng+%C3%94+Ch%E1%BB%A3+D%E1%BB%ABa%2C+H%C3%A0+N%E1%BB%99i%2C+Vi%E1%BB%87t+Nam&countrycodes=vn&limit=1": [],
+ "search?q=175+Nguy%E1%BB%85n+Th%C3%A1i+H%E1%BB%8Dc%2C+ph%C6%B0%E1%BB%9Dng+%C3%94+Ch%E1%BB%A3+D%E1%BB%ABa%2C+H%C3%A0+N%E1%BB%99i%2C+Vi%E1%BB%87t+Nam&countrycodes=vn&limit=1": [
+  {
+   "place_id": 238128202,
+   "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+   "osm_type": "way",
+   "osm_id": 29313232,
+   "lat": "21.0301833",
+   "lon": "105.8338066",
+   "category": "highway",
+   "type": "residential",
+   "place_rank": 26,
+   "importance": 0.05340616388189513,
+   "addresstype": "road",
+   "name": "Ngõ Hàng Cháo",
+   "display_name": "Ngõ Hàng Cháo, Phường Ô Chợ Dừa, Hà Nội, 11511, Việt Nam",
+   "boundingbox": [
+    "21.0295805",
+    "21.0307876",
+    "105.8336065",
+    "105.8340022"
+   ]
+  }
+ ],
+ "reverse?lat=21.030183&lon=105.833807&zoom=14&addressdetails=1": {
+  "place_id": 235440201,
+  "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+  "osm_type": "relation",
+  "osm_id": 19331658,
+  "lat": "21.0230507",
+  "lon": "105.8257551",
+  "category": "boundary",
+  "type": "administrative",
+  "place_rank": 12,
+  "importance": 0.3492426022163027,
+  "addresstype": "suburb",
+  "name": "Phường Ô Chợ Dừa",
+  "display_name": "Phường Ô Chợ Dừa, Hà Nội, 11511, Việt Nam",
+  "address": {
+   "suburb": "Phường Ô Chợ Dừa",
+   "city": "Hà Nội",
+   "ISO3166-2-lvl4": "VN-HN",
+   "postcode": "11511",
+   "country": "Việt Nam",
+   "country_code": "vn"
+  },
+  "boundingbox": [
+   "21.0138594",
+   "21.0321616",
+   "105.8149171",
+   "105.8360554"
+  ]
+ },
+ "search?q=T%E1%BA%A7ng+3+Coop+Mart%2C+478+%C4%90i%E1%BB%87n+Bi%C3%AAn+Ph%E1%BB%A7%2C+Qu%E1%BA%ADn+Thanh+Kh%C3%AA%2C+%C4%90%C3%A0+N%E1%BA%B5ng%2C+Vi%E1%BB%87t+Nam&countrycodes=vn&limit=1": [],
+ "search?q=Coop+Mart%2C+478+%C4%90i%E1%BB%87n+Bi%C3%AAn+Ph%E1%BB%A7%2C+Qu%E1%BA%ADn+Thanh+Kh%C3%AA%2C+%C4%90%C3%A0+N%E1%BA%B5ng%2C+Vi%E1%BB%87t+Nam&countrycodes=vn&limit=1": [],
+ "search?q=478+%C4%90i%E1%BB%87n+Bi%C3%AAn+Ph%E1%BB%A7%2C+Qu%E1%BA%ADn+Thanh+Kh%C3%AA%2C+%C4%90%C3%A0+N%E1%BA%B5ng%2C+Vi%E1%BB%87t+Nam&countrycodes=vn&limit=1": [],
+ "search?q=Galaxy+Cinema+%C4%90%C3%A0+N%E1%BA%B5ng%2C+%C4%90%C3%A0+N%E1%BA%B5ng%2C+Vi%E1%BB%87t+Nam&countrycodes=vn&limit=1": [
+  {
+   "place_id": 425505771,
+   "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+   "osm_type": "node",
+   "osm_id": 14109229682,
+   "lat": "16.0666418",
+   "lon": "108.1870259",
+   "category": "amenity",
+   "type": "cinema",
+   "place_rank": 30,
+   "importance": 0.00006461966887917934,
+   "addresstype": "amenity",
+   "name": "Galaxy Cinema",
+   "display_name": "Galaxy Cinema, Kiệt 478 Điện Biên Phủ, Tổ dân phố 53 Thanh Khê Đông, Phường Thanh Khê, Thành phố Đà Nẵng, 84236, Việt Nam",
+   "boundingbox": [
+    "16.0665918",
+    "16.0666918",
+    "108.1869759",
+    "108.1870759"
+   ]
+  }
+ ],
+ "search?q=T%E1%BA%A7ng+4%2C+Trung+t%C3%A2m+th%C6%B0%C6%A1ng+m%E1%BA%A1i+Aeon+Mall+Thanh+Kh%C3%AA+%E2%80%94+46+%C4%90i%E1%BB%87n+Bi%C3%AAn+Ph%E1%BB%A7%2C+Thanh+Kh%C3%AA%2C+%C4%90%C3%A0+N%E1%BA%B5ng%2C+Vi%E1%BB%87t+Nam&countrycodes=vn&limit=1": [],
+ "search?q=46+%C4%90i%E1%BB%87n+Bi%C3%AAn+Ph%E1%BB%A7%2C+Thanh+Kh%C3%AA%2C+%C4%90%C3%A0+N%E1%BA%B5ng%2C+Vi%E1%BB%87t+Nam&countrycodes=vn&limit=1": [
+  {
+   "place_id": 239255592,
+   "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+   "osm_type": "way",
+   "osm_id": 375346559,
+   "lat": "16.0669747",
+   "lon": "108.1997848",
+   "category": "highway",
+   "type": "residential",
+   "place_rank": 26,
+   "importance": 0.05339795300221252,
+   "addresstype": "road",
+   "name": "Điện Biên Phủ",
+   "display_name": "Điện Biên Phủ, Chính Gián, Tổ dân phố 46 Chính Gián, Phường Thanh Khê, Thành phố Đà Nẵng, 84236, Việt Nam",
+   "boundingbox": [
+    "16.0665271",
+    "16.0673594",
+    "108.1992200",
+    "108.2003003"
+   ]
+  }
+ ],
+ "reverse?lat=16.066975&lon=108.199785&zoom=14&addressdetails=1": {
+  "place_id": 237294435,
+  "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+  "osm_type": "node",
+  "osm_id": 4725820720,
+  "lat": "16.0671874",
+  "lon": "108.1997112",
+  "category": "place",
+  "type": "quarter",
+  "place_rank": 20,
+  "importance": 0.13339795300221255,
+  "addresstype": "quarter",
+  "name": "Chính Gián",
+  "display_name": "Chính Gián, Tổ dân phố 46 Chính Gián, Phường Thanh Khê, Thành phố Đà Nẵng, 50316, Việt Nam",
+  "address": {
+   "quarter": "Chính Gián",
+   "neighbourhood": "Tổ dân phố 46 Chính Gián",
+   "suburb": "Phường Thanh Khê",
+   "city": "Thành phố Đà Nẵng",
+   "ISO3166-2-lvl4": "VN-DN",
+   "postcode": "50316",
+   "country": "Việt Nam",
+   "country_code": "vn"
+  },
+  "boundingbox": [
+   "16.0571874",
+   "16.0771874",
+   "108.1897112",
+   "108.2097112"
+  ]
+ },
+ "search?q=L%E1%BA%A7u+5+Trung+t%C3%A2m+HUB+%E2%80%93+s%E1%BB%91+1+L%C3%AA+H%E1%BB%93ng+Phong%2C+Th%C3%A0nh+ph%E1%BB%91+Vinh%2C+Ngh%E1%BB%87+An%2C+Vi%E1%BB%87t+Nam&countrycodes=vn&limit=1": [],
+ "search?q=1+L%C3%AA+H%E1%BB%93ng+Phong%2C+Th%C3%A0nh+ph%E1%BB%91+Vinh%2C+Ngh%E1%BB%87+An%2C+Vi%E1%BB%87t+Nam&countrycodes=vn&limit=1": [],
+ "search?q=Galaxy+Cinema+Vinh%2C+Ngh%E1%BB%87+An%2C+Vi%E1%BB%87t+Nam&countrycodes=vn&limit=1": [],
+ "search?q=T%E1%BA%A7ng+05%2C+Trung+t%C3%A2m+th%C6%B0%C6%A1ng+m%E1%BA%A1i+Vincom+Plaza+Vinh%2C+%C4%90%C6%B0%E1%BB%9Dng+Quang+Trung%2C+Th%C3%A0nh+ph%E1%BB%91+Vinh%2C+T%E1%BB%89nh+Ngh%E1%BB%87+An%2C+Vi%E1%BB%87t+Nam&countrycodes=vn&limit=1": [],
+ "search?q=Trung+t%C3%A2m+th%C6%B0%C6%A1ng+m%E1%BA%A1i+Vincom+Plaza+Vinh%2C+%C4%90%C6%B0%E1%BB%9Dng+Quang+Trung%2C+Th%C3%A0nh+ph%E1%BB%91+Vinh%2C+T%E1%BB%89nh+Ngh%E1%BB%87+An%2C+Vi%E1%BB%87t+Nam&countrycodes=vn&limit=1": [],
+ "search?q=Galaxy+Cinema+Cine%2B+Vincom+Plaza+Vinh%2C+Ngh%E1%BB%87+An%2C+Vi%E1%BB%87t+Nam&countrycodes=vn&limit=1": [],
+ "search?q=Trung+t%C3%A2m+th%C6%B0%C6%A1ng+m%E1%BA%A1i+Gold+Coast+Nha+Trang+-+01+Tr%E1%BA%A7n+H%C6%B0ng+%C4%90%E1%BA%A1o%2C+Ph%C6%B0%E1%BB%9Dng+L%E1%BB%99c+Th%E1%BB%8D%2C+Th%C3%A0nh+ph%E1%BB%91+Nha+Trang%2C+Kh%C3%A1nh+H%C3%B2a%2C+Vi%E1%BB%87t+Nam&countrycodes=vn&limit=1": [],
+ "search?q=01+Tr%E1%BA%A7n+H%C6%B0ng+%C4%90%E1%BA%A1o%2C+Ph%C6%B0%E1%BB%9Dng+L%E1%BB%99c+Th%E1%BB%8D%2C+Th%C3%A0nh+ph%E1%BB%91+Nha+Trang%2C+Kh%C3%A1nh+H%C3%B2a%2C+Vi%E1%BB%87t+Nam&countrycodes=vn&limit=1": [],
+ "search?q=Galaxy+Cinema+Cine%2B+Gold+Coast+Nha+Trang%2C+Kh%C3%A1nh+H%C3%B2a%2C+Vi%E1%BB%87t+Nam&countrycodes=vn&limit=1": [],
+ "search?q=T%E1%BA%A7ng+3%2C+Trung+T%C3%A2m+Th%C6%B0%C6%A1ng+M%E1%BA%A1i+Nha+Trang+Center+-+20+Tr%E1%BA%A7n+Ph%C3%BA%2C+Nha+Trang%2C+Kh%C3%A1nh+H%C3%B2a%2C+Vi%E1%BB%87t+Nam&countrycodes=vn&limit=1": [],
+ "search?q=20+Tr%E1%BA%A7n+Ph%C3%BA%2C+Nha+Trang%2C+Kh%C3%A1nh+H%C3%B2a%2C+Vi%E1%BB%87t+Nam&countrycodes=vn&limit=1": [
+  {
+   "place_id": 258103398,
+   "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+   "osm_type": "node",
+   "osm_id": 12728380901,
+   "lat": "12.2478974",
+   "lon": "109.1957221",
+   "category": "amenity",
+   "type": "cafe",
+   "place_rank": 30,
+   "importance": 0.00005969710841530507,
+   "addresstype": "amenity",
+   "name": "Starbucks Nha Trang Center",
+   "display_name": "Starbucks Nha Trang Center, 20, Trần Phú, Phước Hòa, Phường Nha Trang, Nha Trang, Khánh Hòa, 57106, Việt Nam",
+   "boundingbox": [
+    "12.2478474",
+    "12.2479474",
+    "109.1956721",
+    "109.1957721"
+   ]
+  }
+ ],
+ "reverse?lat=12.247897&lon=109.195722&zoom=14&addressdetails=1": {
+  "place_id": 258503045,
+  "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+  "osm_type": "node",
+  "osm_id": 1746426778,
+  "lat": "12.2366373",
+  "lon": "109.1852254",
+  "category": "place",
+  "type": "suburb",
+  "place_rank": 19,
+  "importance": 0.14672636377508197,
+  "addresstype": "suburb",
+  "name": "Phước Hòa",
+  "display_name": "Phước Hòa, Phường Nha Trang, Nha Trang, Khánh Hòa, 57136, Việt Nam",
+  "address": {
+   "suburb": "Phước Hòa",
+   "city": "Nha Trang",
+   "state": "Khánh Hòa",
+   "ISO3166-2-lvl4": "VN-34",
+   "postcode": "57136",
+   "country": "Việt Nam",
+   "country_code": "vn"
+  },
+  "boundingbox": [
+   "12.2166373",
+   "12.2566373",
+   "109.1652254",
+   "109.2052254"
+  ]
+ },
+ "search?q=L%E1%BA%A7u+2+Trung+t%C3%A2m+th%C6%B0%C6%A1ng+m%E1%BA%A1i+Sense+City%2C+s%E1%BB%91+09+Tr%E1%BA%A7n+H%C6%B0ng+%C4%90%E1%BA%A1o%2C+Ph%C6%B0%E1%BB%9Dng+5%2C+Th%C3%A0nh+ph%E1%BB%91+C%C3%A0+Mau%2C+Vi%E1%BB%87t+Nam&countrycodes=vn&limit=1": [],
+ "search?q=Trung+t%C3%A2m+th%C6%B0%C6%A1ng+m%E1%BA%A1i+Sense+City%2C+09+Tr%E1%BA%A7n+H%C6%B0ng+%C4%90%E1%BA%A1o%2C+Ph%C6%B0%E1%BB%9Dng+5%2C+Th%C3%A0nh+ph%E1%BB%91+C%C3%A0+Mau%2C+Vi%E1%BB%87t+Nam&countrycodes=vn&limit=1": [],
+ "search?q=09+Tr%E1%BA%A7n+H%C6%B0ng+%C4%90%E1%BA%A1o%2C+Ph%C6%B0%E1%BB%9Dng+5%2C+Th%C3%A0nh+ph%E1%BB%91+C%C3%A0+Mau%2C+Vi%E1%BB%87t+Nam&countrycodes=vn&limit=1": [],
+ "search?q=Galaxy+Cinema+C%C3%A0+Mau%2C+C%C3%A0+Mau%2C+Vi%E1%BB%87t+Nam&countrycodes=vn&limit=1": [],
+ "search?q=T%E1%BA%A7ng+02%2C+Trung+t%C3%A2m+th%C6%B0%C6%A1ng+m%E1%BA%A1i+AEON+T%C3%A2n+An.+S%E1%BB%91+84+Tuy%E1%BA%BFn+tr%C3%A1nh+Qu%E1%BB%91c+l%E1%BB%99+1%2C+Khu+ph%E1%BB%91+B%C3%ACnh+C%C6%B0+3%2C+Ph%C6%B0%E1%BB%9Dng+Long+An%2C+T%E1%BB%89nh+T%C3%A2y+Ninh%2C+Vi%E1%BB%87t+Nam&countrycodes=vn&limit=1": [],
+ "search?q=84+Tuy%E1%BA%BFn+tr%C3%A1nh+Qu%E1%BB%91c+l%E1%BB%99+1%2C+Khu+ph%E1%BB%91+B%C3%ACnh+C%C6%B0+3%2C+Ph%C6%B0%E1%BB%9Dng+Long+An%2C+T%E1%BB%89nh+T%C3%A2y+Ninh%2C+Vi%E1%BB%87t+Nam&countrycodes=vn&limit=1": [],
+ "search?q=84+Tuy%E1%BA%BFn+tr%C3%A1nh+Qu%E1%BB%91c+l%E1%BB%99+1%2C+Ph%C6%B0%E1%BB%9Dng+Long+An%2C+T%E1%BB%89nh+T%C3%A2y+Ninh%2C+Vi%E1%BB%87t+Nam&countrycodes=vn&limit=1": [],
+ "search?q=Galaxy+Cinema+Aeon+T%C3%A2n+An%2C+Long+An%2C+Vi%E1%BB%87t+Nam&countrycodes=vn&limit=1": [],
+ "search?q=104+L%C6%B0%C6%A1ng+Kh%C3%A1nh+Thi%E1%BB%87n%2C+Trung+t%C3%A2m+th%C6%B0%C6%A1ng+m%E1%BA%A1i+Nguy%E1%BB%85n+Kim+%E2%80%93+S%C3%A0i+G%C3%B2n+Mall%2C+H%E1%BA%A3i+Ph%C3%B2ng%2C+Vi%E1%BB%87t+Nam&countrycodes=vn&limit=1": [],
+ "search?q=104+L%C6%B0%C6%A1ng+Kh%C3%A1nh+Thi%E1%BB%87n%2C+S%C3%A0i+G%C3%B2n+Mall%2C+H%E1%BA%A3i+Ph%C3%B2ng%2C+Vi%E1%BB%87t+Nam&countrycodes=vn&limit=1": [],
+ "search?q=104+L%C6%B0%C6%A1ng+Kh%C3%A1nh+Thi%E1%BB%87n%2C+H%E1%BA%A3i+Ph%C3%B2ng%2C+Vi%E1%BB%87t+Nam&countrycodes=vn&limit=1": [
+  {
+   "place_id": 238649795,
+   "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+   "osm_type": "node",
+   "osm_id": 6366494802,
+   "lat": "20.8563876",
+   "lon": "106.6863887",
+   "category": "shop",
+   "type": "electronics",
+   "place_rank": 30,
+   "importance": 0.00006315022507052747,
+   "addresstype": "shop",
+   "name": "Nguyenkim",
+   "display_name": "Nguyenkim, 104, Phố Lương Khánh Thiện (Phố Ga), Cầu Đất, Phường Gia Viên, Thành phố Hải Phòng, 18000, Việt Nam",
+   "boundingbox": [
+    "20.8563376",
+    "20.8564376",
+    "106.6863387",
+    "106.6864387"
+   ]
+  }
+ ],
+ "reverse?lat=20.856388&lon=106.686389&zoom=14&addressdetails=1": {
+  "place_id": 235854608,
+  "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+  "osm_type": "node",
+  "osm_id": 13449373908,
+  "lat": "20.8570296",
+  "lon": "106.6869220",
+  "category": "place",
+  "type": "quarter",
+  "place_rank": 20,
+  "importance": 0.1333964835584039,
+  "addresstype": "quarter",
+  "name": "Cầu Đất",
+  "display_name": "Cầu Đất, Phường Gia Viên, Thành phố Hải Phòng, 04213, Việt Nam",
+  "address": {
+   "quarter": "Cầu Đất",
+   "suburb": "Phường Gia Viên",
+   "city": "Thành phố Hải Phòng",
+   "ISO3166-2-lvl4": "VN-HP",
+   "postcode": "04213",
+   "country": "Việt Nam",
+   "country_code": "vn"
+  },
+  "boundingbox": [
+   "20.8470296",
+   "20.8670296",
+   "106.6769220",
+   "106.6969220"
+  ]
+ },
+ "search?q=T%E1%BA%A7ng+tr%E1%BB%87t+Si%C3%AAu+Th%E1%BB%8B+CoopMart%2C+71+Nguy%E1%BB%85n+T%E1%BA%A5t+Th%C3%A0nh%2C+Ph%C6%B0%E1%BB%9Dng+T%C3%A2n+An%2C+Th%C3%A0nh+ph%E1%BB%91+Bu%C3%B4n+Ma+Thu%E1%BB%99t%2C+%C4%90ak+Lak%2C+Vi%E1%BB%87t+Nam&countrycodes=vn&limit=1": [],
+ "search?q=Si%C3%AAu+Th%E1%BB%8B+CoopMart%2C+71+Nguy%E1%BB%85n+T%E1%BA%A5t+Th%C3%A0nh%2C+Ph%C6%B0%E1%BB%9Dng+T%C3%A2n+An%2C+Th%C3%A0nh+ph%E1%BB%91+Bu%C3%B4n+Ma+Thu%E1%BB%99t%2C+%C4%90ak+Lak%2C+Vi%E1%BB%87t+Nam&countrycodes=vn&limit=1": [],
+ "search?q=71+Nguy%E1%BB%85n+T%E1%BA%A5t+Th%C3%A0nh%2C+Ph%C6%B0%E1%BB%9Dng+T%C3%A2n+An%2C+Th%C3%A0nh+ph%E1%BB%91+Bu%C3%B4n+Ma+Thu%E1%BB%99t%2C+%C4%90%E1%BA%AFk+L%E1%BA%AFk%2C+Vi%E1%BB%87t+Nam&countrycodes=vn&limit=1": [],
+ "search?q=Galaxy+Cinema+Bu%C3%B4n+Ma+Thu%E1%BB%99t%2C+%C4%90%E1%BA%AFk+L%E1%BA%AFk%2C+Vi%E1%BB%87t+Nam&countrycodes=vn&limit=1": [
+  {
+   "place_id": 430137368,
+   "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+   "osm_type": "node",
+   "osm_id": 14253816002,
+   "lat": "12.6924120",
+   "lon": "108.0621687",
+   "category": "amenity",
+   "type": "cinema",
+   "place_rank": 30,
+   "importance": 0.00005386053253981868,
+   "addresstype": "amenity",
+   "name": "Galaxy Cinema",
+   "display_name": "Galaxy Cinema, 71, Nguyễn Tất Thành, Tổ dân phố 1, Phường Tân An, Buôn Ma Thuột, Tỉnh Đắk Lắk, 63119, Việt Nam",
+   "boundingbox": [
+    "12.6923620",
+    "12.6924620",
+    "108.0621187",
+    "108.0622187"
+   ]
+  }
+ ],
+ "reverse?lat=12.692412&lon=108.062169&zoom=14&addressdetails=1": {
+  "place_id": 259289194,
+  "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+  "osm_type": "node",
+  "osm_id": 12136171546,
+  "lat": "12.6981313",
+  "lon": "108.0878504",
+  "category": "place",
+  "type": "village",
+  "place_rank": 19,
+  "importance": 0.14672052719920647,
+  "addresstype": "village",
+  "name": "Ea Nao A",
+  "display_name": "Ea Nao A, Tỉnh Đắk Lắk, 63119, Việt Nam",
+  "address": {
+   "village": "Ea Nao A",
+   "state": "Tỉnh Đắk Lắk",
+   "ISO3166-2-lvl4": "VN-33",
+   "postcode": "63119",
+   "country": "Việt Nam",
+   "country_code": "vn"
+  },
+  "boundingbox": [
+   "12.6781313",
+   "12.7181313",
+   "108.0678504",
+   "108.1078504"
+  ]
+ },
+ "search?q=T%E1%BA%A7ng+1%2C+Trung+T%C3%A2m+Mua+S%E1%BA%AFm+Nguy%E1%BB%85n+Kim%2C+s%E1%BB%91+01+Tr%E1%BA%A7n+H%C6%B0ng+%C4%90%E1%BA%A1o%2C+Ph%C6%B0%E1%BB%9Dng+M%E1%BB%B9+B%C3%ACnh%2C+Th%C3%A0nh+ph%E1%BB%91+Long+Xuy%C3%AAn%2C+An+Giang%2C+Vi%E1%BB%87t+Nam&countrycodes=vn&limit=1": [],
+ "search?q=Trung+T%C3%A2m+Mua+S%E1%BA%AFm+Nguy%E1%BB%85n+Kim%2C+01+Tr%E1%BA%A7n+H%C6%B0ng+%C4%90%E1%BA%A1o%2C+Ph%C6%B0%E1%BB%9Dng+M%E1%BB%B9+B%C3%ACnh%2C+Th%C3%A0nh+ph%E1%BB%91+Long+Xuy%C3%AAn%2C+An+Giang%2C+Vi%E1%BB%87t+Nam&countrycodes=vn&limit=1": [],
+ "search?q=01+Tr%E1%BA%A7n+H%C6%B0ng+%C4%90%E1%BA%A1o%2C+Ph%C6%B0%E1%BB%9Dng+M%E1%BB%B9+B%C3%ACnh%2C+Th%C3%A0nh+ph%E1%BB%91+Long+Xuy%C3%AAn%2C+An+Giang%2C+Vi%E1%BB%87t+Nam&countrycodes=vn&limit=1": [
+  {
+   "place_id": 258950692,
+   "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+   "osm_type": "way",
+   "osm_id": 566005150,
+   "lat": "10.3843366",
+   "lon": "105.4372620",
+   "category": "highway",
+   "type": "trunk",
+   "place_rank": 26,
+   "importance": 0.05338177080949107,
+   "addresstype": "road",
+   "name": "Đường Trần Hưng Đạo",
+   "display_name": "Đường Trần Hưng Đạo, Khóm Mỹ Bình, Phường Long Xuyên, Long Xuyên, Tỉnh An Giang, 90119, Việt Nam",
+   "boundingbox": [
+    "10.3839629",
+    "10.3846619",
+    "105.4368237",
+    "105.4376643"
+   ]
+  }
+ ],
+ "reverse?lat=10.384337&lon=105.437262&zoom=14&addressdetails=1": {
+  "place_id": 425589639,
+  "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+  "osm_type": "relation",
+  "osm_id": 21223020,
+  "lat": "10.3886676",
+  "lon": "105.4368400",
+  "category": "boundary",
+  "type": "administrative",
+  "place_rank": 18,
+  "importance": 0.16004843747615777,
+  "addresstype": "neighbourhood",
+  "name": "Khóm Mỹ Bình",
+  "display_name": "Khóm Mỹ Bình, Phường Long Xuyên, Long Xuyên, Tỉnh An Giang, 90119, Việt Nam",
+  "address": {
+   "neighbourhood": "Khóm Mỹ Bình",
+   "suburb": "Phường Long Xuyên",
+   "city": "Long Xuyên",
+   "state": "Tỉnh An Giang",
+   "ISO3166-2-lvl4": "VN-44",
+   "postcode": "90119",
+   "country": "Việt Nam",
+   "country_code": "vn"
+  },
+  "boundingbox": [
+   "10.3833108",
+   "10.3948794",
+   "105.4329789",
+   "105.4403502"
+  ]
+ },
+ "search?q=T%E1%BA%A7ng+4+Trung+t%C3%A2m+th%C6%B0%C6%A1ng+m%E1%BA%A1i+Aeon+Mall+Hu%E1%BA%BF%2C+C%E1%BB%ADa+s%E1%BB%91+5+v%C3%A0+s%E1%BB%91+6%2C+S%E1%BA%A3nh+%C4%90%E1%BB%97+Quy%C3%AAn%2C+8+V%C3%B5+Nguy%C3%AAn+Gi%C3%A1p%2C+An+%C4%90%C3%B4ng%2C+Hu%E1%BA%BF%2C+Th%E1%BB%ABa+Thi%C3%AAn+-+Hu%E1%BA%BF%2C+Vi%E1%BB%87t+Nam&countrycodes=vn&limit=1": [],
+ "search?q=Trung+t%C3%A2m+th%C6%B0%C6%A1ng+m%E1%BA%A1i+Aeon+Mall+Hu%E1%BA%BF%2C+8+V%C3%B5+Nguy%C3%AAn+Gi%C3%A1p%2C+An+%C4%90%C3%B4ng%2C+Hu%E1%BA%BF%2C+Hu%E1%BA%BF%2C+Th%E1%BB%ABa+Thi%C3%AAn+-+Hu%E1%BA%BF%2C+Vi%E1%BB%87t+Nam&countrycodes=vn&limit=1": [],
+ "search?q=8+V%C3%B5+Nguy%C3%AAn+Gi%C3%A1p%2C+Th%E1%BB%ABa+Thi%C3%AAn+-+Hu%E1%BA%BF%2C+Vi%E1%BB%87t+Nam&countrycodes=vn&limit=1": [
+  {
+   "place_id": 239141602,
+   "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+   "osm_type": "way",
+   "osm_id": 626378313,
+   "lat": "16.4780329",
+   "lon": "107.6143554",
+   "category": "highway",
+   "type": "tertiary",
+   "place_rank": 26,
+   "importance": 0.05339630960555425,
+   "addresstype": "road",
+   "name": "Võ Nguyên Giáp",
+   "display_name": "Võ Nguyên Giáp, Tổ dân phố Vân Dương, Phường Vỹ Dạ, Hương Thuỷ, Thành phố Huế, 49118, Việt Nam",
+   "boundingbox": [
+    "16.4743386",
+    "16.4817270",
+    "107.6143395",
+    "107.6143634"
+   ]
+  }
+ ],
+ "reverse?lat=16.478033&lon=107.614355&zoom=14&addressdetails=1": {
+  "place_id": 425481012,
+  "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+  "osm_type": "relation",
+  "osm_id": 21228937,
+  "lat": "16.4768757",
+  "lon": "107.6186913",
+  "category": "boundary",
+  "type": "administrative",
+  "place_rank": 18,
+  "importance": 0.16006297627222094,
+  "addresstype": "neighbourhood",
+  "name": "Tổ dân phố Vân Dương",
+  "display_name": "Tổ dân phố Vân Dương, Phường Vỹ Dạ, Hương Thuỷ, Thành phố Huế, Việt Nam",
+  "address": {
+   "neighbourhood": "Tổ dân phố Vân Dương",
+   "suburb": "Phường Vỹ Dạ",
+   "city": "Hương Thuỷ",
+   "ISO3166-2-lvl4": "VN-26",
+   "country": "Việt Nam",
+   "country_code": "vn"
+  },
+  "boundingbox": [
+   "16.4722226",
+   "16.4815369",
+   "107.6055240",
+   "107.6333266"
+  ]
+ },
+ "search?q=T%E1%BA%A7ng+3+Trung+t%C3%A2m+th%C6%B0%C6%A1ng+m%E1%BA%A1i+GO%21+B%C3%A0+R%E1%BB%8Ba%2C+S%E1%BB%91+2A+%C4%91%C6%B0%E1%BB%9Dng+Nguy%E1%BB%85n+%C4%90%C3%ACnh+Chi%E1%BB%83u%2C+KP1%2C+Ph%C6%B0%E1%BB%9Dng+Ph%C6%B0%E1%BB%9Bc+Hi%E1%BB%87p%2C+Th%C3%A0nh+ph%E1%BB%91+B%C3%A0+R%E1%BB%8Ba%2C+T%E1%BB%89nh+B%C3%A0+R%E1%BB%8Ba-V%C5%A9ng+T%C3%A0u%2C+Vi%E1%BB%87t+Nam&countrycodes=vn&limit=1": [],
+ "search?q=Trung+t%C3%A2m+th%C6%B0%C6%A1ng+m%E1%BA%A1i+GO%21+B%C3%A0+R%E1%BB%8Ba%2C+2A+%C4%91%C6%B0%E1%BB%9Dng+Nguy%E1%BB%85n+%C4%90%C3%ACnh+Chi%E1%BB%83u%2C+KP1%2C+Ph%C6%B0%E1%BB%9Dng+Ph%C6%B0%E1%BB%9Bc+Hi%E1%BB%87p%2C+Th%C3%A0nh+ph%E1%BB%91+B%C3%A0+R%E1%BB%8Ba%2C+T%E1%BB%89nh+B%C3%A0+R%E1%BB%8Ba-V%C5%A9ng+T%C3%A0u%2C+Vi%E1%BB%87t+Nam&countrycodes=vn&limit=1": [],
+ "search?q=2A+%C4%91%C6%B0%E1%BB%9Dng+Nguy%E1%BB%85n+%C4%90%C3%ACnh+Chi%E1%BB%83u%2C+Ph%C6%B0%E1%BB%9Dng+Ph%C6%B0%E1%BB%9Bc+Hi%E1%BB%87p%2C+Th%C3%A0nh+ph%E1%BB%91+B%C3%A0+R%E1%BB%8Ba%2C+T%E1%BB%89nh+B%C3%A0+R%E1%BB%8Ba-V%C5%A9ng+T%C3%A0u%2C+Vi%E1%BB%87t+Nam&countrycodes=vn&limit=1": [],
+ "search?q=Galaxy+Cinema+GO%21+Mall+B%C3%A0+R%E1%BB%8Ba%2C+B%C3%A0+R%E1%BB%8Ba+-+V%C5%A9ng+T%C3%A0u%2C+Vi%E1%BB%87t+Nam&countrycodes=vn&limit=1": [],
+ "search?q=230+Nguy%E1%BB%85n+Tr%C3%A3i%2C+Qu%E1%BA%ADn+1%2C+Th%C3%A0nh+ph%E1%BB%91+H%E1%BB%93+Ch%C3%AD+Minh%2C+Vi%E1%BB%87t+Nam&countrycodes=vn&limit=1": [
+  {
+   "place_id": 426840492,
+   "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+   "osm_type": "way",
+   "osm_id": 724157949,
+   "lat": "10.7594848",
+   "lon": "106.6840030",
+   "category": "highway",
+   "type": "secondary",
+   "place_rank": 26,
+   "importance": 0.05340036697947658,
+   "addresstype": "road",
+   "name": "Đường Nguyễn Trãi",
+   "display_name": "Đường Nguyễn Trãi, Khu phố 14, Phường Chợ Quán, Thành phố Hồ Chí Minh, 72722, Việt Nam",
+   "boundingbox": [
+    "10.7594668",
+    "10.7595027",
+    "106.6839548",
+    "106.6840512"
+   ]
+  }
+ ],
+ "search?q=Platinum+Plaza%2C+634+Bis+Ph%E1%BA%A1m+V%C4%83n+Ch%C3%AD%2C+Ph%C6%B0%E1%BB%9Dng+8%2C+Qu%E1%BA%ADn+6+Th%C3%A0nh+ph%E1%BB%91+H%E1%BB%93+Ch%C3%AD+Minh%2C+Vi%E1%BB%87t+Nam&countrycodes=vn&limit=1": [],
+ "search?q=634+Bis+Ph%E1%BA%A1m+V%C4%83n+Ch%C3%AD%2C+Ph%C6%B0%E1%BB%9Dng+8%2C+Qu%E1%BA%ADn+6+Th%C3%A0nh+ph%E1%BB%91+H%E1%BB%93+Ch%C3%AD+Minh%2C+Vi%E1%BB%87t+Nam&countrycodes=vn&limit=1": [],
+ "search?q=Galaxy+Cinema+Ph%E1%BA%A1m+V%C4%83n+Ch%C3%AD%2C+H%E1%BB%93+Ch%C3%AD+Minh%2C+Vi%E1%BB%87t+Nam&countrycodes=vn&limit=1": [],
+ "search?q=Nguy%E1%BB%85n+Kim+Tr%C3%A0ng+Thi%2C+10B+Tr%C3%A0ng+Thi%2C+H%C3%A0ng+Tr%E1%BB%91ng%2C+Ho%C3%A0n+Ki%E1%BA%BFm%2C+H%C3%A0+N%E1%BB%99i%2C+Vi%E1%BB%87t+Nam&countrycodes=vn&limit=1": [],
+ "search?q=10B+Tr%C3%A0ng+Thi%2C+H%C3%A0+N%E1%BB%99i%2C+Vi%E1%BB%87t+Nam&countrycodes=vn&limit=1": [
+  {
+   "place_id": 235424265,
+   "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+   "osm_type": "way",
+   "osm_id": 701882926,
+   "lat": "21.0270653",
+   "lon": "105.8488710",
+   "category": "building",
+   "type": "yes",
+   "place_rank": 30,
+   "importance": 0.00007283054856179167,
+   "addresstype": "building",
+   "name": "Merida",
+   "display_name": "Merida, 10B, Phố Tràng Thi, Khu phố cổ, Phường Hoàn Kiếm, Hà Nội, 11024, Việt Nam",
+   "boundingbox": [
+    "21.0268080",
+    "21.0271920",
+    "105.8487238",
+    "105.8489739"
+   ]
+  }
+ ],
+ "reverse?lat=21.027065&lon=105.848871&zoom=14&addressdetails=1": {
+  "place_id": 235561841,
+  "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+  "osm_type": "node",
+  "osm_id": 11090978626,
+  "lat": "21.0353243",
+  "lon": "105.8500395",
+  "category": "place",
+  "type": "quarter",
+  "place_rank": 20,
+  "importance": 0.13340616388189516,
+  "addresstype": "quarter",
+  "name": "Khu phố cổ",
+  "display_name": "Khu phố cổ, Phường Hoàn Kiếm, Hà Nội, 11024, Việt Nam",
+  "address": {
+   "quarter": "Khu phố cổ",
+   "suburb": "Phường Hoàn Kiếm",
+   "city": "Hà Nội",
+   "ISO3166-2-lvl4": "VN-HN",
+   "postcode": "11024",
+   "country": "Việt Nam",
+   "country_code": "vn"
+  },
+  "boundingbox": [
+   "21.0253243",
+   "21.0453243",
+   "105.8400395",
+   "105.8600395"
+  ]
+ }
+}

@@ -1,0 +1,142 @@
+{
+  "ld": [
+    {
+      "@context": "http://schema.org",
+      "@type": "Movie",
+      "@id": "https://moveek.com/movie/17402/",
+      "sameAs": "https://moveek.com/phim/dai-thoai-tay-du-nguyet-quang-bao-hap/",
+      "url": "https://moveek.com/phim/dai-thoai-tay-du-nguyet-quang-bao-hap/",
+      "name": "Đại Thoại Tây Du: Nguyệt Quang Bảo Hạp",
+      "description": "Phiên bản \"độc\" nhất của Tây Du Ký. Câu chuyện được xem như tinh hoa của \"vua hài\" Châu Tinh Trì, khai mở quá khứ chấn động của Tề thiên Đại Thánh Tôn Ngộ Không. Trở thành \"Đấu chiến thắng Phật\" hay ở bên cạnh người mình yêu suốt đời suốt kiếp? Áng tình lãng mạn và khốc liệt nhất lần đầu ra rạp Việt Nam sau 30 năm chinh phục khán giả toàn cầu.",
+      "duration": "PT88M",
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://cdn.moveek.com/storage/media/cache/tall/6934f632ce48c681905487.webp",
+        "width": "400",
+        "height": "600"
+      },
+      "datePublished": "2026-01-01T00:00:00+07:00",
+      "genre": "Comedy, Romance, Action, Adventure, Fantasy",
+      "contentRating": "K",
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": 100,
+        "ratingCount": 3,
+        "bestRating": 100
+      },
+      "director": [
+        {
+          "@type": "Person",
+          "name": "Jeffrey Lau",
+          "url": "https://moveek.com/nghe-sy/jeffrey-lau/"
+        }
+      ],
+      "actor": [
+        {
+          "@type": "Person",
+          "name": "Stephen Chow",
+          "url": "https://moveek.com/nghe-sy/stephen-chow/"
+        },
+        {
+          "@type": "Person",
+          "name": "Ng Man-Tat",
+          "url": "https://moveek.com/nghe-sy/ng-man-tat/"
+        },
+        {
+          "@type": "Person",
+          "name": "Law Kar-Ying",
+          "url": "https://moveek.com/nghe-sy/law-kar-ying/"
+        },
+        {
+          "@type": "Person",
+          "name": "Yammie Lam Kit-Ying",
+          "url": "https://moveek.com/nghe-sy/yammie-lam-kit-ying/"
+        },
+        {
+          "@type": "Person",
+          "name": "Karen Mok",
+          "url": "https://moveek.com/nghe-sy/karen-mok/"
+        },
+        {
+          "@type": "Person",
+          "name": "Johnnie Kong",
+          "url": "https://moveek.com/nghe-sy/johnnie-kong/"
+        },
+        {
+          "@type": "Person",
+          "name": "Lu Shuming",
+          "url": "https://moveek.com/nghe-sy/lu-shuming/"
+        },
+        {
+          "@type": "Person",
+          "name": "Jeffrey Lau",
+          "url": "https://moveek.com/nghe-sy/jeffrey-lau/"
+        },
+        {
+          "@type": "Person",
+          "name": "Athena Chu Yan",
+          "url": "https://moveek.com/nghe-sy/athena-chu-yan/"
+        },
+        {
+          "@type": "Person",
+          "name": "Lee Kin-Yan",
+          "url": "https://moveek.com/nghe-sy/lee-kin-yan/"
+        },
+        {
+          "@type": "Person",
+          "name": "Li Baolong",
+          "url": "https://moveek.com/nghe-sy/li-baolong/"
+        },
+        {
+          "@type": "Person",
+          "name": "Ada Choi Siu-Fan",
+          "url": "https://moveek.com/nghe-sy/ada-choi-siu-fan/"
+        },
+        {
+          "@type": "Person",
+          "name": "Xu Jingyi",
+          "url": "https://moveek.com/nghe-sy/xu-jingyi/"
+        },
+        {
+          "@type": "Person",
+          "name": "Ng Yuk-Gan",
+          "url": "https://moveek.com/nghe-sy/ng-yuk-gan/"
+        }
+      ]
+    },
+    {
+      "@context": "http://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "item": {
+            "name": "Phim",
+            "url": "https://moveek.com/dang-chieu/"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "item": {
+            "name": "Đại Thoại Tây Du: Nguyệt Quang Bảo Hạp",
+            "url": "https://moveek.com/phim/dai-thoai-tay-du-nguyet-quang-bao-hap/"
+          }
+        }
+      ]
+    },
+    {
+      "@context": "http://schema.org",
+      "@type": "WebSite",
+      "name": "Moveek",
+      "alternateName": "Thông tin phim, lịch chiếu, rạp, giá vé...",
+      "url": "https://moveek.com"
+    }
+  ],
+  "ageEls": [],
+  "yt": [
+    "18801"
+  ],
+  "textHead": " Hỗ trợ\nĐặt vé phim chiếu rạp\nLịch chiếu\nPhim \nRạp \nTin tức \nCộng đồng\nĐại Thoại Tây Du: Nguyệt Quang Bảo Hạp\n\nA Chinese Odyssey: Part One - Pandora's Box - Comedy, Romance, Action, Adventure, Fantasy\n\n Thích  Đánh giá Trailer\n\nPhiên bản \"độc\" nhất của Tây Du Ký. Câu chuyện được xem như tinh hoa của \"vua hài\" Châu Tinh Trì, khai mở quá khứ chấn động của Tề thiên Đại Thánh Tôn Ngộ Không. Trở thành \"Đấu chiến thắng Phật\" hay ở bên cạnh người mình yêu suốt đời suốt kiếp? Áng tình lãng mạn và khốc liệt nhất lần đầu ra rạp Việt Nam sau 30 năm chinh phục khán giả toàn cầu.\n\n Khởi chiếu\n01/01/2026\n Thời lượng\n88 phút\n Giới hạn tuổi\nK\n\nDiễn viên\nStephen Chow, Ng Man-Tat, Law Kar-Ying, Yammie Lam Kit-Ying, Karen Mok\n\nĐạo diễn\nJeffrey Lau\n\nNhà sản xuất\nYeung Kwok-Fai\n\nThông tin phim\nĐánh giá\nTin tức\nLịch chiếu\nTp. Hồ Chí Minh\nHà Nội\nĐà Nẵng\nĐồng Nai\nCần Thơ\nBình Dương\nBình Phước\nBình Thuận\nBà Rịa - Vũng Tàu\nAn Giang\nBến Tre\nHải Phòng\nKiên Giang\nHải Dương\nTrà Vinh\nQuảng Ninh\nVĩnh Long\nBắc Giang\nNinh Bình\nCà Mau\nLào Cai\nPhú Thọ\nHậu Giang\nThái Bình\nTây Ninh\nKhánh Hòa\nThừa Thiên - Huế\nĐồng Tháp\nThái Nguyên\nBạc Liêu\nThanh Hóa\nBình Định\nHưng Yên\nSóc Trăng\nHà Tĩnh\nYên Bái\nĐắk Lắk\nLong An\nNghệ An\nTiền Giang\nBắc Ninh\nHòa Bình\nTuyên Quang\nLâm Đồng\nNam Định\nQuảng Bình\nSơn La\nPhú Yên\nQuảng Trị\nQuảng Nam\nLạng Sơn\nQuảng Ngãi\nHà Nam\nNinh Thuận\nVĩnh Phúc\nGia Lai\nKon Tum\nĐịnh dạng\n2D\n3D\nKhông có lịch chiếu phù hợp với điều kiện tìm kiếm của bạn.\nHãy thử chọn một ngày khác hoặc định dạng khác.\nPHIM VIỆT SẮP CHIẾU\nÁn Mạng Xém Hoàn Hảo\nMẹ Mìn\nHuyết Thống\nChị Chị Em Em 3\nÁn Mạng Karaoke\nBò Sữa Bay\nChuyến Đi Nhớ Đời\nNgười Được Chọn\nNgày Con Còn Mẹ\nCÔNG TY TNHH MONET\nSố ĐKKD: 0315367026 · Nơi cấp: Sở kế hoạch và đầu tư Tp. Hồ Chí Minh · Đăng ký lần đầu ngày 01/11/2018\nĐịa chỉ: 33 Nguyễn Trung Trực, P.5, Q. Bình Thạnh, Tp. Hồ Chí Minh\nVề chúng tôi · Chính sách bảo mật · Hỗ trợ · Liên hệ · v8.1\n\nĐỐI TÁC\n              "
+}

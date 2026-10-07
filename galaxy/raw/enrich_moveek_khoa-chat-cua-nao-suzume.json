@@ -1,0 +1,117 @@
+{
+  "ld": [
+    {
+      "@context": "http://schema.org",
+      "@type": "Movie",
+      "@id": "https://moveek.com/movie/16358/",
+      "sameAs": "https://moveek.com/phim/khoa-chat-cua-nao-suzume/",
+      "url": "https://moveek.com/phim/khoa-chat-cua-nao-suzume/",
+      "name": "Khóa Chặt Cửa Nào Suzume",
+      "description": "Review Khóa Chặt Cửa Nào Suzume và lịch chiếu Khóa Chặt Cửa Nào Suzume xem tại Moveek. Khóa Chặt Cửa Nào Suzume kể câu chuyện khi Suzume vô tình gặp một chàng trai trẻ đến thị trấn nơi cô sinh sống với mục đích tìm kiếm \"một cánh cửa\". Để bảo vệ Nhật Bản khỏi thảm họa, những cánh cửa rải rác khắp nơi phải được đóng lại, và bất ngờ thay Suzume cũng có khả năng đóng cửa đặc biệt này. Từ đó cả hai cùng nhau thực hiện sự mệnh \"khóa chặt cửa\"!",
+      "duration": "PT122M",
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://cdn.moveek.com/storage/media/cache/tall/640027ec1880b301980262.webp",
+        "width": "400",
+        "height": "600"
+      },
+      "datePublished": "2023-03-10T00:00:00+07:00",
+      "genre": "Drama, Adventure, Animation, Fantasy",
+      "contentRating": "P",
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": 97,
+        "ratingCount": 162,
+        "bestRating": 100
+      },
+      "director": [
+        {
+          "@type": "Person",
+          "name": "Makoto Shinkai",
+          "url": "https://moveek.com/nghe-sy/makoto-shinkai/"
+        }
+      ],
+      "actor": [
+        {
+          "@type": "Person",
+          "name": "Nanoka Hara",
+          "url": "https://moveek.com/nghe-sy/nanoka-hara/"
+        },
+        {
+          "@type": "Person",
+          "name": "Hokuto Matsumura",
+          "url": "https://moveek.com/nghe-sy/hokuto-matsumura/"
+        },
+        {
+          "@type": "Person",
+          "name": "Eri Fukatsu",
+          "url": "https://moveek.com/nghe-sy/eri-fukatsu/"
+        },
+        {
+          "@type": "Person",
+          "name": "Matsumoto Hakuō II",
+          "url": "https://moveek.com/nghe-sy/matsumoto-hakuo-ii/"
+        },
+        {
+          "@type": "Person",
+          "name": "Shota Sometani",
+          "url": "https://moveek.com/nghe-sy/shota-sometani/"
+        },
+        {
+          "@type": "Person",
+          "name": "Sairi Ito",
+          "url": "https://moveek.com/nghe-sy/sairi-ito/"
+        },
+        {
+          "@type": "Person",
+          "name": "Kotone Hanase",
+          "url": "https://moveek.com/nghe-sy/kotone-hanase/"
+        },
+        {
+          "@type": "Person",
+          "name": "Kana Hanazawa",
+          "url": "https://moveek.com/nghe-sy/kana-hanazawa/"
+        },
+        {
+          "@type": "Person",
+          "name": "Ryûnosuke Kamiki",
+          "url": "https://moveek.com/nghe-sy/ryunosuke-kamiki/"
+        }
+      ]
+    },
+    {
+      "@context": "http://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "item": {
+            "name": "Phim",
+            "url": "https://moveek.com/dang-chieu/"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "item": {
+            "name": "Khóa Chặt Cửa Nào Suzume",
+            "url": "https://moveek.com/phim/khoa-chat-cua-nao-suzume/"
+          }
+        }
+      ]
+    },
+    {
+      "@context": "http://schema.org",
+      "@type": "WebSite",
+      "name": "Moveek",
+      "alternateName": "Thông tin phim, lịch chiếu, rạp, giá vé...",
+      "url": "https://moveek.com"
+    }
+  ],
+  "ageEls": [],
+  "yt": [
+    "17962"
+  ],
+  "textHead": " Hỗ trợ\nĐặt vé phim chiếu rạp\nLịch chiếu\nPhim \nRạp \nTin tức \nCộng đồng\nKhóa Chặt Cửa Nào Suzume\n\nSuzume no Tojimari - Drama, Adventure, Animation, Fantasy\n\n Thích  Đánh giá Trailer\n\nReview Khóa Chặt Cửa Nào Suzume và lịch chiếu Khóa Chặt Cửa Nào Suzume xem tại Moveek. Khóa Chặt Cửa Nào Suzume kể câu chuyện khi Suzume vô tình gặp một chàng trai trẻ đến thị trấn nơi cô sinh sống với mục đích tìm kiếm \"một cánh cửa\". Để bảo vệ Nhật Bản khỏi thảm họa, những cánh cửa rải rác khắp nơi phải được đóng lại, và bất ngờ thay Suzume cũng có khả năng đóng cửa đặc biệt này. Từ đó cả hai cùng nhau thực hiện sự mệnh \"khóa chặt cửa\"!\n\n Hài lòng\n97%\n Khởi chiếu\n10/03/2023\n Thời lượng\n122 phút\n Giới hạn tuổi\nP\n\nDiễn viên\nNanoka Hara, Hokuto Matsumura, Eri Fukatsu, Matsumoto Hakuō II, Shota Sometani\n\nĐạo diễn\nMakoto Shinkai\n\nThông tin phim\nĐánh giá\nTin tức\nLịch chiếu\nTp. Hồ Chí Minh\nHà Nội\nĐà Nẵng\nĐồng Nai\nCần Thơ\nBình Dương\nBình Phước\nBình Thuận\nBà Rịa - Vũng Tàu\nAn Giang\nBến Tre\nHải Phòng\nKiên Giang\nHải Dương\nTrà Vinh\nQuảng Ninh\nVĩnh Long\nBắc Giang\nNinh Bình\nCà Mau\nLào Cai\nPhú Thọ\nHậu Giang\nThái Bình\nTây Ninh\nKhánh Hòa\nThừa Thiên - Huế\nĐồng Tháp\nThái Nguyên\nBạc Liêu\nThanh Hóa\nBình Định\nHưng Yên\nSóc Trăng\nHà Tĩnh\nYên Bái\nĐắk Lắk\nLong An\nNghệ An\nTiền Giang\nBắc Ninh\nHòa Bình\nTuyên Quang\nLâm Đồng\nNam Định\nQuảng Bình\nSơn La\nPhú Yên\nQuảng Trị\nQuảng Nam\nLạng Sơn\nQuảng Ngãi\nHà Nam\nNinh Thuận\nVĩnh Phúc\nGia Lai\nKon Tum\nĐịnh dạng\n2D\n3D\n7/10\nThứ 4\n8/10\nThứ 5\n9/10\nThứ 6\n10/10\nThứ 7\n11/10\nCN\n12/10\nThứ 2\nTin liên quan\n[Review] Khóa Chặt Cửa Nào Suzume\n\n_bylyy16 · 12:00 09/03/2023\n\nNhững nhân vật cùng Suzume tạo nên \"hành trình đóng cửa\" thú vị\n\nanan681 · 17:19 13/03/2023\n\nKhóa Chặt Cửa Nào Suzume tạo nên cơn sốt ‘Suzume’ tại Nhật Bản\n\nanan681 · 16:28 07/03/2023\n\nKhoá Chặt Cửa Nào Suzume - 4 Lý do anime mới của Shinkai Makoto được mong chờ đến vậy!\n\nIvy_Trat · 15:30 06/03/2023\n\nKhóa chặt cửa nào Suzume - Bộ phim cả ngành công nghiệp điện ảnh Nhật Bản mong chờ\n\nanan681 · 14:30 02/03/2023\n\nCộng đồng\nLữ phạm gia hân  8\n\n15:45 24/03/2023\n\nTuyến tình cảm nhanh quá không cảm nhận được gì hết. Màu phim đẹp, nhạc hay. Phim để bạn bè hẹn hò hợp lý.\nLogic  7\n\n19:49 13/03/2023\n\nphim của makoto thì hay nhưng những phim gần đây không còn được đánh sâu vào tâm lý nặng như trước, tình tiết tuy đời thường nhưng dễ đoán, không có nhiều cao trào trong phim, xung đột của phim giải quyết khá hụt hẫn nên không tìm thấy sự thỏa mãn. Mong lightnovel bù đắp những thứ còn thiếu của phim\nPhateDL  10\n\n18:11 27/03/2023\n\nNên dành thời gian đến rạp coi.Con số 98% lượt 👍 chưa nói hết sự tuyệt vời từ bộ phim này\nngochan1408  10\n\n09:03 26/03/2023\n\nTuyệt vời,từ những cảnh đầu tiên đã đẹp đến choáng ngợp, 1 đoạn cao trào đầu thôi mà phải mò điện thoại, cảnh đó chỉ trọn 18' thôi mà rất đỉnh luôn, đúng là cha đẻ của your name không thể làm người ta thất vọng được, độ chi tiết phải gọi là đỉnh\nBaoNgoc1908  6\n\n22:06 24/03/2023\n\nArt đẹp. Nhạc hay. Nội dung hơi nhạt, cũng được thôi chứ k hay. Tình yêu nó cũng k được tớ"
+}

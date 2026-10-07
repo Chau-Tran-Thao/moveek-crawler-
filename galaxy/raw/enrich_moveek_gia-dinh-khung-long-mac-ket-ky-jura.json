@@ -1,0 +1,91 @@
+{
+  "ld": [
+    {
+      "@context": "http://schema.org",
+      "@type": "Movie",
+      "@id": "https://moveek.com/movie/17424/",
+      "sameAs": "https://moveek.com/phim/gia-dinh-khung-long-mac-ket-ky-jura/",
+      "url": "https://moveek.com/phim/gia-dinh-khung-long-mac-ket-ky-jura/",
+      "name": "Gia Đình Khủng Long: Mắc Kẹt Kỷ Jura",
+      "description": "Cậu bé Phil Dino không có một cuộc sống bình thường khi có một người cha bị ám ảnh bởi hóa thạch khủng long và phải sống trong một viện bảo tàng. Cuộc sống của cậu chuyển hướng đột ngột khi bị lạc về 65 triệu năm trước, thời kỳ khủng long thống trị và phải tìm cách trở về thời hiện đại cùng với bạn bè và gia đình mình.",
+      "duration": "PT93M",
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://cdn.moveek.com/storage/media/cache/tall/694a6fd9ca297525268117.webp",
+        "width": "400",
+        "height": "600"
+      },
+      "datePublished": "2026-01-01T00:00:00+07:00",
+      "genre": "Adventure, Animation, Family",
+      "contentRating": "P",
+      "director": [
+        {
+          "@type": "Person",
+          "name": "Maksim Volkov",
+          "url": "https://moveek.com/nghe-sy/maksim-volkov/"
+        }
+      ],
+      "actor": [
+        {
+          "@type": "Person",
+          "name": "Vladimir Voytyuk",
+          "url": "https://moveek.com/nghe-sy/vladimir-voytyuk/"
+        },
+        {
+          "@type": "Person",
+          "name": "Sergey Garmash",
+          "url": "https://moveek.com/nghe-sy/sergey-garmash/"
+        },
+        {
+          "@type": "Person",
+          "name": "Vasilisa Savkina",
+          "url": "https://moveek.com/nghe-sy/vasilisa-savkina/"
+        },
+        {
+          "@type": "Person",
+          "name": "Roman Kurtsyn",
+          "url": "https://moveek.com/nghe-sy/roman-kurtsyn/"
+        },
+        {
+          "@type": "Person",
+          "name": "Timur Kerimov",
+          "url": "https://moveek.com/nghe-sy/timur-kerimov/"
+        }
+      ]
+    },
+    {
+      "@context": "http://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "item": {
+            "name": "Phim",
+            "url": "https://moveek.com/dang-chieu/"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "item": {
+            "name": "Gia Đình Khủng Long: Mắc Kẹt Kỷ Jura",
+            "url": "https://moveek.com/phim/gia-dinh-khung-long-mac-ket-ky-jura/"
+          }
+        }
+      ]
+    },
+    {
+      "@context": "http://schema.org",
+      "@type": "WebSite",
+      "name": "Moveek",
+      "alternateName": "Thông tin phim, lịch chiếu, rạp, giá vé...",
+      "url": "https://moveek.com"
+    }
+  ],
+  "ageEls": [],
+  "yt": [
+    "18805"
+  ],
+  "textHead": " Hỗ trợ\nĐặt vé phim chiếu rạp\nLịch chiếu\nPhim \nRạp \nTin tức \nCộng đồng\nGia Đình Khủng Long: Mắc Kẹt Kỷ Jura\n\nDino Family - Adventure, Animation, Family\n\n Thích  Đánh giá Trailer\n\nCậu bé Phil Dino không có một cuộc sống bình thường khi có một người cha bị ám ảnh bởi hóa thạch khủng long và phải sống trong một viện bảo tàng. Cuộc sống của cậu chuyển hướng đột ngột khi bị lạc về 65 triệu năm trước, thời kỳ khủng long thống trị và phải tìm cách trở về thời hiện đại cùng với bạn bè và gia đình mình.\n\n Khởi chiếu\n01/01/2026\n Thời lượng\n93 phút\n Giới hạn tuổi\nP\n\nDiễn viên\nVladimir Voytyuk Sergey Garmash Vasilisa Savkina Roman Kurtsyn Timur Kerimov\n\nĐạo diễn\nMaksim Volkov\n\nNhà sản xuất\nVadim Vereshchagin, Albina Mukhametzyanova, Tina Kandelaki\n\nThông tin phim\nĐánh giá\nTin tức\nLịch chiếu\nTp. Hồ Chí Minh\nHà Nội\nĐà Nẵng\nĐồng Nai\nCần Thơ\nBình Dương\nBình Phước\nBình Thuận\nBà Rịa - Vũng Tàu\nAn Giang\nBến Tre\nHải Phòng\nKiên Giang\nHải Dương\nTrà Vinh\nQuảng Ninh\nVĩnh Long\nBắc Giang\nNinh Bình\nCà Mau\nLào Cai\nPhú Thọ\nHậu Giang\nThái Bình\nTây Ninh\nKhánh Hòa\nThừa Thiên - Huế\nĐồng Tháp\nThái Nguyên\nBạc Liêu\nThanh Hóa\nBình Định\nHưng Yên\nSóc Trăng\nHà Tĩnh\nYên Bái\nĐắk Lắk\nLong An\nNghệ An\nTiền Giang\nBắc Ninh\nHòa Bình\nTuyên Quang\nLâm Đồng\nNam Định\nQuảng Bình\nSơn La\nPhú Yên\nQuảng Trị\nQuảng Nam\nLạng Sơn\nQuảng Ngãi\nHà Nam\nNinh Thuận\nVĩnh Phúc\nGia Lai\nKon Tum\nĐịnh dạng\n2D\n3D\nKhông có lịch chiếu phù hợp với điều kiện tìm kiếm của bạn.\nHãy thử chọn một ngày khác hoặc định dạng khác.\nPHIM VIỆT SẮP CHIẾU\nÁn Mạng Xém Hoàn Hảo\nMẹ Mìn\nHuyết Thống\nChị Chị Em Em 3\nÁn Mạng Karaoke\nBò Sữa Bay\nChuyến Đi Nhớ Đời\nNgười Được Chọn\nNgày Con Còn Mẹ\nCÔNG TY TNHH MONET\nSố ĐKKD: 0315367026 · Nơi cấp: Sở kế hoạch và đầu tư Tp. Hồ Chí Minh · Đăng ký lần đầu ngày 01/11/2018\nĐịa chỉ: 33 Nguyễn Trung Trực, P.5, Q. Bình Thạnh, Tp. Hồ Chí Minh\nVề chúng tôi · Chính sách bảo mật · Hỗ trợ · Liên hệ · v8.1\n\nĐỐI TÁC\n              "
+}
